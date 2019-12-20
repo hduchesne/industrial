@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
+    <modules jcr:primaryType="jnt:modules">
+        <industrial j:dependencies="bootstrap4-components bootstrap4-core default font-awesome jquery popperjs"
+                  j:installedModules="industrial"
+                  j:modulePriority="0"
+                  j:moduleType="templatesSet"
+                  j:title="industrial"
+                  jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                  jcr:primaryType="jnt:module">
+                <sources jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                  jcr:primaryType="jnt:moduleVersionFolder"
+                  j:staticMountPointProviderKey="module-industrial-1.0-SNAPSHOT">
+                    <src jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                 jcr:primaryType="jnt:folder">
+                        <main jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                     jcr:primaryType="jnt:folder">
+                            <resources jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                             jcr:primaryType="jnt:folder">
+                                <jnt_template jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                                   jcr:primaryType="jnt:nodeTypeFolder">
+                                    <html jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                              jcr:primaryType="jnt:templateTypeFolder">
+                                        <template.industrial.jsp jcr:primaryType="jnt:templateFile"/>
+                                    </html>
+                                </jnt_template>
+                            </resources>
+                        </main>
+                    </src>
+                </sources>
+                
+                <portlets jcr:primaryType="jnt:portletFolder"/>
+                <files jcr:primaryType="jnt:folder"/>
+                <contents jcr:primaryType="jnt:contentFolder">
+                    <templates jcr:primaryType="jnt:contentFolder">
+                        <j:translation_en jcr:language="en"
+                                 jcr:mixinTypes="mix:title"
+                                 jcr:primaryType="jnt:translation"
+                                 jcr:title="templates"/>
+                        <media-list jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Media-list"/>
+                            <layout-and-grid gridClasses="col-md-6 col-lg-4 element-animate,col-md-6 col-lg-4 element-animate,col-md-6 col-lg-4 element-animate"
+                                   gridLayout="fixed-width"
+                                   jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
+                                   jcr:primaryType="bootstrap4nt:grid"
+                                   rowHorizontalAlignment="default"
+                                   rowVerticalAlignment="default"
+                                   sectionCssClass="section bg-light"
+                                   sectionElement="section"
+                                   typeOfGrid="customGrid">
+                                <layout-and-grid-col0 jcr:primaryType="jnt:contentList">
+                                    <text jcr:primaryType="bootstrap4nt:text">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-android-notifications text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Modern Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    </text>
+                                </layout-and-grid-col0>
+                                <layout-and-grid-col1 jcr:primaryType="jnt:contentList">
+                                    <text jcr:primaryType="bootstrap4nt:text">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-heart text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Built With Passion&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    </text>
+                                </layout-and-grid-col1>
+                                <layout-and-grid-col2 jcr:primaryType="jnt:contentList">
+                                    <text jcr:primaryType="bootstrap4nt:text">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-flash text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Fast Loading&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    </text>
+                                </layout-and-grid-col2>
+                            </layout-and-grid>
+                        </media-list>
+                        <features-list jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Features list"/>
+                            <Features-section gridLayout="fixed-width"
+                                    jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createSection"
+                                    jcr:primaryType="bootstrap4nt:grid"
+                                    sectionCssClass="section"
+                                    sectionElement="section">
+                                <Features-section jcr:primaryType="jnt:contentList">
+                                    <layout-and-grid gridClasses="col-12 text-center"
+                                         jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                         jcr:primaryType="bootstrap4nt:grid"
+                                         rowCssClass="mb-5"
+                                         rowHorizontalAlignment="default"
+                                         rowVerticalAlignment="default"
+                                         typeOfGrid="customGrid">
+                                        <layout-and-grid-col0 jcr:primaryType="jnt:contentList">
+                                            <text jcr:primaryType="bootstrap4nt:text">
+                                                <j:translation_en jcr:language="en"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;h2&gt;We'll Handle Any Probles and Solve Them&lt;/h2&gt;"/>
+                                            </text>
+                                        </layout-and-grid-col0>
+                                    </layout-and-grid>
+                                    <layout-and-grid-1 gridClasses="col-lg-4 order-lg-2,col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1,col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3"
+                                           jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                           jcr:primaryType="bootstrap4nt:grid"
+                                           rowCssClass="align-items-stretch"
+                                           rowHorizontalAlignment="default"
+                                           rowVerticalAlignment="default"
+                                           typeOfGrid="customGrid">
+                                        <layout-and-grid-1-col0 jcr:primaryType="jnt:contentList">
+                                            <figure image="#/sites/industrial/files/industrial_feature_1.jpg"
+                                      j:view="industrial.features"
+                                      jcr:mixinTypes="jmix:renderable"
+                                      jcr:primaryType="bootstrap4nt:figure"/>
+                                        </layout-and-grid-1-col0>
+                                        <layout-and-grid-1-col1 jcr:primaryType="jnt:contentList">
+                                            <text jcr:primaryType="bootstrap4nt:text">
+                                                <j:translation_en jcr:language="en"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-easel display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Ducting Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                            </text>
+                                            <text-1 jcr:primaryType="bootstrap4nt:text">
+                                                <j:translation_en jcr:language="en"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-hammer display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Stacks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                            </text-1>
+                                        </layout-and-grid-1-col1>
+                                        <layout-and-grid-1-col2 jcr:primaryType="jnt:contentList">
+                                            <text jcr:primaryType="bootstrap4nt:text">
+                                                <j:translation_en jcr:language="en"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-cube display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Tanks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                            </text>
+                                            <text-1 jcr:primaryType="bootstrap4nt:text">
+                                                <j:translation_en jcr:language="en"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-clipboard display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Structural Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                            </text-1>
+                                        </layout-and-grid-1-col2>
+                                    </layout-and-grid-1>
+                                </Features-section>
+                            </Features-section>
+                        </features-list>
+                        <gallery-list jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Gallery list"/>
+                            <section-galley jcr:mixinTypes="bootstrap4mix:createSection"
+                                  jcr:primaryType="bootstrap4nt:grid"
+                                  sectionCssClass="section border-t pb-0"
+                                  sectionElement="section">
+                                <section-galley jcr:primaryType="jnt:contentList">
+                                    <content-row gridClasses="col-md-8 text-center"
+                                     gridLayout="fixed-width"
+                                     jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                     jcr:primaryType="bootstrap4nt:grid"
+                                     rowCssClass="justify-content-center mb-5 element-animate"
+                                     rowHorizontalAlignment="default"
+                                     rowVerticalAlignment="default"
+                                     typeOfGrid="customGrid">
+                                        <content-row-col0 jcr:primaryType="jnt:contentList">
+                                            <text jcr:primaryType="bootstrap4nt:text">
+                                                <j:translation_en jcr:language="en"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Projects&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;"/>
+                                            </text>
+                                        </content-row-col0>
+                                    </content-row>
+                                    <container-gallery gridClasses="col-md-4 element-animate,col-md-4 element-animate,col-md-4 element-animate,col-md-4 element-animate,col-md-4 element-animate,col-md-4 element-animate"
+                                           gridLayout="full-width"
+                                           jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                           jcr:primaryType="bootstrap4nt:grid"
+                                           rowCssClass="no-gutters"
+                                           rowHorizontalAlignment="default"
+                                           rowVerticalAlignment="default"
+                                           typeOfGrid="customGrid">
+                                        <container-gallery-col0 jcr:primaryType="jnt:contentList">
+                                            <gearing iconClass="ion-plus icon"
+                                       image="#/sites/industrial/files/industrial_img_1.jpg"
+                                       internalLink="#/sites/industrial/home/about"
+                                       jcr:mixinTypes="timix:internalLink"
+                                       jcr:primaryType="tint:galleryImage"
+                                       linkType="internalLink">
+                                                <j:translation_en heading="Ducting Design in Colorado"
+                                                   jcr:language="en"
+                                                   jcr:mixinTypes="mix:title"
+                                                   jcr:primaryType="jnt:translation"
+                                                   jcr:title="Gearing"/>
+                                            </gearing>
+                                        </container-gallery-col0>
+                                        <container-gallery-col1 jcr:primaryType="jnt:contentList">
+                                            <gearing iconClass="ion-plus icon"
+                                       image="#/sites/industrial/files/industrial_img_2.jpg"
+                                       internalLink="#/sites/industrial/home/contact"
+                                       jcr:mixinTypes="timix:internalLink"
+                                       jcr:primaryType="tint:galleryImage"
+                                       linkType="internalLink">
+                                                <j:translation_en heading="Tanks Project In California"
+                                                   jcr:language="en"
+                                                   jcr:mixinTypes="mix:title"
+                                                   jcr:primaryType="jnt:translation"
+                                                   jcr:title="Gearing"/>
+                                            </gearing>
+                                        </container-gallery-col1>
+                                        <container-gallery-col2 jcr:primaryType="jnt:contentList">
+                                            <gearing iconClass="ion-plus icon"
+                                       image="#/sites/industrial/files/industrial_img_3.jpg"
+                                       internalLink="#/sites/industrial/home/contact"
+                                       jcr:mixinTypes="timix:internalLink"
+                                       jcr:primaryType="tint:galleryImage"
+                                       linkType="internalLink">
+                                                <j:translation_en heading="Structural Design in New York"
+                                                   jcr:language="en"
+                                                   jcr:mixinTypes="mix:title"
+                                                   jcr:primaryType="jnt:translation"
+                                                   jcr:title="Gearing"/>
+                                            </gearing>
+                                        </container-gallery-col2>
+                                        <container-gallery-col3 jcr:primaryType="jnt:contentList">
+                                            <gearing iconClass="ion-plus icon"
+                                       image="#/sites/industrial/files/industrial_img_4.jpg"
+                                       internalLink="#/sites/industrial/home/contact"
+                                       jcr:mixinTypes="timix:internalLink"
+                                       jcr:primaryType="tint:galleryImage"
+                                       linkType="internalLink">
+                                                <j:translation_en heading="Stacks Design"
+                                                   jcr:language="en"
+                                                   jcr:mixinTypes="mix:title"
+                                                   jcr:primaryType="jnt:translation"
+                                                   jcr:title="Gearing"/>
+                                            </gearing>
+                                        </container-gallery-col3>
+                                        <container-gallery-col4 jcr:primaryType="jnt:contentList">
+                                            <gearing iconClass="ion-plus icon"
+                                       image="#/sites/industrial/files/industrial_img_5.jpg"
+                                       internalLink="#/sites/industrial/home/contact"
+                                       jcr:mixinTypes="timix:internalLink"
+                                       jcr:primaryType="tint:galleryImage"
+                                       linkType="internalLink">
+                                                <j:translation_en heading="Intercate Custom"
+                                                   jcr:language="en"
+                                                   jcr:mixinTypes="mix:title"
+                                                   jcr:primaryType="jnt:translation"
+                                                   jcr:title="Gearing"/>
+                                            </gearing>
+                                        </container-gallery-col4>
+                                        <container-gallery-col5 jcr:primaryType="jnt:contentList">
+                                            <gearing iconClass="ion-plus icon"
+                                       image="#/sites/industrial/files/industrial_img_6.jpg"
+                                       internalLink="#/sites/industrial/home/contact"
+                                       jcr:mixinTypes="timix:internalLink"
+                                       jcr:primaryType="tint:galleryImage"
+                                       linkType="internalLink">
+                                                <j:translation_en heading="Banker Design"
+                                                   jcr:language="en"
+                                                   jcr:mixinTypes="mix:title"
+                                                   jcr:primaryType="jnt:translation"
+                                                   jcr:title="Gearing"/>
+                                            </gearing>
+                                        </container-gallery-col5>
+                                    </container-gallery>
+                                </section-galley>
+                            </section-galley>
+                        </gallery-list>
+                        <slider-list-home jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Slider list Home"/>
+                            <home-carousel class="home-slider owl-carousel"
+                                 jcr:mixinTypes="timix:owlcarouselAdvancedSettings"
+                                 jcr:primaryType="tint:owlcarousel"
+                                 options="{&#xA;    loop:true,&#xA;    autoplay: true,&#xA;    margin:0,&#xA;    animateOut: 'fadeOut',&#xA;    animateIn: 'fadeIn',&#xA;    nav:true,&#xA;    autoplayHoverPause: true,&#xA;    items: 1,&#xA;    dragTouch: false,&#xA;    navText : [&#34;&lt;span class='ion-chevron-left'&gt;&lt;/span&gt;&#34;,&#34;&lt;span class='ion-chevron-right'&gt;&lt;/span&gt;&#34;],&#xA;    responsive:{&#xA;      0:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      600:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      1000:{&#xA;        items:1,&#xA;        nav:true&#xA;      }&#xA;    }&#xA;}">
+                                <we-are-industrial-company image="#/sites/industrial/files/industrial_hero_1.jpg"
+                                                jcr:primaryType="tint:owlcarouselItem">
+                                    <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
+                                          jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="We Are Industrial Company"
+                                          videoURL="https://vimeo.com/59256790"/>
+                                </we-are-industrial-company>
+                                <the-best-level-of-excellence-in image="#/sites/industrial/files/industrial_hero_2.jpg"
+                                                      jcr:primaryType="tint:owlcarouselItem">
+                                    <j:translation_en caption="&lt;h1&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fuga, hic quae molestias aperiam deserunt!&lt;/p&gt;&#xA;"
+                                          jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="The Best Level of Excellence in Steel Fabrication"
+                                          videoURL="https://vimeo.com/59256790"/>
+                                </the-best-level-of-excellence-in>
+                            </home-carousel>
+                        </slider-list-home>
+                        <generic-content-right-image-list jcr:primaryType="jnt:contentList">
+                            <generic-content-right-image gridClasses="col-lg-7 order-md-2,col-md-5 pr-md-5 mb-5"
+                                               gridLayout="fixed-width"
+                                               jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
+                                               jcr:primaryType="bootstrap4nt:grid"
+                                               rowCssClass="align-items-center mb-5"
+                                               rowHorizontalAlignment="default"
+                                               rowVerticalAlignment="default"
+                                               sectionCssClass="section element-animate"
+                                               sectionElement="section"
+                                               typeOfGrid="customGrid">
+                                <generic-content-right-image-col0 jcr:primaryType="jnt:contentList">
+                                    <figure image="#/sites/industrial/files/industrial_featured_img_1.jpg"
+                                j:view="industrial.content"
+                                jcr:mixinTypes="jmix:renderable"
+                                jcr:primaryType="bootstrap4nt:figure"/>
+                                </generic-content-right-image-col0>
+                                <generic-content-right-image-col1 jcr:primaryType="jnt:contentList">
+                                    <text jcr:primaryType="bootstrap4nt:text">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;Let&amp;#39;s Build Together&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-android-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    </text>
+                                </generic-content-right-image-col1>
+                            </generic-content-right-image>
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Generic content right image list"/>
+                        </generic-content-right-image-list>
+                        <generic-content-left-image-list jcr:mixinTypes="jmix:accessControlled"
+                                                jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Generic content left image list"/>
+                            <content-section-grid gridClasses="col-lg-7 order-md-1,col-md-5 pl-md-5 mb-5 order-md-2"
+                                        gridLayout="fixed-width"
+                                        jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
+                                        jcr:primaryType="bootstrap4nt:grid"
+                                        rowCssClass="align-items-center mb-5"
+                                        rowHorizontalAlignment="default"
+                                        rowVerticalAlignment="default"
+                                        sectionCssClass="section element-animate bg-light"
+                                        sectionElement="section"
+                                        typeOfGrid="customGrid">
+                                <layout-and-grid-col0 jcr:primaryType="jnt:contentList"/>
+                                <layout-and-grid-col1 jcr:primaryType="jnt:contentList"/>
+                                <content-section-grid-col0 jcr:primaryType="jnt:contentList">
+                                    <figure align="default"
+                                borderRadius="rounded-0"
+                                borderRadiusSize="default"
+                                image="#/sites/industrial/files/industrial_featured_img_2.jpg"
+                                j:view="industrial.content"
+                                jcr:mixinTypes="bootstrap4mix:imageAdvancedSettings jmix:renderable"
+                                jcr:primaryType="bootstrap4nt:figure"
+                                responsive="true"
+                                thumbnails="false">
+                                        <j:translation_en alt="Free template by Free-Template.co"
+                                             jcr:language="en"
+                                             jcr:primaryType="jnt:translation"/>
+                                    </figure>
+                                </content-section-grid-col0>
+                                <content-section-grid-col1 jcr:primaryType="jnt:contentList">
+                                    <text jcr:mixinTypes="jmix:referencesInField"
+                              jcr:primaryType="bootstrap4nt:text">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;We&amp;#39;ll handle any intercate custom design&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34; title=&#34;About&#34;&gt;Read More &lt;span class=&#34;ion-android-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    </text>
+                                </content-section-grid-col1>
+                            </content-section-grid>
+                            <j:acl j:inherit="true" jcr:primaryType="jnt:acl"/>
+                        </generic-content-left-image-list>
+                        <footer-about jcr:primaryType="bootstrap4nt:text">
+                            <j:translation_en jcr:language="en"
+                                    jcr:primaryType="jnt:translation"
+                                    text="&lt;h3&gt;About The Industrial&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link d-flex footer-social&#34;&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-twitter&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-facebook&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-linkedin&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-instagram&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        </footer-about>
+                        <footer-contact jcr:primaryType="bootstrap4nt:text">
+                            <j:translation_en jcr:language="en"
+                                    jcr:primaryType="jnt:translation"
+                                    text="&lt;h3&gt;Contact Info&lt;/h3&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link&#34;&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Address:&lt;/span&gt; &lt;span&gt;34 Street Name, City Name Here, United States&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Telephone:&lt;/span&gt;&lt;span&gt;+1 242 4942 290&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Email:&lt;/span&gt;&lt;span&gt;info@yourdomain.com&lt;/span&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        </footer-contact>
+                        <footer-nav jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="footer-nav"/>
+                            <footer-title jcr:primaryType="bootstrap4nt:text">
+                                <j:translation_en jcr:language="en"
+                                       jcr:primaryType="jnt:translation"
+                                       text="&lt;h3&gt;Quick Links&lt;/h3&gt;&#xA;"/>
+                            </footer-title>
+                            <navbar j:view="industrial.basenav.footer"
+                          jcr:mixinTypes="bootstrap4mix:customBaseNavbar jmix:renderable"
+                          jcr:primaryType="bootstrap4nt:navbar"
+                          recursive="false"
+                          root="homePage"
+                          ulClass="list-unstyled footer-link"/>
+                        </footer-nav>
+                    </templates>
+                </contents>
+                <templates jcr:primaryType="jnt:templatesFolder">
+                    <files jcr:primaryType="jnt:folder">
+                        <themes jcr:primaryType="jnt:folder">
+                            <default jcr:primaryType="jnt:folder"/>
+                        </themes>
+                    </files>
+                    <contents jcr:primaryType="jnt:contentFolder"/>
+                    <base j:theme="#/modules/industrial/templates/files/themes/default"
+                  j:view="industrial"
+                  jcr:mixinTypes="jmix:theme"
+                  jcr:primaryType="jnt:template">
+                        <home jcr:primaryType="jnt:pageTemplate"/>
+                        <simple jcr:primaryType="jnt:pageTemplate"/>
+                        <header-container jcr:primaryType="jnt:contentList">
+                            <html-header-tag jcr:mixinTypes="bootstrap4mix:createSection"
+                                   jcr:primaryType="bootstrap4nt:grid"
+                                   sectionElement="header"
+                                   sectionRole="banner">
+                                <html-header-tag jcr:primaryType="jnt:contentList">
+                                    <navbar addContainerWithinTheNavbar="true"
+                                addLoginButton="false"
+                                buttonClass="navbar-toggler"
+                                divClass="collapse navbar-collapse"
+                                j:view="industrial"
+                                jcr:mixinTypes="bootstrap4mix:advancedNavbar bootstrap4mix:brand bootstrap4mix:customBaseNavbar bootstrap4mix:customButtonNavbar jmix:renderable"
+                                jcr:primaryType="bootstrap4nt:navbar"
+                                navClass="navbar navbar-expand-lg navbar-dark bg-dark"
+                                recursive="true"
+                                root="homePage"
+                                ulClass="navbar-nav pl-md-5 ml-auto">
+                                        <j:translation_en brandText="industrial"
+                                             jcr:language="en"
+                                             jcr:primaryType="jnt:translation"/>
+                                    </navbar>
+                                </html-header-tag>
+                            </html-header-tag>
+                        </header-container>
+                        <footer-container jcr:primaryType="jnt:contentList">
+                            <html5-footer-tag gridLayout="fixed-width"
+                                    jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createSection"
+                                    jcr:primaryType="bootstrap4nt:grid"
+                                    sectionCssClass="site-footer"
+                                    sectionElement="footer"
+                                    sectionRole="contentinfo">
+                                <html5-footer-tag jcr:primaryType="jnt:contentList">
+                                    <row-footer-1 gridClasses="col-md-4 mb-5,col-md-5 mb-5 pl-md-5,col-md-3 mb-5"
+                                      jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                      jcr:primaryType="bootstrap4nt:grid"
+                                      rowCssClass="mb-5"
+                                      rowHorizontalAlignment="default"
+                                      rowVerticalAlignment="default"
+                                      typeOfGrid="customGrid">
+                                        <row-footer-1-col0 jcr:primaryType="jnt:contentList">
+                                            <footer-content-1 jcr:mixinTypes="bootstrap4mix:createAbsoluteAreas"
+                                                jcr:primaryType="bootstrap4nt:grid"
+                                                level="0"/>
+                                        </row-footer-1-col0>
+                                        <row-footer-1-col1 jcr:primaryType="jnt:contentList">
+                                            <footer-content-2 jcr:mixinTypes="bootstrap4mix:createAbsoluteAreas"
+                                                jcr:primaryType="bootstrap4nt:grid"
+                                                level="0"/>
+                                        </row-footer-1-col1>
+                                        <row-footer-1-col2 jcr:primaryType="jnt:contentList">
+                                            <footer-content-3 jcr:mixinTypes="bootstrap4mix:createAbsoluteAreas"
+                                                jcr:primaryType="bootstrap4nt:grid"
+                                                level="0"/>
+                                        </row-footer-1-col2>
+                                    </row-footer-1>
+                                    <row-footer-credits gridClasses="col-12 text-md-center text-left"
+                                            jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                            jcr:primaryType="bootstrap4nt:grid"
+                                            rowHorizontalAlignment="default"
+                                            rowVerticalAlignment="default"
+                                            typeOfGrid="customGrid">
+                                        <row-footer-credits-col0 jcr:primaryType="jnt:contentList">
+                                            <text jcr:primaryType="bootstrap4nt:text">
+                                                <j:translation_en jcr:language="en"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;p class=&#34;copyright&#34;&gt;&lt;!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --&gt;Copyright &amp;copy;&lt;script&gt;document.write(new Date().getFullYear());&lt;/script&gt; All rights reserved | This template is made with &lt;i aria-hidden=&#34;true&#34; class=&#34;fa fa-heart text-danger&#34;&gt;&lt;/i&gt; by &lt;a href=&#34;https://colorlib.com&#34; target=&#34;_blank&#34;&gt;Colorlib&lt;/a&gt; &lt;!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --&gt;&lt;/p&gt;&#xA;"/>
+                                            </text>
+                                        </row-footer-credits-col0>
+                                    </row-footer-credits>
+                                </html5-footer-tag>
+                            </html5-footer-tag>
+                        </footer-container>
+                    </base>
+                    <content-template j:applyOn="jnt:content"
+                              j:hiddenTemplate="true"
+                              j:priority="1"
+                              j:view="industrial"
+                              jcr:primaryType="jnt:contentTemplate">
+                        <pagecontent jcr:primaryType="jnt:contentList">
+                            <main-resource-display j:mainResourceView="default" jcr:primaryType="jnt:mainResourceDisplay"/>
+                        </pagecontent>
+                    </content-template>
+                </templates>
+                
+                <home j:isHomePage="true"
+               j:templateName="home"
+               jcr:primaryType="jnt:page">
+                    <j:translation_en jcr:language="en"
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Home"/>
+                </home>
+            </industrial>
+    </modules>
+</content>

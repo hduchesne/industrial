@@ -1,0 +1,36 @@
+<bootstrap4mix = 'http://www.jahia.org/bootstrap4/mix/1.0'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<mix = 'http://www.jcp.org/jcr/mix/1.0'>
+<timix = 'http://www.jahia.org/template/b4/industrial/mix/1.0'>
+<tint = 'http://www.jahia.org/template/b4/industrial/nt/1.0'>
+
+[timix:industrial] > jmix:droppableContent, jmix:editorialContent mixin
+
+[tint:galleryImage] > jnt:content, timix:industrial, bootstrap4mix:image, mix:title
+ - linkType (string, choicelist[linkTypeInitializer,resourceBundle]) = 'internalLink' autocreated indexed=no < 'internalLink', 'externalLink'
+ - heading (string) internationalized
+ - iconClass (string)
+
+[timix:internalLink] > jmix:templateMixin mixin
+ extends = tint:galleryImage
+ - internalLink (weakreference, picker[type='editoriallink']) < 'jmix:droppableContent', 'jnt:page', 'jnt:file'
+
+[timix:externalLink] > jmix:templateMixin mixin
+ extends = tint:galleryImage
+ - externalLink (string) = 'https://'
+
+[tint:owlcarouselItem] > jnt:content, mix:title
+ - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
+ - videoURL (string) internationalized
+ - caption (string, richtext) internationalized
+
+[timix:owlcarouselAdvancedSettings] mixin
+ extends = tint:owlcarousel
+ itemtype = content
+ - options (string, textarea[height='360']) indexed=no
+ - class (string) indexed=no
+
+[tint:owlcarousel] > jnt:content, timix:industrial, jmix:list, jmix:siteContent orderable
+ + * (tint:owlcarouselItem)
+

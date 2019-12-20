@@ -1,0 +1,33 @@
+/*header{*/
+/*    position: relative;*/
+/*}*/
+.element-animate {
+    opacity: 1;
+    visibility: visible;
+}
+
+.top-shadow.edit{
+    min-height: 100px !important;
+    background-color: rgba(0,0,0,.9)!important;
+}
+
+.j-owl-carousel-edit{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+.j-owl-carousel-card-edit{
+    margin: 0 .5rem;
+    width: 18rem;
+}
+.j-owl-carousel-card-edit .card-body{
+    padding: .5rem;
+}
+
+.j-owl-carousel-card-edit h1{
+    font-size: 1.2rem;
+}
+
+.j-owl-carousel-card-edit p{
+    width: 90% !important;
+}
