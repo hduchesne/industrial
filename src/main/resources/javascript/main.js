@@ -59,30 +59,30 @@
     // }
 	// });
 
-  $('.nonloop-block-11').owlCarousel({
-      center: false,
-      items: 1,
-      loop: false,
-      stagePadding: 20,
-      margin:50,
-      nav: true,
-      smartSpeed: 1000,
-      navText: ['<span class="ion-chevron-left">', '<span class="ion-chevron-right">'],
-      responsive:{
-        600:{
-          stagePadding: 20,
-          items:1
-        },
-        800:{
-          stagePadding: 20,
-          items:1
-        },
-        1000:{
-          // stagePadding: 200,
-          items:1
-        }
-      }
-    });
+  // $('.nonloop-block-11').owlCarousel({
+  //     center: false,
+  //     items: 1,
+  //     loop: false,
+  //     stagePadding: 20,
+  //     margin:50,
+  //     nav: true,
+  //     smartSpeed: 1000,
+  //     navText: ['<span class="ion-chevron-left">', '<span class="ion-chevron-right">'],
+  //     responsive:{
+  //       600:{
+  //         stagePadding: 20,
+  //         items:1
+  //       },
+  //       800:{
+  //         stagePadding: 20,
+  //         items:1
+  //       },
+  //       1000:{
+  //         // stagePadding: 200,
+  //         items:1
+  //       }
+  //     }
+  //   });
 
 	// owl carousel
 	var majorCarousel = $('.js-carousel-1');
