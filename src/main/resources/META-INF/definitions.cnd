@@ -21,9 +21,19 @@
  - externalLink (string) = 'https://'
 
 [tint:owlcarouselItem] > jnt:content, mix:title
+ - carouselType (string, choicelist[carouselItemTypeInitializer,resourceBundle]) mandatory indexed=no < 'standard', 'testimonial'
+
+[timix:sCarouselItem] > jmix:templateMixin mixin
+ extends = tint:owlcarouselItem
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
  - videoURL (string) internationalized
- - caption (string, richtext) internationalized
+ - caption (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
+
+[timix:tCarouselItem] > jmix:templateMixin mixin
+ extends = tint:owlcarouselItem
+ - avatar (weakreference, picker[type='image']) mandatory < 'jmix:image'
+ - heading (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
+ - testimonial (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
 
 [timix:owlcarouselAdvancedSettings] mixin
  extends = tint:owlcarousel

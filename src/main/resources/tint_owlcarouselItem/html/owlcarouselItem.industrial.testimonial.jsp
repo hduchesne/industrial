@@ -19,18 +19,17 @@
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
 
 <%--<c:set var="title" value="${currentNode.properties['jcr:title'].string}"/>--%>
-<c:set var="caption" value="${currentNode.properties.caption.string}"/>
-<%--<c:set var="imageNode" value="${currentNode.properties.image.node}"/>--%>
+<c:set var="heading" value="${currentNode.properties.heading.string}"/>
+<c:set var="testimonial" value="${currentNode.properties.testimonial.string}"/>
 
-<c:url var="videoURL" value="${currentNode.properties.videoURL.string}"/>
-<c:url var="imageURL" value="${currentNode.properties.image.node.url}"/>
+<c:url var="avatarURL" value="${currentNode.properties.avatar.node.url}"/>
 
 <c:choose>
     <c:when test="${renderContext.editMode}">
         <div class="card j-owl-carousel-card-edit">
-            <img class="card-img-top" src="${imageURL}" alt="Card image cap">
+            <img class="card-img-top" src="${avatarURL}" alt="Card image cap">
             <div class="card-body">
-                ${caption}
+                ${heading}
 <%--                <h5 class="card-title">Card title</h5>--%>
 <%--                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>--%>
 <%--                <a href="#" class="btn btn-primary">Go somewhere</a>--%>
@@ -39,24 +38,24 @@
     </c:when>
     <c:otherwise>
         <div class="item">
-                ${caption}
-<%--            <div class="block-33 h-100">--%>
-<%--                <div class="vcard d-flex mb-3">--%>
-<%--                    <div class="image align-self-center">--%>
-<%--                        <img src="${imageURL}" alt="Person here">--%>
+            <div class="block-33 h-100">
+                <div class="vcard d-flex mb-3">
+                    <div class="image align-self-center">
+                        <img src="${avatarURL}" alt="Person here">
+                    </div>
+                    ${heading}
+<%--                    <div class="name-text align-self-center">--%>
+<%--                        <h2 class="heading">John Smith</h2>--%>
+<%--                        <span class="meta">Free-Template.co Client</span>--%>
 <%--                    </div>--%>
-<%--                    ${caption}--%>
-<%--&lt;%&ndash;                    <div class="name-text align-self-center">&ndash;%&gt;--%>
-<%--&lt;%&ndash;                        <h2 class="heading">John Smith</h2>&ndash;%&gt;--%>
-<%--&lt;%&ndash;                        <span class="meta">Free-Template.co Client</span>&ndash;%&gt;--%>
-<%--&lt;%&ndash;                    </div>&ndash;%&gt;--%>
-<%--                </div>--%>
-<%--                <div class="text">--%>
+                </div>
+                <div class="text">
+                        ${testimonial}
 <%--                    <blockquote>--%>
 <%--                        <p>&rdquo; The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. &ldquo;</p>--%>
 <%--                    </blockquote>--%>
-<%--                </div>--%>
-<%--            </div>--%>
+                </div>
+            </div>
         </div>
 <%--        <div class="slider-item" style="background-image: url('${imageURL}');">--%>
 <%--            <div class="container">--%>

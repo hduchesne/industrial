@@ -18,43 +18,9 @@
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
 
-<%--<c:set var="title" value="${currentNode.properties['jcr:title'].string}"/>--%>
-<c:set var="caption" value="${currentNode.properties.caption.string}"/>
-<%--<c:set var="imageNode" value="${currentNode.properties.image.node}"/>--%>
 
-<c:url var="videoURL" value="${currentNode.properties.videoURL.string}"/>
-<c:url var="imageURL" value="${currentNode.properties.image.node.url}"/>
+<c:set var="view" value="industrial.${currentNode.properties.carouselType.string}"/>
 
-<c:choose>
-    <c:when test="${renderContext.editMode}">
-        <div class="card j-owl-carousel-card-edit">
-            <img class="card-img-top" src="${imageURL}" alt="Card image cap">
-            <div class="card-body">
-                ${caption}
-<%--                <h5 class="card-title">Card title</h5>--%>
-<%--                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>--%>
-<%--                <a href="#" class="btn btn-primary">Go somewhere</a>--%>
-            </div>
-        </div>
-    </c:when>
-    <c:otherwise>
-        <div class="slider-item" style="background-image: url('${imageURL}');">
-            <div class="container">
-                <div class="row slider-text align-items-center justify-content-center">
-                    <div class="col-lg-7 text-center col-sm-12 element-animate">
-                        <div class="btn-play-wrap mx-auto">
-                            <p class="mb-4">
-                                <a href="${videoURL}" data-fancybox data-ratio="2" class="btn-play">
-                                    <span class="ion ion-ios-play"></span>
-                                </a>
-                            </p>
-                        </div>
-                        ${caption}
-<%--                        <h1 class="mb-4"><span>We Are Industrial Company</span></h1>--%>
-<%--                        <p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?</p>--%>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </c:otherwise>
-</c:choose>
+<template:include view="${view}"/>
+
+

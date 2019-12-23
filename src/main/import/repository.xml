@@ -272,23 +272,17 @@
                                  jcr:mixinTypes="timix:owlcarouselAdvancedSettings"
                                  jcr:primaryType="tint:owlcarousel"
                                  options="{&#xA;    loop:true,&#xA;    autoplay: true,&#xA;    margin:0,&#xA;    animateOut: 'fadeOut',&#xA;    animateIn: 'fadeIn',&#xA;    nav:true,&#xA;    autoplayHoverPause: true,&#xA;    items: 1,&#xA;    dragTouch: false,&#xA;    navText : [&#34;&lt;span class='ion-chevron-left'&gt;&lt;/span&gt;&#34;,&#34;&lt;span class='ion-chevron-right'&gt;&lt;/span&gt;&#34;],&#xA;    responsive:{&#xA;      0:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      600:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      1000:{&#xA;        items:1,&#xA;        nav:true&#xA;      }&#xA;    }&#xA;}">
-                                <we-are-industrial-company image="#/sites/industrial/files/industrial_hero_1.jpg"
-                                                jcr:primaryType="tint:owlcarouselItem">
-                                    <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
-                                          jcr:language="en"
+                                <we-are-industrial-company carouselType="standard" jcr:primaryType="tint:owlcarouselItem">
+                                    <j:translation_en jcr:language="en"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
-                                          jcr:title="We Are Industrial Company"
-                                          videoURL="https://vimeo.com/59256790"/>
+                                          jcr:title="We Are Industrial Company"/>
                                 </we-are-industrial-company>
-                                <the-best-level-of-excellence-in image="#/sites/industrial/files/industrial_hero_2.jpg"
-                                                      jcr:primaryType="tint:owlcarouselItem">
-                                    <j:translation_en caption="&lt;h1&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fuga, hic quae molestias aperiam deserunt!&lt;/p&gt;&#xA;"
-                                          jcr:language="en"
+                                <the-best-level-of-excellence-in carouselType="standard" jcr:primaryType="tint:owlcarouselItem">
+                                    <j:translation_en jcr:language="en"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
-                                          jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                          videoURL="https://vimeo.com/59256790"/>
+                                          jcr:title="The Best Level of Excellence in Steel Fabrication"/>
                                 </the-best-level-of-excellence-in>
                             </home-carousel>
                         </slider-list-home>
