@@ -8,29 +8,174 @@
                   j:title="industrial"
                   jcr:mixinTypes="jmix:hasExternalProviderExtension"
                   jcr:primaryType="jnt:module">
-                <sources jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
-                  jcr:primaryType="jnt:moduleVersionFolder"
-                  j:staticMountPointProviderKey="module-industrial-1.0-SNAPSHOT">
-                    <src jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
-                 jcr:primaryType="jnt:folder">
-                        <main jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
-                     jcr:primaryType="jnt:folder">
-                            <resources jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
-                             jcr:primaryType="jnt:folder">
-                                <jnt_template jcr:mixinTypes="jmix:hasExternalProviderExtension"
-                                   jcr:primaryType="jnt:nodeTypeFolder">
-                                    <html jcr:mixinTypes="jmix:hasExternalProviderExtension"
-                              jcr:primaryType="jnt:templateTypeFolder">
-                                        <template.industrial.jsp jcr:primaryType="jnt:templateFile"/>
-                                    </html>
-                                </jnt_template>
-                            </resources>
-                        </main>
-                    </src>
-                </sources>
                 
                 <portlets jcr:primaryType="jnt:portletFolder"/>
-                <files jcr:primaryType="jnt:folder"/>
+                <files jcr:primaryType="jnt:folder">
+                    <images jcr:primaryType="jnt:folder">
+                        <person_1.jpg j:height="700"
+                             j:width="700"
+                             jcr:mixinTypes="jmix:image"
+                             jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </person_1.jpg>
+                        <industrial_img_5.jpg j:height="700"
+                                     j:width="700"
+                                     jcr:mixinTypes="jmix:image"
+                                     jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </industrial_img_5.jpg>
+                        <industrial_hero_1.jpg j:height="900"
+                                      j:width="1900"
+                                      jcr:mixinTypes="jmix:image"
+                                      jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </industrial_hero_1.jpg>
+                        <industrial_hero_2.jpg j:height="900"
+                                      j:width="1900"
+                                      jcr:mixinTypes="jmix:image"
+                                      jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </industrial_hero_2.jpg>
+                        <person_3.jpg j:height="700"
+                             j:width="700"
+                             jcr:mixinTypes="jmix:image"
+                             jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </person_3.jpg>
+                        <industrial_img_1.jpg j:height="700"
+                                     j:width="700"
+                                     jcr:mixinTypes="jmix:image"
+                                     jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </industrial_img_1.jpg>
+                        <industrial_img_3.jpg j:height="700"
+                                     j:width="700"
+                                     jcr:mixinTypes="jmix:image"
+                                     jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </industrial_img_3.jpg>
+                        <industrial_featured_img_1.jpg j:height="900"
+                                              j:width="800"
+                                              jcr:mixinTypes="jmix:image"
+                                              jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </industrial_featured_img_1.jpg>
+                        <industrial_img_6.jpg j:height="700"
+                                     j:width="700"
+                                     jcr:mixinTypes="jmix:image"
+                                     jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </industrial_img_6.jpg>
+                        <person_2.jpg j:height="700"
+                             j:width="700"
+                             jcr:mixinTypes="jmix:image"
+                             jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </person_2.jpg>
+                        <person_4.jpg j:height="700"
+                             j:width="700"
+                             jcr:mixinTypes="jmix:image"
+                             jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </person_4.jpg>
+                        <industrial_hero_3.jpg j:height="900"
+                                      j:width="1900"
+                                      jcr:mixinTypes="jmix:image"
+                                      jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </industrial_hero_3.jpg>
+                        <industrial_img_4.jpg j:height="700"
+                                     j:width="700"
+                                     jcr:mixinTypes="jmix:image"
+                                     jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </industrial_img_4.jpg>
+                        <industrial_img_2.jpg j:height="700"
+                                     j:width="700"
+                                     jcr:mixinTypes="jmix:image"
+                                     jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </industrial_img_2.jpg>
+                        <industrial_featured_img_2.jpg j:height="900"
+                                              j:width="800"
+                                              jcr:mixinTypes="jmix:image"
+                                              jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </industrial_featured_img_2.jpg>
+                        <industrial_blog_2.jpg j:height="400"
+                                      j:width="700"
+                                      jcr:mixinTypes="jmix:image"
+                                      jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </industrial_blog_2.jpg>
+                        <industrial_feature_1.jpg j:height="1000"
+                                         j:width="700"
+                                         jcr:mixinTypes="jmix:image"
+                                         jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </industrial_feature_1.jpg>
+                        <industrial_blog_3.jpg j:height="400"
+                                      j:width="700"
+                                      jcr:mixinTypes="jmix:image"
+                                      jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </industrial_blog_3.jpg>
+                        <slider-2.jpg j:height="1500"
+                             j:width="2000"
+                             jcr:mixinTypes="jmix:image"
+                             jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </slider-2.jpg>
+                        <industrial_blog_1.jpg j:height="400"
+                                      j:width="700"
+                                      j:xresolution="72 dots"
+                                      j:yresolution="72 dots"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                        </industrial_blog_1.jpg>
+                    </images>
+                </files>
                 <contents jcr:primaryType="jnt:contentFolder">
                     <templates jcr:primaryType="jnt:contentFolder">
                         <j:translation_en jcr:language="en"
@@ -108,8 +253,7 @@
                                            rowVerticalAlignment="default"
                                            typeOfGrid="customGrid">
                                         <layout-and-grid-1-col0 jcr:primaryType="jnt:contentList">
-                                            <figure image="#/sites/industrial/files/industrial_feature_1.jpg"
-                                      j:view="industrial.features"
+                                            <figure j:view="industrial.features"
                                       jcr:mixinTypes="jmix:renderable"
                                       jcr:primaryType="bootstrap4nt:figure"/>
                                         </layout-and-grid-1-col0>
@@ -177,8 +321,6 @@
                                            typeOfGrid="customGrid">
                                         <container-gallery-col0 jcr:primaryType="jnt:contentList">
                                             <gearing iconClass="ion-plus icon"
-                                       image="#/sites/industrial/files/industrial_img_1.jpg"
-                                       internalLink="#/sites/industrial/home/about"
                                        jcr:mixinTypes="timix:internalLink"
                                        jcr:primaryType="tint:galleryImage"
                                        linkType="internalLink">
@@ -191,8 +333,6 @@
                                         </container-gallery-col0>
                                         <container-gallery-col1 jcr:primaryType="jnt:contentList">
                                             <gearing iconClass="ion-plus icon"
-                                       image="#/sites/industrial/files/industrial_img_2.jpg"
-                                       internalLink="#/sites/industrial/home/contact"
                                        jcr:mixinTypes="timix:internalLink"
                                        jcr:primaryType="tint:galleryImage"
                                        linkType="internalLink">
@@ -205,8 +345,6 @@
                                         </container-gallery-col1>
                                         <container-gallery-col2 jcr:primaryType="jnt:contentList">
                                             <gearing iconClass="ion-plus icon"
-                                       image="#/sites/industrial/files/industrial_img_3.jpg"
-                                       internalLink="#/sites/industrial/home/contact"
                                        jcr:mixinTypes="timix:internalLink"
                                        jcr:primaryType="tint:galleryImage"
                                        linkType="internalLink">
@@ -219,8 +357,6 @@
                                         </container-gallery-col2>
                                         <container-gallery-col3 jcr:primaryType="jnt:contentList">
                                             <gearing iconClass="ion-plus icon"
-                                       image="#/sites/industrial/files/industrial_img_4.jpg"
-                                       internalLink="#/sites/industrial/home/contact"
                                        jcr:mixinTypes="timix:internalLink"
                                        jcr:primaryType="tint:galleryImage"
                                        linkType="internalLink">
@@ -233,8 +369,6 @@
                                         </container-gallery-col3>
                                         <container-gallery-col4 jcr:primaryType="jnt:contentList">
                                             <gearing iconClass="ion-plus icon"
-                                       image="#/sites/industrial/files/industrial_img_5.jpg"
-                                       internalLink="#/sites/industrial/home/contact"
                                        jcr:mixinTypes="timix:internalLink"
                                        jcr:primaryType="tint:galleryImage"
                                        linkType="internalLink">
@@ -247,8 +381,6 @@
                                         </container-gallery-col4>
                                         <container-gallery-col5 jcr:primaryType="jnt:contentList">
                                             <gearing iconClass="ion-plus icon"
-                                       image="#/sites/industrial/files/industrial_img_6.jpg"
-                                       internalLink="#/sites/industrial/home/contact"
                                        jcr:mixinTypes="timix:internalLink"
                                        jcr:primaryType="tint:galleryImage"
                                        linkType="internalLink">
@@ -263,29 +395,6 @@
                                 </section-galley>
                             </section-galley>
                         </gallery-list>
-                        <slider-list-home jcr:primaryType="jnt:contentList">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Slider list Home"/>
-                            <home-carousel class="home-slider owl-carousel"
-                                 jcr:mixinTypes="timix:owlcarouselAdvancedSettings"
-                                 jcr:primaryType="tint:owlcarousel"
-                                 options="{&#xA;    loop:true,&#xA;    autoplay: true,&#xA;    margin:0,&#xA;    animateOut: 'fadeOut',&#xA;    animateIn: 'fadeIn',&#xA;    nav:true,&#xA;    autoplayHoverPause: true,&#xA;    items: 1,&#xA;    dragTouch: false,&#xA;    navText : [&#34;&lt;span class='ion-chevron-left'&gt;&lt;/span&gt;&#34;,&#34;&lt;span class='ion-chevron-right'&gt;&lt;/span&gt;&#34;],&#xA;    responsive:{&#xA;      0:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      600:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      1000:{&#xA;        items:1,&#xA;        nav:true&#xA;      }&#xA;    }&#xA;}">
-                                <we-are-industrial-company carouselType="standard" jcr:primaryType="tint:owlcarouselItem">
-                                    <j:translation_en jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="We Are Industrial Company"/>
-                                </we-are-industrial-company>
-                                <the-best-level-of-excellence-in carouselType="standard" jcr:primaryType="tint:owlcarouselItem">
-                                    <j:translation_en jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="The Best Level of Excellence in Steel Fabrication"/>
-                                </the-best-level-of-excellence-in>
-                            </home-carousel>
-                        </slider-list-home>
                         <generic-content-right-image-list jcr:primaryType="jnt:contentList">
                             <generic-content-right-image gridClasses="col-lg-7 order-md-2,col-md-5 pr-md-5 mb-5"
                                                gridLayout="fixed-width"
@@ -298,8 +407,7 @@
                                                sectionElement="section"
                                                typeOfGrid="customGrid">
                                 <generic-content-right-image-col0 jcr:primaryType="jnt:contentList">
-                                    <figure image="#/sites/industrial/files/industrial_featured_img_1.jpg"
-                                j:view="industrial.content"
+                                    <figure j:view="industrial.content"
                                 jcr:mixinTypes="jmix:renderable"
                                 jcr:primaryType="bootstrap4nt:figure"/>
                                 </generic-content-right-image-col0>
@@ -338,7 +446,6 @@
                                     <figure align="default"
                                 borderRadius="rounded-0"
                                 borderRadiusSize="default"
-                                image="#/sites/industrial/files/industrial_featured_img_2.jpg"
                                 j:view="industrial.content"
                                 jcr:mixinTypes="bootstrap4mix:imageAdvancedSettings jmix:renderable"
                                 jcr:primaryType="bootstrap4nt:figure"
@@ -387,6 +494,39 @@
                           root="homePage"
                           ulClass="list-unstyled footer-link"/>
                         </footer-nav>
+                        <home-carousel-list jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Home carousel list"/>
+                            <home-carousel class="home-slider owl-carousel"
+                                 jcr:mixinTypes="timix:owlcarouselAdvancedSettings"
+                                 jcr:primaryType="tint:owlcarousel"
+                                 options="{&#xA;    loop:true,&#xA;    autoplay: true,&#xA;    margin:0,&#xA;    animateOut: 'fadeOut',&#xA;    animateIn: 'fadeIn',&#xA;    nav:true,&#xA;    autoplayHoverPause: true,&#xA;    items: 1,&#xA;    dragTouch: false,&#xA;    navText : [&#34;&lt;span class='ion-chevron-left'&gt;&lt;/span&gt;&#34;,&#34;&lt;span class='ion-chevron-right'&gt;&lt;/span&gt;&#34;],&#xA;    responsive:{&#xA;      0:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      600:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      1000:{&#xA;        items:1,&#xA;        nav:true&#xA;      }&#xA;    }&#xA;}">
+                                <we-are-industrial-company carouselType="standard"
+                                                image="#/sites/i2/files/images/industrial_hero_1.jpg"
+                                                jcr:mixinTypes="timix:sCarouselItem"
+                                                jcr:primaryType="tint:owlcarouselItem">
+                                    <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
+                                          jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="We Are Industrial Company"
+                                          videoURL="https://vimeo.com/59256790"/>
+                                </we-are-industrial-company>
+                                <the-best-level-of-excellence-in carouselType="standard"
+                                                      image="#/sites/i2/files/images/industrial_hero_2.jpg"
+                                                      jcr:mixinTypes="timix:sCarouselItem"
+                                                      jcr:primaryType="tint:owlcarouselItem">
+                                    <j:translation_en caption="&lt;h1&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fuga, hic quae molestias aperiam deserunt!&lt;/p&gt;&#xA;"
+                                          jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="The Best Level of Excellence in Steel Fabrication"
+                                          videoURL="https://vimeo.com/59256790"/>
+                                </the-best-level-of-excellence-in>
+                            </home-carousel>
+                        </home-carousel-list>
                     </templates>
                 </contents>
                 <templates jcr:primaryType="jnt:templatesFolder">
