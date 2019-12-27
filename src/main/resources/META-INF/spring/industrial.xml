@@ -8,4 +8,8 @@
     <bean id="btnCarouselItemTypeInitializer" class="org.jahia.modules.template.bootstrap4.industrial.initializers.carouselItemTypeInitializer">
         <property name="key" value="carouselItemTypeInitializer" />
     </bean>
+    <bean id="btnGenericContentTypeInitializer" class="org.jahia.modules.template.bootstrap4.industrial.initializers.genericContentTypeInitializer">
+        <property name="key" value="genericContentTypeInitializer" />
+    </bean>
+
 </beans>

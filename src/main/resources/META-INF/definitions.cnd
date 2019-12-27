@@ -7,6 +7,7 @@
 
 [timix:industrial] > jmix:droppableContent, jmix:editorialContent mixin
 
+//*** GALLERY IMAGE //
 [tint:galleryImage] > jnt:content, timix:industrial, bootstrap4mix:image, mix:title
  - linkType (string, choicelist[linkTypeInitializer,resourceBundle]) = 'internalLink' autocreated indexed=no < 'internalLink', 'externalLink'
  - heading (string) internationalized
@@ -19,7 +20,10 @@
 [timix:externalLink] > jmix:templateMixin mixin
  extends = tint:galleryImage
  - externalLink (string) = 'https://'
+// GALLERY IMAGE ***//
 
+
+//*** CAROUSEL //
 [tint:owlcarouselItem] > jnt:content, mix:title
  - carouselType (string, choicelist[carouselItemTypeInitializer,resourceBundle]) mandatory indexed=no < 'standard', 'testimonial'
 
@@ -43,4 +47,20 @@
 
 [tint:owlcarousel] > jnt:content, timix:industrial, jmix:list, jmix:siteContent orderable
  + * (tint:owlcarouselItem)
+//CAROUSEL ***//
 
+
+//*** BLOG POST //
+// BLOG POST ***//
+
+//*** GENERIC CONTENT //
+[tint:genericContent] > jnt:content, timix:industrial
+ - contentType (string, choicelist[genericContentTypeInitializer,resourceBundle]) mandatory indexed=no < 'heading', 'halfBlock'
+ - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
+ - body (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
+
+[timix:halfBlockAdvancedSettings] mixin
+ extends = tint:genericContent
+ itemtype = content
+ - imagePosition (string, choicelist[resourceBundle]) = 'left' autocreated indexed=no < 'left', 'right'
+// GENERIC CONTENT ***//
