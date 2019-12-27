@@ -484,6 +484,78 @@
                                     jcr:primaryType="jnt:translation"
                                     jcr:title="Generic content right image list"/>
                         </generic-content-right-image-list>
+                        <bandeau-list jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Bandeau list"/>
+                            <bandeau-section gridClasses="col-lg-8,col-lg-4 text-lg-right"
+                                   gridLayout="fixed-width"
+                                   jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
+                                   jcr:primaryType="bootstrap4nt:grid"
+                                   rowCssClass="align-items-center"
+                                   rowHorizontalAlignment="default"
+                                   rowVerticalAlignment="default"
+                                   sectionCssClass="section bg-primary"
+                                   sectionElement="section"
+                                   typeOfGrid="customGrid">
+                                <bandeau-section-col0 jcr:primaryType="jnt:contentList">
+                                    <text jcr:primaryType="bootstrap4nt:text">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Get Started With Industrial Free Template&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;"/>
+                                    </text>
+                                </bandeau-section-col0>
+                                <bandeau-section-col1 jcr:primaryType="jnt:contentList">
+                                    <text jcr:primaryType="bootstrap4nt:text">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://free-template.co/&#34;&gt;Download This Template&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                                    </text>
+                                </bandeau-section-col1>
+                            </bandeau-section>
+                        </bandeau-list>
+                        <half-block-list jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Half block list"/>
+                            <half-block-section jcr:mixinTypes="bootstrap4mix:createSection"
+                                      jcr:primaryType="bootstrap4nt:grid"
+                                      sectionElement="section">
+                                <half-block-section jcr:primaryType="jnt:contentList">
+                                    <About_x0020_Us contentType="halfBlock"
+                                        image="#/modules/industrial/files/images/industrial_hero_1.jpg"
+                                        jcr:primaryType="tint:genericContent">
+                                        <j:translation_en body="&lt;h3 class=&#34;mb-4&#34;&gt;Our Mission&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Learn More&lt;/a&gt;&lt;/p&gt;&#xA;"
+                                             jcr:language="en"
+                                             jcr:primaryType="jnt:translation"/>
+                                    </About_x0020_Us>
+                                    <genericcontent contentType="halfBlock"
+                                        image="#/modules/industrial/files/images/industrial_hero_2.jpg"
+                                        imagePosition="right"
+                                        jcr:mixinTypes="timix:halfBlockAdvancedSettings"
+                                        jcr:primaryType="tint:genericContent">
+                                        <j:translation_en body="&lt;h3 class=&#34;mb-4&#34;&gt;Company History&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Learn More&lt;/a&gt;&lt;/p&gt;&#xA;"
+                                             jcr:language="en"
+                                             jcr:primaryType="jnt:translation"/>
+                                    </genericcontent>
+                                </half-block-section>
+                            </half-block-section>
+                        </half-block-list>
+                        <heading-list jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Heading List"/>
+                            <genericcontent contentType="heading"
+                                  image="#/modules/industrial/files/images/industrial_hero_3.jpg"
+                                  jcr:primaryType="tint:genericContent">
+                                <j:translation_en body="&lt;h1 class=&#34;pt-5&#34;&gt;&lt;span&gt;About Us&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.&lt;/p&gt;&#xA;"
+                                       jcr:language="en"
+                                       jcr:primaryType="jnt:translation"/>
+                            </genericcontent>
+                        </heading-list>
                         <features-list jcr:primaryType="jnt:contentList">
                             <j:translation_en jcr:language="en"
                                     jcr:mixinTypes="mix:title"
@@ -556,55 +628,78 @@
                                     jcr:mixinTypes="mix:title"
                                     jcr:primaryType="jnt:translation"
                                     jcr:title="Testimonial carousel list"/>
-                            <testimonial-carousel class="nonloop-block-11 owl-carousel"
-                                        jcr:mixinTypes="timix:owlcarouselAdvancedSettings"
-                                        jcr:primaryType="tint:owlcarousel"
-                                        options="{&#xA;      center: false,&#xA;      items: 1,&#xA;      loop: false,&#xA;      stagePadding: 20,&#xA;      margin:50,&#xA;      nav: true,&#xA;      smartSpeed: 1000,&#xA;      navText: ['&lt;span class=&#34;ion-chevron-left&#34;&gt;', '&lt;span class=&#34;ion-chevron-right&#34;&gt;'],&#xA;      responsive:{&#xA;        600:{&#xA;          stagePadding: 20,&#xA;          items:1&#xA;        },&#xA;        800:{&#xA;          stagePadding: 20,&#xA;          items:1&#xA;        },&#xA;        1000:{&#xA;          // stagePadding: 200,&#xA;          items:1&#xA;        }&#xA;      }&#xA;    }">
-                                <john-smith avatar="#/modules/industrial/files/images/person_3.jpg"
-                                 carouselType="testimonial"
-                                 jcr:mixinTypes="timix:tCarouselItem"
-                                 jcr:primaryType="tint:owlcarouselItem">
-                                    <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;John Smith&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Free-Template.co Client&lt;/span&gt;&lt;/div&gt;&#xA;"
-                                          jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="John Smith"
-                                          testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"/>
-                                </john-smith>
-                                <lily-qwan avatar="#/modules/industrial/files/images/person_1.jpg"
-                                carouselType="testimonial"
-                                jcr:mixinTypes="timix:tCarouselItem"
-                                jcr:primaryType="tint:owlcarouselItem">
-                                    <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Lily Qwan&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Open-Template.co Partner&lt;/span&gt;&lt;/div&gt;&#xA;"
-                                          jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Lily Qwan"
-                                          testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"/>
-                                </lily-qwan>
-                                <joshua-darren avatar="#/modules/industrial/files/images/person_2.jpg"
-                                    carouselType="testimonial"
-                                    jcr:mixinTypes="timix:tCarouselItem"
-                                    jcr:primaryType="tint:owlcarouselItem">
-                                    <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Joshua Darren&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Free-Content.co Client&lt;/span&gt;&lt;/div&gt;&#xA;"
-                                          jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Joshua Darren"
-                                          testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"/>
-                                </joshua-darren>
-                                <marta-brown avatar="#/modules/industrial/files/images/person_4.jpg"
-                                  carouselType="testimonial"
-                                  jcr:mixinTypes="timix:tCarouselItem"
-                                  jcr:primaryType="tint:owlcarouselItem">
-                                    <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Marta Brown&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Jahia.com Partner&lt;/span&gt;&lt;/div&gt;&#xA;"
-                                          jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="Marta Brown"
-                                          testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"/>
-                                </marta-brown>
-                            </testimonial-carousel>
+                            <testimonial-section gridLayout="fixed-width"
+                                       jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createSection"
+                                       jcr:primaryType="bootstrap4nt:grid"
+                                       sectionCssClass="section bg-light block-11"
+                                       sectionElement="div">
+                                <testimonial-section jcr:primaryType="jnt:contentList">
+                                    <testimonial-title gridClasses="col-md-8 text-center"
+                                           jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                           jcr:primaryType="bootstrap4nt:grid"
+                                           rowCssClass="justify-content-center mb-5"
+                                           rowHorizontalAlignment="default"
+                                           rowVerticalAlignment="default"
+                                           typeOfGrid="customGrid">
+                                        <testimonial-title-col0 jcr:primaryType="jnt:contentList">
+                                            <text jcr:primaryType="bootstrap4nt:text">
+                                                <j:translation_en jcr:language="en"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Testimonial&lt;/h2&gt;&#xA;"/>
+                                            </text>
+                                        </testimonial-title-col0>
+                                    </testimonial-title>
+                                    <testimonial-carousel class="nonloop-block-11 owl-carousel"
+                                              jcr:mixinTypes="timix:owlcarouselAdvancedSettings"
+                                              jcr:primaryType="tint:owlcarousel"
+                                              options="{&#xA;      center: false,&#xA;      items: 1,&#xA;      loop: false,&#xA;      stagePadding: 20,&#xA;      margin:50,&#xA;      nav: true,&#xA;      smartSpeed: 1000,&#xA;      navText: ['&lt;span class=&#34;ion-chevron-left&#34;&gt;', '&lt;span class=&#34;ion-chevron-right&#34;&gt;'],&#xA;      responsive:{&#xA;        600:{&#xA;          stagePadding: 20,&#xA;          items:1&#xA;        },&#xA;        800:{&#xA;          stagePadding: 20,&#xA;          items:1&#xA;        },&#xA;        1000:{&#xA;          // stagePadding: 200,&#xA;          items:1&#xA;        }&#xA;      }&#xA;    }">
+                                        <john-smith avatar="#/modules/industrial/files/images/person_3.jpg"
+                                       carouselType="testimonial"
+                                       jcr:mixinTypes="timix:tCarouselItem"
+                                       jcr:primaryType="tint:owlcarouselItem">
+                                            <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;John Smith&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Free-Template.co Client&lt;/span&gt;&lt;/div&gt;&#xA;"
+                                                jcr:language="en"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="John Smith"
+                                                testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"/>
+                                        </john-smith>
+                                        <lily-qwan avatar="#/modules/industrial/files/images/person_1.jpg"
+                                      carouselType="testimonial"
+                                      jcr:mixinTypes="timix:tCarouselItem"
+                                      jcr:primaryType="tint:owlcarouselItem">
+                                            <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Lily Qwan&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Open-Template.co Partner&lt;/span&gt;&lt;/div&gt;&#xA;"
+                                                jcr:language="en"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Lily Qwan"
+                                                testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"/>
+                                        </lily-qwan>
+                                        <joshua-darren avatar="#/modules/industrial/files/images/person_2.jpg"
+                                          carouselType="testimonial"
+                                          jcr:mixinTypes="timix:tCarouselItem"
+                                          jcr:primaryType="tint:owlcarouselItem">
+                                            <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Joshua Darren&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Free-Content.co Client&lt;/span&gt;&lt;/div&gt;&#xA;"
+                                                jcr:language="en"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Joshua Darren"
+                                                testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"/>
+                                        </joshua-darren>
+                                        <marta-brown avatar="#/modules/industrial/files/images/person_4.jpg"
+                                        carouselType="testimonial"
+                                        jcr:mixinTypes="timix:tCarouselItem"
+                                        jcr:primaryType="tint:owlcarouselItem">
+                                            <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Marta Brown&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Jahia.com Partner&lt;/span&gt;&lt;/div&gt;&#xA;"
+                                                jcr:language="en"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Marta Brown"
+                                                testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"/>
+                                        </marta-brown>
+                                    </testimonial-carousel>
+                                </testimonial-section>
+                            </testimonial-section>
                         </testimonial-carousel-list>
                         <blog-posts-list jcr:primaryType="jnt:contentList">
                             <j:translation_en jcr:language="en"
@@ -639,71 +734,40 @@
                                rowVerticalAlignment="default"
                                typeOfGrid="predefinedGrid">
                                         <row-2-main jcr:primaryType="jnt:contentList">
-                                            <blog-post-1 jcr:mixinTypes="jmix:referencesInField"
-                                           jcr:primaryType="bootstrap4nt:text">
+                                            <post-0-1 jcr:mixinTypes="jmix:referencesInField"
+                                        jcr:primaryType="bootstrap4nt:text">
                                                 <j:referenceInField_text_en_1 j:fieldName="text_en"
                                                                j:reference="#/modules/industrial/files/images/industrial_blog_1.jpg"
                                                                jcr:primaryType="jnt:referenceInField"/>
                                                 <j:translation_en jcr:language="en"
                                                    jcr:primaryType="jnt:translation"
                                                    text="&lt;div class=&#34;media mb-4 d-md-flex d-block element-animate&#34;&gt;&lt;a class=&#34;mr-5&#34; href=&#34;#&#34;&gt;&lt;img alt=&#34;industrial_blog_1.jpg&#34; class=&#34;img-fluid&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; /&gt;&lt;/a&gt;&#xA;&lt;div class=&#34;media-body&#34;&gt;&lt;span class=&#34;post-meta&#34;&gt;Feb 26th, 2018&lt;/span&gt;&#xA;&lt;h3 class=&#34;mt-2 text-black&#34;&gt;&lt;a href=&#34;#&#34;&gt;How to handle any intercate custom design&lt;/a&gt;&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-android-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                                            </blog-post-1>
+                                            </post-0-1>
                                         </row-2-main>
                                         <row-2-side jcr:primaryType="jnt:contentList">
-                                            <blog-post-2 jcr:mixinTypes="jmix:referencesInField"
-                                           jcr:primaryType="bootstrap4nt:text">
+                                            <post-1-1 jcr:mixinTypes="jmix:referencesInField"
+                                        jcr:primaryType="bootstrap4nt:text">
                                                 <j:referenceInField_text_en_1 j:fieldName="text_en"
                                                                j:reference="#/modules/industrial/files/images/industrial_blog_2.jpg"
                                                                jcr:primaryType="jnt:referenceInField"/>
                                                 <j:translation_en jcr:language="en"
                                                    jcr:primaryType="jnt:translation"
                                                    text="&lt;div class=&#34;media mb-4 d-md-flex d-block element-animate&#34;&gt;&lt;a class=&#34;mr-5&#34; href=&#34;#&#34;&gt;&lt;img alt=&#34;industrial_blog_2.jpg&#34; class=&#34;img-fluid&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; /&gt;&lt;/a&gt;&#xA;&lt;div class=&#34;media-body&#34;&gt;&lt;span class=&#34;post-meta&#34;&gt;Feb 26th, 2018&lt;/span&gt;&#xA;&lt;h3 class=&#34;mt-2 text-black&#34;&gt;&lt;a href=&#34;#&#34;&gt;How to handle any intercate custom design&lt;/a&gt;&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-android-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                                            </blog-post-2>
-                                            <blog-post-3 jcr:mixinTypes="jmix:referencesInField"
-                                           jcr:primaryType="bootstrap4nt:text">
+                                            </post-1-1>
+                                            <post-1-2 jcr:mixinTypes="jmix:referencesInField"
+                                        jcr:primaryType="bootstrap4nt:text">
                                                 <j:referenceInField_text_en_1 j:fieldName="text_en"
                                                                j:reference="#/modules/industrial/files/images/industrial_blog_3.jpg"
                                                                jcr:primaryType="jnt:referenceInField"/>
                                                 <j:translation_en jcr:language="en"
                                                    jcr:primaryType="jnt:translation"
                                                    text="&lt;div class=&#34;media mb-4 d-md-flex d-block element-animate&#34;&gt;&lt;a class=&#34;mr-5&#34; href=&#34;#&#34;&gt;&lt;img alt=&#34;industrial_blog_3.jpg&#34; class=&#34;img-fluid&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; /&gt;&lt;/a&gt;&#xA;&lt;div class=&#34;media-body&#34;&gt;&lt;span class=&#34;post-meta&#34;&gt;Feb 26th, 2018&lt;/span&gt;&#xA;&lt;h3 class=&#34;mt-2 text-black&#34;&gt;&lt;a href=&#34;#&#34;&gt;How to handle any intercate custom design&lt;/a&gt;&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-android-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                                            </blog-post-3>
+                                            </post-1-2>
                                         </row-2-side>
                                     </row-2>
                                 </Blog_x0020_posts_x0020_section>
                             </Blog_x0020_posts_x0020_section>
                         </blog-posts-list>
-                        <bandeau-list jcr:primaryType="jnt:contentList">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Bandeau list"/>
-                            <bandeau-section gridClasses="col-lg-8,col-lg-4 text-lg-right"
-                                   gridLayout="fixed-width"
-                                   jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
-                                   jcr:primaryType="bootstrap4nt:grid"
-                                   rowCssClass="align-items-center"
-                                   rowHorizontalAlignment="default"
-                                   rowVerticalAlignment="default"
-                                   sectionCssClass="section bg-primary"
-                                   sectionElement="section"
-                                   typeOfGrid="customGrid">
-                                <bandeau-section-col0 jcr:primaryType="jnt:contentList">
-                                    <text jcr:primaryType="bootstrap4nt:text">
-                                        <j:translation_en jcr:language="en"
-                                             jcr:primaryType="jnt:translation"
-                                             text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Get Started With Industrial Free Template&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;"/>
-                                    </text>
-                                </bandeau-section-col0>
-                                <bandeau-section-col1 jcr:primaryType="jnt:contentList">
-                                    <text jcr:primaryType="bootstrap4nt:text">
-                                        <j:translation_en jcr:language="en"
-                                             jcr:primaryType="jnt:translation"
-                                             text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://free-template.co/&#34;&gt;Download This Template&lt;/a&gt;&lt;/p&gt;&#xA;"/>
-                                    </text>
-                                </bandeau-section-col1>
-                            </bandeau-section>
-                        </bandeau-list>
                     </templates>
                 </contents>
                 <templates jcr:primaryType="jnt:templatesFolder">
@@ -774,36 +838,6 @@
                                 </html5-footer-tag>
                             </html5-footer-tag>
                         </footer-container>
-                        <page-content jcr:primaryType="jnt:contentList">
-                            <half-block-list jcr:primaryType="jnt:contentList">
-                                <j:translation_en jcr:language="en"
-                                       jcr:mixinTypes="mix:title"
-                                       jcr:primaryType="jnt:translation"
-                                       jcr:title="Half block list"/>
-                                <half-block-section jcr:mixinTypes="bootstrap4mix:createSection"
-                                         jcr:primaryType="bootstrap4nt:grid"
-                                         sectionElement="section">
-                                    <half-block-section jcr:primaryType="jnt:contentList">
-                                        <About_x0020_Us contentType="halfBlock"
-                                           image="#/modules/industrial/files/images/industrial_hero_1.jpg"
-                                           jcr:primaryType="tint:genericContent">
-                                            <j:translation_en body="&lt;h3 class=&#34;mb-4&#34;&gt;Our Mission&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Learn More&lt;/a&gt;&lt;/p&gt;&#xA;"
-                                                jcr:language="en"
-                                                jcr:primaryType="jnt:translation"/>
-                                        </About_x0020_Us>
-                                        <genericcontent contentType="halfBlock"
-                                           image="#/modules/industrial/files/images/industrial_hero_2.jpg"
-                                           imagePosition="left"
-                                           jcr:mixinTypes="timix:halfBlockAdvancedSettings"
-                                           jcr:primaryType="tint:genericContent">
-                                            <j:translation_en body="&lt;h3 class=&#34;mb-4&#34;&gt;Company History&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Learn More&lt;/a&gt;&lt;/p&gt;&#xA;"
-                                                jcr:language="en"
-                                                jcr:primaryType="jnt:translation"/>
-                                        </genericcontent>
-                                    </half-block-section>
-                                </half-block-section>
-                            </half-block-list>
-                        </page-content>
                     </base>
                     <content-template j:applyOn="jnt:content"
                               j:hiddenTemplate="true"

@@ -59,7 +59,7 @@
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
  - body (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
 
-[timix:halfBlockAdvancedSettings] mixin
+[timix:halfBlockAdvancedSettings] > jmix:templateMixin mixin
  extends = tint:genericContent
  itemtype = content
  - imagePosition (string, choicelist[resourceBundle]) = 'left' autocreated indexed=no < 'left', 'right'
