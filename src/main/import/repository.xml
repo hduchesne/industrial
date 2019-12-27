@@ -527,6 +527,21 @@
                                 </the-best-level-of-excellence-in>
                             </home-carousel>
                         </home-carousel-list>
+                        <navbar addContainerWithinTheNavbar="true"
+                       addLoginButton="false"
+                       buttonClass="navbar-toggler"
+                       divClass="collapse navbar-collapse"
+                       j:view="industrial"
+                       jcr:mixinTypes="bootstrap4mix:advancedNavbar bootstrap4mix:brand bootstrap4mix:customBaseNavbar bootstrap4mix:customButtonNavbar jmix:renderable"
+                       jcr:primaryType="bootstrap4nt:navbar"
+                       navClass="navbar navbar-expand-lg navbar-dark bg-dark"
+                       recursive="true"
+                       root="homePage"
+                       ulClass="navbar-nav pl-md-5 ml-auto">
+                            <j:translation_en brandText="industrial"
+                                    jcr:language="en"
+                                    jcr:primaryType="jnt:translation"/>
+                        </navbar>
                     </templates>
                 </contents>
                 <templates jcr:primaryType="jnt:templatesFolder">
@@ -543,28 +558,11 @@
                         <home jcr:primaryType="jnt:pageTemplate"/>
                         <simple jcr:primaryType="jnt:pageTemplate"/>
                         <header-container jcr:primaryType="jnt:contentList">
-                            <html-header-tag jcr:mixinTypes="bootstrap4mix:createSection"
+                            <main-navigation jcr:mixinTypes="bootstrap4mix:createAbsoluteAreas bootstrap4mix:createSection"
                                    jcr:primaryType="bootstrap4nt:grid"
+                                   level="0"
                                    sectionElement="header"
-                                   sectionRole="banner">
-                                <html-header-tag jcr:primaryType="jnt:contentList">
-                                    <navbar addContainerWithinTheNavbar="true"
-                                addLoginButton="false"
-                                buttonClass="navbar-toggler"
-                                divClass="collapse navbar-collapse"
-                                j:view="industrial"
-                                jcr:mixinTypes="bootstrap4mix:advancedNavbar bootstrap4mix:brand bootstrap4mix:customBaseNavbar bootstrap4mix:customButtonNavbar jmix:renderable"
-                                jcr:primaryType="bootstrap4nt:navbar"
-                                navClass="navbar navbar-expand-lg navbar-dark bg-dark"
-                                recursive="true"
-                                root="homePage"
-                                ulClass="navbar-nav pl-md-5 ml-auto">
-                                        <j:translation_en brandText="industrial"
-                                             jcr:language="en"
-                                             jcr:primaryType="jnt:translation"/>
-                                    </navbar>
-                                </html-header-tag>
-                            </html-header-tag>
+                                   sectionRole="banner"/>
                         </header-container>
                         <footer-container jcr:primaryType="jnt:contentList">
                             <html5-footer-tag gridLayout="fixed-width"
