@@ -7,21 +7,24 @@
 
 [timix:industrial] > jmix:droppableContent, jmix:editorialContent mixin
 
-//*** GALLERY IMAGE //
-[tint:galleryImage] > jnt:content, timix:industrial, bootstrap4mix:image, mix:title
+//*** CONTENT LINKER //
+[timix:linkTo] > jmix:templateMixin  mixin
  - linkType (string, choicelist[linkTypeInitializer,resourceBundle]) = 'internalLink' autocreated indexed=no < 'internalLink', 'externalLink'
- - heading (string) internationalized
- - iconClass (string)
 
 [timix:internalLink] > jmix:templateMixin mixin
- extends = tint:galleryImage
+ extends = timix:linkTo
  - internalLink (weakreference, picker[type='editoriallink']) < 'jmix:droppableContent', 'jnt:page', 'jnt:file'
 
 [timix:externalLink] > jmix:templateMixin mixin
- extends = tint:galleryImage
+ extends = timix:linkTo
  - externalLink (string) = 'https://'
-// GALLERY IMAGE ***//
+// CONTENT LINKER ***//
 
+//*** GALLERY IMAGE //
+[tint:galleryImage] > jnt:content, timix:industrial, bootstrap4mix:image, timix:linkTo, mix:title
+ - heading (string) internationalized
+ - iconClass (string)
+// GALLERY IMAGE ***//
 
 //*** CAROUSEL //
 [tint:owlcarouselItem] > jnt:content, mix:title
@@ -55,9 +58,13 @@
 
 //*** GENERIC CONTENT //
 [tint:genericContent] > jnt:content, timix:industrial
- - contentType (string, choicelist[genericContentTypeInitializer,resourceBundle]) mandatory indexed=no < 'heading', 'halfBlock'
+ - contentType (string, choicelist[genericContentTypeInitializer,resourceBundle]) mandatory indexed=no < 'heading', 'halfBlock', 'teamCard'
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
  - body (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
+
+//TODO linkTo 2 levels doesn't work
+//[timix:teamCardExtra] > timix:linkTo mixin
+// extends = tint:genericContent
 
 [timix:halfBlockAdvancedSettings] > jmix:templateMixin mixin
  extends = tint:genericContent

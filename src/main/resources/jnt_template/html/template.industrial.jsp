@@ -29,7 +29,8 @@
 		<template:addResources type="css" resources="animate.css" />
 		<template:addResources type="css" resources="owl.carousel.min.css" />
 		<template:addResources type="css" resources="jquery.fancybox.min.css" />
-		<template:addResources type="css" resources="ionicons.min.css" />
+<%--		<template:addResources type="css" resources="ionicons.min.css" />--%>
+	  	<template:addResources type="css" resources="ionicons.4.6.3.min.css" />
 		<template:addResources type="css" resources="font-awesome.min.css" />
 
 		<!-- Theme Style -->
@@ -57,6 +58,7 @@
       	<template:addResources type="javascript" resources="jquery.waypoints.min.js" targetTag="body"/>
       	<template:addResources type="javascript" resources="jquery.fancybox.min.js" targetTag="body"/>
       	<template:addResources type="javascript" resources="main.js" targetTag="body"/>
+<%--        <script src="https://unpkg.com/ionicons@4.6.3/dist/ionicons.js"></script>--%>
 	</body>
   
 </html>

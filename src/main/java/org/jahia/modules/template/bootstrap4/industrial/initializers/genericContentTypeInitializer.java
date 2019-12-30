@@ -42,13 +42,19 @@ public class genericContentTypeInitializer extends AbstractChoiceListRenderer im
 
         //heading
         myPropertiesMap = new HashMap<String, Object>();
-        //myPropertiesMap.put("addMixin","timix:sCarouselItem");
+        //myPropertiesMap.put("addMixin","timix:");
         myChoiceList.add(new ChoiceListValue("heading",myPropertiesMap,new ValueImpl("heading", PropertyType.STRING, false)));
 
         //halfBlock
         myPropertiesMap = new HashMap<String, Object>();
         myPropertiesMap.put("addMixin","timix:halfBlockAdvancedSettings");
         myChoiceList.add(new ChoiceListValue("halfBlock",myPropertiesMap,new ValueImpl("halfBlock", PropertyType.STRING, false)));
+
+        //teamCard
+        myPropertiesMap = new HashMap<String, Object>();
+//        myPropertiesMap.put("addMixin","timix:teamCardExtra");
+        myChoiceList.add(new ChoiceListValue("teamCard",myPropertiesMap,new ValueImpl("teamCard", PropertyType.STRING, false)));
+
 
         //Return the list
         return myChoiceList;

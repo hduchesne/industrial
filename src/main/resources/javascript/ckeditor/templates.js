@@ -38,6 +38,13 @@ CKEDITOR.addTemplates('industrial',
                 description:'Heading content used in top of webpages',
                 html:'<h1 class="pt-5"><span>About Us</span></h1>\n' +
                     '<p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.</p>'
+            },{
+                title:'Team card body',
+                image:'team-card-body.png',
+                description:'',
+                html:'<div class="media-body">\n' +
+                    '  <h3 class="mt-0 text-black">Mike Richardson</h3>\n' +
+                    '</div>'
             }
             // {
             //     title:'Blog post 1',
@@ -49,7 +56,7 @@ CKEDITOR.addTemplates('industrial',
             //         '    <span class="post-meta">Feb 26th, 2018</span>\n' +
             //         '    <h3 class="mt-2 text-black"><a href="#">How to handle any intercate custom design</a></h3>\n' +
             //         '    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>\n' +
-            //         '    <p><a href="#" class="readmore">Read More <span class="ion-android-arrow-dropright-circle"></span></a></p>\n' +
+            //         '    <p><a href="#" class="readmore">Read More <span class="ion-md-arrow-dropright-circle"></span></a></p>\n' +
             //         '  </div>\n' +
             //         '</div>'
             // }
