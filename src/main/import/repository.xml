@@ -182,43 +182,6 @@
                                  jcr:mixinTypes="mix:title"
                                  jcr:primaryType="jnt:translation"
                                  jcr:title="templates"/>
-                        <media-list jcr:primaryType="jnt:contentList">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Media-list"/>
-                            <layout-and-grid gridClasses="col-md-6 col-lg-4 element-animate,col-md-6 col-lg-4 element-animate,col-md-6 col-lg-4 element-animate"
-                                   gridLayout="fixed-width"
-                                   jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
-                                   jcr:primaryType="bootstrap4nt:grid"
-                                   rowHorizontalAlignment="default"
-                                   rowVerticalAlignment="default"
-                                   sectionCssClass="section bg-light"
-                                   sectionElement="section"
-                                   typeOfGrid="customGrid">
-                                <layout-and-grid-col0 jcr:primaryType="jnt:contentList">
-                                    <text jcr:primaryType="bootstrap4nt:text">
-                                        <j:translation_en jcr:language="en"
-                                             jcr:primaryType="jnt:translation"
-                                             text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-android-notifications text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Modern Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                                    </text>
-                                </layout-and-grid-col0>
-                                <layout-and-grid-col1 jcr:primaryType="jnt:contentList">
-                                    <text jcr:primaryType="bootstrap4nt:text">
-                                        <j:translation_en jcr:language="en"
-                                             jcr:primaryType="jnt:translation"
-                                             text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-heart text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Built With Passion&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                                    </text>
-                                </layout-and-grid-col1>
-                                <layout-and-grid-col2 jcr:primaryType="jnt:contentList">
-                                    <text jcr:primaryType="bootstrap4nt:text">
-                                        <j:translation_en jcr:language="en"
-                                             jcr:primaryType="jnt:translation"
-                                             text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-flash text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Fast Loading&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                                    </text>
-                                </layout-and-grid-col2>
-                            </layout-and-grid>
-                        </media-list>
                         <footer-about jcr:primaryType="bootstrap4nt:text">
                             <j:translation_en jcr:language="en"
                                     jcr:primaryType="jnt:translation"
@@ -294,78 +257,6 @@
                                 </the-best-level-of-excellence-in>
                             </home-carousel>
                         </home-carousel-list>
-                        <generic-content-left-image-list jcr:mixinTypes="jmix:accessControlled"
-                                                jcr:primaryType="jnt:contentList">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Generic content left image list"/>
-                            <content-section-grid gridClasses="col-lg-7 order-md-1,col-md-5 pl-md-5 mb-5 order-md-2"
-                                        gridLayout="fixed-width"
-                                        jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
-                                        jcr:primaryType="bootstrap4nt:grid"
-                                        rowCssClass="align-items-center mb-5"
-                                        rowHorizontalAlignment="default"
-                                        rowVerticalAlignment="default"
-                                        sectionCssClass="section element-animate bg-light"
-                                        sectionElement="section"
-                                        typeOfGrid="customGrid">
-                                <content-section-grid-col0 jcr:primaryType="jnt:contentList">
-                                    <figure align="default"
-                                borderRadius="rounded-0"
-                                borderRadiusSize="default"
-                                image="#/modules/industrial/files/images/industrial_featured_img_2.jpg"
-                                j:view="industrial.content"
-                                jcr:mixinTypes="bootstrap4mix:imageAdvancedSettings jmix:renderable"
-                                jcr:primaryType="bootstrap4nt:figure"
-                                responsive="true"
-                                thumbnails="false">
-                                        <j:translation_en alt="Free template by Free-Template.co"
-                                             jcr:language="en"
-                                             jcr:primaryType="jnt:translation"/>
-                                    </figure>
-                                </content-section-grid-col0>
-                                <content-section-grid-col1 jcr:primaryType="jnt:contentList">
-                                    <text jcr:mixinTypes="jmix:referencesInField"
-                              jcr:primaryType="bootstrap4nt:text">
-                                        <j:translation_en jcr:language="en"
-                                             jcr:primaryType="jnt:translation"
-                                             text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;We&amp;#39;ll handle any intercate custom design&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34; title=&#34;About&#34;&gt;Read More &lt;span class=&#34;ion-android-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                                    </text>
-                                </content-section-grid-col1>
-                            </content-section-grid>
-                            <j:acl j:inherit="true" jcr:primaryType="jnt:acl"/>
-                        </generic-content-left-image-list>
-                        <generic-content-right-image-list jcr:primaryType="jnt:contentList">
-                            <generic-content-right-image gridClasses="col-lg-7 order-md-2,col-md-5 pr-md-5 mb-5"
-                                               gridLayout="fixed-width"
-                                               jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
-                                               jcr:primaryType="bootstrap4nt:grid"
-                                               rowCssClass="align-items-center mb-5"
-                                               rowHorizontalAlignment="default"
-                                               rowVerticalAlignment="default"
-                                               sectionCssClass="section element-animate"
-                                               sectionElement="section"
-                                               typeOfGrid="customGrid">
-                                <generic-content-right-image-col0 jcr:primaryType="jnt:contentList">
-                                    <figure image="#/modules/industrial/files/images/industrial_featured_img_1.jpg"
-                                j:view="industrial.content"
-                                jcr:mixinTypes="jmix:renderable"
-                                jcr:primaryType="bootstrap4nt:figure"/>
-                                </generic-content-right-image-col0>
-                                <generic-content-right-image-col1 jcr:primaryType="jnt:contentList">
-                                    <text jcr:primaryType="bootstrap4nt:text">
-                                        <j:translation_en jcr:language="en"
-                                             jcr:primaryType="jnt:translation"
-                                             text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;Let&amp;#39;s Build Together&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-android-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                                    </text>
-                                </generic-content-right-image-col1>
-                            </generic-content-right-image>
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Generic content right image list"/>
-                        </generic-content-right-image-list>
                         <bandeau-list jcr:primaryType="jnt:contentList">
                             <j:translation_en jcr:language="en"
                                     jcr:mixinTypes="mix:title"
@@ -397,73 +288,6 @@
                                 </bandeau-section-col1>
                             </bandeau-section>
                         </bandeau-list>
-                        <features-list jcr:primaryType="jnt:contentList">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Features list"/>
-                            <Features-section gridLayout="fixed-width"
-                                    jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createSection"
-                                    jcr:primaryType="bootstrap4nt:grid"
-                                    sectionCssClass="section"
-                                    sectionElement="section">
-                                <Features-section jcr:primaryType="jnt:contentList">
-                                    <layout-and-grid gridClasses="col-12 text-center"
-                                         jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
-                                         jcr:primaryType="bootstrap4nt:grid"
-                                         rowCssClass="mb-5"
-                                         rowHorizontalAlignment="default"
-                                         rowVerticalAlignment="default"
-                                         typeOfGrid="customGrid">
-                                        <layout-and-grid-col0 jcr:primaryType="jnt:contentList">
-                                            <text jcr:primaryType="bootstrap4nt:text">
-                                                <j:translation_en jcr:language="en"
-                                                   jcr:primaryType="jnt:translation"
-                                                   text="&lt;h2&gt;We'll Handle Any Probles and Solve Them&lt;/h2&gt;"/>
-                                            </text>
-                                        </layout-and-grid-col0>
-                                    </layout-and-grid>
-                                    <layout-and-grid-1 gridClasses="col-lg-4 order-lg-2,col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1,col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3"
-                                           jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
-                                           jcr:primaryType="bootstrap4nt:grid"
-                                           rowCssClass="align-items-stretch"
-                                           rowHorizontalAlignment="default"
-                                           rowVerticalAlignment="default"
-                                           typeOfGrid="customGrid">
-                                        <layout-and-grid-1-col0 jcr:primaryType="jnt:contentList">
-                                            <figure image="#/modules/industrial/files/images/industrial_feature_1.jpg"
-                                      j:view="industrial.features"
-                                      jcr:mixinTypes="jmix:renderable"
-                                      jcr:primaryType="bootstrap4nt:figure"/>
-                                        </layout-and-grid-1-col0>
-                                        <layout-and-grid-1-col1 jcr:primaryType="jnt:contentList">
-                                            <text jcr:primaryType="bootstrap4nt:text">
-                                                <j:translation_en jcr:language="en"
-                                                   jcr:primaryType="jnt:translation"
-                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-easel display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Ducting Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                                            </text>
-                                            <text-1 jcr:primaryType="bootstrap4nt:text">
-                                                <j:translation_en jcr:language="en"
-                                                   jcr:primaryType="jnt:translation"
-                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-hammer display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Stacks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                                            </text-1>
-                                        </layout-and-grid-1-col1>
-                                        <layout-and-grid-1-col2 jcr:primaryType="jnt:contentList">
-                                            <text jcr:primaryType="bootstrap4nt:text">
-                                                <j:translation_en jcr:language="en"
-                                                   jcr:primaryType="jnt:translation"
-                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-cube display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Tanks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                                            </text>
-                                            <text-1 jcr:primaryType="bootstrap4nt:text">
-                                                <j:translation_en jcr:language="en"
-                                                   jcr:primaryType="jnt:translation"
-                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-clipboard display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Structural Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                                            </text-1>
-                                        </layout-and-grid-1-col2>
-                                    </layout-and-grid-1>
-                                </Features-section>
-                            </Features-section>
-                        </features-list>
                         <testimonial-carousel-list jcr:primaryType="jnt:contentList">
                             <j:translation_en jcr:language="en"
                                     jcr:mixinTypes="mix:title"
@@ -867,6 +691,182 @@
                                 </card-content-section>
                             </card-content-section>
                         </card-content-list>
+                        <features-list jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Features list"/>
+                            <Features-section gridLayout="fixed-width"
+                                    jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createSection"
+                                    jcr:primaryType="bootstrap4nt:grid"
+                                    sectionCssClass="section"
+                                    sectionElement="section">
+                                <Features-section jcr:primaryType="jnt:contentList">
+                                    <layout-and-grid gridClasses="col-12 text-center"
+                                         jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                         jcr:primaryType="bootstrap4nt:grid"
+                                         rowCssClass="mb-5"
+                                         rowHorizontalAlignment="default"
+                                         rowVerticalAlignment="default"
+                                         typeOfGrid="customGrid">
+                                        <layout-and-grid-col0 jcr:primaryType="jnt:contentList">
+                                            <text jcr:primaryType="bootstrap4nt:text">
+                                                <j:translation_en jcr:language="en"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;h2&gt;We'll Handle Any Probles and Solve Them&lt;/h2&gt;"/>
+                                            </text>
+                                        </layout-and-grid-col0>
+                                    </layout-and-grid>
+                                    <layout-and-grid-1 gridClasses="col-lg-4 order-lg-2,col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1,col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3"
+                                           jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                           jcr:primaryType="bootstrap4nt:grid"
+                                           rowCssClass="align-items-stretch"
+                                           rowHorizontalAlignment="default"
+                                           rowVerticalAlignment="default"
+                                           typeOfGrid="customGrid">
+                                        <layout-and-grid-1-col0 jcr:primaryType="jnt:contentList">
+                                            <figure image="#/modules/industrial/files/images/industrial_feature_1.jpg"
+                                      j:view="industrial.features"
+                                      jcr:mixinTypes="jmix:renderable"
+                                      jcr:primaryType="bootstrap4nt:figure"/>
+                                        </layout-and-grid-1-col0>
+                                        <layout-and-grid-1-col1 jcr:primaryType="jnt:contentList">
+                                            <text jcr:primaryType="bootstrap4nt:text">
+                                                <j:translation_en jcr:language="en"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-easel display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Ducting Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                            </text>
+                                            <text-1 jcr:primaryType="bootstrap4nt:text">
+                                                <j:translation_en jcr:language="en"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-hammer display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Stacks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                            </text-1>
+                                        </layout-and-grid-1-col1>
+                                        <layout-and-grid-1-col2 jcr:primaryType="jnt:contentList">
+                                            <text jcr:primaryType="bootstrap4nt:text">
+                                                <j:translation_en jcr:language="en"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-cube display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Tanks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                            </text>
+                                            <text-1 jcr:primaryType="bootstrap4nt:text">
+                                                <j:translation_en jcr:language="en"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-clipboard display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Structural Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                            </text-1>
+                                        </layout-and-grid-1-col2>
+                                    </layout-and-grid-1>
+                                </Features-section>
+                            </Features-section>
+                        </features-list>
+                        <media-list jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Media-list"/>
+                            <layout-and-grid gridClasses="col-md-6 col-lg-4 element-animate,col-md-6 col-lg-4 element-animate,col-md-6 col-lg-4 element-animate"
+                                   gridLayout="fixed-width"
+                                   jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
+                                   jcr:primaryType="bootstrap4nt:grid"
+                                   rowHorizontalAlignment="default"
+                                   rowVerticalAlignment="default"
+                                   sectionCssClass="section bg-light"
+                                   sectionElement="section"
+                                   typeOfGrid="customGrid">
+                                <layout-and-grid-col0 jcr:primaryType="jnt:contentList">
+                                    <text jcr:primaryType="bootstrap4nt:text">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-notifications text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Modern Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    </text>
+                                </layout-and-grid-col0>
+                                <layout-and-grid-col1 jcr:primaryType="jnt:contentList">
+                                    <text jcr:primaryType="bootstrap4nt:text">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-heart text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Built With Passion&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    </text>
+                                </layout-and-grid-col1>
+                                <layout-and-grid-col2 jcr:primaryType="jnt:contentList">
+                                    <text jcr:primaryType="bootstrap4nt:text">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-flash text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Fast Loading&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    </text>
+                                </layout-and-grid-col2>
+                            </layout-and-grid>
+                        </media-list>
+                        <generic-content-right-image-list jcr:primaryType="jnt:contentList">
+                            <generic-content-right-image gridClasses="col-lg-7 order-md-2,col-md-5 pr-md-5 mb-5"
+                                               gridLayout="fixed-width"
+                                               jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
+                                               jcr:primaryType="bootstrap4nt:grid"
+                                               rowCssClass="align-items-center mb-5"
+                                               rowHorizontalAlignment="default"
+                                               rowVerticalAlignment="default"
+                                               sectionCssClass="section element-animate"
+                                               sectionElement="section"
+                                               typeOfGrid="customGrid">
+                                <generic-content-right-image-col0 jcr:primaryType="jnt:contentList">
+                                    <figure image="#/modules/industrial/files/images/industrial_featured_img_1.jpg"
+                                j:view="industrial.content"
+                                jcr:mixinTypes="jmix:renderable"
+                                jcr:primaryType="bootstrap4nt:figure"/>
+                                </generic-content-right-image-col0>
+                                <generic-content-right-image-col1 jcr:primaryType="jnt:contentList">
+                                    <text jcr:primaryType="bootstrap4nt:text">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;Let&amp;#39;s Build Together&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    </text>
+                                </generic-content-right-image-col1>
+                            </generic-content-right-image>
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Generic content right image list"/>
+                        </generic-content-right-image-list>
+                        <generic-content-left-image-list jcr:mixinTypes="jmix:accessControlled"
+                                                jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Generic content left image list"/>
+                            <content-section-grid gridClasses="col-lg-7 order-md-1,col-md-5 pl-md-5 mb-5 order-md-2"
+                                        gridLayout="fixed-width"
+                                        jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
+                                        jcr:primaryType="bootstrap4nt:grid"
+                                        rowCssClass="align-items-center mb-5"
+                                        rowHorizontalAlignment="default"
+                                        rowVerticalAlignment="default"
+                                        sectionCssClass="section element-animate bg-light"
+                                        sectionElement="section"
+                                        typeOfGrid="customGrid">
+                                <content-section-grid-col0 jcr:primaryType="jnt:contentList">
+                                    <figure align="default"
+                                borderRadius="rounded-0"
+                                borderRadiusSize="default"
+                                image="#/modules/industrial/files/images/industrial_featured_img_2.jpg"
+                                j:view="industrial.content"
+                                jcr:mixinTypes="bootstrap4mix:imageAdvancedSettings jmix:renderable"
+                                jcr:primaryType="bootstrap4nt:figure"
+                                responsive="true"
+                                thumbnails="false">
+                                        <j:translation_en alt="Free template by Free-Template.co"
+                                             jcr:language="en"
+                                             jcr:primaryType="jnt:translation"/>
+                                    </figure>
+                                </content-section-grid-col0>
+                                <content-section-grid-col1 jcr:primaryType="jnt:contentList">
+                                    <text jcr:mixinTypes="jmix:referencesInField"
+                              jcr:primaryType="bootstrap4nt:text">
+                                        <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;We&amp;#39;ll handle any intercate custom design&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34; title=&#34;About&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    </text>
+                                </content-section-grid-col1>
+                            </content-section-grid>
+                            <j:acl j:inherit="true" jcr:primaryType="jnt:acl"/>
+                        </generic-content-left-image-list>
                     </templates>
                 </contents>
                 <templates jcr:primaryType="jnt:templatesFolder">
@@ -937,6 +937,7 @@
                                 </html5-footer-tag>
                             </html5-footer-tag>
                         </footer-container>
+                        <page-content jcr:primaryType="jnt:contentList"/>
                     </base>
                     <content-template j:applyOn="jnt:content"
                               j:hiddenTemplate="true"
