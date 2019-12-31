@@ -19,8 +19,8 @@ import javax.jcr.RepositoryException;
 import javax.jcr.Value;
 import java.util.*;
 
-public class genericContentTypeInitializer extends AbstractChoiceListRenderer implements ModuleChoiceListInitializer, ModuleChoiceListRenderer {
-    private static final Logger logger = LoggerFactory.getLogger(genericContentTypeInitializer.class);
+public class LinkedContentTypeInitializer extends AbstractChoiceListRenderer implements ModuleChoiceListInitializer, ModuleChoiceListRenderer {
+    private static final Logger logger = LoggerFactory.getLogger(LinkedContentTypeInitializer.class);
 
     private String key;
 
@@ -40,20 +40,10 @@ public class genericContentTypeInitializer extends AbstractChoiceListRenderer im
         HashMap<String, Object> myPropertiesMap = null;
 
 
-        //heading
+        //card
         myPropertiesMap = new HashMap<String, Object>();
         //myPropertiesMap.put("addMixin","timix:");
-        myChoiceList.add(new ChoiceListValue("heading",myPropertiesMap,new ValueImpl("heading", PropertyType.STRING, false)));
-
-        //halfBlock
-        myPropertiesMap = new HashMap<String, Object>();
-        myPropertiesMap.put("addMixin","timix:halfBlockAdvancedSettings");
-        myChoiceList.add(new ChoiceListValue("halfBlock",myPropertiesMap,new ValueImpl("halfBlock", PropertyType.STRING, false)));
-
-        //teamCard
-        myPropertiesMap = new HashMap<String, Object>();
-//        myPropertiesMap.put("addMixin","timix:teamCardExtra");
-        myChoiceList.add(new ChoiceListValue("teamCard",myPropertiesMap,new ValueImpl("teamCard", PropertyType.STRING, false)));
+        myChoiceList.add(new ChoiceListValue("card",myPropertiesMap,new ValueImpl("card", PropertyType.STRING, false)));
 
 
         //Return the list

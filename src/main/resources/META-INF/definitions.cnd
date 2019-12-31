@@ -8,9 +8,9 @@
 [timix:industrial] > jmix:droppableContent, jmix:editorialContent mixin
 
 //*** CONTENT LINKER //
-[timix:linkTo] > jmix:templateMixin  mixin
- - linkType (string, choicelist[linkTypeInitializer,resourceBundle]) = 'internalLink' autocreated indexed=no < 'internalLink', 'externalLink'
-
+[timix:linkTo] mixin
+// - linkType (string, choicelist[linkTypeInitializer,resourceBundle]) = 'internalLink' autocreated indexed=no < 'internalLink', 'externalLink', 'self'
+ - linkType (string, choicelist[linkTypeInitializer,resourceBundle]) indexed=no < 'internalLink', 'externalLink', 'self'
 [timix:internalLink] > jmix:templateMixin mixin
  extends = timix:linkTo
  - internalLink (weakreference, picker[type='editoriallink']) < 'jmix:droppableContent', 'jnt:page', 'jnt:file'
@@ -53,21 +53,22 @@
 //CAROUSEL ***//
 
 
-//*** BLOG POST //
-// BLOG POST ***//
-
-//*** GENERIC CONTENT //
-[tint:genericContent] > jnt:content, timix:industrial
- - contentType (string, choicelist[genericContentTypeInitializer,resourceBundle]) mandatory indexed=no < 'heading', 'halfBlock', 'teamCard'
+//*** EDITORIAL CONTENT //
+[tint:editorialContent] > jnt:content, timix:industrial
+ - contentType (string, choicelist[editorialContentTypeInitializer,resourceBundle]) mandatory indexed=no < 'heading', 'halfBlock'
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
  - body (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
 
-//TODO linkTo 2 levels doesn't work
-//[timix:teamCardExtra] > timix:linkTo mixin
-// extends = tint:genericContent
-
 [timix:halfBlockAdvancedSettings] > jmix:templateMixin mixin
- extends = tint:genericContent
+ extends = tint:editorialContent
  itemtype = content
  - imagePosition (string, choicelist[resourceBundle]) = 'left' autocreated indexed=no < 'left', 'right'
-// GENERIC CONTENT ***//
+// EDITORIAL CONTENT ***//
+
+//*** LINKED CONTENT //
+[tint:linkedContent] > jnt:content, timix:industrial, timix:linkTo
+ - contentType (string, choicelist[linkedContentTypeInitializer,resourceBundle]) = 'card' mandatory indexed=no < 'card'
+ - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
+ - body (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
+
+// LINKED CONTENT ***//

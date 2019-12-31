@@ -19,8 +19,8 @@ import javax.jcr.RepositoryException;
 import javax.jcr.Value;
 import java.util.*;
 
-public class carouselItemTypeInitializer extends AbstractChoiceListRenderer implements ModuleChoiceListInitializer, ModuleChoiceListRenderer {
-    private static final Logger logger = LoggerFactory.getLogger(carouselItemTypeInitializer.class);
+public class CarouselItemTypeInitializer extends AbstractChoiceListRenderer implements ModuleChoiceListInitializer, ModuleChoiceListRenderer {
+    private static final Logger logger = LoggerFactory.getLogger(CarouselItemTypeInitializer.class);
 
     private String key;
 

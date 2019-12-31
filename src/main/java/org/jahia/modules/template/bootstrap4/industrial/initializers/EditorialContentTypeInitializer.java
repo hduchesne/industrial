@@ -19,8 +19,8 @@ import javax.jcr.RepositoryException;
 import javax.jcr.Value;
 import java.util.*;
 
-public class LinkTypeInitializer extends AbstractChoiceListRenderer implements ModuleChoiceListInitializer, ModuleChoiceListRenderer {
-    private static final Logger logger = LoggerFactory.getLogger(LinkTypeInitializer.class);
+public class EditorialContentTypeInitializer extends AbstractChoiceListRenderer implements ModuleChoiceListInitializer, ModuleChoiceListRenderer {
+    private static final Logger logger = LoggerFactory.getLogger(EditorialContentTypeInitializer.class);
 
     private String key;
 
@@ -40,20 +40,16 @@ public class LinkTypeInitializer extends AbstractChoiceListRenderer implements M
         HashMap<String, Object> myPropertiesMap = null;
 
 
-        //externalLink
+        //heading
         myPropertiesMap = new HashMap<String, Object>();
-        myPropertiesMap.put("addMixin","timix:externalLink");
-        myChoiceList.add(new ChoiceListValue("externalLink",myPropertiesMap,new ValueImpl("externalLink", PropertyType.STRING, false)));
+        //myPropertiesMap.put("addMixin","timix:");
+        myChoiceList.add(new ChoiceListValue("heading",myPropertiesMap,new ValueImpl("heading", PropertyType.STRING, false)));
 
-        //internalLink
+        //halfBlock
         myPropertiesMap = new HashMap<String, Object>();
-        myPropertiesMap.put("addMixin","timix:internalLink");
-        myChoiceList.add(new ChoiceListValue("internalLink",myPropertiesMap,new ValueImpl("internalLink", PropertyType.STRING, false)));
+        myPropertiesMap.put("addMixin","timix:halfBlockAdvancedSettings");
+        myChoiceList.add(new ChoiceListValue("halfBlock",myPropertiesMap,new ValueImpl("halfBlock", PropertyType.STRING, false)));
 
-        //self
-        myPropertiesMap = new HashMap<String, Object>();
-//        myPropertiesMap.put("addMixin","timix:internalLink");
-        myChoiceList.add(new ChoiceListValue("self",myPropertiesMap,new ValueImpl("self", PropertyType.STRING, false)));
 
         //Return the list
         return myChoiceList;
