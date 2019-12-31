@@ -20,6 +20,13 @@
  - externalLink (string) = 'https://'
 // CONTENT LINKER ***//
 
+
+//*** TEXT //
+[tint:text]> jnt:content, timix:industrial
+ - text (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
+// TEXT ***//
+
+
 //*** GALLERY IMAGE //
 [tint:galleryImage] > jnt:content, timix:industrial, bootstrap4mix:image, timix:linkTo, mix:title
  - heading (string) internationalized

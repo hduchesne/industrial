@@ -11,12 +11,51 @@ CKEDITOR.addTemplates('industrial',
                 html:'<h1 class="mb-4"><span>We Are Industrial Company</span></h1>\n' +
                     '<p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?</p>'
             },{
+                title:'Heading content',
+                image:'heading-content.png',
+                description:'Heading content used in top of webpages',
+                html:'<h1 class="pt-5"><span>About Us</span></h1>\n' +
+                    '<p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.</p>'
+            },{
                 title:'Heading testimonial',
                 image:'heading-testimonial.png',
                 description:'Heading for testimonial carousel',
                 html:'<div class="name-text align-self-center">\n' +
                     '  <h2 class="heading">John Smith</h2>\n' +
                     '  <span class="meta">Free-Template.co Client</span>\n' +
+                    '</div>'
+            },{
+                title:'Media Block',
+                image:'media-block.png',
+                description:'',
+                html:'<div class="media block-6 d-block text-center">\n' +
+                    '  <div class="icon mb-3"><span class="ion-ios-notifications text-primary"></span></div>\n' +
+                    '  <div class="media-body">\n' +
+                    '    <h3 class="heading">Modern Design</h3>\n' +
+                    '    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>\n' +
+                    '  </div>\n' +
+                    '</div>'
+            },{
+                title:'Feature Block',
+                image:'feature-block.png',
+                description:'',
+                html:'<div class="feature-1 d-md-flex">\n' +
+                    '  <div class="align-self-center">\n' +
+                    '    <span class="ion ion-ios-easel display-4 text-primary"></span>\n' +
+                    '    <h3>Ducting Design</h3>\n' +
+                    '    <p>Even the all-powerful Pointing has no control about the blind texts.</p>\n' +
+                    '  </div>\n' +
+                    '</div>'
+            },{
+                title:'Text Block',
+                image:'text-block.png',
+                description:'',
+                html:'<div class="block-41">\n' +
+                    '  <h2 class="block-41-heading mb-5">We\'ll handle any intercate custom design</h2>\n' +
+                    '  <div class="block-41-text">\n' +
+                    '    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>\n' +
+                    '    <p><a href="#" class="readmore">Read More <span class="ion-md-arrow-dropright-circle"></span></a></p>\n' +
+                    '  </div>\n' +
                     '</div>'
             },{
                 title:'Blockquote testimonial',
@@ -32,12 +71,6 @@ CKEDITOR.addTemplates('industrial',
                 html:'<h3 class="mb-4">Our Mission</h3>\n' +
                     '<p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>\n' +
                     '<p><a href="#" class="btn btn-primary btn-sm px-3 py-2">Learn More</a></p>'
-            },{
-                title:'Heading content',
-                image:'heading-content.png',
-                description:'Heading content used in top of webpages',
-                html:'<h1 class="pt-5"><span>About Us</span></h1>\n' +
-                    '<p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.</p>'
             },{
                 title:'Team card body',
                 image:'team-card-body.png',
