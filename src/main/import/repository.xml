@@ -424,127 +424,6 @@
                                 </section-galley>
                             </section-galley>
                         </gallery-list>
-                        <meet-the-team-list jcr:primaryType="jnt:contentList">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Meet the team list"/>
-                            <meet-the-team-section gridLayout="fixed-width"
-                                         jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createSection"
-                                         jcr:primaryType="bootstrap4nt:grid"
-                                         sectionElement="section">
-                                <meet-the-team-section jcr:primaryType="jnt:contentList">
-                                    <title gridClasses="col-md-8 text-center"
-                               jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
-                               jcr:primaryType="bootstrap4nt:grid"
-                               rowCssClass="justify-content-center mb-5 element-animate"
-                               rowHorizontalAlignment="default"
-                               rowVerticalAlignment="default"
-                               typeOfGrid="customGrid">
-                                        <title-col0 jcr:primaryType="jnt:contentList">
-                                            <text jcr:primaryType="bootstrap4nt:text">
-                                                <j:translation_en jcr:language="en"
-                                                   jcr:primaryType="jnt:translation"
-                                                   text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Meet The Team&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.&lt;/p&gt;&#xA;"/>
-                                            </text>
-                                        </title-col0>
-                                    </title>
-                                    <the-team grid="3_3_3_3"
-                                  jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:predefinedGrid"
-                                  jcr:primaryType="bootstrap4nt:grid"
-                                  rowHorizontalAlignment="default"
-                                  rowVerticalAlignment="default"
-                                  typeOfGrid="predefinedGrid">
-                                        <the-team-main jcr:primaryType="jnt:contentList"/>
-                                    </the-team>
-                                </meet-the-team-section>
-                            </meet-the-team-section>
-                        </meet-the-team-list>
-                        <heading-content-list jcr:primaryType="jnt:contentList">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Heading content list"/>
-                            <heading-content contentType="heading"
-                                   image="#/modules/industrial/files/images/industrial_hero_3.jpg"
-                                   jcr:primaryType="tint:editorialContent">
-                                <j:translation_en body="&lt;h1 class=&#34;pt-5&#34;&gt;&lt;span&gt;About Us&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.&lt;/p&gt;&#xA;"
-                                       jcr:language="en"
-                                       jcr:primaryType="jnt:translation"/>
-                            </heading-content>
-                        </heading-content-list>
-                        <card-content-list jcr:primaryType="jnt:contentList">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Card content list"/>
-                            <card-content-section gridLayout="fixed-width"
-                                        jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createSection"
-                                        jcr:primaryType="bootstrap4nt:grid"
-                                        sectionCssClass="section"
-                                        sectionElement="section">
-                                <card-content-section jcr:primaryType="jnt:contentList">
-                                    <title-row gridClasses="col-md-8 text-center"
-                                   jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
-                                   jcr:primaryType="bootstrap4nt:grid"
-                                   rowCssClass="justify-content-center mb-5 element-animate"
-                                   rowHorizontalAlignment="default"
-                                   rowVerticalAlignment="default"
-                                   typeOfGrid="customGrid">
-                                        <title-row-col0 jcr:primaryType="jnt:contentList">
-                                            <text jcr:primaryType="bootstrap4nt:text">
-                                                <j:translation_en jcr:language="en"
-                                                   jcr:primaryType="jnt:translation"
-                                                   text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Meet The Team&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.&lt;/p&gt;&#xA;"/>
-                                            </text>
-                                        </title-row-col0>
-                                    </title-row>
-                                    <card-row grid="3_3_3_3"
-                                  jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:predefinedGrid"
-                                  jcr:primaryType="bootstrap4nt:grid"
-                                  rowHorizontalAlignment="default"
-                                  rowVerticalAlignment="default"
-                                  typeOfGrid="predefinedGrid">
-                                        <card-row-main jcr:primaryType="jnt:contentList">
-                                            <content contentType="card"
-                                       image="#/modules/industrial/files/images/person_1.jpg"
-                                       jcr:primaryType="tint:linkedContent">
-                                                <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Lily Qwan&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;"
-                                                   jcr:language="en"
-                                                   jcr:primaryType="jnt:translation"/>
-                                            </content>
-                                        </card-row-main>
-                                        <card-row-side jcr:primaryType="jnt:contentList">
-                                            <content contentType="card"
-                                       image="#/modules/industrial/files/images/person_2.jpg"
-                                       jcr:primaryType="tint:linkedContent">
-                                                <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Mike Richardson&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;"
-                                                   jcr:language="en"
-                                                   jcr:primaryType="jnt:translation"/>
-                                            </content>
-                                        </card-row-side>
-                                        <card-row-extra jcr:primaryType="jnt:contentList">
-                                            <content contentType="card"
-                                       image="#/modules/industrial/files/images/person_4.jpg"
-                                       jcr:primaryType="tint:linkedContent">
-                                                <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Laura Smith&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;"
-                                                   jcr:language="en"
-                                                   jcr:primaryType="jnt:translation"/>
-                                            </content>
-                                        </card-row-extra>
-                                        <card-row-extra2 jcr:primaryType="jnt:contentList">
-                                            <content contentType="card"
-                                       image="#/modules/industrial/files/images/person_3.jpg"
-                                       jcr:primaryType="tint:linkedContent">
-                                                <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Kevin Gold&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;"
-                                                   jcr:language="en"
-                                                   jcr:primaryType="jnt:translation"/>
-                                            </content>
-                                        </card-row-extra2>
-                                    </card-row>
-                                </card-content-section>
-                            </card-content-section>
-                        </card-content-list>
                         <media-3-blocks-list jcr:primaryType="jnt:contentList">
                             <j:translation_en jcr:language="en"
                                     jcr:mixinTypes="mix:title"
@@ -986,30 +865,48 @@
                                 </html5-footer-tag>
                             </html5-footer-tag>
                         </footer-container>
-                        <half-block-content-list jcr:primaryType="jnt:contentList">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Half-block content list"/>
-                            <half-block-content-1 contentType="halfBlock"
-                                        image="#/modules/industrial/files/images/industrial_hero_1.jpg"
-                                        imagePosition="left"
-                                        jcr:mixinTypes="timix:halfBlockAdvancedSettings"
-                                        jcr:primaryType="tint:editorialContent">
-                                <j:translation_en body="&lt;h3 class=&#34;mb-4&#34;&gt;Our Mission&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Learn More&lt;/a&gt;&lt;/p&gt;&#xA;"
-                                       jcr:language="en"
-                                       jcr:primaryType="jnt:translation"/>
-                            </half-block-content-1>
-                            <half-block-content-2 contentType="halfBlock"
-                                        image="#/modules/industrial/files/images/industrial_hero_2.jpg"
-                                        imagePosition="right"
-                                        jcr:mixinTypes="timix:halfBlockAdvancedSettings"
-                                        jcr:primaryType="tint:editorialContent">
-                                <j:translation_en body="&lt;h3 class=&#34;mb-4&#34;&gt;Company History&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Learn More&lt;/a&gt;&lt;/p&gt;&#xA;"
-                                       jcr:language="en"
-                                       jcr:primaryType="jnt:translation"/>
-                            </half-block-content-2>
-                        </half-block-content-list>
+                        <page-content jcr:primaryType="jnt:contentList">
+                            <card-content-list jcr:primaryType="jnt:contentList">
+                                <j:translation_en jcr:language="en"
+                                       jcr:mixinTypes="mix:title"
+                                       jcr:primaryType="jnt:translation"
+                                       jcr:title="Card content list"/>
+                                <card-content-section gridLayout="fixed-width"
+                                           jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createSection"
+                                           jcr:primaryType="bootstrap4nt:grid"
+                                           sectionCssClass="section"
+                                           sectionElement="section">
+                                    <card-content-section jcr:primaryType="jnt:contentList">
+                                        <title-row gridClasses="col-md-8 text-center"
+                                      jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                      jcr:primaryType="bootstrap4nt:grid"
+                                      rowCssClass="justify-content-center mb-5 element-animate"
+                                      rowHorizontalAlignment="default"
+                                      rowVerticalAlignment="default"
+                                      typeOfGrid="customGrid">
+                                            <title-row-col0 jcr:primaryType="jnt:contentList">
+                                                <text jcr:primaryType="bootstrap4nt:text">
+                                                    <j:translation_en jcr:language="en"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Meet The Team&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.&lt;/p&gt;&#xA;"/>
+                                                </text>
+                                            </title-row-col0>
+                                        </title-row>
+                                        <card-row grid="3_3_3_3"
+                                     jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:predefinedGrid"
+                                     jcr:primaryType="bootstrap4nt:grid"
+                                     rowHorizontalAlignment="default"
+                                     rowVerticalAlignment="default"
+                                     typeOfGrid="predefinedGrid">
+                                            <card-row-main jcr:primaryType="jnt:contentList"/>
+                                            <card-row-side jcr:primaryType="jnt:contentList"/>
+                                            <card-row-extra jcr:primaryType="jnt:contentList"/>
+                                            <card-row-extra2 jcr:primaryType="jnt:contentList"/>
+                                        </card-row>
+                                    </card-content-section>
+                                </card-content-section>
+                            </card-content-list>
+                        </page-content>
                     </base>
                     <content-template j:applyOn="jnt:content"
                               j:hiddenTemplate="true"

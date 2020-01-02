@@ -12,8 +12,8 @@
             <div class="row slider-text align-items-center justify-content-center">
                 <div class="col-md-8 text-center col-sm-12 element-animate pt-5">
                     ${body}
-<%--                    <h1 class="pt-5"><span>About Us</span></h1>--%>
-<%--                    <p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.</p>--%>
+                    <%--                    <h1 class="pt-5"><span>About Us</span></h1>--%>
+                    <%--                    <p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.</p>--%>
                 </div>
             </div>
         </div>

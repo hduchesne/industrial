@@ -60,22 +60,15 @@
 //CAROUSEL ***//
 
 
-//*** EDITORIAL CONTENT //
-[tint:editorialContent] > jnt:content, timix:industrial
- - contentType (string, choicelist[editorialContentTypeInitializer,resourceBundle]) mandatory indexed=no < 'heading', 'halfBlock'
+//*** CONTENT //
+[timix:content] mixin
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
  - body (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
 
-[timix:halfBlockAdvancedSettings] > jmix:templateMixin mixin
- extends = tint:editorialContent
- itemtype = content
+[tint:heading] > jnt:content, timix:content, timix:industrial
+
+[tint:halfBlock] > jnt:content, timix:content, timix:industrial
  - imagePosition (string, choicelist[resourceBundle]) = 'left' autocreated indexed=no < 'left', 'right'
-// EDITORIAL CONTENT ***//
 
-//*** LINKED CONTENT //
-[tint:linkedContent] > jnt:content, timix:industrial, timix:linkTo
- - contentType (string, choicelist[linkedContentTypeInitializer,resourceBundle]) = 'card' mandatory indexed=no < 'card'
- - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
- - body (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
-
-// LINKED CONTENT ***//
+[tint:card] > jnt:content, timix:content, timix:industrial, timix:linkTo
+// CONTENT ***//
