@@ -175,6 +175,11 @@
                             <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                         </industrial_blog_1.jpg>
                     </images>
+                    <css jcr:primaryType="jnt:folder">
+                        <custom.css jcr:primaryType="jnt:file">
+                            <jcr:content jcr:mimeType="text/css" jcr:primaryType="jnt:resource"/>
+                        </custom.css>
+                    </css>
                 </files>
                 <contents jcr:primaryType="jnt:contentFolder">
                     <templates jcr:primaryType="jnt:contentFolder">

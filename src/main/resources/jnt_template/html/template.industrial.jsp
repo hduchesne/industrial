@@ -4,6 +4,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="jcr" uri="http://www.jahia.org/tags/jcr" %>
+<%@ taglib prefix="utility" uri="http://www.jahia.org/tags/utilityLib" %>
 <%--@elvariable id="currentNode" type="org.jahia.services.content.JCRNodeWrapper"--%>
 <%--@elvariable id="out" type="java.io.PrintWriter"--%>
 <%--@elvariable id="script" type="org.jahia.services.render.scripting.Script"--%>
@@ -13,6 +14,10 @@
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
 
+<jcr:sql
+	var="_css_"
+	 sql="SELECT * FROM [jnt:file] As node WHERE ISDESCENDANTNODE (node, '${renderContext.site.path}/files/css')"
+/>
 
 
 <html lang="en">
@@ -35,8 +40,12 @@
 
 		<!-- Theme Style -->
 		<template:addResources type="css" resources="style.css" />
-	  	<template:addResources type="css" resources="custom.css" />
+    	<template:addResources type="css" resources="style.patch.css" />
 
+	  	<c:forEach items="${_css_.nodes}" var="node">
+			<c:url var="customCSSUrl" value="${node.url}"/>
+			<template:addResources type="css" resources="${customCSSUrl}"/>
+		</c:forEach>
 
 		<c:if test="${renderContext.editMode}">
 			<template:addResources type="css" resources="edit.css"/>
