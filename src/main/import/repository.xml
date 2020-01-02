@@ -473,30 +473,6 @@
                                        jcr:primaryType="jnt:translation"/>
                             </heading-content>
                         </heading-content-list>
-                        <half-block-content-list jcr:primaryType="jnt:contentList">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Half-block content list"/>
-                            <half-block-content-1 contentType="halfBlock"
-                                        image="#/modules/industrial/files/images/industrial_hero_1.jpg"
-                                        imagePosition="left"
-                                        jcr:mixinTypes="timix:halfBlockAdvancedSettings"
-                                        jcr:primaryType="tint:editorialContent">
-                                <j:translation_en body="&lt;h3 class=&#34;mb-4&#34;&gt;Our Mission&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Learn More&lt;/a&gt;&lt;/p&gt;&#xA;"
-                                       jcr:language="en"
-                                       jcr:primaryType="jnt:translation"/>
-                            </half-block-content-1>
-                            <half-block-content-2 contentType="halfBlock"
-                                        image="#/modules/industrial/files/images/industrial_hero_2.jpg"
-                                        imagePosition="right"
-                                        jcr:mixinTypes="timix:halfBlockAdvancedSettings"
-                                        jcr:primaryType="tint:editorialContent">
-                                <j:translation_en body="&lt;h3 class=&#34;mb-4&#34;&gt;Company History&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Learn More&lt;/a&gt;&lt;/p&gt;&#xA;"
-                                       jcr:language="en"
-                                       jcr:primaryType="jnt:translation"/>
-                            </half-block-content-2>
-                        </half-block-content-list>
                         <card-content-list jcr:primaryType="jnt:contentList">
                             <j:translation_en jcr:language="en"
                                     jcr:mixinTypes="mix:title"
@@ -1010,7 +986,30 @@
                                 </html5-footer-tag>
                             </html5-footer-tag>
                         </footer-container>
-                        <page-content jcr:primaryType="jnt:contentList"/>
+                        <half-block-content-list jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Half-block content list"/>
+                            <half-block-content-1 contentType="halfBlock"
+                                        image="#/modules/industrial/files/images/industrial_hero_1.jpg"
+                                        imagePosition="left"
+                                        jcr:mixinTypes="timix:halfBlockAdvancedSettings"
+                                        jcr:primaryType="tint:editorialContent">
+                                <j:translation_en body="&lt;h3 class=&#34;mb-4&#34;&gt;Our Mission&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Learn More&lt;/a&gt;&lt;/p&gt;&#xA;"
+                                       jcr:language="en"
+                                       jcr:primaryType="jnt:translation"/>
+                            </half-block-content-1>
+                            <half-block-content-2 contentType="halfBlock"
+                                        image="#/modules/industrial/files/images/industrial_hero_2.jpg"
+                                        imagePosition="right"
+                                        jcr:mixinTypes="timix:halfBlockAdvancedSettings"
+                                        jcr:primaryType="tint:editorialContent">
+                                <j:translation_en body="&lt;h3 class=&#34;mb-4&#34;&gt;Company History&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Learn More&lt;/a&gt;&lt;/p&gt;&#xA;"
+                                       jcr:language="en"
+                                       jcr:primaryType="jnt:translation"/>
+                            </half-block-content-2>
+                        </half-block-content-list>
                     </base>
                     <content-template j:applyOn="jnt:content"
                               j:hiddenTemplate="true"
