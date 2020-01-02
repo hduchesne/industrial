@@ -35,6 +35,7 @@
 
 		<!-- Theme Style -->
 		<template:addResources type="css" resources="style.css" />
+	  	<template:addResources type="css" resources="custom.css" />
 
 
 		<c:if test="${renderContext.editMode}">

@@ -197,39 +197,6 @@
                                     jcr:language="en"
                                     jcr:primaryType="jnt:translation"/>
                         </navbar>
-                        <home-carousel-list jcr:primaryType="jnt:contentList">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Home carousel list"/>
-                            <home-carousel class="home-slider owl-carousel"
-                                 jcr:mixinTypes="timix:owlcarouselAdvancedSettings"
-                                 jcr:primaryType="tint:owlcarousel"
-                                 options="{&#xA;    loop:true,&#xA;    autoplay: true,&#xA;    margin:0,&#xA;    animateOut: 'fadeOut',&#xA;    animateIn: 'fadeIn',&#xA;    nav:true,&#xA;    autoplayHoverPause: true,&#xA;    items: 1,&#xA;    dragTouch: false,&#xA;    navText : [&#34;&lt;span class='ion-chevron-left'&gt;&lt;/span&gt;&#34;,&#34;&lt;span class='ion-chevron-right'&gt;&lt;/span&gt;&#34;],&#xA;    responsive:{&#xA;      0:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      600:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      1000:{&#xA;        items:1,&#xA;        nav:true&#xA;      }&#xA;    }&#xA;}">
-                                <we-are-industrial-company carouselType="standard"
-                                                image="#/modules/industrial/files/images/industrial_hero_1.jpg"
-                                                jcr:mixinTypes="timix:sCarouselItem"
-                                                jcr:primaryType="tint:owlcarouselItem">
-                                    <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
-                                          jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="We Are Industrial Company"
-                                          videoURL="https://vimeo.com/59256790"/>
-                                </we-are-industrial-company>
-                                <the-best-level-of-excellence-in carouselType="standard"
-                                                      image="#/modules/industrial/files/images/industrial_hero_2.jpg"
-                                                      jcr:mixinTypes="timix:sCarouselItem"
-                                                      jcr:primaryType="tint:owlcarouselItem">
-                                    <j:translation_en caption="&lt;h1&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fuga, hic quae molestias aperiam deserunt!&lt;/p&gt;&#xA;"
-                                          jcr:language="en"
-                                          jcr:mixinTypes="mix:title"
-                                          jcr:primaryType="jnt:translation"
-                                          jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                          videoURL="https://vimeo.com/59256790"/>
-                                </the-best-level-of-excellence-in>
-                            </home-carousel>
-                        </home-carousel-list>
                         <gallery-list jcr:primaryType="jnt:contentList">
                             <j:translation_en jcr:language="en"
                                     jcr:mixinTypes="mix:title"
@@ -619,33 +586,6 @@
                                 </Features-section>
                             </Features-section>
                         </features-list>
-                        <footer-about jcr:primaryType="tint:text">
-                            <j:translation_en jcr:language="en"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;h3&gt;About The Industrial&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link d-flex footer-social&#34;&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-twitter&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-facebook&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-linkedin&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-instagram&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
-                        </footer-about>
-                        <footer-contact jcr:primaryType="tint:text">
-                            <j:translation_en jcr:language="en"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;h3&gt;Contact Info&lt;/h3&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link&#34;&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Address:&lt;/span&gt; &lt;span&gt;34 Street Name, City Name Here, United States&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Telephone:&lt;/span&gt;&lt;span&gt;+1 242 4942 290&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Email:&lt;/span&gt;&lt;span&gt;info@yourdomain.com&lt;/span&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
-                        </footer-contact>
-                        <footer-nav jcr:primaryType="jnt:contentList">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="footer-nav"/>
-                            <navbar j:view="industrial.basenav.footer"
-                          jcr:mixinTypes="bootstrap4mix:customBaseNavbar jmix:renderable"
-                          jcr:primaryType="bootstrap4nt:navbar"
-                          recursive="false"
-                          root="homePage"
-                          ulClass="list-unstyled footer-link"/>
-                            <footer-title jcr:primaryType="tint:text">
-                                <j:translation_en jcr:language="en"
-                                       jcr:primaryType="jnt:translation"
-                                       text="&lt;h3&gt;Quick Links&lt;/h3&gt;"/>
-                            </footer-title>
-                        </footer-nav>
                         <generic-content-left-image-list jcr:mixinTypes="jmix:accessControlled"
                                                 jcr:primaryType="jnt:contentList">
                             <j:translation_en jcr:language="en"
@@ -785,24 +725,13 @@
                                 </card-content-section>
                             </card-content-section>
                         </card-content-list>
-                        <heading-content-list jcr:primaryType="jnt:contentList">
-                            <j:translation_en jcr:language="en"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Heading content list"/>
-                            <heading image="#/modules/industrial/files/images/industrial_hero_3.jpg"
-                           jcr:primaryType="tint:heading">
-                                <j:translation_en body="&lt;h1 class=&#34;pt-5&#34;&gt;&lt;span&gt;About Us&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.&lt;/p&gt;&#xA;"
-                                       jcr:language="en"
-                                       jcr:primaryType="jnt:translation"/>
-                            </heading>
-                        </heading-content-list>
                         <half-block-list jcr:primaryType="jnt:contentList">
                             <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
                                     jcr:primaryType="jnt:translation"
                                     jcr:title="Half-block list"/>
                             <half-block-section jcr:mixinTypes="bootstrap4mix:createSection"
                                       jcr:primaryType="bootstrap4nt:grid"
-                                      sectionCssClass="section"
                                       sectionElement="section">
                                 <half-block-section jcr:primaryType="jnt:contentList">
                                     <half-block image="#/modules/industrial/files/images/industrial_hero_1.jpg"
@@ -851,7 +780,7 @@
                                     <testimonial-carousel class="nonloop-block-11 owl-carousel"
                                               jcr:mixinTypes="timix:owlcarouselAdvancedSettings"
                                               jcr:primaryType="tint:owlcarousel"
-                                              options="{&#xA;      center: false,&#xA;      items: 1,&#xA;      loop: false,&#xA;      stagePadding: 20,&#xA;      margin:50,&#xA;      nav: true,&#xA;      smartSpeed: 1000,&#xA;      navText: ['&lt;span class=&#34;ios-arrow-back&#34;&gt;', '&lt;span class=&#34;ios-arrow-forward&#34;&gt;'],&#xA;      responsive:{&#xA;        600:{&#xA;          stagePadding: 20,&#xA;          items:1&#xA;        },&#xA;        800:{&#xA;          stagePadding: 20,&#xA;          items:1&#xA;        },&#xA;        1000:{&#xA;          // stagePadding: 200,&#xA;          items:1&#xA;        }&#xA;      }&#xA;    }">
+                                              options="{&#xA;      center: false,&#xA;      items: 1,&#xA;      loop: false,&#xA;      stagePadding: 20,&#xA;      margin:50,&#xA;      nav: true,&#xA;      smartSpeed: 1000,&#xA;      navText: ['&lt;span class=&#34;ion-ios-arrow-back&#34;&gt;', '&lt;span class=&#34;ion-ios-arrow-forward&#34;&gt;'],&#xA;      responsive:{&#xA;        600:{&#xA;          stagePadding: 20,&#xA;          items:1&#xA;        },&#xA;        800:{&#xA;          stagePadding: 20,&#xA;          items:1&#xA;        },&#xA;        1000:{&#xA;          // stagePadding: 200,&#xA;          items:1&#xA;        }&#xA;      }&#xA;    }">
                                         <john-smith avatar="#/modules/industrial/files/images/person_3.jpg"
                                        carouselType="testimonial"
                                        jcr:mixinTypes="timix:tCarouselItem"
@@ -900,6 +829,90 @@
                                 </testimonial-section>
                             </testimonial-section>
                         </testimonial-carousel-list>
+                        <heading jcr:primaryType="jnt:contentFolder">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Heading"/>
+                            <heading-carousel-list jcr:primaryType="jnt:contentList">
+                                <j:translation_en jcr:language="en"
+                                       jcr:mixinTypes="mix:title"
+                                       jcr:primaryType="jnt:translation"
+                                       jcr:title="Heading carousel list"/>
+                                <home-carousel class="home-slider owl-carousel"
+                                    jcr:mixinTypes="timix:owlcarouselAdvancedSettings"
+                                    jcr:primaryType="tint:owlcarousel"
+                                    options="{&#xA;    loop:true,&#xA;    autoplay: true,&#xA;    margin:0,&#xA;    animateOut: 'fadeOut',&#xA;    animateIn: 'fadeIn',&#xA;    nav:true,&#xA;    autoplayHoverPause: true,&#xA;    items: 1,&#xA;    dragTouch: false,&#xA;    navText : [&#34;&lt;span class='ion-ios-arrow-back'&gt;&lt;/span&gt;&#34;,&#34;&lt;span class='ion-ios-arrow-forward'&gt;&lt;/span&gt;&#34;],&#xA;    responsive:{&#xA;      0:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      600:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      1000:{&#xA;        items:1,&#xA;        nav:true&#xA;      }&#xA;    }&#xA;}">
+                                    <we-are-industrial-company carouselType="standard"
+                                                   image="#/modules/industrial/files/images/industrial_hero_1.jpg"
+                                                   jcr:mixinTypes="timix:sCarouselItem"
+                                                   jcr:primaryType="tint:owlcarouselItem">
+                                        <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
+                                             jcr:language="en"
+                                             jcr:mixinTypes="mix:title"
+                                             jcr:primaryType="jnt:translation"
+                                             jcr:title="We Are Industrial Company"
+                                             videoURL="https://vimeo.com/59256790"/>
+                                    </we-are-industrial-company>
+                                    <the-best-level-of-excellence-in carouselType="standard"
+                                                         image="#/modules/industrial/files/images/industrial_hero_2.jpg"
+                                                         jcr:mixinTypes="timix:sCarouselItem"
+                                                         jcr:primaryType="tint:owlcarouselItem">
+                                        <j:translation_en caption="&lt;h1&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fuga, hic quae molestias aperiam deserunt!&lt;/p&gt;&#xA;"
+                                             jcr:language="en"
+                                             jcr:mixinTypes="mix:title"
+                                             jcr:primaryType="jnt:translation"
+                                             jcr:title="The Best Level of Excellence in Steel Fabrication"
+                                             videoURL="https://vimeo.com/59256790"/>
+                                    </the-best-level-of-excellence-in>
+                                </home-carousel>
+                            </heading-carousel-list>
+                            <heading-content-list jcr:primaryType="jnt:contentList">
+                                <j:translation_en jcr:language="en"
+                                       jcr:mixinTypes="mix:title"
+                                       jcr:primaryType="jnt:translation"
+                                       jcr:title="Heading content list"/>
+                                <heading image="#/modules/industrial/files/images/industrial_hero_3.jpg"
+                              jcr:primaryType="tint:heading">
+                                    <j:translation_en body="&lt;h1 class=&#34;pt-5&#34;&gt;&lt;span&gt;About Us&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.&lt;/p&gt;&#xA;"
+                                          jcr:language="en"
+                                          jcr:primaryType="jnt:translation"/>
+                                </heading>
+                            </heading-content-list>
+                        </heading>
+                        <footer jcr:primaryType="jnt:contentFolder">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Footer"/>
+                            <footer-about jcr:primaryType="tint:text">
+                                <j:translation_en jcr:language="en"
+                                       jcr:primaryType="jnt:translation"
+                                       text="&lt;h3&gt;About The Industrial&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link d-flex footer-social&#34;&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-twitter&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-facebook&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-linkedin&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-instagram&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                            </footer-about>
+                            <footer-contact jcr:primaryType="tint:text">
+                                <j:translation_en jcr:language="en"
+                                       jcr:primaryType="jnt:translation"
+                                       text="&lt;h3&gt;Contact Info&lt;/h3&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link&#34;&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Address:&lt;/span&gt; &lt;span&gt;34 Street Name, City Name Here, United States&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Telephone:&lt;/span&gt;&lt;span&gt;+1 242 4942 290&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Email:&lt;/span&gt;&lt;span&gt;info@yourdomain.com&lt;/span&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                            </footer-contact>
+                            <footer-nav jcr:primaryType="jnt:contentList">
+                                <j:translation_en jcr:language="en"
+                                       jcr:mixinTypes="mix:title"
+                                       jcr:primaryType="jnt:translation"
+                                       jcr:title="footer-nav"/>
+                                <navbar j:view="industrial.basenav.footer"
+                             jcr:mixinTypes="bootstrap4mix:customBaseNavbar jmix:renderable"
+                             jcr:primaryType="bootstrap4nt:navbar"
+                             recursive="false"
+                             root="homePage"
+                             ulClass="list-unstyled footer-link"/>
+                                <footer-title jcr:primaryType="tint:text">
+                                    <j:translation_en jcr:language="en"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;Quick Links&lt;/h3&gt;"/>
+                                </footer-title>
+                            </footer-nav>
+                        </footer>
                     </templates>
                 </contents>
                 <templates jcr:primaryType="jnt:templatesFolder">
@@ -913,8 +926,12 @@
                   j:view="industrial"
                   jcr:mixinTypes="jmix:theme"
                   jcr:primaryType="jnt:template">
-                        <home jcr:primaryType="jnt:pageTemplate"/>
-                        <simple jcr:primaryType="jnt:pageTemplate"/>
+                        <home jcr:primaryType="jnt:pageTemplate">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Default"/>
+                        </home>
                         <header-container jcr:primaryType="jnt:contentList">
                             <main-navigation jcr:mixinTypes="bootstrap4mix:createAbsoluteAreas bootstrap4mix:createSection"
                                    jcr:primaryType="bootstrap4nt:grid"
@@ -971,15 +988,6 @@
                             </html5-footer-tag>
                         </footer-container>
                     </base>
-                    <content-template j:applyOn="jnt:content"
-                              j:hiddenTemplate="true"
-                              j:priority="1"
-                              j:view="industrial"
-                              jcr:primaryType="jnt:contentTemplate">
-                        <pagecontent jcr:primaryType="jnt:contentList">
-                            <main-resource-display j:mainResourceView="default" jcr:primaryType="jnt:mainResourceDisplay"/>
-                        </pagecontent>
-                    </content-template>
                 </templates>
                 
                 <home j:isHomePage="true"
