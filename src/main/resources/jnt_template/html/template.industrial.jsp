@@ -14,28 +14,41 @@
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
 
+<%--Get custom css--%>
 <jcr:sql
 	var="_css_"
 	 sql="SELECT * FROM [jnt:file] As node WHERE ISDESCENDANTNODE (node, '${renderContext.site.path}/files/css')"
 />
-
+<%--Get custom script--%>
+<jcr:sql
+		var="_jsh_"
+		sql="SELECT * FROM [jnt:file] As node WHERE ISDESCENDANTNODE (node, '${renderContext.site.path}/files/js/header')"
+/>
+<jcr:sql
+		var="_jsf_"
+		sql="SELECT * FROM [jnt:file] As node WHERE ISDESCENDANTNODE (node, '${renderContext.site.path}/files/js/footer')"
+/>
 
 <html lang="en">
   <head>
     <title>${fn:escapeXml(renderContext.mainResource.node.displayableName)}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:400,700" rel="stylesheet">
+<%--    <link rel="stylesheet" href="/modules/industrial/css/ionicons.4.6.3.min.css" media="screen" type="text/css">--%>
 	  	<%-- used by other module, load it now to be sure it will not be loaded later and overwrite style.css--%>
+	    <template:addResources type="css" resources="ionicons.4.6.3.min.css" media="screen"/>
 		<template:addResources type="css" resources="bootstrap.min.css" />
 
 		<template:addResources type="css" resources="animate.css" />
 		<template:addResources type="css" resources="owl.carousel.min.css" />
 		<template:addResources type="css" resources="jquery.fancybox.min.css" />
 <%--		<template:addResources type="css" resources="ionicons.min.css" />--%>
-	  	<template:addResources type="css" resources="ionicons.4.6.3.min.css" />
+
+
 		<template:addResources type="css" resources="font-awesome.min.css" />
 
 		<!-- Theme Style -->
@@ -44,13 +57,21 @@
 
 	  	<c:forEach items="${_css_.nodes}" var="node">
 			<c:url var="customCSSUrl" value="${node.url}"/>
-			<template:addResources type="css" resources="${customCSSUrl}"/>
+			<c:if test="${fn:endsWith(customCSSUrl, '.css')}">
+				<template:addResources type="css" resources="${customCSSUrl}"/>
+			</c:if>
 		</c:forEach>
 
 		<c:if test="${renderContext.editMode}">
 			<template:addResources type="css" resources="edit.css"/>
 		</c:if>
 
+	  <c:forEach items="${_jsh_.nodes}" var="node">
+		  <c:url var="customJshUrl" value="${node.url}"/>
+		  <c:if test="${fn:endsWith(customJshUrl, '.js')}">
+			  <template:addResources type="javascript" resources="${customJshUrl}" targetTag="body"/>
+		  </c:if>
+	  </c:forEach>
   </head>
 
 
@@ -69,6 +90,12 @@
       	<template:addResources type="javascript" resources="jquery.fancybox.min.js" targetTag="body"/>
       	<template:addResources type="javascript" resources="main.js" targetTag="body"/>
 <%--        <script src="https://unpkg.com/ionicons@4.6.3/dist/ionicons.js"></script>--%>
+		<c:forEach items="${_jsf_.nodes}" var="node">
+			<c:url var="customJsfUrl" value="${node.url}"/>
+			<c:if test="${fn:endsWith(customJsfUrl, '.js')}">
+				<template:addResources type="javascript" resources="${customJsfUrl}" targetTag="body"/>
+			</c:if>
+		</c:forEach>
 	</body>
   
 </html>

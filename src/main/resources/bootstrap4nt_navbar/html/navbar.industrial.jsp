@@ -50,7 +50,8 @@
 </c:if>
 
 <c:set var="root" value="${currentNode.properties.root.string}"/>
-<c:set var="curentPageNode" value="${jcr:getMeAndParentsOfType(renderContext.mainResource.node,'jnt:page')}"/>
+<c:set var="curentPageNode" value="${renderContext.mainResource.node}"/>
+
 <c:choose>
     <c:when test="${root eq 'currentPage'}">
         <c:set var="rootNode" value="${curentPageNode}"/>
@@ -83,12 +84,14 @@
 
     <div class="${divClass}" id="navbar-${currentNode.identifier}">
         <template:include view="basenav"/>
+
         <div class="navbar-nav ml-auto">
             <form method="post" class="search-form">
                 <span class="icon ion ion-search"></span>
                 <input type="text" class="form-control" placeholder="Search...">
             </form>
         </div>
+
         <c:if test="${addLoginButton}">
             <template:include view="hidden.login"/>
         </c:if>
