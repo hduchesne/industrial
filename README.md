@@ -33,14 +33,37 @@ This module contains a Jahia ready to use implementation of the free template [i
 Following the concept of bootstrap 4, the template can be modified or used as his.
 
 ## Install
+As it is built on top of bootstrap 4, the module has a dependence with it. So, before to install the Industrial module you need to check if the dependence is satisfied.
 
-Before to use this module you need to install the dependence.
-boostrap-4
-forms
-jexperience...
+### Install dependence
 
-##Create a new website using `industrial` template set
+To install the module `Bootstrap 4 Package` follow the next steps : 
+1. Goto `Administration` mode
+1. Expand `System components` entry and click `Modules`
+1. In the right panel click on top `Available modules` and search for *Bootstrap 4 Package*
 
+    ![](./src/main/resources/images/readme/200_modules_B4.png)
+    
+1. Click the icon ![](./src/main/resources/images/readme/201_modules_download_icon.png) in the right of the package to download and install the module
+
+### Install the Industrial module
+
+Now the dependence is installed, industrial module is ready to deploy.
+
+To install and deploy the module `Industrial` follow the next steps : 
+1. Goto `Administration` mode
+1. Expand `System components` entry and click `Modules`
+1. In the right panel click on top `Available modules` and search for *Industrial*
+
+    ![](./src/main/resources/images/readme/202_modules_industrial.png)
+    
+1. Click the icon ![](./src/main/resources/images/readme/201_modules_download_icon.png) in the right of the package to download and install the module
+
+## Create a new website using `industrial` template set
+
+The module industrial is now installed and ready to use. The module is a Jahia *template set*, it is enabled when a new website is created.
+
+To create a new website using `industrial` follow the next steps :
 1. Goto `Administration` mode
 1. Click `Web Projects` entry and click `CREATE` in the right panel
 
@@ -58,10 +81,8 @@ jexperience...
     ![Create a new web project](./src/main/resources/images/readme/002_create_new_site.png)
 
 
-
-
 ##Google Analytics site settings
-Jahia offer to you an easy way to include your google analytics tag in your html page. To configure this feature follow the steps
+Jahia offer to you an easy way to include your google analytics tag in your html page. To configure this feature follow the next steps :
 1. Goto `Edit Mode`
 1. In `PAGES` menu right click your site name and click `Edit`
 1. In the edit form goto `Options` section
