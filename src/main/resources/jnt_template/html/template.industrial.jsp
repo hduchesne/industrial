@@ -79,7 +79,20 @@
       	<template:area path="header-container"/>
       	<div class="top-shadow ${renderContext.editMode?'edit':''}"></div>
       	<template:area path="page-content"/>
-		<template:area path="footer-container"/>
+		<footer class="site-footer" role="contentinfo">
+			<div class="container">
+				<template:area path="footer-container"/>
+				<div class="row">
+					<div class="col-12 text-md-center text-left">
+						<p class="copyright">
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
 
 <%--		<template:addResources type="javascript" resources="jquery-3.3.1.min.js" targetTag="body"/>--%>
 <%--      	<template:addResources type="javascript" resources="popper.min.js" targetTag="body"/>--%>

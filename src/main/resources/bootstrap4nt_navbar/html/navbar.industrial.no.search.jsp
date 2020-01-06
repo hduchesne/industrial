@@ -89,10 +89,11 @@
         <template:include view="basenav"/>
 
         <div class="navbar-nav ml-auto">
-            <form method="post" class="search-form">
-                <span class="icon ion ion-md-search"></span>
-                <input type="text" class="form-control" placeholder="Search...">
-            </form>
+            <span style="min-width: 276px;">&nbsp;</span>
+<%--            <form method="post" class="search-form">--%>
+<%--                <span class="icon ion ion-search"></span>--%>
+<%--                <input type="text" class="form-control" placeholder="Search...">--%>
+<%--            </form>--%>
         </div>
 
         <c:if test="${addLoginButton}">
