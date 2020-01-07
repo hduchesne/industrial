@@ -143,43 +143,52 @@
       }
   	}
 	});
-
-
-	var contentWayPoint = function() {
-		var i = 0;
-		$('.element-animate').waypoint( function( direction ) {
-
-			if( direction === 'down' && !$(this.element).hasClass('element-animated') ) {
-				
-				i++;
-
-				$(this.element).addClass('item-animate');
-				setTimeout(function(){
-
-					$('body .element-animate.item-animate').each(function(k){
-						var el = $(this);
-						setTimeout( function () {
-							var effect = el.data('animate-effect');
-							if ( effect === 'fadeIn') {
-								el.addClass('fadeIn element-animated');
-							} else if ( effect === 'fadeInLeft') {
-								el.addClass('fadeInLeft element-animated');
-							} else if ( effect === 'fadeInRight') {
-								el.addClass('fadeInRight element-animated');
-							} else {
-								el.addClass('fadeInUp element-animated');
-							}
-							el.removeClass('item-animate');
-						},  k * 100);
-					});
-					
-				}, 100);
-				
-			}
-
-		} , { offset: '95%' } );
-	};
-	contentWayPoint();
+    // aligned the animation with the behaviour in the animate module
+    $('.element-animate').each(function(index){
+        var el = $(this);
+        el.appear(function () {
+            el.css("opacity", "1");
+            el.css("visibility", "visible");
+            setTimeout( function () {
+                el.addClass("animated fadeInUp");
+            },  index * 100);
+        });
+    });
+	// var contentWayPoint = function() {
+	// 	var i = 0;
+	// 	$('.element-animate').waypoint( function( direction ) {
+    //
+	// 		if( direction === 'down' && !$(this.element).hasClass('element-animated') ) {
+	//
+	// 			i++;
+    //
+	// 			$(this.element).addClass('item-animate');
+	// 			setTimeout(function(){
+    //
+	// 				$('body .element-animate.item-animate').each(function(k){
+	// 					var el = $(this);
+	// 					setTimeout( function () {
+	// 						var effect = el.data('animate-effect');
+	// 						if ( effect === 'fadeIn') {
+	// 							el.addClass('fadeIn element-animated');
+	// 						} else if ( effect === 'fadeInLeft') {
+	// 							el.addClass('fadeInLeft element-animated');
+	// 						} else if ( effect === 'fadeInRight') {
+	// 							el.addClass('fadeInRight element-animated');
+	// 						} else {
+	// 							el.addClass('fadeInUp element-animated');
+	// 						}
+	// 						el.removeClass('item-animate');
+	// 					},  k * 100);
+	// 				});
+	//
+	// 			}, 100);
+	//
+	// 		}
+    //
+	// 	} , { offset: '95%' } );
+	// };
+	// contentWayPoint();
 
    $('.navbar .dropdown > a').click(function(){
     location.href = this.href;

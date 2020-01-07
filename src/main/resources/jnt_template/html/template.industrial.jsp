@@ -43,7 +43,9 @@
 	    <template:addResources type="css" resources="ionicons.4.6.3.min.css" media="screen"/>
 		<template:addResources type="css" resources="bootstrap.min.css" />
 
-		<template:addResources type="css" resources="animate.css" />
+		<%-- come from animate module --%>
+    	<template:addResources type="css" resources="animate.min.css" />
+
 		<template:addResources type="css" resources="owl.carousel.min.css" />
 		<template:addResources type="css" resources="jquery.fancybox.min.css" />
 <%--		<template:addResources type="css" resources="ionicons.min.css" />--%>
@@ -66,12 +68,13 @@
 			<template:addResources type="css" resources="edit.css"/>
 		</c:if>
 
-	  <c:forEach items="${_jsh_.nodes}" var="node">
-		  <c:url var="customJshUrl" value="${node.url}"/>
-		  <c:if test="${fn:endsWith(customJshUrl, '.js')}">
-			  <template:addResources type="javascript" resources="${customJshUrl}" targetTag="body"/>
-		  </c:if>
-	  </c:forEach>
+	  	<c:forEach items="${_jsh_.nodes}" var="node">
+			<c:url var="customJshUrl" value="${node.url}"/>
+			<c:if test="${fn:endsWith(customJshUrl, '.js')}">
+			  <template:addResources type="javascript" resources="${customJshUrl}" async=""/>
+			</c:if>
+	  	</c:forEach>
+
   </head>
 
 
@@ -99,7 +102,8 @@
 <%--      	<template:addResources type="javascript" resources="bootstrap.min.js" targetTag="body"/>--%>
       	<%-- media="noAggregateAndCompress" --%>
       	<template:addResources type="javascript" resources="owl.carousel.min.js" targetTag="body"/>
-      	<template:addResources type="javascript" resources="jquery.waypoints.min.js" targetTag="body"/>
+<%--      	<template:addResources type="javascript" resources="jquery.waypoints.min.js" targetTag="body"/>--%>
+		<template:addResources type="javascript" resources="jquery.appear.min.js" targetTag="body"/>
       	<template:addResources type="javascript" resources="jquery.fancybox.min.js" targetTag="body"/>
       	<template:addResources type="javascript" resources="main.js" targetTag="body"/>
 <%--        <script src="https://unpkg.com/ionicons@4.6.3/dist/ionicons.js"></script>--%>

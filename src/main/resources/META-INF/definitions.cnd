@@ -72,3 +72,6 @@
 
 [tint:card] > jnt:content, timix:content, timix:industrial, timix:linkTo
 // CONTENT ***//
+
+
+//TODO create module css & js managment add css et js element -> external -> url || internal -> file or inline

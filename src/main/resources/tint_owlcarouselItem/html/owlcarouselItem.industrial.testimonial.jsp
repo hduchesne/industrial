@@ -57,23 +57,5 @@
                 </div>
             </div>
         </div>
-<%--        <div class="slider-item" style="background-image: url('${imageURL}');">--%>
-<%--            <div class="container">--%>
-<%--                <div class="row slider-text align-items-center justify-content-center">--%>
-<%--                    <div class="col-lg-7 text-center col-sm-12 element-animate">--%>
-<%--                        <div class="btn-play-wrap mx-auto">--%>
-<%--                            <p class="mb-4">--%>
-<%--                                <a href="${videoURL}" data-fancybox data-ratio="2" class="btn-play">--%>
-<%--                                    <span class="ion ion-ios-play"></span>--%>
-<%--                                </a>--%>
-<%--                            </p>--%>
-<%--                        </div>--%>
-<%--                        ${caption}--%>
-<%--&lt;%&ndash;                        <h1 class="mb-4"><span>We Are Industrial Company</span></h1>&ndash;%&gt;--%>
-<%--&lt;%&ndash;                        <p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?</p>&ndash;%&gt;--%>
-<%--                    </div>--%>
-<%--                </div>--%>
-<%--            </div>--%>
-<%--        </div>--%>
     </c:otherwise>
 </c:choose>

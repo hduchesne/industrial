@@ -63,7 +63,7 @@
     <developerConnection>scm:git:https://github.com/hduchesne/industrial.git</developerConnection>
   </scm>
   <properties>
-    <jahia-depends>bootstrap4-components,bootstrap4-core,default,font-awesome,jquery,popperjs</jahia-depends>
+    <jahia-depends>animate,bootstrap4-components,bootstrap4-core,default,font-awesome,jquery,popperjs</jahia-depends>
   </properties>
   <repositories>
     <repository>

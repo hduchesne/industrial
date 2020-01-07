@@ -41,7 +41,7 @@
         <div class="slider-item" style="background-image: url('${imageURL}');">
             <div class="container">
                 <div class="row slider-text align-items-center justify-content-center">
-                    <div class="col-lg-7 text-center col-sm-12 element-animate">
+                    <div class="col-lg-7 text-center col-sm-12"><%-- element-animate--%>
                         <div class="btn-play-wrap mx-auto">
                             <p class="mb-4">
                                 <a href="${videoURL}" data-fancybox data-ratio="2" class="btn-play">

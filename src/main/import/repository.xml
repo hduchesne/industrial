@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
     <modules jcr:primaryType="jnt:modules">
-        <industrial j:dependencies="bootstrap4-components bootstrap4-core default font-awesome jquery popperjs"
+        <industrial j:dependencies="animate bootstrap4-components bootstrap4-core default font-awesome jquery popperjs"
                   j:installedModules="industrial"
                   j:modulePriority="0"
                   j:moduleType="templatesSet"
@@ -176,9 +176,9 @@
                         </industrial_blog_1.jpg>
                     </images>
                     <css jcr:primaryType="jnt:folder">
-                        <custom.css jcr:primaryType="jnt:file">
+                        <animate.custom.css jcr:primaryType="jnt:file">
                             <jcr:content jcr:mimeType="text/css" jcr:primaryType="jnt:resource"/>
-                        </custom.css>
+                        </animate.custom.css>
                     </css>
                     <js jcr:primaryType="jnt:folder">
                         <header jcr:primaryType="jnt:folder">
@@ -199,122 +199,6 @@
                                  jcr:mixinTypes="mix:title"
                                  jcr:primaryType="jnt:translation"
                                  jcr:title="templates"/>
-                        <gallery-list jcr:primaryType="jnt:contentList">
-                            <j:translation_en jcr:language="en"
-                                    jcr:mixinTypes="mix:title"
-                                    jcr:primaryType="jnt:translation"
-                                    jcr:title="Gallery list"/>
-                            <section-galley jcr:mixinTypes="bootstrap4mix:createSection"
-                                  jcr:primaryType="bootstrap4nt:grid"
-                                  sectionCssClass="section border-t pb-0"
-                                  sectionElement="section">
-                                <section-galley jcr:primaryType="jnt:contentList">
-                                    <content-row gridClasses="col-md-8 text-center"
-                                     gridLayout="fixed-width"
-                                     jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:customGrid"
-                                     jcr:primaryType="bootstrap4nt:grid"
-                                     rowCssClass="justify-content-center mb-5 element-animate"
-                                     rowHorizontalAlignment="default"
-                                     rowVerticalAlignment="default"
-                                     typeOfGrid="customGrid">
-                                        <content-row-col0 jcr:primaryType="jnt:contentList">
-                                            <text jcr:primaryType="bootstrap4nt:text">
-                                                <j:translation_en jcr:language="en"
-                                                   jcr:primaryType="jnt:translation"
-                                                   text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Projects&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;"/>
-                                            </text>
-                                        </content-row-col0>
-                                    </content-row>
-                                    <container-gallery gridClasses="col-md-4 element-animate,col-md-4 element-animate,col-md-4 element-animate,col-md-4 element-animate,col-md-4 element-animate,col-md-4 element-animate"
-                                           gridLayout="full-width"
-                                           jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:customGrid"
-                                           jcr:primaryType="bootstrap4nt:grid"
-                                           rowCssClass="no-gutters"
-                                           rowHorizontalAlignment="default"
-                                           rowVerticalAlignment="default"
-                                           typeOfGrid="customGrid">
-                                        <container-gallery-col0 jcr:primaryType="jnt:contentList">
-                                            <ducting-design iconClass="ion-md-add icon"
-                                              image="#/modules/industrial/files/images/industrial_img_1.jpg"
-                                              jcr:mixinTypes="timix:internalLink"
-                                              jcr:primaryType="tint:galleryImage"
-                                              linkType="internalLink">
-                                                <j:translation_en heading="Ducting Design in Colorado"
-                                                   jcr:language="en"
-                                                   jcr:mixinTypes="mix:title"
-                                                   jcr:primaryType="jnt:translation"
-                                                   jcr:title="Ducting Design"/>
-                                            </ducting-design>
-                                        </container-gallery-col0>
-                                        <container-gallery-col1 jcr:primaryType="jnt:contentList">
-                                            <tanks-project iconClass="ion-md-add icon"
-                                             image="#/modules/industrial/files/images/industrial_img_2.jpg"
-                                             jcr:mixinTypes="timix:internalLink"
-                                             jcr:primaryType="tint:galleryImage"
-                                             linkType="internalLink">
-                                                <j:translation_en heading="Tanks Project In California"
-                                                   jcr:language="en"
-                                                   jcr:mixinTypes="mix:title"
-                                                   jcr:primaryType="jnt:translation"
-                                                   jcr:title="Tanks Project"/>
-                                            </tanks-project>
-                                        </container-gallery-col1>
-                                        <container-gallery-col2 jcr:primaryType="jnt:contentList">
-                                            <structural-design iconClass="ion-md-add icon"
-                                                 image="#/modules/industrial/files/images/industrial_img_3.jpg"
-                                                 jcr:mixinTypes="timix:internalLink"
-                                                 jcr:primaryType="tint:galleryImage"
-                                                 linkType="internalLink">
-                                                <j:translation_en heading="Structural Design in New York"
-                                                   jcr:language="en"
-                                                   jcr:mixinTypes="mix:title"
-                                                   jcr:primaryType="jnt:translation"
-                                                   jcr:title="Structural Design"/>
-                                            </structural-design>
-                                        </container-gallery-col2>
-                                        <container-gallery-col3 jcr:primaryType="jnt:contentList">
-                                            <stacks-design iconClass="ion-md-add icon"
-                                             image="#/modules/industrial/files/images/industrial_img_4.jpg"
-                                             jcr:mixinTypes="timix:internalLink"
-                                             jcr:primaryType="tint:galleryImage"
-                                             linkType="internalLink">
-                                                <j:translation_en heading="Stacks Design"
-                                                   jcr:language="en"
-                                                   jcr:mixinTypes="mix:title"
-                                                   jcr:primaryType="jnt:translation"
-                                                   jcr:title="Stacks Design"/>
-                                            </stacks-design>
-                                        </container-gallery-col3>
-                                        <container-gallery-col4 jcr:primaryType="jnt:contentList">
-                                            <intercate-custom iconClass="ion-md-add icon"
-                                                image="#/modules/industrial/files/images/industrial_img_5.jpg"
-                                                jcr:mixinTypes="timix:internalLink"
-                                                jcr:primaryType="tint:galleryImage"
-                                                linkType="internalLink">
-                                                <j:translation_en heading="Intercate Custom"
-                                                   jcr:language="en"
-                                                   jcr:mixinTypes="mix:title"
-                                                   jcr:primaryType="jnt:translation"
-                                                   jcr:title="Intercate Custom"/>
-                                            </intercate-custom>
-                                        </container-gallery-col4>
-                                        <container-gallery-col5 jcr:primaryType="jnt:contentList">
-                                            <banker-design iconClass="ion-md-add icon"
-                                             image="#/modules/industrial/files/images/industrial_img_6.jpg"
-                                             jcr:mixinTypes="timix:internalLink"
-                                             jcr:primaryType="tint:galleryImage"
-                                             linkType="internalLink">
-                                                <j:translation_en heading="Banker Design"
-                                                   jcr:language="en"
-                                                   jcr:mixinTypes="mix:title"
-                                                   jcr:primaryType="jnt:translation"
-                                                   jcr:title="Banker Design"/>
-                                            </banker-design>
-                                        </container-gallery-col5>
-                                    </container-gallery>
-                                </section-galley>
-                            </section-galley>
-                        </gallery-list>
                         <media-3-blocks-list jcr:primaryType="jnt:contentList">
                             <j:translation_en jcr:language="en"
                                     jcr:mixinTypes="mix:title"
@@ -734,18 +618,6 @@
                                     </the-best-level-of-excellence-in>
                                 </home-carousel>
                             </heading-carousel-list>
-                            <heading-content-list jcr:primaryType="jnt:contentList">
-                                <j:translation_en jcr:language="en"
-                                       jcr:mixinTypes="mix:title"
-                                       jcr:primaryType="jnt:translation"
-                                       jcr:title="Heading content list"/>
-                                <heading image="#/modules/industrial/files/images/industrial_hero_3.jpg"
-                              jcr:primaryType="tint:heading">
-                                    <j:translation_en body="&lt;h1 class=&#34;pt-5&#34;&gt;&lt;span&gt;About Us&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.&lt;/p&gt;&#xA;"
-                                          jcr:language="en"
-                                          jcr:primaryType="jnt:translation"/>
-                                </heading>
-                            </heading-content-list>
                         </heading>
                         <footer jcr:primaryType="jnt:contentFolder">
                             <j:translation_en jcr:language="en"
@@ -962,6 +834,174 @@
                                 </Features-section>
                             </Features-section>
                         </features-list>
+                        <gallery-list jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Gallery list"/>
+                            <section-galley jcr:mixinTypes="bootstrap4mix:createSection"
+                                  jcr:primaryType="bootstrap4nt:grid"
+                                  sectionCssClass="section border-t pb-0"
+                                  sectionElement="section">
+                                <section-galley jcr:primaryType="jnt:contentList">
+                                    <content-row gridClasses="col-md-8 text-center"
+                                     gridLayout="fixed-width"
+                                     jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                     jcr:primaryType="bootstrap4nt:grid"
+                                     rowCssClass="justify-content-center mb-5"
+                                     rowHorizontalAlignment="default"
+                                     rowVerticalAlignment="default"
+                                     typeOfGrid="customGrid">
+                                        <content-row-col0 j:animation="fadeInUp"
+                                             j:animationDelay="0.0"
+                                             j:animationDelayUsage="delayBeforeAnimation"
+                                             j:animationIterationCount="1"
+                                             jcr:mixinTypes="jmix:animate"
+                                             jcr:primaryType="jnt:contentList">
+                                            <text jcr:primaryType="bootstrap4nt:text">
+                                                <j:translation_en jcr:language="en"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Projects&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;"/>
+                                            </text>
+                                        </content-row-col0>
+                                    </content-row>
+                                    <container-gallery gridClasses="col-md-4,col-md-4,col-md-4,col-md-4,col-md-4,col-md-4"
+                                           gridLayout="full-width"
+                                           jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                           jcr:primaryType="bootstrap4nt:grid"
+                                           rowCssClass="no-gutters"
+                                           rowHorizontalAlignment="default"
+                                           rowVerticalAlignment="default"
+                                           typeOfGrid="customGrid">
+                                        <container-gallery-col0 j:animation="fadeInUp"
+                                                   j:animationDelay="0.0"
+                                                   j:animationDelayUsage="delayBeforeAnimation"
+                                                   j:animationIterationCount="1"
+                                                   jcr:mixinTypes="jmix:animate"
+                                                   jcr:primaryType="jnt:contentList">
+                                            <ducting-design iconClass="ion-md-add icon"
+                                              image="#/modules/industrial/files/images/industrial_img_1.jpg"
+                                              jcr:mixinTypes="timix:internalLink"
+                                              jcr:primaryType="tint:galleryImage"
+                                              linkType="internalLink">
+                                                <j:translation_en heading="Ducting Design in Colorado"
+                                                   jcr:language="en"
+                                                   jcr:mixinTypes="mix:title"
+                                                   jcr:primaryType="jnt:translation"
+                                                   jcr:title="Ducting Design"/>
+                                            </ducting-design>
+                                        </container-gallery-col0>
+                                        <container-gallery-col1 j:animation="fadeInUp"
+                                                   j:animationDelay="0.1"
+                                                   j:animationDelayUsage="delayBeforeAnimation"
+                                                   j:animationIterationCount="1"
+                                                   jcr:mixinTypes="jmix:animate"
+                                                   jcr:primaryType="jnt:contentList">
+                                            <tanks-project iconClass="ion-md-add icon"
+                                             image="#/modules/industrial/files/images/industrial_img_2.jpg"
+                                             jcr:mixinTypes="timix:internalLink"
+                                             jcr:primaryType="tint:galleryImage"
+                                             linkType="internalLink">
+                                                <j:translation_en heading="Tanks Project In California"
+                                                   jcr:language="en"
+                                                   jcr:mixinTypes="mix:title"
+                                                   jcr:primaryType="jnt:translation"
+                                                   jcr:title="Tanks Project"/>
+                                            </tanks-project>
+                                        </container-gallery-col1>
+                                        <container-gallery-col2 j:animation="fadeInUp"
+                                                   j:animationDelay="0.2"
+                                                   j:animationDelayUsage="delayBeforeAnimation"
+                                                   j:animationIterationCount="1"
+                                                   jcr:mixinTypes="jmix:animate"
+                                                   jcr:primaryType="jnt:contentList">
+                                            <structural-design iconClass="ion-md-add icon"
+                                                 image="#/modules/industrial/files/images/industrial_img_3.jpg"
+                                                 jcr:mixinTypes="timix:internalLink"
+                                                 jcr:primaryType="tint:galleryImage"
+                                                 linkType="internalLink">
+                                                <j:translation_en heading="Structural Design in New York"
+                                                   jcr:language="en"
+                                                   jcr:mixinTypes="mix:title"
+                                                   jcr:primaryType="jnt:translation"
+                                                   jcr:title="Structural Design"/>
+                                            </structural-design>
+                                        </container-gallery-col2>
+                                        <container-gallery-col3 j:animation="fadeInUp"
+                                                   j:animationDelay="0.0"
+                                                   j:animationDelayUsage="delayBeforeAnimation"
+                                                   j:animationIterationCount="1"
+                                                   jcr:mixinTypes="jmix:animate"
+                                                   jcr:primaryType="jnt:contentList">
+                                            <stacks-design iconClass="ion-md-add icon"
+                                             image="#/modules/industrial/files/images/industrial_img_4.jpg"
+                                             jcr:mixinTypes="timix:internalLink"
+                                             jcr:primaryType="tint:galleryImage"
+                                             linkType="internalLink">
+                                                <j:translation_en heading="Stacks Design"
+                                                   jcr:language="en"
+                                                   jcr:mixinTypes="mix:title"
+                                                   jcr:primaryType="jnt:translation"
+                                                   jcr:title="Stacks Design"/>
+                                            </stacks-design>
+                                        </container-gallery-col3>
+                                        <container-gallery-col4 j:animation="fadeInUp"
+                                                   j:animationDelay="0.1"
+                                                   j:animationDelayUsage="delayBeforeAnimation"
+                                                   j:animationIterationCount="1"
+                                                   jcr:mixinTypes="jmix:animate"
+                                                   jcr:primaryType="jnt:contentList">
+                                            <intercate-custom iconClass="ion-md-add icon"
+                                                image="#/modules/industrial/files/images/industrial_img_5.jpg"
+                                                jcr:mixinTypes="timix:internalLink"
+                                                jcr:primaryType="tint:galleryImage"
+                                                linkType="internalLink">
+                                                <j:translation_en heading="Intercate Custom"
+                                                   jcr:language="en"
+                                                   jcr:mixinTypes="mix:title"
+                                                   jcr:primaryType="jnt:translation"
+                                                   jcr:title="Intercate Custom"/>
+                                            </intercate-custom>
+                                        </container-gallery-col4>
+                                        <container-gallery-col5 j:animation="fadeInUp"
+                                                   j:animationDelay="0.2"
+                                                   j:animationDelayUsage="delayBeforeAnimation"
+                                                   j:animationIterationCount="1"
+                                                   jcr:mixinTypes="jmix:animate"
+                                                   jcr:primaryType="jnt:contentList">
+                                            <banker-design iconClass="ion-md-add icon"
+                                             image="#/modules/industrial/files/images/industrial_img_6.jpg"
+                                             jcr:mixinTypes="timix:internalLink"
+                                             jcr:primaryType="tint:galleryImage"
+                                             linkType="internalLink">
+                                                <j:translation_en heading="Banker Design"
+                                                   jcr:language="en"
+                                                   jcr:mixinTypes="mix:title"
+                                                   jcr:primaryType="jnt:translation"
+                                                   jcr:title="Banker Design"/>
+                                            </banker-design>
+                                        </container-gallery-col5>
+                                    </container-gallery>
+                                </section-galley>
+                            </section-galley>
+                        </gallery-list>
+                        <heading-content-list jcr:primaryType="jnt:contentList">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Heading content list"/>
+                            <heading image="#/modules/industrial/files/images/industrial_hero_3.jpg"
+                           j:animation="fadeInUp"
+                           j:animationDelay="0.0"
+                           j:animationDelayUsage="delayBeforeAnimation"
+                           j:animationIterationCount="1"
+                           jcr:mixinTypes="jmix:animate"
+                           jcr:primaryType="tint:heading">
+                                <j:translation_en body="&lt;h1 class=&#34;pt-5&#34;&gt;&lt;span&gt;About Us&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.&lt;/p&gt;&#xA;"
+                                       jcr:language="en"
+                                       jcr:primaryType="jnt:translation"/>
+                            </heading>
+                        </heading-content-list>
                     </templates>
                 </contents>
                 <templates jcr:primaryType="jnt:templatesFolder">
@@ -1256,11 +1296,16 @@
                                            gridLayout="fixed-width"
                                            jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:customGrid"
                                            jcr:primaryType="bootstrap4nt:grid"
-                                           rowCssClass="justify-content-center mb-5 element-animate"
+                                           rowCssClass="justify-content-center mb-5"
                                            rowHorizontalAlignment="default"
                                            rowVerticalAlignment="default"
                                            typeOfGrid="customGrid">
-                                                <content-row-col0 jcr:primaryType="jnt:contentList">
+                                                <content-row-col0 j:animation="fadeInUp"
+                                                   j:animationDelay="0.0"
+                                                   j:animationDelayUsage="delayBeforeAnimation"
+                                                   j:animationIterationCount="1"
+                                                   jcr:mixinTypes="jmix:animate"
+                                                   jcr:primaryType="jnt:contentList">
                                                     <text jcr:primaryType="bootstrap4nt:text">
                                                         <j:translation_en jcr:language="en"
                                                          jcr:primaryType="jnt:translation"
@@ -1268,7 +1313,7 @@
                                                     </text>
                                                 </content-row-col0>
                                             </content-row>
-                                            <container-gallery gridClasses="col-md-4 element-animate,col-md-4 element-animate,col-md-4 element-animate,col-md-4 element-animate,col-md-4 element-animate,col-md-4 element-animate"
+                                            <container-gallery gridClasses="col-md-4,col-md-4,col-md-4,col-md-4,col-md-4,col-md-4"
                                                  gridLayout="full-width"
                                                  jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:customGrid"
                                                  jcr:primaryType="bootstrap4nt:grid"
@@ -1276,7 +1321,12 @@
                                                  rowHorizontalAlignment="default"
                                                  rowVerticalAlignment="default"
                                                  typeOfGrid="customGrid">
-                                                <container-gallery-col0 jcr:primaryType="jnt:contentList">
+                                                <container-gallery-col0 j:animation="fadeInUp"
+                                                         j:animationDelay="0.0"
+                                                         j:animationDelayUsage="delayBeforeAnimation"
+                                                         j:animationIterationCount="1"
+                                                         jcr:mixinTypes="jmix:animate"
+                                                         jcr:primaryType="jnt:contentList">
                                                     <ducting-design iconClass="ion-md-add icon"
                                                     image="#/modules/industrial/files/images/industrial_img_1.jpg"
                                                     jcr:mixinTypes="timix:internalLink"
@@ -1289,7 +1339,12 @@
                                                          jcr:title="Ducting Design"/>
                                                     </ducting-design>
                                                 </container-gallery-col0>
-                                                <container-gallery-col1 jcr:primaryType="jnt:contentList">
+                                                <container-gallery-col1 j:animation="fadeInUp"
+                                                         j:animationDelay="0.1"
+                                                         j:animationDelayUsage="delayBeforeAnimation"
+                                                         j:animationIterationCount="1"
+                                                         jcr:mixinTypes="jmix:animate"
+                                                         jcr:primaryType="jnt:contentList">
                                                     <tanks-project iconClass="ion-md-add icon"
                                                    image="#/modules/industrial/files/images/industrial_img_2.jpg"
                                                    jcr:mixinTypes="timix:internalLink"
@@ -1302,7 +1357,12 @@
                                                          jcr:title="Tanks Project"/>
                                                     </tanks-project>
                                                 </container-gallery-col1>
-                                                <container-gallery-col2 jcr:primaryType="jnt:contentList">
+                                                <container-gallery-col2 j:animation="fadeInUp"
+                                                         j:animationDelay="0.2"
+                                                         j:animationDelayUsage="delayBeforeAnimation"
+                                                         j:animationIterationCount="1"
+                                                         jcr:mixinTypes="jmix:animate"
+                                                         jcr:primaryType="jnt:contentList">
                                                     <structural-design iconClass="ion-md-add icon"
                                                        image="#/modules/industrial/files/images/industrial_img_3.jpg"
                                                        jcr:mixinTypes="timix:internalLink"
@@ -1315,7 +1375,12 @@
                                                          jcr:title="Structural Design"/>
                                                     </structural-design>
                                                 </container-gallery-col2>
-                                                <container-gallery-col3 jcr:primaryType="jnt:contentList">
+                                                <container-gallery-col3 j:animation="fadeInUp"
+                                                         j:animationDelay="0.0"
+                                                         j:animationDelayUsage="delayBeforeAnimation"
+                                                         j:animationIterationCount="1"
+                                                         jcr:mixinTypes="jmix:animate"
+                                                         jcr:primaryType="jnt:contentList">
                                                     <stacks-design iconClass="ion-md-add icon"
                                                    image="#/modules/industrial/files/images/industrial_img_4.jpg"
                                                    jcr:mixinTypes="timix:internalLink"
@@ -1328,7 +1393,12 @@
                                                          jcr:title="Stacks Design"/>
                                                     </stacks-design>
                                                 </container-gallery-col3>
-                                                <container-gallery-col4 jcr:primaryType="jnt:contentList">
+                                                <container-gallery-col4 j:animation="fadeInUp"
+                                                         j:animationDelay="0.1"
+                                                         j:animationDelayUsage="delayBeforeAnimation"
+                                                         j:animationIterationCount="1"
+                                                         jcr:mixinTypes="jmix:animate"
+                                                         jcr:primaryType="jnt:contentList">
                                                     <intercate-custom iconClass="ion-md-add icon"
                                                       image="#/modules/industrial/files/images/industrial_img_5.jpg"
                                                       jcr:mixinTypes="timix:internalLink"
@@ -1341,7 +1411,12 @@
                                                          jcr:title="Intercate Custom"/>
                                                     </intercate-custom>
                                                 </container-gallery-col4>
-                                                <container-gallery-col5 jcr:primaryType="jnt:contentList">
+                                                <container-gallery-col5 j:animation="fadeInUp"
+                                                         j:animationDelay="0.2"
+                                                         j:animationDelayUsage="delayBeforeAnimation"
+                                                         j:animationIterationCount="1"
+                                                         jcr:mixinTypes="jmix:animate"
+                                                         jcr:primaryType="jnt:contentList">
                                                     <banker-design iconClass="ion-md-add icon"
                                                    image="#/modules/industrial/files/images/industrial_img_6.jpg"
                                                    jcr:mixinTypes="timix:internalLink"
@@ -1775,46 +1850,60 @@
                                  jcr:primaryType="jnt:translation"
                                  jcr:title="About Template Overview"/>
                         <j:translation_de jcr:language="de"
+                                 jcr:mixinTypes="mix:title"
                                  jcr:primaryType="jnt:translation"
                                  jcr:title="About Template Overview"/>
                         <j:translation_pt jcr:language="pt"
+                                 jcr:mixinTypes="mix:title"
                                  jcr:primaryType="jnt:translation"
                                  jcr:title="About Template Overview"/>
                         <j:translation_it jcr:language="it"
+                                 jcr:mixinTypes="mix:title"
                                  jcr:primaryType="jnt:translation"
                                  jcr:title="About Template Overview"/>
                         <j:translation_fr jcr:language="fr"
+                                 jcr:mixinTypes="mix:title"
                                  jcr:primaryType="jnt:translation"
                                  jcr:title="About Template Overview"/>
                         <j:translation_da jcr:language="da"
+                                 jcr:mixinTypes="mix:title"
                                  jcr:primaryType="jnt:translation"
                                  jcr:title="About Template Overview"/>
                         <j:translation_es jcr:language="es"
+                                 jcr:mixinTypes="mix:title"
                                  jcr:primaryType="jnt:translation"
                                  jcr:title="About Template Overview"/>
                         <j:translation_de_DE jcr:language="de_DE"
+                                    jcr:mixinTypes="mix:title"
                                     jcr:primaryType="jnt:translation"
                                     jcr:title="About Template Overview"/>
                     </about-template-overview>
                     <j:translation_de jcr:language="de"
+                              jcr:mixinTypes="mix:title"
                               jcr:primaryType="jnt:translation"
                               jcr:title="Home Template Overview"/>
                     <j:translation_pt jcr:language="pt"
+                              jcr:mixinTypes="mix:title"
                               jcr:primaryType="jnt:translation"
                               jcr:title="Home Template Overview"/>
                     <j:translation_it jcr:language="it"
+                              jcr:mixinTypes="mix:title"
                               jcr:primaryType="jnt:translation"
                               jcr:title="Home Template Overview"/>
                     <j:translation_fr jcr:language="fr"
+                              jcr:mixinTypes="mix:title"
                               jcr:primaryType="jnt:translation"
                               jcr:title="Home Template Overview"/>
                     <j:translation_da jcr:language="da"
+                              jcr:mixinTypes="mix:title"
                               jcr:primaryType="jnt:translation"
                               jcr:title="Home Template Overview"/>
                     <j:translation_es jcr:language="es"
+                              jcr:mixinTypes="mix:title"
                               jcr:primaryType="jnt:translation"
                               jcr:title="Home Template Overview"/>
                     <j:translation_de_DE jcr:language="de_DE"
+                                 jcr:mixinTypes="mix:title"
                                  jcr:primaryType="jnt:translation"
                                  jcr:title="Home Template Overview"/>
                 </home-template-overview>

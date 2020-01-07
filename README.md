@@ -81,7 +81,7 @@ To create a new website using `industrial` follow the next steps :
     ![Create a new web project](./src/main/resources/images/readme/002_create_new_site.png)
 
 
-##Google Analytics site settings
+## Google Analytics site settings
 Jahia offer to you an easy way to include your google analytics tag in your html page. To configure this feature follow the next steps :
 1. Goto `Edit Mode`
 1. In `PAGES` menu right click your site name and click `Edit`
