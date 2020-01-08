@@ -61,14 +61,24 @@
 
 
 //*** CONTENT //
+//Note could use jnt:imageReferenceLink but prefere mine
+[tint:image] > jnt:content, timix:industrial
+ - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
+
 [timix:content] mixin
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
  - body (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
 
 [tint:heading] > jnt:content, timix:content, timix:industrial
 
-[tint:halfBlock] > jnt:content, timix:content, timix:industrial
+//[tint:halfBlock] > jnt:content, timix:content, timix:industrial
+// - imagePosition (string, choicelist[resourceBundle]) = 'left' autocreated indexed=no < 'left', 'right'
+
+[tint:halfBlock] > jnt:content, timix:industrial
  - imagePosition (string, choicelist[resourceBundle]) = 'left' autocreated indexed=no < 'left', 'right'
+ + image (tint:image)
+ + body (tint:text)
+
 
 [tint:card] > jnt:content, timix:content, timix:industrial, timix:linkTo
 // CONTENT ***//

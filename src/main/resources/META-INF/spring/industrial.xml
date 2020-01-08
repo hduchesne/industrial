@@ -3,9 +3,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
     <bean id="btnLinkTypeInitializer" class="org.jahia.modules.template.bootstrap4.industrial.initializers.LinkTypeInitializer">
-        <property name="key" value="linkTypeInitializer" />
+        <property name="key" value="industrialLinkTypeInitializer" />
     </bean>
     <bean id="btnCarouselItemTypeInitializer" class="org.jahia.modules.template.bootstrap4.industrial.initializers.CarouselItemTypeInitializer">
-        <property name="key" value="carouselItemTypeInitializer" />
+        <property name="key" value="industrialCarouselItemTypeInitializer" />
     </bean>
 </beans>
