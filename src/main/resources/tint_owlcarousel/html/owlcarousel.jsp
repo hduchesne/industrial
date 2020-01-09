@@ -18,9 +18,7 @@
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
 <template:addResources type="css" resources="bootstrap.min.css" />
-<template:addResources type="css" resources="animate.css" />
 <template:addResources type="css" resources="owl.carousel.min.css" />
-
 <template:addResources type="javascript" resources="jquery.min.js,bootstrap.min.js,owl.carousel.min.js"/>
 
 <c:set var="items" value="${jcr:getChildrenOfType(currentNode, 'tint:owlcarouselItem')}"/>

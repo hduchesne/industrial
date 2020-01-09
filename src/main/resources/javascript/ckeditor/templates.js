@@ -25,6 +25,12 @@ CKEDITOR.addTemplates('industrial',
                     '  <span class="meta">Free-Template.co Client</span>\n' +
                     '</div>'
             },{
+                title:'Section heading',
+                image:'section-heading.png',
+                description:'Section heading elements. Create an <h2> and <p> html tag',
+                html:'<h2 class="heading mb-4">Projects</h2>\n' +
+                    '<p class="mb-5 lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>'
+            },{
                 title:'Media Block',
                 image:'media-block.png',
                 description:'',

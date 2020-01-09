@@ -9,8 +9,8 @@
 
 //*** CONTENT LINKER //
 [timix:linkTo] mixin
-// - linkType (string, choicelist[linkTypeInitializer,resourceBundle]) = 'internalLink' autocreated indexed=no < 'internalLink', 'externalLink', 'self'
- - linkType (string, choicelist[linkTypeInitializer,resourceBundle]) indexed=no < 'internalLink', 'externalLink', 'self'
+// - linkType (string, choicelist[industrialLinkTypeInitializer,resourceBundle]) = 'internalLink' autocreated indexed=no < 'internalLink', 'externalLink', 'self'
+ - linkType (string, choicelist[industrialLinkTypeInitializer,resourceBundle]) indexed=no < 'internalLink', 'externalLink', 'self'
 [timix:internalLink] > jmix:templateMixin mixin
  extends = timix:linkTo
  - internalLink (weakreference, picker[type='editoriallink']) < 'jmix:droppableContent', 'jnt:page', 'jnt:file'
@@ -35,7 +35,7 @@
 
 //*** CAROUSEL //
 [tint:owlcarouselItem] > jnt:content, mix:title
- - carouselType (string, choicelist[carouselItemTypeInitializer,resourceBundle]) mandatory indexed=no < 'standard', 'testimonial'
+ - carouselType (string, choicelist[industrialCarouselItemTypeInitializer,resourceBundle]) mandatory indexed=no < 'standard', 'testimonial'
 
 [timix:sCarouselItem] > jmix:templateMixin mixin
  extends = tint:owlcarouselItem
