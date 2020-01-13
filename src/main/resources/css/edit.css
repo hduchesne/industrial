@@ -28,3 +28,11 @@
 .j-owl-carousel-card-edit p{
     width: 90% !important;
 }
+
+.half .image div.x-border {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%);
+    height: initial;
+}

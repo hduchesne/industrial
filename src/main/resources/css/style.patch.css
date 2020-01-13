@@ -8,16 +8,18 @@
     height: 100%;
 }
 
-.half .image div.x-border {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translateY(-50%);
-    height: initial;
+.half .image .image-display {
+    background-size: cover;
+    background-position: center center;
 }
 
-.half .image img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+.media-custom > .a-like {
+    position: relative;
+    overflow: hidden;
 }
+
+/*.half .image img {*/
+/*    object-fit: cover;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/

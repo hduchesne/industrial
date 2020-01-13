@@ -11,6 +11,7 @@
 [timix:linkTo] mixin
 // - linkType (string, choicelist[industrialLinkTypeInitializer,resourceBundle]) = 'internalLink' autocreated indexed=no < 'internalLink', 'externalLink', 'self'
  - linkType (string, choicelist[industrialLinkTypeInitializer,resourceBundle]) indexed=no < 'internalLink', 'externalLink', 'self'
+ - linkTarget (string, choicelist[resourceBundle]) = _blank autocreated indexed=no < '_blank', '_self', '_parent', '_top'
 [timix:internalLink] > jmix:templateMixin mixin
  extends = timix:linkTo
  - internalLink (weakreference, picker[type='editoriallink']) < 'jmix:droppableContent', 'jnt:page', 'jnt:file'
