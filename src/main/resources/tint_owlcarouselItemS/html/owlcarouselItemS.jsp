@@ -20,12 +20,10 @@
 
 <%--<c:set var="title" value="${currentNode.properties['jcr:title'].string}"/>--%>
 <c:set var="caption" value="${currentNode.properties.caption.string}"/>
-<c:set var="imageNode" value="${currentNode.properties.image.node}"/>
-
-<template:addCacheDependency node="${imageNode}"/>
-<c:url var="imageURL" value="${imageNode.url}"/>
+<%--<c:set var="imageNode" value="${currentNode.properties.image.node}"/>--%>
 
 <c:url var="videoURL" value="${currentNode.properties.videoURL.string}"/>
+<c:url var="imageURL" value="${currentNode.properties.image.node.url}"/>
 
 <c:choose>
     <c:when test="${renderContext.editMode}">
@@ -43,7 +41,7 @@
         <div class="slider-item" style="background-image: url('${imageURL}');">
             <div class="container">
                 <div class="row slider-text align-items-center justify-content-center">
-                    <div class="col-lg-7 text-center col-sm-12 element-animate"><%-- --%>
+                    <div class="col-lg-7 text-center col-sm-12 element-animate">
                         <div class="btn-play-wrap mx-auto">
                             <p class="mb-4">
                                 <a href="${videoURL}" data-fancybox data-ratio="2" class="btn-play">

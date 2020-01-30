@@ -4,7 +4,10 @@
 <%--@elvariable id="currentNode" type="org.jahia.services.content.JCRNodeWrapper"--%>
 
 <c:set var="body" value="${currentNode.properties.body.string}"/>
-<c:url var="imageURL" value="${currentNode.properties.image.node.url}"/>
+<c:set var="imageNode" value="${currentNode.properties.image.node}"/>
+
+<template:addCacheDependency node="${imageNode}"/>
+<c:url var="imageURL" value="${imageNode.url}"/>
 
 <div class="inner-page">
     <div class="slider-item" style="background-image: url('${imageURL}');">

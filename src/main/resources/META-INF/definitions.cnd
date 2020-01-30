@@ -35,17 +35,12 @@
 // GALLERY IMAGE ***//
 
 //*** CAROUSEL //
-[tint:owlcarouselItem] > jnt:content, mix:title
- - carouselType (string, choicelist[industrialCarouselItemTypeInitializer,resourceBundle]) mandatory indexed=no < 'standard', 'testimonial'
-
-[timix:sCarouselItem] > jmix:templateMixin mixin
- extends = tint:owlcarouselItem
+[tint:owlcarouselItemS] > jnt:content, mix:title
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
  - videoURL (string) internationalized
  - caption (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
 
-[timix:tCarouselItem] > jmix:templateMixin mixin
- extends = tint:owlcarouselItem
+[tint:owlcarouselItemT] > jnt:content, mix:title
  - avatar (weakreference, picker[type='image']) mandatory < 'jmix:image'
  - heading (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
  - testimonial (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
@@ -57,7 +52,15 @@
  - class (string) indexed=no
 
 [tint:owlcarousel] > jnt:content, timix:industrial, jmix:list, jmix:siteContent orderable
- + * (tint:owlcarouselItem)
+ - carouselType (string, choicelist[industrialCarouselItemTypeInitializer,resourceBundle]) mandatory indexed=no < 'standard', 'testimonial'
+
+[timix:owlCarouselT] mixin
+ extends = tint:owlcarousel
+ + * (tint:owlcarouselItemT)
+
+[timix:owlCarouselS] mixin
+ extends = tint:owlcarousel
+ + * (tint:owlcarouselItemS)
 //CAROUSEL ***//
 
 

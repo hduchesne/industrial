@@ -22,7 +22,10 @@
 <c:set var="heading" value="${currentNode.properties.heading.string}"/>
 <c:set var="testimonial" value="${currentNode.properties.testimonial.string}"/>
 
-<c:url var="avatarURL" value="${currentNode.properties.avatar.node.url}"/>
+<c:set var="avatarNode" value="${currentNode.properties.avatar.node}"/>
+
+<template:addCacheDependency node="${avatarNode}"/>
+<c:url var="avatarURL" value="${avatarNode.url}"/>
 
 <c:choose>
     <c:when test="${renderContext.editMode}">

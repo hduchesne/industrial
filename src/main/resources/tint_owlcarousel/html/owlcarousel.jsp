@@ -21,15 +21,17 @@
 <template:addResources type="css" resources="owl.carousel.min.css" />
 <template:addResources type="javascript" resources="jquery.min.js,bootstrap.min.js,owl.carousel.min.js"/>
 
-<c:set var="items" value="${jcr:getChildrenOfType(currentNode, 'tint:owlcarouselItem')}"/>
-
 <c:set var="rand">
     <%= java.lang.Math.round(java.lang.Math.random() * 10000) %>
 </c:set>
 <c:set var="sliderId" value="slider-${rand}"/>
 
+<c:set var="type" value="${currentNode.properties.carouselType.string}"/>
+<c:set var="displayView" value="hidden.items.display.${type}"/>
+<c:set var="addView" value="hidden.items.add.${type}"/>
 
 <%--<utility:logger level="INFO" value="timix:owlcarouselAdvancedSettings ? ${jcr:isNodeType(currentNode, 'timix:owlcarouselAdvancedSettings')}"/>--%>
+<%--<utility:logger level="INFO" value="timix:owlCarouselT ? ${jcr:isNodeType(currentNode, 'timix:owlCarouselT')}"/>--%>
 
 <c:if test="${jcr:isNodeType(currentNode, 'timix:owlcarouselAdvancedSettings')}">
     <c:set var="options" value="${currentNode.properties.options.string}"/>
@@ -43,15 +45,9 @@
 
 <%--<c:out value="${not empty options?options:''}"/>--%>
 
-
+<%-- The view is based on naming convention. Each view is linked to a specific carousel mixin--%>
 <section id="${sliderId}" class="${className}">
-    <c:forEach items="${items}" var="item" varStatus="status">
-
-        <template:module node="${item}" nodeTypes="tint:owlcarouselItem">
-            <template:param name="currentStatus" value="${status.first?' active':''}"/>
-        </template:module>
-
-    </c:forEach>
+    <template:include view="${displayView}"/>
 </section>
 
 <script>
@@ -64,5 +60,10 @@
 
 
 <c:if test="${renderContext.editMode}">
-    <template:module path="*" nodeTypes="tint:owlcarouselItem"/>
+    <%--
+    As only one child type is defined no need to restrict
+    if a new child type is added restriction has to be done
+    using 'nodeTypes' attribute
+    --%>
+    <template:module path="*" />
 </c:if>

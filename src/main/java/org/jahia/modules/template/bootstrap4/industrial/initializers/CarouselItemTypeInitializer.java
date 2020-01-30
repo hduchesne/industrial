@@ -40,14 +40,14 @@ public class CarouselItemTypeInitializer extends AbstractChoiceListRenderer impl
         HashMap<String, Object> myPropertiesMap = null;
 
 
-        //externalLink
+        //heading carousel
         myPropertiesMap = new HashMap<String, Object>();
-        myPropertiesMap.put("addMixin","timix:sCarouselItem");
+        myPropertiesMap.put("addMixin","timix:owlCarouselS");
         myChoiceList.add(new ChoiceListValue("standard",myPropertiesMap,new ValueImpl("standard", PropertyType.STRING, false)));
 
-        //internalLink
+        //testimonial carousel
         myPropertiesMap = new HashMap<String, Object>();
-        myPropertiesMap.put("addMixin","timix:tCarouselItem");
+        myPropertiesMap.put("addMixin","timix:owlCarouselT");
         myChoiceList.add(new ChoiceListValue("testimonial",myPropertiesMap,new ValueImpl("testimonial", PropertyType.STRING, false)));
 
         //Return the list
