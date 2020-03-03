@@ -40,7 +40,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:400,700" rel="stylesheet">
 <%--    <link rel="stylesheet" href="/modules/industrial/css/ionicons.4.6.3.min.css" media="screen" type="text/css">--%>
 	  	<%-- used by other module, load it now to be sure it will not be loaded later and overwrite style.css--%>
-	    <template:addResources type="css" resources="ionicons.4.6.3.min.css" media="screen"/>
+
 		<template:addResources type="css" resources="bootstrap.min.css" />
 
 		<%-- come from animate module --%>
@@ -56,6 +56,9 @@
 		<!-- Theme Style -->
 		<template:addResources type="css" resources="style.css" />
     	<template:addResources type="css" resources="style.patch.css" />
+
+<%--	  position is important to be sure custom css will not merged with ofthers and is loaded at the end --%>
+	  <template:addResources type="css" resources="ionicons.4.6.3.min.css" media="screen"/>
 
 	  	<c:forEach items="${_css_.nodes}" var="node">
 			<c:url var="customCSSUrl" value="${node.url}"/>
@@ -79,12 +82,12 @@
 
 
 	<body>
-      	<template:area path="header-container"/>
+      	<template:area path="headercontent"/>
       	<div class="top-shadow ${renderContext.editMode?'edit':''}"></div>
-      	<template:area path="page-content"/>
+      	<template:area path="pagecontent"/>
 		<footer class="site-footer" role="contentinfo">
 			<div class="container">
-				<template:area path="footer-container"/>
+				<template:area path="footercontent"/>
 				<div class="row">
 					<div class="col-12 text-md-center text-left">
 						<p class="copyright">

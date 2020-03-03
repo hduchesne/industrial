@@ -33,16 +33,29 @@ This module contains a Jahia ready to use implementation of the free template [i
 Following the concept of bootstrap 4, the template can be modified or used as his.
 
 ## Install
-As it is built on top of bootstrap 4, the module has a dependence with it. So, before to install the Industrial module you need to check if the dependence is satisfied.
+Industrial Template Set module depends on :
+1. bootstrap 4
+1. animate
 
-### Install dependence
+Thus, before to install and run the Industrial module we need to ensure dependencies are satisfied
 
-To install the module `Bootstrap 4 Package` follow the next steps : 
+### Install dependences
+
+#### Install the module `Bootstrap 4 Package` : 
 1. Goto `Administration` mode
 1. Expand `System components` entry and click `Modules`
 1. In the right panel click on top `Available modules` and search for *Bootstrap 4 Package*
 
     ![](./src/main/resources/images/readme/200_modules_B4.png)
+    
+1. Click the icon ![](./src/main/resources/images/readme/201_modules_download_icon.png) in the right of the package to download and install the module
+
+#### Install the module `animate` : 
+1. Goto `Administration` mode
+1. Expand `System components` entry and click `Modules`
+1. In the right panel click on top `Available modules` and search for *animate*
+
+    ![](./src/main/resources/images/readme/202_modules_animate.png)
     
 1. Click the icon ![](./src/main/resources/images/readme/201_modules_download_icon.png) in the right of the package to download and install the module
 
@@ -80,6 +93,41 @@ To create a new website using `industrial` follow the next steps :
     
     ![Create a new web project](./src/main/resources/images/readme/002_create_new_site.png)
 
+
+## Use Jahia `Forms` and `jExperience` with an Industrial website
+Jahia offers an extension to build and deploy easily HTML Forms. In addition, form's fields can be mapped to User profile attribute. Values are stored in *jCustomer* through *jExperience*.
+### Enable `Forms` and `jExperience`
+Before to use *Forms* and *jExperience* ensure modules are deployed in *jContent*
+
+#### Check if `Forms` is installed
+1. Goto `Administration` mode
+1. Expand `System components` entry and click `Modules`
+1. Search if `Forms core` is available
+
+    ![](./src/main/resources/images/readme/400_Forms_is_enabled.png)
+
+If module is not deployed ...
+
+#### Check if `jExperience` & `jExperience Forms bridge` are installed
+Jahia offer the capability to map form's fields to User profile attribute. Values are stored in *jCustomer* through *jExperience*. To enable this great feature, jCustomer needs 2 modules :
+1. `jExperience`
+1. `jExperience Forms bridge`
+
+Thus, we need to check if the required module are available in our instance :
+
+1. Goto `Administration` mode
+1. Expand `System components` entry and click `Modules`
+1. Search if `jExperience` & `jExperience Forms bridge` are available
+
+    ![](./src/main/resources/images/readme/300_jExperience_is_enabled.png)
+
+If module is not deployed ...
+
+Then activate both for you sitecd ..
+
+When modules are available for your website you can find new entry in the settings tab of your website
+
+![](./src/main/resources/images/readme/500_jX_Form_active.png)
 
 ## Google Analytics site settings
 Jahia offer to you an easy way to include your google analytics tag in your html page. To configure this feature follow the next steps :
