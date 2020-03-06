@@ -16,7 +16,7 @@ CKEDITOR.editorConfig = function (config) {
 
     config.toolbar = 'Tinny';
     config.templates = 'industrial,default';
-    config.stylesSet = 'B4'+((typeof contextJsParameters != 'undefined') ? contextJsParameters.contextPath : '') + '/modules/industrial/javascript/ckeditor/stylesSet.js';
+    config.stylesSet = 'B4:'+((typeof contextJsParameters != 'undefined') ? contextJsParameters.contextPath : '') + '/modules/industrial/javascript/ckeditor/stylesSet.js';
     config.contentsCss = [
         ((typeof contextJsParameters != 'undefined') ? contextJsParameters.contextPath : '') + '/modules/bootstrap4-core/css/bootstrap.min.css',
         ((typeof contextJsParameters != 'undefined') ? contextJsParameters.contextPath : '') + '/modules/industrial/css/style.css'
