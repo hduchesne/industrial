@@ -42,6 +42,7 @@
             <div class="container">
                 <div class="row slider-text align-items-center justify-content-center">
                     <div class="col-lg-7 text-center col-sm-12 element-animate">
+                        <c:if test="${not empty videoURL} ">
                         <div class="btn-play-wrap mx-auto">
                             <p class="mb-4">
                                 <a href="${videoURL}" data-fancybox data-ratio="2" class="btn-play">
@@ -49,6 +50,7 @@
                                 </a>
                             </p>
                         </div>
+                        </c:if>
                             ${caption}
                             <%--                        <h1 class="mb-4"><span>We Are Industrial Company</span></h1>--%>
                             <%--                        <p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?</p>--%>
