@@ -17,9 +17,12 @@
 <%--@elvariable id="renderContext" type="org.jahia.services.render.RenderContext"--%>
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
-<template:addResources type="css" resources="bootstrap.min.css" />
-<template:addResources type="css" resources="owl.carousel.min.css" />
-<template:addResources type="javascript" resources="jquery.min.js,bootstrap.min.js,owl.carousel.min.js"/>
+
+<%--<template:addResources type="css" resources="bootstrap.min.css,owl.carousel.min.css" />--%>
+<%--<template:addResources type="javascript" resources="jquery.min.js,popper.min.js,bootstrap.min.js,owl.carousel.min.js"/>--%>
+
+<%--<template:addResources type="css" resources="owl.carousel.min.css" />--%>
+<%--<template:addResources type="javascript" resources="owl.carousel.min.js"/>--%>
 
 <c:set var="rand">
     <%= java.lang.Math.round(java.lang.Math.random() * 10000) %>

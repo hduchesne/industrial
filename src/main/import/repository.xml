@@ -12,41 +12,145 @@
                 <portlets jcr:primaryType="jnt:portletFolder"/>
                 <files jcr:primaryType="jnt:folder">
                     <images jcr:primaryType="jnt:folder">
-                        <slider-2.jpg j:height="1500"
+                        <slider-2.jpg j:deletionDate="2020-03-16T19:10:54.946+01:00"
+                             j:deletionUser="root"
+                             j:height="1500"
                              j:width="2000"
-                             jcr:mixinTypes="jmix:image"
+                             jcr:mixinTypes="jmix:image jmix:markedForDeletion jmix:markedForDeletionRoot"
                              jcr:primaryType="jnt:file">
-                            <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            <jcr:content jcr:mimeType="image/jpeg"
+                               jcr:mixinTypes="jmix:markedForDeletion"
+                               jcr:primaryType="jnt:resource"/>
+                            <thumbnail jcr:mimeType="image/jpeg"
+                             jcr:mixinTypes="jmix:markedForDeletion"
+                             jcr:primaryType="jnt:resource"/>
+                            <thumbnail2 jcr:mimeType="image/jpeg"
+                              jcr:mixinTypes="jmix:markedForDeletion"
+                              jcr:primaryType="jnt:resource"/>
                         </slider-2.jpg>
                         <industry jcr:primaryType="jnt:folder">
-                            <industrial_blog_1.jpg j:height="400"
-                                         j:width="700"
-                                         j:xresolution="72 dots"
-                                         j:yresolution="72 dots"
-                                         jcr:mixinTypes="jmix:exif jmix:image"
-                                         jcr:primaryType="jnt:file">
+                            <blog_1.jpg j:height="400"
+                              j:width="700"
+                              j:xresolution="72 dots"
+                              j:yresolution="72 dots"
+                              jcr:mixinTypes="jmix:exif jmix:image"
+                              jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </industrial_blog_1.jpg>
-                            <industrial_blog_2.jpg j:height="400"
-                                         j:width="700"
-                                         jcr:mixinTypes="jmix:image"
-                                         jcr:primaryType="jnt:file">
+                            </blog_1.jpg>
+                            <blog_2.jpg j:height="400"
+                              j:width="700"
+                              jcr:mixinTypes="jmix:image"
+                              jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </industrial_blog_2.jpg>
-                            <industrial_blog_3.jpg j:height="400"
-                                         j:width="700"
-                                         jcr:mixinTypes="jmix:image"
-                                         jcr:primaryType="jnt:file">
+                            </blog_2.jpg>
+                            <blog_3.jpg j:height="400"
+                              j:width="700"
+                              jcr:mixinTypes="jmix:image"
+                              jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </industrial_blog_3.jpg>
+                            </blog_3.jpg>
+                            <hero_1.jpg j:height="900"
+                              j:width="1900"
+                              jcr:mixinTypes="jmix:image"
+                              jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </hero_1.jpg>
+                            <hero_2.jpg j:height="900"
+                              j:width="1900"
+                              jcr:mixinTypes="jmix:image"
+                              jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </hero_2.jpg>
+                            <hero_3.jpg j:height="900"
+                              j:width="1900"
+                              jcr:mixinTypes="jmix:image"
+                              jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </hero_3.jpg>
+                            <gallery_1.jpg j:height="700"
+                                 j:width="700"
+                                 jcr:mixinTypes="jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_1.jpg>
+                            <gallery_2.jpg j:height="700"
+                                 j:width="700"
+                                 jcr:mixinTypes="jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_2.jpg>
+                            <gallery_3.jpg j:height="700"
+                                 j:width="700"
+                                 jcr:mixinTypes="jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_3.jpg>
+                            <gallery_4.jpg j:height="700"
+                                 j:width="700"
+                                 jcr:mixinTypes="jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_4.jpg>
+                            <gallery_5.jpg j:height="700"
+                                 j:width="700"
+                                 jcr:mixinTypes="jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_5.jpg>
+                            <gallery_6.jpg j:height="700"
+                                 j:width="700"
+                                 jcr:mixinTypes="jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_6.jpg>
+                            <article_1.jpg j:height="900"
+                                 j:width="800"
+                                 jcr:mixinTypes="jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </article_1.jpg>
+                            <article_2.jpg j:height="900"
+                                 j:width="800"
+                                 jcr:mixinTypes="jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </article_2.jpg>
+                            <feature_1.jpg j:height="1000"
+                                 j:width="700"
+                                 jcr:mixinTypes="jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </feature_1.jpg>
                         </industry>
                         <person jcr:primaryType="jnt:folder">
                             <person_13.jpg j:height="700"
@@ -201,63 +305,137 @@
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                             </person_11.jpg>
-                        </person>
-                        <heading-hero jcr:primaryType="jnt:folder">
-                            <industrial_hero_1.jpg j:height="900"
-                                         j:width="1900"
-                                         jcr:mixinTypes="jmix:image"
-                                         jcr:primaryType="jnt:file">
+                            <article_6.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </industrial_hero_1.jpg>
-                            <industrial_hero_2.jpg j:height="900"
-                                         j:width="1900"
-                                         jcr:mixinTypes="jmix:image"
-                                         jcr:primaryType="jnt:file">
+                            </article_6.jpg>
+                            <article_1.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </industrial_hero_2.jpg>
-                            <industrial_hero_3.jpg j:height="900"
-                                         j:width="1900"
-                                         jcr:mixinTypes="jmix:image"
-                                         jcr:primaryType="jnt:file">
+                            </article_1.jpg>
+                            <article_2.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </industrial_hero_3.jpg>
-                            <picture_hero_2.jpg j:height="900"
-                                      j:width="1900"
-                                      j:xresolution="72 dots"
-                                      j:yresolution="72 dots"
-                                      jcr:mixinTypes="jmix:exif jmix:image"
-                                      jcr:primaryType="jnt:file">
+                            </article_2.jpg>
+                            <article_3.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </picture_hero_2.jpg>
-                            <picture_hero_7.jpg j:height="900"
-                                      j:width="1900"
-                                      j:xresolution="72 dots"
-                                      j:yresolution="72 dots"
-                                      jcr:mixinTypes="jmix:exif jmix:image"
-                                      jcr:primaryType="jnt:file">
+                            </article_3.jpg>
+                            <article_4.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </picture_hero_7.jpg>
-                            <picture_hero_8.jpg j:height="900"
-                                      j:width="1900"
-                                      j:xresolution="72 dots"
-                                      j:yresolution="72 dots"
-                                      jcr:mixinTypes="jmix:exif jmix:image"
-                                      jcr:primaryType="jnt:file">
+                            </article_4.jpg>
+                            <article_5.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </picture_hero_8.jpg>
-                            <people_hero_4.jpg j:height="900"
+                            </article_5.jpg>
+                            <feature_1.jpg j:height="1000"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </feature_1.jpg>
+                            <feature_2.jpg j:height="1000"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </feature_2.jpg>
+                            <feature_3.jpg j:height="1000"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </feature_3.jpg>
+                            <feature_4.jpg j:height="1000"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </feature_4.jpg>
+                            <feature_5.jpg j:height="1000"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </feature_5.jpg>
+                            <gallery_2.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_2.jpg>
+                            <gallery_1.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_1.jpg>
+                            <people_hero_6.jpg j:height="900"
                                      j:width="1900"
                                      j:xresolution="72 dots"
                                      j:yresolution="72 dots"
@@ -266,27 +444,7 @@
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </people_hero_4.jpg>
-                            <picture_hero_1.jpg j:height="900"
-                                      j:width="1900"
-                                      j:xresolution="72 dots"
-                                      j:yresolution="72 dots"
-                                      jcr:mixinTypes="jmix:exif jmix:image"
-                                      jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </picture_hero_1.jpg>
-                            <people_hero_3.jpg j:height="900"
-                                     j:width="1900"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </people_hero_3.jpg>
+                            </people_hero_6.jpg>
                             <people_hero_1.jpg j:height="900"
                                      j:width="1900"
                                      j:xresolution="72 dots"
@@ -307,236 +465,16 @@
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                             </people_hero_2.jpg>
-                            <picture_hero_6.jpg j:height="900"
-                                      j:width="1900"
-                                      j:xresolution="72 dots"
-                                      j:yresolution="72 dots"
-                                      jcr:mixinTypes="jmix:exif jmix:image"
-                                      jcr:primaryType="jnt:file">
+                            <people_hero_3.jpg j:height="900"
+                                     j:width="1900"
+                                     j:xresolution="72 dots"
+                                     j:yresolution="72 dots"
+                                     jcr:mixinTypes="jmix:exif jmix:image"
+                                     jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </picture_hero_6.jpg>
-                            <picture_hero_3.jpg j:height="900"
-                                      j:width="1900"
-                                      j:xresolution="72 dots"
-                                      j:yresolution="72 dots"
-                                      jcr:mixinTypes="jmix:exif jmix:image"
-                                      jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </picture_hero_3.jpg>
-                            <picture_hero_4.jpg j:height="900"
-                                      j:width="1900"
-                                      j:xresolution="72 dots"
-                                      j:yresolution="72 dots"
-                                      jcr:mixinTypes="jmix:exif jmix:image"
-                                      jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </picture_hero_4.jpg>
-                            <picture_hero_5.jpg j:height="900"
-                                      j:width="1900"
-                                      j:xresolution="72 dots"
-                                      j:yresolution="72 dots"
-                                      jcr:mixinTypes="jmix:exif jmix:image"
-                                      jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </picture_hero_5.jpg>
-                            <sport_hero_1.jpg j:height="900"
-                                    j:width="1900"
-                                    j:xresolution="72 dots"
-                                    j:yresolution="72 dots"
-                                    jcr:mixinTypes="jmix:exif jmix:image"
-                                    jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </sport_hero_1.jpg>
-                            <insurance_hero_3.jpg j:height="900"
-                                        j:width="1900"
-                                        j:xresolution="72 dots"
-                                        j:yresolution="72 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </insurance_hero_3.jpg>
-                            <road_hero_1.jpg j:height="900"
-                                   j:width="1900"
-                                   j:xresolution="72 dots"
-                                   j:yresolution="72 dots"
-                                   jcr:mixinTypes="jmix:exif jmix:image"
-                                   jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </road_hero_1.jpg>
-                            <insurance_hero_4.jpg j:height="900"
-                                        j:width="1900"
-                                        j:xresolution="72 dots"
-                                        j:yresolution="72 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </insurance_hero_4.jpg>
-                            <sport_hero_2.jpg j:height="900"
-                                    j:width="1900"
-                                    j:xresolution="72 dots"
-                                    j:yresolution="72 dots"
-                                    jcr:mixinTypes="jmix:exif jmix:image"
-                                    jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </sport_hero_2.jpg>
-                            <road_hero_2.jpg j:height="900"
-                                   j:width="1900"
-                                   j:xresolution="72 dots"
-                                   j:yresolution="72 dots"
-                                   jcr:mixinTypes="jmix:exif jmix:image"
-                                   jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </road_hero_2.jpg>
-                            <sport_hero_3.jpg j:height="900"
-                                    j:width="1900"
-                                    j:xresolution="72 dots"
-                                    j:yresolution="72 dots"
-                                    jcr:mixinTypes="jmix:exif jmix:image"
-                                    jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </sport_hero_3.jpg>
-                            <insurance_hero_5.jpg j:height="900"
-                                        j:width="1900"
-                                        j:xresolution="72 dots"
-                                        j:yresolution="72 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </insurance_hero_5.jpg>
-                            <insurance_hero_2.jpg j:height="900"
-                                        j:width="1900"
-                                        j:xresolution="72 dots"
-                                        j:yresolution="72 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </insurance_hero_2.jpg>
-                            <insurance_hero_1.jpg j:height="900"
-                                        j:width="1900"
-                                        j:xresolution="72 dots"
-                                        j:yresolution="72 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </insurance_hero_1.jpg>
-                            <classroom_hero_1.jpg j:height="900"
-                                        j:width="1900"
-                                        j:xresolution="72 dots"
-                                        j:yresolution="72 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </classroom_hero_1.jpg>
-                            <auditorium_hero_3.jpg j:height="900"
-                                         j:width="1900"
-                                         j:xresolution="72 dots"
-                                         j:yresolution="72 dots"
-                                         jcr:mixinTypes="jmix:exif jmix:image"
-                                         jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </auditorium_hero_3.jpg>
-                            <seminar_hero_1.jpg j:height="900"
-                                      j:width="1900"
-                                      j:xresolution="72 dots"
-                                      j:yresolution="72 dots"
-                                      jcr:mixinTypes="jmix:exif jmix:image"
-                                      jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </seminar_hero_1.jpg>
-                            <auditorium_hero_2.jpg j:height="900"
-                                         j:width="1900"
-                                         j:xresolution="72 dots"
-                                         j:yresolution="72 dots"
-                                         jcr:mixinTypes="jmix:exif jmix:image"
-                                         jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </auditorium_hero_2.jpg>
-                            <auditorium_hero.jpg j:height="900"
-                                       j:width="1900"
-                                       j:xresolution="72 dots"
-                                       j:yresolution="72 dots"
-                                       jcr:mixinTypes="jmix:exif jmix:image"
-                                       jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </auditorium_hero.jpg>
-                            <seminar_hero_2.jpg j:height="900"
-                                      j:width="1900"
-                                      j:xresolution="72 dots"
-                                      j:yresolution="72 dots"
-                                      jcr:mixinTypes="jmix:exif jmix:image"
-                                      jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </seminar_hero_2.jpg>
-                            <auditorium_hero_4.jpg j:height="900"
-                                         j:width="1900"
-                                         j:xresolution="72 dots"
-                                         j:yresolution="72 dots"
-                                         jcr:mixinTypes="jmix:exif jmix:image"
-                                         jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </auditorium_hero_4.jpg>
-                            <sport_hero_4.jpg j:height="900"
-                                    j:width="1900"
-                                    j:xresolution="72 dots"
-                                    j:yresolution="72 dots"
-                                    jcr:mixinTypes="jmix:exif jmix:image"
-                                    jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </sport_hero_4.jpg>
-                            <sport_hero_5.jpg j:height="900"
-                                    j:width="1900"
-                                    j:xresolution="72 dots"
-                                    j:yresolution="72 dots"
-                                    jcr:mixinTypes="jmix:exif jmix:image"
-                                    jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </sport_hero_5.jpg>
+                            </people_hero_3.jpg>
                             <people_hero_5.jpg j:height="900"
                                      j:width="1900"
                                      j:xresolution="72 dots"
@@ -547,7 +485,7 @@
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                             </people_hero_5.jpg>
-                            <people_hero_6.jpg j:height="900"
+                            <people_hero_4.jpg j:height="900"
                                      j:width="1900"
                                      j:xresolution="72 dots"
                                      j:yresolution="72 dots"
@@ -556,309 +494,9 @@
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </people_hero_6.jpg>
-                            <chicken_hero_6.jpg j:height="900"
-                                      j:width="1900"
-                                      j:xresolution="72 dots"
-                                      j:yresolution="72 dots"
-                                      jcr:mixinTypes="jmix:exif jmix:image"
-                                      jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </chicken_hero_6.jpg>
-                            <dog_hero_6.jpg j:height="900"
-                                  j:width="1900"
-                                  j:xresolution="72 dots"
-                                  j:yresolution="72 dots"
-                                  jcr:mixinTypes="jmix:exif jmix:image"
-                                  jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_hero_6.jpg>
-                            <cat_hero_2.jpg j:height="900"
-                                  j:width="1900"
-                                  j:xresolution="72 dots"
-                                  j:yresolution="72 dots"
-                                  jcr:mixinTypes="jmix:exif jmix:image"
-                                  jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </cat_hero_2.jpg>
-                            <dog_hero_8.jpg j:height="900"
-                                  j:width="1900"
-                                  j:xresolution="72 dots"
-                                  j:yresolution="72 dots"
-                                  jcr:mixinTypes="jmix:exif jmix:image"
-                                  jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_hero_8.jpg>
-                            <dog_hero_4.jpg j:height="900"
-                                  j:width="1900"
-                                  j:xresolution="72 dots"
-                                  j:yresolution="72 dots"
-                                  jcr:mixinTypes="jmix:exif jmix:image"
-                                  jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_hero_4.jpg>
-                            <cat_hero_4.jpg j:height="900"
-                                  j:width="1900"
-                                  j:xresolution="72 dots"
-                                  j:yresolution="72 dots"
-                                  jcr:mixinTypes="jmix:exif jmix:image"
-                                  jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </cat_hero_4.jpg>
-                            <dog_hero_2.jpg j:height="900"
-                                  j:width="1900"
-                                  j:xresolution="72 dots"
-                                  j:yresolution="72 dots"
-                                  jcr:mixinTypes="jmix:exif jmix:image"
-                                  jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_hero_2.jpg>
-                            <dog_hero_5.jpg j:height="900"
-                                  j:width="1900"
-                                  j:xresolution="72 dots"
-                                  j:yresolution="72 dots"
-                                  jcr:mixinTypes="jmix:exif jmix:image"
-                                  jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_hero_5.jpg>
-                            <cat_hero_3.jpg j:height="900"
-                                  j:width="1900"
-                                  j:xresolution="72 dots"
-                                  j:yresolution="72 dots"
-                                  jcr:mixinTypes="jmix:exif jmix:image"
-                                  jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </cat_hero_3.jpg>
-                            <cat_hero_1.jpg j:height="900"
-                                  j:width="1900"
-                                  j:xresolution="72 dots"
-                                  j:yresolution="72 dots"
-                                  jcr:mixinTypes="jmix:exif jmix:image"
-                                  jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </cat_hero_1.jpg>
-                            <hedgehog_hero_6.jpg j:height="900"
-                                       j:width="1900"
-                                       j:xresolution="72 dots"
-                                       j:yresolution="72 dots"
-                                       jcr:mixinTypes="jmix:exif jmix:image"
-                                       jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </hedgehog_hero_6.jpg>
-                            <dog_hero_9.jpg j:height="900"
-                                  j:width="1900"
-                                  j:xresolution="72 dots"
-                                  j:yresolution="72 dots"
-                                  jcr:mixinTypes="jmix:exif jmix:image"
-                                  jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_hero_9.jpg>
-                            <dog_hero_7.jpg j:height="900"
-                                  j:width="1900"
-                                  j:xresolution="72 dots"
-                                  j:yresolution="72 dots"
-                                  jcr:mixinTypes="jmix:exif jmix:image"
-                                  jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_hero_7.jpg>
-                            <dog_hero_1.jpg j:height="900"
-                                  j:width="1900"
-                                  j:xresolution="72 dots"
-                                  j:yresolution="72 dots"
-                                  jcr:mixinTypes="jmix:exif jmix:image"
-                                  jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_hero_1.jpg>
-                            <dog_hero_3.jpg j:height="900"
-                                  j:width="1900"
-                                  j:xresolution="72 dots"
-                                  j:yresolution="72 dots"
-                                  jcr:mixinTypes="jmix:exif jmix:image"
-                                  jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_hero_3.jpg>
-                        </heading-hero>
-                        <gallery jcr:primaryType="jnt:folder">
-                            <industrial_img_1.jpg j:height="700"
-                                        j:width="700"
-                                        jcr:mixinTypes="jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </industrial_img_1.jpg>
-                            <industrial_img_2.jpg j:height="700"
-                                        j:width="700"
-                                        jcr:mixinTypes="jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </industrial_img_2.jpg>
-                            <industrial_img_3.jpg j:height="700"
-                                        j:width="700"
-                                        jcr:mixinTypes="jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </industrial_img_3.jpg>
-                            <industrial_img_4.jpg j:height="700"
-                                        j:width="700"
-                                        jcr:mixinTypes="jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </industrial_img_4.jpg>
-                            <industrial_img_5.jpg j:height="700"
-                                        j:width="700"
-                                        jcr:mixinTypes="jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </industrial_img_5.jpg>
-                            <industrial_img_6.jpg j:height="700"
-                                        j:width="700"
-                                        jcr:mixinTypes="jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </industrial_img_6.jpg>
-                            <sport_gallery_2.jpg j:height="700"
-                                       j:width="700"
-                                       j:xresolution="72 dots"
-                                       j:yresolution="72 dots"
-                                       jcr:mixinTypes="jmix:exif jmix:image"
-                                       jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </sport_gallery_2.jpg>
-                            <sport_gallery_1.jpg j:height="700"
-                                       j:width="700"
-                                       j:xresolution="72 dots"
-                                       j:yresolution="72 dots"
-                                       jcr:mixinTypes="jmix:exif jmix:image"
-                                       jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </sport_gallery_1.jpg>
-                            <auditorium_gallery_4.jpg j:height="700"
-                                            j:width="700"
-                                            j:xresolution="72 dots"
-                                            j:yresolution="72 dots"
-                                            jcr:mixinTypes="jmix:exif jmix:image"
-                                            jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </auditorium_gallery_4.jpg>
-                            <auditorium_gallery_5.jpg j:height="700"
-                                            j:width="700"
-                                            j:xresolution="72 dots"
-                                            j:yresolution="72 dots"
-                                            jcr:mixinTypes="jmix:exif jmix:image"
-                                            jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </auditorium_gallery_5.jpg>
-                            <sport_gallery_3.jpg j:height="700"
-                                       j:width="700"
-                                       j:xresolution="72 dots"
-                                       j:yresolution="72 dots"
-                                       jcr:mixinTypes="jmix:exif jmix:image"
-                                       jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </sport_gallery_3.jpg>
-                            <classroom_gallery_1.jpg j:height="700"
-                                           j:width="700"
-                                           j:xresolution="72 dots"
-                                           j:yresolution="72 dots"
-                                           jcr:mixinTypes="jmix:exif jmix:image"
-                                           jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </classroom_gallery_1.jpg>
-                            <sport_gallery_4.jpg j:height="700"
-                                       j:width="700"
-                                       j:xresolution="72 dots"
-                                       j:yresolution="72 dots"
-                                       jcr:mixinTypes="jmix:exif jmix:image"
-                                       jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </sport_gallery_4.jpg>
-                            <auditorium_gallery_3.jpg j:height="700"
-                                            j:width="700"
-                                            j:xresolution="72 dots"
-                                            j:yresolution="72 dots"
-                                            jcr:mixinTypes="jmix:exif jmix:image"
-                                            jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </auditorium_gallery_3.jpg>
-                            <auditorium_gallery_2.jpg j:height="700"
-                                            j:width="700"
-                                            j:xresolution="72 dots"
-                                            j:yresolution="72 dots"
-                                            jcr:mixinTypes="jmix:exif jmix:image"
-                                            jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </auditorium_gallery_2.jpg>
-                            <auditorium_gallery_1.jpg j:height="700"
-                                            j:width="700"
-                                            j:xresolution="72 dots"
-                                            j:yresolution="72 dots"
-                                            jcr:mixinTypes="jmix:exif jmix:image"
-                                            jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </auditorium_gallery_1.jpg>
-                            <people_gallery_1.jpg j:height="700"
-                                        j:width="700"
+                            </people_hero_4.jpg>
+                            <insurance_hero_5.jpg j:height="900"
+                                        j:width="1900"
                                         j:xresolution="72 dots"
                                         j:yresolution="72 dots"
                                         jcr:mixinTypes="jmix:exif jmix:image"
@@ -866,9 +504,9 @@
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </people_gallery_1.jpg>
-                            <people_gallery_2.jpg j:height="700"
-                                        j:width="700"
+                            </insurance_hero_5.jpg>
+                            <insurance_hero_4.jpg j:height="900"
+                                        j:width="1900"
                                         j:xresolution="72 dots"
                                         j:yresolution="72 dots"
                                         jcr:mixinTypes="jmix:exif jmix:image"
@@ -876,177 +514,333 @@
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </people_gallery_2.jpg>
-                            <dog_gallery_4.jpg j:height="700"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
+                            </insurance_hero_4.jpg>
+                        </person>
+                        <sport jcr:primaryType="jnt:folder">
+                            <gallery_5.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_gallery_4.jpg>
-                            <cat_gallery_4.jpg j:height="700"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
+                            </gallery_5.jpg>
+                            <gallery_4.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </cat_gallery_4.jpg>
-                            <dog_gallery_7.jpg j:height="700"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
+                            </gallery_4.jpg>
+                            <gallery_3.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_gallery_7.jpg>
-                            <cat_gallery_1.jpg j:height="700"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
+                            </gallery_3.jpg>
+                            <gallery_2.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </cat_gallery_1.jpg>
-                            <dog_gallery_9.jpg j:height="700"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
+                            </gallery_2.jpg>
+                            <gallery_1.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_gallery_9.jpg>
-                            <dog_gallery_6.jpg j:height="700"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
+                            </gallery_1.jpg>
+                            <article_1.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_gallery_6.jpg>
-                            <dog_gallery_2.jpg j:height="700"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
+                            </article_1.jpg>
+                            <article_2.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_gallery_2.jpg>
-                            <dog_gallery_3.jpg j:height="700"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
+                            </article_2.jpg>
+                            <article_3.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_gallery_3.jpg>
-                            <dog_gallery_8.jpg j:height="700"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
+                            </article_3.jpg>
+                            <hero_1.jpg j:height="900"
+                              j:width="1900"
+                              j:xresolution="72 dots"
+                              j:yresolution="72 dots"
+                              jcr:mixinTypes="jmix:exif jmix:image"
+                              jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_gallery_8.jpg>
-                            <cat_gallery_2.jpg j:height="700"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
+                            </hero_1.jpg>
+                            <hero_2.jpg j:height="900"
+                              j:width="1900"
+                              j:xresolution="72 dots"
+                              j:yresolution="72 dots"
+                              jcr:mixinTypes="jmix:exif jmix:image"
+                              jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </cat_gallery_2.jpg>
-                            <cat_gallery_3.jpg j:height="700"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
+                            </hero_2.jpg>
+                            <hero_3.jpg j:height="900"
+                              j:width="1900"
+                              j:xresolution="72 dots"
+                              j:yresolution="72 dots"
+                              jcr:mixinTypes="jmix:exif jmix:image"
+                              jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </cat_gallery_3.jpg>
-                            <dog_gallery_5.jpg j:height="700"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
+                            </hero_3.jpg>
+                        </sport>
+                        <animals jcr:primaryType="jnt:folder">
+                            <article_1.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_gallery_5.jpg>
-                            <dog_gallery_1.jpg j:height="700"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
+                            </article_1.jpg>
+                            <hero_2.jpg j:height="900"
+                              j:width="1900"
+                              j:xresolution="72 dots"
+                              j:yresolution="72 dots"
+                              jcr:mixinTypes="jmix:exif jmix:image"
+                              jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_gallery_1.jpg>
-                            <hedgehog_gallery_1.jpg j:height="700"
-                                          j:width="700"
-                                          j:xresolution="72 dots"
-                                          j:yresolution="72 dots"
-                                          jcr:mixinTypes="jmix:exif jmix:image"
-                                          jcr:primaryType="jnt:file">
+                            </hero_2.jpg>
+                            <hero_3.jpg j:height="900"
+                              j:width="1900"
+                              j:xresolution="72 dots"
+                              j:yresolution="72 dots"
+                              jcr:mixinTypes="jmix:exif jmix:image"
+                              jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </hedgehog_gallery_1.jpg>
-                            <chicken_gallery_1.jpg j:height="700"
-                                         j:width="700"
-                                         j:xresolution="72 dots"
-                                         j:yresolution="72 dots"
-                                         jcr:mixinTypes="jmix:exif jmix:image"
-                                         jcr:primaryType="jnt:file">
+                            </hero_3.jpg>
+                            <hero_5.jpg j:height="900"
+                              j:width="1900"
+                              j:xresolution="72 dots"
+                              j:yresolution="72 dots"
+                              jcr:mixinTypes="jmix:exif jmix:image"
+                              jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </chicken_gallery_1.jpg>
-                            <sport_gallery_5.jpg j:height="700"
-                                       j:width="700"
-                                       j:xresolution="72 dots"
-                                       j:yresolution="72 dots"
-                                       jcr:mixinTypes="jmix:exif jmix:image"
-                                       jcr:primaryType="jnt:file">
+                            </hero_5.jpg>
+                            <hero_6.jpg j:height="900"
+                              j:width="1900"
+                              j:xresolution="72 dots"
+                              j:yresolution="72 dots"
+                              jcr:mixinTypes="jmix:exif jmix:image"
+                              jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </sport_gallery_5.jpg>
-                        </gallery>
-                        <feature jcr:primaryType="jnt:folder">
-                            <industrial_feature_1.jpg j:height="1000"
-                                            j:width="700"
-                                            jcr:mixinTypes="jmix:image"
-                                            jcr:primaryType="jnt:file">
+                            </hero_6.jpg>
+                            <gallery_2.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </industrial_feature_1.jpg>
+                            </gallery_2.jpg>
+                            <gallery_3.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_3.jpg>
+                            <gallery_5.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_5.jpg>
+                            <gallery_6.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_6.jpg>
+                            <feature_1.jpg j:height="1000"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </feature_1.jpg>
+                            <hero_7.jpg j:height="900"
+                              j:width="1900"
+                              j:xresolution="72 dots"
+                              j:yresolution="72 dots"
+                              jcr:mixinTypes="jmix:exif jmix:image"
+                              jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </hero_7.jpg>
+                            <feature_2.jpg j:height="1000"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </feature_2.jpg>
+                            <article_2.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </article_2.jpg>
+                            <article_3.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </article_3.jpg>
+                            <hero_4.jpg j:height="900"
+                              j:width="1900"
+                              j:xresolution="72 dots"
+                              j:yresolution="72 dots"
+                              jcr:mixinTypes="jmix:exif jmix:image"
+                              jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </hero_4.jpg>
+                            <gallery_4.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_4.jpg>
+                            <gallery_1.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_1.jpg>
+                            <article_4.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </article_4.jpg>
+                        </animals>
+                        <misc jcr:primaryType="jnt:folder">
+                            <article_1.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </article_1.jpg>
+                            <article_2.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </article_2.jpg>
+                            <article_3.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </article_3.jpg>
                             <insurance_feature_1.jpg j:height="1000"
                                            j:width="700"
                                            j:xresolution="72 dots"
@@ -1057,8 +851,48 @@
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                             </insurance_feature_1.jpg>
-                            <people_feature_4.jpg j:height="1000"
-                                        j:width="700"
+                            <feature_2.jpg j:height="1000"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </feature_2.jpg>
+                            <feature_1.jpg j:height="1000"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </feature_1.jpg>
+                            <feature_3.jpg j:height="1000"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </feature_3.jpg>
+                            <feature_4.jpg j:height="1000"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </feature_4.jpg>
+                            <insurance_hero_2.jpg j:height="900"
+                                        j:width="1900"
                                         j:xresolution="72 dots"
                                         j:yresolution="72 dots"
                                         jcr:mixinTypes="jmix:exif jmix:image"
@@ -1066,19 +900,9 @@
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </people_feature_4.jpg>
-                            <insurance_feature_2.jpg j:height="1000"
-                                           j:width="700"
-                                           j:xresolution="72 dots"
-                                           j:yresolution="72 dots"
-                                           jcr:mixinTypes="jmix:exif jmix:image"
-                                           jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </insurance_feature_2.jpg>
-                            <people_feature_3.jpg j:height="1000"
-                                        j:width="700"
+                            </insurance_hero_2.jpg>
+                            <insurance_hero_3.jpg j:height="900"
+                                        j:width="1900"
                                         j:xresolution="72 dots"
                                         j:yresolution="72 dots"
                                         jcr:mixinTypes="jmix:exif jmix:image"
@@ -1086,19 +910,191 @@
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </people_feature_3.jpg>
-                            <people_feature_1.jpg j:height="1000"
-                                        j:width="700"
-                                        j:xresolution="72 dots"
-                                        j:yresolution="72 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
+                            </insurance_hero_3.jpg>
+                            <road_hero_2.jpg j:height="900"
+                                   j:width="1900"
+                                   j:xresolution="72 dots"
+                                   j:yresolution="72 dots"
+                                   jcr:mixinTypes="jmix:exif jmix:image"
+                                   jcr:primaryType="jnt:file">
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </people_feature_1.jpg>
-                            <picture_feature_2.jpg j:height="1000"
-                                         j:width="700"
+                            </road_hero_2.jpg>
+                            <road_hero_1.jpg j:height="900"
+                                   j:width="1900"
+                                   j:xresolution="72 dots"
+                                   j:yresolution="72 dots"
+                                   jcr:mixinTypes="jmix:exif jmix:image"
+                                   jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </road_hero_1.jpg>
+                            <picture_hero_5.jpg j:height="900"
+                                      j:width="1900"
+                                      j:xresolution="72 dots"
+                                      j:yresolution="72 dots"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </picture_hero_5.jpg>
+                            <picture_hero_4.jpg j:height="900"
+                                      j:width="1900"
+                                      j:xresolution="72 dots"
+                                      j:yresolution="72 dots"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </picture_hero_4.jpg>
+                            <picture_hero_3.jpg j:height="900"
+                                      j:width="1900"
+                                      j:xresolution="72 dots"
+                                      j:yresolution="72 dots"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </picture_hero_3.jpg>
+                            <picture_hero_2.jpg j:height="900"
+                                      j:width="1900"
+                                      j:xresolution="72 dots"
+                                      j:yresolution="72 dots"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </picture_hero_2.jpg>
+                            <picture_hero_1.jpg j:height="900"
+                                      j:width="1900"
+                                      j:xresolution="72 dots"
+                                      j:yresolution="72 dots"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </picture_hero_1.jpg>
+                            <picture_hero_6.jpg j:height="900"
+                                      j:width="1900"
+                                      j:xresolution="72 dots"
+                                      j:yresolution="72 dots"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </picture_hero_6.jpg>
+                            <picture_hero_7.jpg j:height="900"
+                                      j:width="1900"
+                                      j:xresolution="72 dots"
+                                      j:yresolution="72 dots"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </picture_hero_7.jpg>
+                            <picture_hero_8.jpg j:height="900"
+                                      j:width="1900"
+                                      j:xresolution="72 dots"
+                                      j:yresolution="72 dots"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </picture_hero_8.jpg>
+                        </misc>
+                        <conference jcr:primaryType="jnt:folder">
+                            <article_1.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </article_1.jpg>
+                            <article_2.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </article_2.jpg>
+                            <article_3.jpg j:height="900"
+                                 j:width="800"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </article_3.jpg>
+                            <gallery_1.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_1.jpg>
+                            <gallery_2.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_2.jpg>
+                            <gallery_3.jpg j:height="700"
+                                 j:width="700"
+                                 j:xresolution="72 dots"
+                                 j:yresolution="72 dots"
+                                 jcr:mixinTypes="jmix:exif jmix:image"
+                                 jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </gallery_3.jpg>
+                            <seminar_hero_2.jpg j:height="900"
+                                      j:width="1900"
+                                      j:xresolution="72 dots"
+                                      j:yresolution="72 dots"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </seminar_hero_2.jpg>
+                            <seminar_hero_1.jpg j:height="900"
+                                      j:width="1900"
+                                      j:xresolution="72 dots"
+                                      j:yresolution="72 dots"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </seminar_hero_1.jpg>
+                            <auditorium_hero_3.jpg j:height="900"
+                                         j:width="1900"
                                          j:xresolution="72 dots"
                                          j:yresolution="72 dots"
                                          jcr:mixinTypes="jmix:exif jmix:image"
@@ -1106,9 +1102,9 @@
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </picture_feature_2.jpg>
-                            <picture_feature_1.jpg j:height="1000"
-                                         j:width="700"
+                            </auditorium_hero_3.jpg>
+                            <auditorium_hero_2.jpg j:height="900"
+                                         j:width="1900"
                                          j:xresolution="72 dots"
                                          j:yresolution="72 dots"
                                          jcr:mixinTypes="jmix:exif jmix:image"
@@ -1116,336 +1112,8 @@
                                 <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </picture_feature_1.jpg>
-                            <people_feature_2.jpg j:height="1000"
-                                        j:width="700"
-                                        j:xresolution="72 dots"
-                                        j:yresolution="72 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </people_feature_2.jpg>
-                            <road_feature_2.jpg j:height="1000"
-                                      j:width="700"
-                                      j:xresolution="72 dots"
-                                      j:yresolution="72 dots"
-                                      jcr:mixinTypes="jmix:exif jmix:image"
-                                      jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </road_feature_2.jpg>
-                            <road_feature_1.jpg j:height="1000"
-                                      j:width="700"
-                                      j:xresolution="72 dots"
-                                      j:yresolution="72 dots"
-                                      jcr:mixinTypes="jmix:exif jmix:image"
-                                      jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </road_feature_1.jpg>
-                            <dog_feature_4.jpg j:height="1000"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_feature_4.jpg>
-                            <dog_feature_5.jpg j:height="1000"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_feature_5.jpg>
-                            <dog_feature_3.jpg j:height="1000"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_feature_3.jpg>
-                            <dog_feature_2.jpg j:height="1000"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_feature_2.jpg>
-                            <dog_feature_1.jpg j:height="1000"
-                                     j:width="700"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_feature_1.jpg>
-                        </feature>
-                        <article jcr:primaryType="jnt:folder">
-                            <industrial_article_1.jpg j:height="900"
-                                            j:width="800"
-                                            jcr:mixinTypes="jmix:image"
-                                            jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </industrial_article_1.jpg>
-                            <industrial_article_2.jpg j:height="900"
-                                            j:width="800"
-                                            jcr:mixinTypes="jmix:image"
-                                            jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </industrial_article_2.jpg>
-                            <sport_article_2.jpg j:height="900"
-                                       j:width="800"
-                                       j:xresolution="72 dots"
-                                       j:yresolution="72 dots"
-                                       jcr:mixinTypes="jmix:exif jmix:image"
-                                       jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </sport_article_2.jpg>
-                            <misc_article_1.jpg j:height="900"
-                                      j:width="800"
-                                      j:xresolution="72 dots"
-                                      j:yresolution="72 dots"
-                                      jcr:mixinTypes="jmix:exif jmix:image"
-                                      jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </misc_article_1.jpg>
-                            <people_article_3.jpg j:height="900"
-                                        j:width="800"
-                                        j:xresolution="72 dots"
-                                        j:yresolution="72 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </people_article_3.jpg>
-                            <cat_article_2.jpg j:height="900"
-                                     j:width="800"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </cat_article_2.jpg>
-                            <people_article_5.jpg j:height="900"
-                                        j:width="800"
-                                        j:xresolution="72 dots"
-                                        j:yresolution="72 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </people_article_5.jpg>
-                            <road_article_1.jpg j:height="900"
-                                      j:width="800"
-                                      j:xresolution="72 dots"
-                                      j:yresolution="72 dots"
-                                      jcr:mixinTypes="jmix:exif jmix:image"
-                                      jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </road_article_1.jpg>
-                            <seminar_article_1.jpg j:height="900"
-                                         j:width="800"
-                                         j:xresolution="72 dots"
-                                         j:yresolution="72 dots"
-                                         jcr:mixinTypes="jmix:exif jmix:image"
-                                         jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </seminar_article_1.jpg>
-                            <dog_article_3.jpg j:height="900"
-                                     j:width="800"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_article_3.jpg>
-                            <cow_article_1.jpg j:height="900"
-                                     j:width="800"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </cow_article_1.jpg>
-                            <people_article_6.jpg j:height="900"
-                                        j:width="800"
-                                        j:xresolution="72 dots"
-                                        j:yresolution="72 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </people_article_6.jpg>
-                            <people_article_2.jpg j:height="900"
-                                        j:width="800"
-                                        j:xresolution="72 dots"
-                                        j:yresolution="72 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </people_article_2.jpg>
-                            <insurance_article_1.jpg j:height="900"
-                                           j:width="800"
-                                           j:xresolution="72 dots"
-                                           j:yresolution="72 dots"
-                                           jcr:mixinTypes="jmix:exif jmix:image"
-                                           jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </insurance_article_1.jpg>
-                            <dog_article_4.jpg j:height="900"
-                                     j:width="800"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_article_4.jpg>
-                            <cat_article_1.jpg j:height="900"
-                                     j:width="800"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </cat_article_1.jpg>
-                            <insurance_article_2.jpg j:height="900"
-                                           j:width="800"
-                                           j:xresolution="72 dots"
-                                           j:yresolution="72 dots"
-                                           jcr:mixinTypes="jmix:exif jmix:image"
-                                           jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </insurance_article_2.jpg>
-                            <sport_article_3.jpg j:height="900"
-                                       j:width="800"
-                                       j:xresolution="72 dots"
-                                       j:yresolution="72 dots"
-                                       jcr:mixinTypes="jmix:exif jmix:image"
-                                       jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </sport_article_3.jpg>
-                            <people_article_4.jpg j:height="900"
-                                        j:width="800"
-                                        j:xresolution="72 dots"
-                                        j:yresolution="72 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </people_article_4.jpg>
-                            <auditorium_article_1.jpg j:height="900"
-                                            j:width="800"
-                                            j:xresolution="72 dots"
-                                            j:yresolution="72 dots"
-                                            jcr:mixinTypes="jmix:exif jmix:image"
-                                            jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </auditorium_article_1.jpg>
-                            <sport_article_1.jpg j:height="900"
-                                       j:width="800"
-                                       j:xresolution="72 dots"
-                                       j:yresolution="72 dots"
-                                       jcr:mixinTypes="jmix:exif jmix:image"
-                                       jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </sport_article_1.jpg>
-                            <dog_article_2.jpg j:height="900"
-                                     j:width="800"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_article_2.jpg>
-                            <people_article_1.jpg j:height="900"
-                                        j:width="800"
-                                        j:xresolution="72 dots"
-                                        j:yresolution="72 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </people_article_1.jpg>
-                            <dog_article_1.jpg j:height="900"
-                                     j:width="800"
-                                     j:xresolution="72 dots"
-                                     j:yresolution="72 dots"
-                                     jcr:mixinTypes="jmix:exif jmix:image"
-                                     jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </dog_article_1.jpg>
-                            <sport_article_4.jpg j:height="900"
-                                       j:width="800"
-                                       j:xresolution="72 dots"
-                                       j:yresolution="72 dots"
-                                       jcr:mixinTypes="jmix:exif jmix:image"
-                                       jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </sport_article_4.jpg>
-                        </article>
+                            </auditorium_hero_2.jpg>
+                        </conference>
                     </images>
                     <css jcr:primaryType="jnt:folder">
                         <animate.custom.css jcr:primaryType="jnt:file">
@@ -1486,7 +1154,7 @@
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Heading content list"/>
-                                    <heading image="#/modules/industrial/files/images/heading-hero/industrial_hero_3.jpg"
+                                    <heading image="#/modules/industrial/files/images/industry/hero_3.jpg"
                                  jcr:primaryType="tint:heading">
                                         <j:translation_en body="&lt;h1 class=&#34;pt-5&#34;&gt;&lt;span&gt;About Us&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.&lt;/p&gt;&#xA;"
                                              jcr:language="en"
@@ -1524,7 +1192,7 @@
                                        jcr:mixinTypes="timix:owlCarouselS timix:owlcarouselAdvancedSettings"
                                        jcr:primaryType="tint:owlcarousel"
                                        options="{&#xA;    loop:true,&#xA;    autoplay: true,&#xA;    margin:0,&#xA;    animateOut: 'fadeOut',&#xA;    animateIn: 'fadeIn',&#xA;    nav:true,&#xA;    autoplayHoverPause: true,&#xA;    items: 1,&#xA;    dragTouch: false,&#xA;    navText: ['&lt;span class=&#34;ion-ios-arrow-back&#34;&gt;', '&lt;span class=&#34;ion-ios-arrow-forward&#34;&gt;'],&#xA;    responsive:{&#xA;      0:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      600:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      1000:{&#xA;        items:1,&#xA;        nav:true&#xA;      }&#xA;    }&#xA; }">
-                                        <we-are-industrial-company image="#/modules/industrial/files/images/heading-hero/industrial_hero_1.jpg"
+                                        <we-are-industrial-company image="#/modules/industrial/files/images/industry/hero_1.jpg"
                                                       jcr:primaryType="tint:owlcarouselItemS">
                                             <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                                 jcr:language="en"
@@ -1575,7 +1243,7 @@
                                                    jcr:title="We Are Industrial Company"
                                                    videoURL="https://vimeo.com/59256790"/>
                                         </we-are-industrial-company>
-                                        <the-best-level-of-excellence-in image="#/modules/industrial/files/images/heading-hero/industrial_hero_2.jpg"
+                                        <the-best-level-of-excellence-in image="#/modules/industrial/files/images/industry/hero_2.jpg"
                                                             jcr:primaryType="tint:owlcarouselItemS">
                                             <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                                 jcr:language="en"
@@ -1977,7 +1645,7 @@
                                                 </text-2>
                                             </content-row-col2>
                                             <content-row-col0 jcr:primaryType="jnt:contentList">
-                                                <figure image="#/modules/industrial/files/images/feature/industrial_feature_1.jpg"
+                                                <figure image="#/modules/industrial/files/images/industry/feature_1.jpg"
                                          j:view="industrial.features"
                                          jcr:mixinTypes="jmix:renderable"
                                          jcr:primaryType="bootstrap4nt:figure"/>
@@ -1992,7 +1660,7 @@
                                        jcr:primaryType="jnt:translation"
                                        jcr:title="Half-block list"/>
                                 <half-block imagePosition="left" jcr:primaryType="tint:halfBlock">
-                                    <image image="#/modules/industrial/files/images/heading-hero/industrial_hero_1.jpg"
+                                    <image image="#/modules/industrial/files/images/industry/hero_1.jpg"
                                j:animation="fadeIn"
                                j:animationDelay="0.0"
                                j:animationDelayUsage="delayBeforeAnimation"
@@ -2063,7 +1731,7 @@
                                                 jcr:primaryType="jnt:translation"
                                                 text="&lt;h3 class=&#34;mb-4&#34;&gt;Company History&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Learn More&lt;/a&gt;&lt;/p&gt;&#xA;"/>
                                     </body>
-                                    <image image="#/modules/industrial/files/images/heading-hero/industrial_hero_2.jpg"
+                                    <image image="#/modules/industrial/files/images/industry/hero_2.jpg"
                                j:animation="fadeIn"
                                j:animationDelay="0.0"
                                j:animationDelayUsage="delayBeforeAnimation"
@@ -2139,7 +1807,7 @@
                                                       jcr:mixinTypes="jmix:animate"
                                                       jcr:primaryType="jnt:contentList">
                                                 <ducting-design iconClass="ion-md-add icon"
-                                                 image="#/modules/industrial/files/images/gallery/industrial_img_1.jpg"
+                                                 image="#/modules/industrial/files/images/industry/gallery_1.jpg"
                                                  jcr:mixinTypes="timix:internalLink"
                                                  jcr:primaryType="tint:galleryImage"
                                                  linkTarget="_blank"
@@ -2193,7 +1861,7 @@
                                                       jcr:mixinTypes="jmix:animate"
                                                       jcr:primaryType="jnt:contentList">
                                                 <tanks-project iconClass="ion-md-add icon"
-                                                image="#/modules/industrial/files/images/gallery/industrial_img_2.jpg"
+                                                image="#/modules/industrial/files/images/industry/gallery_2.jpg"
                                                 jcr:mixinTypes="timix:internalLink"
                                                 jcr:primaryType="tint:galleryImage"
                                                 linkTarget="_blank"
@@ -2247,7 +1915,7 @@
                                                       jcr:mixinTypes="jmix:animate"
                                                       jcr:primaryType="jnt:contentList">
                                                 <structural-design iconClass="ion-md-add icon"
-                                                    image="#/modules/industrial/files/images/gallery/industrial_img_3.jpg"
+                                                    image="#/modules/industrial/files/images/industry/gallery_3.jpg"
                                                     jcr:mixinTypes="timix:internalLink"
                                                     jcr:primaryType="tint:galleryImage"
                                                     linkTarget="_blank"
@@ -2301,7 +1969,7 @@
                                                       jcr:mixinTypes="jmix:animate"
                                                       jcr:primaryType="jnt:contentList">
                                                 <stacks-design iconClass="ion-md-add icon"
-                                                image="#/modules/industrial/files/images/gallery/industrial_img_4.jpg"
+                                                image="#/modules/industrial/files/images/industry/gallery_4.jpg"
                                                 jcr:mixinTypes="timix:internalLink"
                                                 jcr:primaryType="tint:galleryImage"
                                                 linkTarget="_blank"
@@ -2355,7 +2023,7 @@
                                                       jcr:mixinTypes="jmix:animate"
                                                       jcr:primaryType="jnt:contentList">
                                                 <intercate-custom iconClass="ion-md-add icon"
-                                                   image="#/modules/industrial/files/images/gallery/industrial_img_5.jpg"
+                                                   image="#/modules/industrial/files/images/industry/gallery_5.jpg"
                                                    jcr:mixinTypes="timix:internalLink"
                                                    jcr:primaryType="tint:galleryImage"
                                                    linkTarget="_blank"
@@ -2409,7 +2077,7 @@
                                                       jcr:mixinTypes="jmix:animate"
                                                       jcr:primaryType="jnt:contentList">
                                                 <banker-design iconClass="ion-md-add icon"
-                                                image="#/modules/industrial/files/images/gallery/industrial_img_6.jpg"
+                                                image="#/modules/industrial/files/images/industry/gallery_6.jpg"
                                                 jcr:mixinTypes="timix:internalLink"
                                                 jcr:primaryType="tint:galleryImage"
                                                 linkTarget="_blank"
@@ -2485,7 +2153,7 @@
                                         <figure align="default"
                                    borderRadius="rounded-0"
                                    borderRadiusSize="default"
-                                   image="#/modules/industrial/files/images/article/industrial_article_2.jpg"
+                                   image="#/modules/industrial/files/images/industry/article_2.jpg"
                                    j:view="industrial.content"
                                    jcr:mixinTypes="bootstrap4mix:imageAdvancedSettings jmix:renderable"
                                    jcr:primaryType="bootstrap4nt:figure"
@@ -2549,7 +2217,7 @@
                                                           j:animationIterationCount="1"
                                                           jcr:mixinTypes="jmix:animate"
                                                           jcr:primaryType="jnt:contentList">
-                                        <figure image="#/modules/industrial/files/images/article/industrial_article_1.jpg"
+                                        <figure image="#/modules/industrial/files/images/industry/article_1.jpg"
                                    j:view="industrial.content"
                                    jcr:mixinTypes="jmix:renderable"
                                    jcr:primaryType="bootstrap4nt:figure"/>
@@ -3662,7 +3330,7 @@
                                        jcr:mixinTypes="timix:owlCarouselS timix:owlcarouselAdvancedSettings"
                                        jcr:primaryType="tint:owlcarousel"
                                        options="{&#xA;    loop:true,&#xA;    autoplay: true,&#xA;    margin:0,&#xA;    animateOut: 'fadeOut',&#xA;    animateIn: 'fadeIn',&#xA;    nav:true,&#xA;    autoplayHoverPause: true,&#xA;    items: 1,&#xA;    dragTouch: false,&#xA;    navText: ['&lt;span class=&#34;ion-ios-arrow-back&#34;&gt;', '&lt;span class=&#34;ion-ios-arrow-forward&#34;&gt;'],&#xA;    responsive:{&#xA;      0:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      600:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      1000:{&#xA;        items:1,&#xA;        nav:true&#xA;      }&#xA;    }&#xA; }">
-                                        <we-are-industrial-company image="#/modules/industrial/files/images/heading-hero/industrial_hero_1.jpg"
+                                        <we-are-industrial-company image="#/modules/industrial/files/images/industry/hero_1.jpg"
                                                       jcr:primaryType="tint:owlcarouselItemS">
                                             <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                                 jcr:language="en"
@@ -3699,7 +3367,7 @@
                                                    jcr:primaryType="jnt:translation"
                                                    videoURL="https://vimeo.com/59256790"/>
                                         </we-are-industrial-company>
-                                        <the-best-level-of-excellence-in image="#/modules/industrial/files/images/heading-hero/industrial_hero_2.jpg"
+                                        <the-best-level-of-excellence-in image="#/modules/industrial/files/images/industry/hero_2.jpg"
                                                             jcr:primaryType="tint:owlcarouselItemS">
                                             <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                                 jcr:language="en"
@@ -3915,7 +3583,7 @@
                                                     </text-2>
                                                 </content-row-col2>
                                                 <content-row-col0 jcr:primaryType="jnt:contentList">
-                                                    <figure image="#/modules/industrial/files/images/feature/industrial_feature_1.jpg"
+                                                    <figure image="#/modules/industrial/files/images/industry/feature_1.jpg"
                                             j:view="industrial.features"
                                             jcr:mixinTypes="jmix:renderable"
                                             jcr:primaryType="bootstrap4nt:figure"/>
@@ -4061,7 +3729,7 @@
                                                              j:animationIterationCount="1"
                                                              jcr:mixinTypes="jmix:animate"
                                                              jcr:primaryType="jnt:contentList">
-                                            <figure image="#/modules/industrial/files/images/article/industrial_article_1.jpg"
+                                            <figure image="#/modules/industrial/files/images/industry/article_1.jpg"
                                       j:view="industrial.content"
                                       jcr:mixinTypes="jmix:renderable"
                                       jcr:primaryType="bootstrap4nt:figure"/>
@@ -4130,7 +3798,7 @@
                                             <figure align="default"
                                       borderRadius="rounded-0"
                                       borderRadiusSize="default"
-                                      image="#/modules/industrial/files/images/article/industrial_article_2.jpg"
+                                      image="#/modules/industrial/files/images/industry/article_2.jpg"
                                       j:view="industrial.content"
                                       jcr:mixinTypes="bootstrap4mix:imageAdvancedSettings jmix:renderable"
                                       jcr:primaryType="bootstrap4nt:figure"
@@ -4244,7 +3912,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                                     <ducting-design iconClass="ion-md-add icon"
-                                                    image="#/modules/industrial/files/images/gallery/industrial_img_1.jpg"
+                                                    image="#/modules/industrial/files/images/industry/gallery_1.jpg"
                                                     jcr:mixinTypes="timix:internalLink"
                                                     jcr:primaryType="tint:galleryImage"
                                                     linkTarget="_blank"
@@ -4298,7 +3966,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                                     <tanks-project iconClass="ion-md-add icon"
-                                                   image="#/modules/industrial/files/images/gallery/industrial_img_2.jpg"
+                                                   image="#/modules/industrial/files/images/industry/gallery_2.jpg"
                                                    jcr:mixinTypes="timix:internalLink"
                                                    jcr:primaryType="tint:galleryImage"
                                                    linkTarget="_blank"
@@ -4352,7 +4020,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                                     <structural-design iconClass="ion-md-add icon"
-                                                       image="#/modules/industrial/files/images/gallery/industrial_img_3.jpg"
+                                                       image="#/modules/industrial/files/images/industry/gallery_3.jpg"
                                                        jcr:mixinTypes="timix:internalLink"
                                                        jcr:primaryType="tint:galleryImage"
                                                        linkTarget="_blank"
@@ -4406,7 +4074,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                                     <stacks-design iconClass="ion-md-add icon"
-                                                   image="#/modules/industrial/files/images/gallery/industrial_img_4.jpg"
+                                                   image="#/modules/industrial/files/images/industry/gallery_4.jpg"
                                                    jcr:mixinTypes="timix:internalLink"
                                                    jcr:primaryType="tint:galleryImage"
                                                    linkTarget="_blank"
@@ -4460,7 +4128,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                                     <intercate-custom iconClass="ion-md-add icon"
-                                                      image="#/modules/industrial/files/images/gallery/industrial_img_5.jpg"
+                                                      image="#/modules/industrial/files/images/industry/gallery_5.jpg"
                                                       jcr:mixinTypes="timix:internalLink"
                                                       jcr:primaryType="tint:galleryImage"
                                                       linkTarget="_blank"
@@ -4514,7 +4182,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                                     <banker-design iconClass="ion-md-add icon"
-                                                   image="#/modules/industrial/files/images/gallery/industrial_img_6.jpg"
+                                                   image="#/modules/industrial/files/images/industry/gallery_6.jpg"
                                                    jcr:mixinTypes="timix:internalLink"
                                                    jcr:primaryType="tint:galleryImage"
                                                    linkTarget="_blank"
@@ -4960,7 +4628,7 @@
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Heading content list"/>
-                                    <heading image="#/modules/industrial/files/images/heading-hero/industrial_hero_3.jpg"
+                                    <heading image="#/modules/industrial/files/images/industry/hero_3.jpg"
                                  jcr:primaryType="tint:heading">
                                         <j:translation_en body="&lt;h1 class=&#34;pt-5&#34;&gt;&lt;span&gt;About Us&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.&lt;/p&gt;&#xA;"
                                              jcr:language="en"
@@ -4994,7 +4662,7 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Half-block list"/>
                                     <half-block imagePosition="left" jcr:primaryType="tint:halfBlock">
-                                        <image image="#/modules/industrial/files/images/heading-hero/industrial_hero_1.jpg"
+                                        <image image="#/modules/industrial/files/images/industry/hero_1.jpg"
                                   j:animation="fadeIn"
                                   j:animationDelay="0.0"
                                   j:animationDelayUsage="delayBeforeAnimation"
@@ -5065,7 +4733,7 @@
                                                    jcr:primaryType="jnt:translation"
                                                    text="&lt;h3 class=&#34;mb-4&#34;&gt;Company History&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Learn More&lt;/a&gt;&lt;/p&gt;&#xA;"/>
                                         </body>
-                                        <image image="#/modules/industrial/files/images/heading-hero/industrial_hero_2.jpg"
+                                        <image image="#/modules/industrial/files/images/industry/hero_2.jpg"
                                   j:animation="fadeIn"
                                   j:animationDelay="0.0"
                                   j:animationDelayUsage="delayBeforeAnimation"
@@ -5724,8 +5392,7 @@
                                        jcr:mixinTypes="timix:owlCarouselS timix:owlcarouselAdvancedSettings"
                                        jcr:primaryType="tint:owlcarousel"
                                        options="{&#xA;    loop:true,&#xA;    autoplay: true,&#xA;    margin:0,&#xA;    animateOut: 'fadeOut',&#xA;    animateIn: 'fadeIn',&#xA;    nav:true,&#xA;    autoplayHoverPause: true,&#xA;    items: 1,&#xA;    dragTouch: false,&#xA;    navText: ['&lt;span class=&#34;ion-ios-arrow-back&#34;&gt;', '&lt;span class=&#34;ion-ios-arrow-forward&#34;&gt;'],&#xA;    responsive:{&#xA;      0:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      600:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      1000:{&#xA;        items:1,&#xA;        nav:true&#xA;      }&#xA;    }&#xA; }">
-                                        <we-are-industrial-company image="#/modules/industrial/files/images/heading-hero/insurance_hero_1.jpg"
-                                                      jcr:primaryType="tint:owlcarouselItemS">
+                                        <we-are-industrial-company image="" jcr:primaryType="tint:owlcarouselItemS">
                                             <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Insurance Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                                 jcr:language="en"
                                                 jcr:mixinTypes="mix:title"
@@ -5775,7 +5442,7 @@
                                                    jcr:title="We Are Industrial Company"
                                                    videoURL="https://vimeo.com/109653244"/>
                                         </we-are-industrial-company>
-                                        <the-best-level-of-excellence-in image="#/modules/industrial/files/images/heading-hero/insurance_hero_3.jpg"
+                                        <the-best-level-of-excellence-in image="#/modules/industrial/files/images/misc/insurance_hero_3.jpg"
                                                             jcr:primaryType="tint:owlcarouselItemS">
                                             <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Offer For House Insurance&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                                 jcr:language="en"
@@ -5991,7 +5658,7 @@
                                                     </text-2>
                                                 </content-row-col2>
                                                 <content-row-col0 jcr:primaryType="jnt:contentList">
-                                                    <figure image="#/modules/industrial/files/images/feature/people_feature_1.jpg"
+                                                    <figure image="#/modules/industrial/files/images/person/feature_4.jpg"
                                             j:view="industrial.features"
                                             jcr:mixinTypes="jmix:renderable"
                                             jcr:primaryType="bootstrap4nt:figure"/>
@@ -6137,7 +5804,7 @@
                                                              j:animationIterationCount="1"
                                                              jcr:mixinTypes="jmix:animate"
                                                              jcr:primaryType="jnt:contentList">
-                                            <figure image="#/modules/industrial/files/images/article/people_article_3.jpg"
+                                            <figure image="#/modules/industrial/files/images/person/article_3.jpg"
                                       j:view="industrial.content"
                                       jcr:mixinTypes="jmix:renderable"
                                       jcr:primaryType="bootstrap4nt:figure"/>
@@ -6203,7 +5870,7 @@
                                                       j:animationIterationCount="1"
                                                       jcr:mixinTypes="jmix:animate"
                                                       jcr:primaryType="jnt:contentList">
-                                            <figure image="#/modules/industrial/files/images/article/people_article_1.jpg"
+                                            <figure image="#/modules/industrial/files/images/person/article_1.jpg"
                                       j:view="industrial.content"
                                       jcr:mixinTypes="jmix:renderable"
                                       jcr:primaryType="bootstrap4nt:figure">
@@ -6313,7 +5980,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                                     <skiing iconClass="ion-md-add icon"
-                                            image="#/modules/industrial/files/images/gallery/sport_gallery_2.jpg"
+                                            image="#/modules/industrial/files/images/sport/gallery_2.jpg"
                                             jcr:mixinTypes="timix:internalLink"
                                             jcr:primaryType="tint:galleryImage"
                                             linkTarget="_blank"
@@ -6367,7 +6034,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                                     <pet-insurance iconClass="ion-md-add icon"
-                                                   image="#/modules/industrial/files/images/gallery/dog_gallery_8.jpg"
+                                                   image="#/modules/industrial/files/images/animals/gallery_2.jpg"
                                                    jcr:mixinTypes="timix:internalLink"
                                                    jcr:primaryType="tint:galleryImage"
                                                    linkTarget="_blank"
@@ -6421,7 +6088,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                                     <falling iconClass="ion-md-add icon"
-                                             image="#/modules/industrial/files/images/gallery/people_gallery_1.jpg"
+                                             image="#/modules/industrial/files/images/person/gallery_1.jpg"
                                              jcr:mixinTypes="timix:internalLink"
                                              jcr:primaryType="tint:galleryImage"
                                              linkTarget="_blank"
@@ -6475,7 +6142,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                                     <engine-issue iconClass="ion-md-add icon"
-                                                  image="#/modules/industrial/files/images/gallery/industrial_img_4.jpg"
+                                                  image="#/modules/industrial/files/images/industry/gallery_4.jpg"
                                                   jcr:mixinTypes="timix:internalLink"
                                                   jcr:primaryType="tint:galleryImage"
                                                   linkTarget="_blank"
@@ -6529,7 +6196,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                                     <iot iconClass="ion-md-add icon"
-                                         image="#/modules/industrial/files/images/gallery/people_gallery_2.jpg"
+                                         image="#/modules/industrial/files/images/person/gallery_2.jpg"
                                          jcr:mixinTypes="timix:internalLink"
                                          jcr:primaryType="tint:galleryImage"
                                          linkTarget="_blank"
@@ -6583,7 +6250,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                                     <sport-4-senior iconClass="ion-md-add icon"
-                                                    image="#/modules/industrial/files/images/gallery/sport_gallery_3.jpg"
+                                                    image="#/modules/industrial/files/images/sport/gallery_3.jpg"
                                                     jcr:mixinTypes="timix:internalLink"
                                                     jcr:primaryType="tint:galleryImage"
                                                     linkTarget="_blank"
@@ -7029,7 +6696,7 @@
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Heading content list"/>
-                                    <heading image="#/modules/industrial/files/images/heading-hero/industrial_hero_3.jpg"
+                                    <heading image="#/modules/industrial/files/images/industry/hero_3.jpg"
                                  jcr:primaryType="tint:heading">
                                         <j:translation_en body="&lt;h1 class=&#34;pt-5&#34;&gt;&lt;span&gt;About Us&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.&lt;/p&gt;&#xA;"
                                              jcr:language="en"
@@ -7063,7 +6730,7 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Half-block list"/>
                                     <half-block imagePosition="left" jcr:primaryType="tint:halfBlock">
-                                        <image image="#/modules/industrial/files/images/heading-hero/industrial_hero_1.jpg"
+                                        <image image="#/modules/industrial/files/images/industry/hero_1.jpg"
                                   j:animation="fadeIn"
                                   j:animationDelay="0.0"
                                   j:animationDelayUsage="delayBeforeAnimation"
@@ -7134,7 +6801,7 @@
                                                    jcr:primaryType="jnt:translation"
                                                    text="&lt;h3 class=&#34;mb-4&#34;&gt;Company History&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Learn More&lt;/a&gt;&lt;/p&gt;&#xA;"/>
                                         </body>
-                                        <image image="#/modules/industrial/files/images/heading-hero/industrial_hero_2.jpg"
+                                        <image image="#/modules/industrial/files/images/industry/hero_2.jpg"
                                   j:animation="fadeIn"
                                   j:animationDelay="0.0"
                                   j:animationDelayUsage="delayBeforeAnimation"

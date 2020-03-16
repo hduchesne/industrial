@@ -5,10 +5,10 @@
 <%--@elvariable id="currentNode" type="org.jahia.services.content.JCRNodeWrapper"--%>
 <%--@elvariable id="renderContext" type="org.jahia.services.render.RenderContext"--%>
 
-<template:addResources type="css" resources="bootstrap.min.css"/>
-<template:addResources type="javascript" resources="jquery.min.js"/>
-<template:addResources type="javascript" resources="popper.min.js"/>
-<template:addResources type="javascript" resources="bootstrap.min.js"/>
+<%--<template:addResources type="css" resources="bootstrap.min.css"/>--%>
+<%--<template:addResources type="javascript" resources="jquery.min.js"/>--%>
+<%--<template:addResources type="javascript" resources="popper.min.js"/>--%>
+<%--<template:addResources type="javascript" resources="bootstrap.min.js"/>--%>
 
 <c:set var="siteNode" value="${renderContext.site}"/>
 <c:choose>

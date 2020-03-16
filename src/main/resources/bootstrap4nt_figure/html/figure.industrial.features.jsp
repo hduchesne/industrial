@@ -3,13 +3,12 @@
 <%@ taglib prefix="jcr" uri="http://www.jahia.org/tags/jcr" %>
 <%@ taglib prefix="template" uri="http://www.jahia.org/tags/templateLib" %>
 <%--@elvariable id="renderContext" type="org.jahia.services.render.RenderContext"--%>
-<template:addResources type="css" resources="bootstrap.min.css"/>
 
-
-
+<%--<template:addResources type="css" resources="bootstrap.min.css"/>--%>
 
 <c:set var="caption" value="${currentNode.properties['jcr:title'].string}"/>
 <c:url var="imageURL" value="${currentNode.properties.image.node.url}"/>
+
 <c:choose>
     <c:when test="${renderContext.editMode}">
         <template:include view="image">

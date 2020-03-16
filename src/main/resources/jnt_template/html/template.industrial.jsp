@@ -71,6 +71,8 @@
 			<template:addResources type="css" resources="edit.css"/>
 		</c:if>
 
+	  <template:addResources type="javascript" resources="jquery.min.js,popper.min.js,bootstrap.min.js,owl.carousel.min.js"/>
+
 	  	<c:forEach items="${_jsh_.nodes}" var="node">
 			<c:url var="customJshUrl" value="${node.url}"/>
 			<c:if test="${fn:endsWith(customJshUrl, '.js')}">
@@ -100,11 +102,12 @@
 			</div>
 		</footer>
 
+
 <%--		<template:addResources type="javascript" resources="jquery-3.3.1.min.js" targetTag="body"/>--%>
 <%--      	<template:addResources type="javascript" resources="popper.min.js" targetTag="body"/>--%>
 <%--      	<template:addResources type="javascript" resources="bootstrap.min.js" targetTag="body"/>--%>
       	<%-- media="noAggregateAndCompress" --%>
-      	<template:addResources type="javascript" resources="owl.carousel.min.js" targetTag="body"/>
+<%--      	<template:addResources type="javascript" resources="owl.carousel.min.js" targetTag="body"/>--%>
 <%--      	<template:addResources type="javascript" resources="jquery.waypoints.min.js" targetTag="body"/>--%>
 		<template:addResources type="javascript" resources="jquery.appear.min.js" targetTag="body"/>
       	<template:addResources type="javascript" resources="jquery.fancybox.min.js" targetTag="body"/>

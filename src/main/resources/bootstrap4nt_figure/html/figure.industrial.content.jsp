@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="jcr" uri="http://www.jahia.org/tags/jcr" %>
 <%@ taglib prefix="template" uri="http://www.jahia.org/tags/templateLib" %>
-<template:addResources type="css" resources="bootstrap.min.css"/>
+<%--<template:addResources type="css" resources="bootstrap.min.css"/>--%>
 
 <c:set var="caption" value="${currentNode.properties['jcr:title'].string}"/>
 
