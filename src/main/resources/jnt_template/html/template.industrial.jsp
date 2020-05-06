@@ -39,8 +39,6 @@
 		<template:module node="${renderContext.mainResource.node}" nodeTypes="ogmix:openGraph" />
 	</c:if>
 
-    
-
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:400,700" rel="stylesheet">
 <%--    <link rel="stylesheet" href="/modules/industrial/css/ionicons.4.6.3.min.css" media="screen" type="text/css">--%>
 	  	<%-- used by other module, load it now to be sure it will not be loaded later and overwrite style.css--%>

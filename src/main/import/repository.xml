@@ -1690,12 +1690,12 @@
                                              jcr:primaryType="jnt:translation"
                                              text="&lt;h3&gt;Quick Links&lt;/h3&gt;&#xA;"/>
                                 </footer-title>
-                                <navbar j:view="industrial.basenav.footer"
-                             jcr:mixinTypes="bootstrap4mix:customBaseNavbar jmix:renderable"
-                             jcr:primaryType="bootstrap4nt:navbar"
-                             recursive="false"
-                             root="homePage"
-                             ulClass="list-unstyled footer-link"/>
+                                <navbar-footer j:view="industrial.basenav.footer"
+                                    jcr:mixinTypes="bootstrap4mix:customBaseNavbar jmix:renderable"
+                                    jcr:primaryType="bootstrap4nt:navbar"
+                                    recursive="false"
+                                    root="homePage"
+                                    ulClass="list-unstyled footer-link"/>
                             </footer-nav>
                             <row-footer-1 gridClasses="col-md-4 mb-5,col-md-5 mb-5 pl-md-5,col-md-3 mb-5"
                                 jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
@@ -5887,12 +5887,12 @@
                                                       jcr:primaryType="jnt:translation"
                                                       text="&lt;h3&gt;Quick Links&lt;/h3&gt;&#xA;"/>
                                             </footer-title>
-                                            <navbar j:view="industrial.basenav.footer"
-                                      jcr:mixinTypes="bootstrap4mix:customBaseNavbar jmix:renderable"
-                                      jcr:primaryType="bootstrap4nt:navbar"
-                                      recursive="false"
-                                      root="currentPage"
-                                      ulClass="list-unstyled footer-link"/>
+                                            <navbar-footer j:view="industrial.basenav.footer"
+                                             jcr:mixinTypes="bootstrap4mix:customBaseNavbar jmix:renderable"
+                                             jcr:primaryType="bootstrap4nt:navbar"
+                                             recursive="false"
+                                             root="currentPage"
+                                             ulClass="list-unstyled footer-link"/>
                                         </footer-nav>
                                     </row-footer-1-col2>
                                 </row-footer-1>
@@ -5903,17 +5903,17 @@
                                   sectionElement="header"
                                   sectionRole="banner">
                                     <html-header jcr:primaryType="jnt:contentList">
-                                        <navbar addContainerWithinTheNavbar="true"
-                                   addLoginButton="false"
-                                   buttonClass="navbar-toggler"
-                                   divClass="collapse navbar-collapse"
-                                   j:view="industrial.no.search"
-                                   jcr:mixinTypes="bootstrap4mix:advancedNavbar bootstrap4mix:brand bootstrap4mix:customBaseNavbar bootstrap4mix:customButtonNavbar jmix:renderable"
-                                   jcr:primaryType="bootstrap4nt:navbar"
-                                   navClass="navbar navbar-expand-lg navbar-dark bg-dark"
-                                   recursive="true"
-                                   root="homePage"
-                                   ulClass="navbar-nav pl-md-5 ml-auto">
+                                        <navbar-no-search addContainerWithinTheNavbar="true"
+                                             addLoginButton="false"
+                                             buttonClass="navbar-toggler"
+                                             divClass="collapse navbar-collapse"
+                                             j:view="industrial.no.search"
+                                             jcr:mixinTypes="bootstrap4mix:advancedNavbar bootstrap4mix:brand bootstrap4mix:customBaseNavbar bootstrap4mix:customButtonNavbar jmix:renderable"
+                                             jcr:primaryType="bootstrap4nt:navbar"
+                                             navClass="navbar navbar-expand-lg navbar-dark bg-dark"
+                                             recursive="true"
+                                             root="homePage"
+                                             ulClass="navbar-nav pl-md-5 ml-auto">
                                             <j:translation_en brandText="industrial"
                                                 jcr:language="en"
                                                 jcr:primaryType="jnt:translation"/>
@@ -5938,7 +5938,7 @@
                                             <j:translation_de_DE brandText="industrial"
                                                    jcr:language="de_DE"
                                                    jcr:primaryType="jnt:translation"/>
-                                        </navbar>
+                                        </navbar-no-search>
                                     </html-header>
                                 </html-header>
                             </headercontent>
@@ -7210,17 +7210,17 @@
                                   sectionElement="header"
                                   sectionRole="banner">
                                     <html-header jcr:primaryType="jnt:contentList">
-                                        <navbar addContainerWithinTheNavbar="true"
-                                   addLoginButton="false"
-                                   buttonClass="navbar-toggler"
-                                   divClass="collapse navbar-collapse"
-                                   j:view="industrial.no.search"
-                                   jcr:mixinTypes="bootstrap4mix:advancedNavbar bootstrap4mix:brand bootstrap4mix:customBaseNavbar bootstrap4mix:customButtonNavbar jmix:renderable"
-                                   jcr:primaryType="bootstrap4nt:navbar"
-                                   navClass="navbar navbar-expand-lg navbar-dark bg-dark"
-                                   recursive="true"
-                                   root="homePage"
-                                   ulClass="navbar-nav pl-md-5 ml-auto">
+                                        <navbar-no-search addContainerWithinTheNavbar="true"
+                                             addLoginButton="false"
+                                             buttonClass="navbar-toggler"
+                                             divClass="collapse navbar-collapse"
+                                             j:view="industrial.no.search"
+                                             jcr:mixinTypes="bootstrap4mix:advancedNavbar bootstrap4mix:brand bootstrap4mix:customBaseNavbar bootstrap4mix:customButtonNavbar jmix:renderable"
+                                             jcr:primaryType="bootstrap4nt:navbar"
+                                             navClass="navbar navbar-expand-lg navbar-dark bg-dark"
+                                             recursive="true"
+                                             root="homePage"
+                                             ulClass="navbar-nav pl-md-5 ml-auto">
                                             <j:translation_en brandText="industrial"
                                                 jcr:language="en"
                                                 jcr:primaryType="jnt:translation"/>
@@ -7245,7 +7245,7 @@
                                             <j:translation_de_DE brandText="industrial"
                                                    jcr:language="de_DE"
                                                    jcr:primaryType="jnt:translation"/>
-                                        </navbar>
+                                        </navbar-no-search>
                                     </html-header>
                                 </html-header>
                             </headercontent>
@@ -7890,6 +7890,38 @@
                               jcr:mixinTypes="mix:title"
                               jcr:primaryType="jnt:translation"
                               jcr:title="Home"/>
+                    <j:translation_de jcr:language="de"
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Home"/>
+                    <j:translation_fr_BE jcr:language="fr_BE"
+                                 jcr:mixinTypes="mix:title"
+                                 jcr:primaryType="jnt:translation"
+                                 jcr:title="Home"/>
+                    <j:translation_pt jcr:language="pt"
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Home"/>
+                    <j:translation_it jcr:language="it"
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Home"/>
+                    <j:translation_fr jcr:language="fr"
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Home"/>
+                    <j:translation_da jcr:language="da"
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Home"/>
+                    <j:translation_es jcr:language="es"
+                              jcr:mixinTypes="mix:title"
+                              jcr:primaryType="jnt:translation"
+                              jcr:title="Home"/>
+                    <j:translation_de_DE jcr:language="de_DE"
+                                 jcr:mixinTypes="mix:title"
+                                 jcr:primaryType="jnt:translation"
+                                 jcr:title="Home"/>
                 </home>
                 <industrial-template-overview j:templateName="industrial-main" jcr:primaryType="jnt:page">
                     <j:translation_en jcr:language="en"

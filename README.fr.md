@@ -1,16 +1,18 @@
 # industrial
 
-* [Français](./README.fr.md)
+* [English](./README.md)
 
-This module is designed for marketers to create quickly and easily landing pages or microsites.
-It contains a template, two pages sample and a collection of components :
-* Carousel (2 types : heading and testimonial)
+Ce module a été pensé et conçu pour être utilisé par une équipe de web-marketing.
+Il permet de créer rapidement et facilement des pages d'accueil de campagne marketing ou des microsites.
+Le module contient un template, quatre pages d'exemples et une collection de bloc HTML prêt à l'emploi :
+
+* Carousel (2 types : heading et témoignage)
 
     ![](./src/main/resources/images/readme/100_component_carousel.png)
     
     ![](./src/main/resources/images/readme/101_component_carousel.png)
     
-* Gallery image
+* Une gallerie d'image
 
     ![](./src/main/resources/images/readme/102_component_gallery.png)
     
