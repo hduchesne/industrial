@@ -3441,16 +3441,17 @@
                   jcr:mixinTypes="jmix:theme"
                   jcr:primaryType="jnt:template">
                         <footercontent jcr:primaryType="jnt:contentList">
-                            <footer-row jcr:mixinTypes="bootstrap4mix:createAbsoluteAreas"
-                              jcr:primaryType="bootstrap4nt:grid"
-                              level="0"/>
+                            <footer-static-area j:limitedAbsoluteAreaEdit="false" jcr:primaryType="jnt:absoluteArea"/>
                         </footercontent>
                         <headercontent jcr:primaryType="jnt:contentList">
-                            <main-navigation jcr:mixinTypes="bootstrap4mix:createAbsoluteAreas bootstrap4mix:createSection"
+                            <main-navigation jcr:mixinTypes="bootstrap4mix:createSection"
                                    jcr:primaryType="bootstrap4nt:grid"
-                                   level="0"
                                    sectionElement="header"
-                                   sectionRole="banner"/>
+                                   sectionRole="banner">
+                                <main-navigation jcr:primaryType="jnt:contentList">
+                                    <header-static-area j:limitedAbsoluteAreaEdit="false" jcr:primaryType="jnt:absoluteArea"/>
+                                </main-navigation>
+                            </main-navigation>
                         </headercontent>
                         <free jcr:primaryType="jnt:pageTemplate">
                             <j:translation_en jcr:language="en"

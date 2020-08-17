@@ -29,7 +29,7 @@
 		sql="SELECT * FROM [jnt:file] As node WHERE ISDESCENDANTNODE (node, '${renderContext.site.path}/files/js/footer')"
 />
 
-<html lang="en">
+<html lang="${fn:substring(renderContext.request.locale,0,2)}">
   <head>
     <title>${fn:escapeXml(renderContext.mainResource.node.displayableName)}</title>
     <meta charset="utf-8">
@@ -114,7 +114,7 @@
 		<template:addResources type="javascript" resources="jquery.appear.min.js" targetTag="body"/>
       	<template:addResources type="javascript" resources="jquery.fancybox.min.js" targetTag="body"/>
       	<template:addResources type="javascript" resources="main.js" targetTag="body"/>
-<%--        <script src="https://unpkg.com/ionicons@4.6.3/dist/ionicons.js"></script>--%>
+
 		<c:forEach items="${_jsf_.nodes}" var="node">
 			<c:url var="customJsfUrl" value="${node.url}"/>
 			<c:if test="${fn:endsWith(customJsfUrl, '.js')}">
