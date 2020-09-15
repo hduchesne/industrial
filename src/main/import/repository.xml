@@ -1099,56 +1099,6 @@
                             </hero_4.jpg>
                         </conference>
                         <veterinary jcr:primaryType="jnt:folder">
-                            <veggident_hero_1.jpg j:height="900"
-                                        j:width="1900"
-                                        j:xresolution="300 dots"
-                                        j:yresolution="300 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </veggident_hero_1.jpg>
-                            <veggident_persona_lg.jpg j:height="700"
-                                            j:width="700"
-                                            j:xresolution="300 dots"
-                                            j:yresolution="300 dots"
-                                            jcr:mixinTypes="jmix:exif jmix:image"
-                                            jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </veggident_persona_lg.jpg>
-                            <veggident_persona_sm.jpg j:height="700"
-                                            j:width="700"
-                                            j:xresolution="300 dots"
-                                            j:yresolution="300 dots"
-                                            jcr:mixinTypes="jmix:exif jmix:image"
-                                            jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </veggident_persona_sm.jpg>
-                            <veggident_persona_xs.jpg j:height="700"
-                                            j:width="700"
-                                            j:xresolution="300 dots"
-                                            j:yresolution="300 dots"
-                                            jcr:mixinTypes="jmix:exif jmix:image"
-                                            jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </veggident_persona_xs.jpg>
-                            <veggident_persona_md.jpg j:height="700"
-                                            j:width="700"
-                                            j:xresolution="300 dots"
-                                            j:yresolution="300 dots"
-                                            jcr:mixinTypes="jmix:exif jmix:image"
-                                            jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </veggident_persona_md.jpg>
                             <erythritol.png j:height="150"
                                   j:width="150"
                                   jcr:mixinTypes="jmix:image"
@@ -1173,16 +1123,6 @@
                                 <thumbnail jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
                             </inuline.png>
-                            <veggident_hero_4.jpg j:height="900"
-                                        j:width="1900"
-                                        j:xresolution="72 dots"
-                                        j:yresolution="72 dots"
-                                        jcr:mixinTypes="jmix:exif jmix:image"
-                                        jcr:primaryType="jnt:file">
-                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
-                            </veggident_hero_4.jpg>
                             <gallery_1.jpg j:height="700"
                                  j:width="700"
                                  j:xresolution="300 dots"
@@ -1223,6 +1163,66 @@
                                 <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                                 <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
                             </article_1.jpg>
+                            <element_persona_lg.jpg j:height="700"
+                                          j:width="700"
+                                          j:xresolution="300 dots"
+                                          j:yresolution="300 dots"
+                                          jcr:mixinTypes="jmix:exif jmix:image"
+                                          jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </element_persona_lg.jpg>
+                            <element_persona_sm.jpg j:height="700"
+                                          j:width="700"
+                                          j:xresolution="300 dots"
+                                          j:yresolution="300 dots"
+                                          jcr:mixinTypes="jmix:exif jmix:image"
+                                          jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </element_persona_sm.jpg>
+                            <element_persona_xs.jpg j:height="700"
+                                          j:width="700"
+                                          j:xresolution="300 dots"
+                                          j:yresolution="300 dots"
+                                          jcr:mixinTypes="jmix:exif jmix:image"
+                                          jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </element_persona_xs.jpg>
+                            <element_persona_md.jpg j:height="700"
+                                          j:width="700"
+                                          j:xresolution="300 dots"
+                                          j:yresolution="300 dots"
+                                          jcr:mixinTypes="jmix:exif jmix:image"
+                                          jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </element_persona_md.jpg>
+                            <element_hero_1.jpg j:height="900"
+                                      j:width="1900"
+                                      j:xresolution="300 dots"
+                                      j:yresolution="300 dots"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </element_hero_1.jpg>
+                            <element_hero_4.jpg j:height="900"
+                                      j:width="1900"
+                                      j:xresolution="72 dots"
+                                      j:yresolution="72 dots"
+                                      jcr:mixinTypes="jmix:exif jmix:image"
+                                      jcr:primaryType="jnt:file">
+                                <jcr:content jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                                <thumbnail2 jcr:mimeType="image/jpeg" jcr:primaryType="jnt:resource"/>
+                            </element_hero_4.jpg>
                         </veterinary>
                         <fashion jcr:primaryType="jnt:folder">
                             <A.png j:height="700"
@@ -3494,108 +3494,118 @@
                                        jcr:mixinTypes="timix:owlCarouselS timix:owlcarouselAdvancedSettings"
                                        jcr:primaryType="tint:owlcarousel"
                                        options="{&#xA;    loop:true,&#xA;    autoplay: true,&#xA;    margin:0,&#xA;    animateOut: 'fadeOut',&#xA;    animateIn: 'fadeIn',&#xA;    nav:true,&#xA;    autoplayHoverPause: true,&#xA;    items: 1,&#xA;    dragTouch: false,&#xA;    navText: ['&lt;span class=&#34;ion-ios-arrow-back&#34;&gt;', '&lt;span class=&#34;ion-ios-arrow-forward&#34;&gt;'],&#xA;    responsive:{&#xA;      0:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      600:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      1000:{&#xA;        items:1,&#xA;        nav:true&#xA;      }&#xA;    }&#xA; }">
-                                        <veggiedent-fr3sh image="#/modules/industrial/files/images/veterinary/veggident_hero_1.jpg"
-                                             jcr:primaryType="tint:owlcarouselItemS">
-                                            <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;VEGGIEDENT FR3SH&lt;/span&gt;&lt;/h1&gt;&#xA;"
+                                        <element-fresh image="#/modules/industrial/files/images/veterinary/element_hero_1.jpg"
+                                          jcr:primaryType="tint:owlcarouselItemS">
+                                            <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;ELEMENT FRESH&lt;/span&gt;&lt;/h1&gt;&#xA;"
                                                 jcr:language="en"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
-                                                jcr:title="Veggiedent Fr3sh"
+                                                jcr:title="Element FrEsh"
                                                 videoURL="https://www.youtube.com/embed/RvGgOlzVUZw"/>
-                                            <j:translation_de caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;VEGGIEDENT FR3SH&lt;/span&gt;&lt;/h1&gt;&#xA;"
+                                            <j:translation_de caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;ELEMENT FRESH&lt;/span&gt;&lt;/h1&gt;&#xA;"
                                                 jcr:language="de"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
-                                                jcr:title="Veggiedent Fr3sh"
+                                                jcr:title="Element FrEsh"
                                                 videoURL="https://www.youtube.com/embed/RvGgOlzVUZw"/>
-                                            <j:translation_pt caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;VEGGIEDENT FR3SH&lt;/span&gt;&lt;/h1&gt;&#xA;"
+                                            <j:translation_pt caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;ELEMENT FRESH&lt;/span&gt;&lt;/h1&gt;&#xA;"
                                                 jcr:language="pt"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
-                                                jcr:title="Veggiedent Fr3sh"
+                                                jcr:title="Element FrEsh"
                                                 videoURL="https://www.youtube.com/embed/RvGgOlzVUZw"/>
-                                            <j:translation_it caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;VEGGIEDENT FR3SH&lt;/span&gt;&lt;/h1&gt;&#xA;"
+                                            <j:translation_it caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;ELEMENT FRESH&lt;/span&gt;&lt;/h1&gt;&#xA;"
                                                 jcr:language="it"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
-                                                jcr:title="Veggiedent Fr3sh"
+                                                jcr:title="Element FrEsh"
                                                 videoURL="https://www.youtube.com/embed/RvGgOlzVUZw"/>
-                                            <j:translation_fr caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;VEGGIEDENT FR3SH&lt;/span&gt;&lt;/h1&gt;&#xA;"
+                                            <j:translation_fr caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;ELEMENT FRESH&lt;/span&gt;&lt;/h1&gt;&#xA;"
                                                 jcr:language="fr"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
-                                                jcr:title="Veggiedent Fr3sh"
+                                                jcr:title="Element FrEsh"
                                                 videoURL="https://www.youtube.com/embed/RvGgOlzVUZw"/>
-                                            <j:translation_da caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;VEGGIEDENT FR3SH&lt;/span&gt;&lt;/h1&gt;&#xA;"
+                                            <j:translation_da caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;ELEMENT FRESH&lt;/span&gt;&lt;/h1&gt;&#xA;"
                                                 jcr:language="da"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
-                                                jcr:title="Veggiedent Fr3sh"
+                                                jcr:title="Element FrEsh"
                                                 videoURL="https://www.youtube.com/embed/RvGgOlzVUZw"/>
-                                            <j:translation_es caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;VEGGIEDENT FR3SH&lt;/span&gt;&lt;/h1&gt;&#xA;"
+                                            <j:translation_es caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;ELEMENT FRESH&lt;/span&gt;&lt;/h1&gt;&#xA;"
                                                 jcr:language="es"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
-                                                jcr:title="Veggiedent Fr3sh"
+                                                jcr:title="Element FrEsh"
                                                 videoURL="https://www.youtube.com/embed/RvGgOlzVUZw"/>
-                                            <j:translation_de_DE caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;VEGGIEDENT FR3SH&lt;/span&gt;&lt;/h1&gt;&#xA;"
+                                            <j:translation_de_DE caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;ELEMENT FRESH&lt;/span&gt;&lt;/h1&gt;&#xA;"
                                                    jcr:language="de_DE"
                                                    jcr:mixinTypes="mix:title"
                                                    jcr:primaryType="jnt:translation"
-                                                   jcr:title="Veggiedent Fr3sh"
+                                                   jcr:title="Element FrEsh"
                                                    videoURL="https://www.youtube.com/embed/RvGgOlzVUZw"/>
-                                        </veggiedent-fr3sh>
-                                        <veggident-fr3sh-1 image="#/modules/industrial/files/images/veterinary/veggident_hero_4.jpg"
-                                              jcr:primaryType="tint:owlcarouselItemS">
-                                            <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Virbac.&lt;/p&gt;&#xA;"
+                                            <j:translation_fr_BE caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;ELEMENT FRESH&lt;/span&gt;&lt;/h1&gt;&#xA;"
+                                                   jcr:language="fr_BE"
+                                                   jcr:mixinTypes="mix:title"
+                                                   jcr:primaryType="jnt:translation"
+                                                   jcr:title="Element FrEsh"/>
+                                        </element-fresh>
+                                        <element-fresh-1 image="#/modules/industrial/files/images/veterinary/element_hero_4.jpg"
+                                            jcr:primaryType="tint:owlcarouselItemS">
+                                            <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Element.&lt;/p&gt;&#xA;"
                                                 jcr:language="en"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
                                                 jcr:title="Tutorial Brossage de Dent"
                                                 videoURL="https://youtu.be/WZ8At-jwgeo"/>
-                                            <j:translation_de caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Virbac.&lt;/p&gt;&#xA;"
+                                            <j:translation_de caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Element.&lt;/p&gt;&#xA;"
                                                 jcr:language="de"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
                                                 jcr:title="Tutorial Brossage de Dent"
                                                 videoURL="https://youtu.be/WZ8At-jwgeo"/>
-                                            <j:translation_pt caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Virbac.&lt;/p&gt;&#xA;"
+                                            <j:translation_pt caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Element.&lt;/p&gt;&#xA;"
                                                 jcr:language="pt"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
                                                 jcr:title="Tutorial Brossage de Dent"
                                                 videoURL="https://youtu.be/WZ8At-jwgeo"/>
-                                            <j:translation_it caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Virbac.&lt;/p&gt;&#xA;"
+                                            <j:translation_it caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Element.&lt;/p&gt;&#xA;"
                                                 jcr:language="it"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
                                                 jcr:title="Tutorial Brossage de Dent"
                                                 videoURL="https://youtu.be/WZ8At-jwgeo"/>
-                                            <j:translation_fr caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Virbac.&lt;/p&gt;&#xA;"
+                                            <j:translation_fr caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Element.&lt;/p&gt;&#xA;"
                                                 jcr:language="fr"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
                                                 jcr:title="Tutorial Brossage de Dent"
                                                 videoURL="https://youtu.be/WZ8At-jwgeo"/>
-                                            <j:translation_da caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Virbac.&lt;/p&gt;&#xA;"
+                                            <j:translation_da caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Element.&lt;/p&gt;&#xA;"
                                                 jcr:language="da"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
                                                 jcr:title="Tutorial Brossage de Dent"
                                                 videoURL="https://youtu.be/WZ8At-jwgeo"/>
-                                            <j:translation_es caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Virbac.&lt;/p&gt;&#xA;"
+                                            <j:translation_es caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Element.&lt;/p&gt;&#xA;"
                                                 jcr:language="es"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
                                                 jcr:title="Tutorial Brossage de Dent"
                                                 videoURL="https://youtu.be/WZ8At-jwgeo"/>
-                                            <j:translation_de_DE caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Virbac.&lt;/p&gt;&#xA;"
+                                            <j:translation_de_DE caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Element.&lt;/p&gt;&#xA;"
                                                    jcr:language="de_DE"
                                                    jcr:mixinTypes="mix:title"
                                                    jcr:primaryType="jnt:translation"
                                                    jcr:title="Tutorial Brossage de Dent"
                                                    videoURL="https://youtu.be/WZ8At-jwgeo"/>
-                                        </veggident-fr3sh-1>
+                                            <j:translation_fr_BE caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Element.&lt;/p&gt;&#xA;"
+                                                   jcr:language="fr_BE"
+                                                   jcr:mixinTypes="mix:title"
+                                                   jcr:primaryType="jnt:translation"
+                                                   jcr:title="Tutorial Brossage de Dent"/>
+                                        </element-fresh-1>
                                     </home-carousel>
                                 </heading-carousel-list>
                                 <generic-content-right-image-list jcr:primaryType="jnt:contentList">
@@ -3629,28 +3639,31 @@
                                             <text jcr:primaryType="tint:text">
                                                 <j:translation_en jcr:language="en"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;VEGGIEDENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                                   text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;ELEMENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
                                                 <j:translation_de jcr:language="de"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;VEGGIEDENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                                   text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;ELEMENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
                                                 <j:translation_pt jcr:language="pt"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;VEGGIEDENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                                   text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;ELEMENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
                                                 <j:translation_it jcr:language="it"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;VEGGIEDENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                                   text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;ELEMENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
                                                 <j:translation_fr jcr:language="fr"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34; &gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;VEGGIEDENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                                   text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;ELEMENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
                                                 <j:translation_da jcr:language="da"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;VEGGIEDENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                                   text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;ELEMENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
                                                 <j:translation_es jcr:language="es"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;VEGGIEDENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                                   text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;ELEMENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
                                                 <j:translation_de_DE jcr:language="de_DE"
                                                       jcr:primaryType="jnt:translation"
-                                                      text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;VEGGIEDENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                                      text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;ELEMENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                                <j:translation_fr_BE jcr:language="fr_BE"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34; style=&#34;font-size:3rem;&#34;&gt;Des lamelles pour combattre la mauvaise haleine.&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Les lamelles pour les dents &lt;strong&gt;ELEMENT Fresh&lt;/strong&gt; aident &amp;agrave; lutter contre les probl&amp;egrave;mes dentaires et particuli&amp;egrave;rement la mauvaise haleine tout en faisant plaisir &amp;agrave; son animal..&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Ces lamelles &amp;agrave; m&amp;acirc;cher pr&amp;eacute;sentent une forme en Z qui facilite la saisie et la mastication par votre animal.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Son app&amp;eacute;tence fera de ces lamelles &amp;agrave; m&amp;acirc;cher des friandises dont votre animal ne pourra plus se passer.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
                                             </text>
                                         </generic-content-right-image-col1>
                                     </generic-content-right-image>
@@ -3681,28 +3694,31 @@
                                                     <text jcr:primaryType="tint:text">
                                                         <j:translation_en jcr:language="en"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;h2&gt;L&amp;rsquo;innovation VEGGIEDENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
+                                                         text="&lt;h2&gt;L&amp;rsquo;innovation ELEMENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
                                                         <j:translation_de jcr:language="de"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;h2&gt;L&amp;rsquo;innovation VEGGIEDENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
+                                                         text="&lt;h2&gt;L&amp;rsquo;innovation ELEMENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
                                                         <j:translation_pt jcr:language="pt"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;h2&gt;L&amp;rsquo;innovation VEGGIEDENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
+                                                         text="&lt;h2&gt;L&amp;rsquo;innovation ELEMENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
                                                         <j:translation_it jcr:language="it"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;h2&gt;L&amp;rsquo;innovation VEGGIEDENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
+                                                         text="&lt;h2&gt;L&amp;rsquo;innovation ELEMENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
                                                         <j:translation_fr jcr:language="fr"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;h2&gt;L&amp;rsquo;innovation VEGGIEDENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
+                                                         text="&lt;h2&gt;L&amp;rsquo;innovation ELEMENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
                                                         <j:translation_da jcr:language="da"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;h2&gt;L&amp;rsquo;innovation VEGGIEDENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
+                                                         text="&lt;h2&gt;L&amp;rsquo;innovation ELEMENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
                                                         <j:translation_es jcr:language="es"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;h2&gt;L&amp;rsquo;innovation VEGGIEDENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
+                                                         text="&lt;h2&gt;L&amp;rsquo;innovation ELEMENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
                                                         <j:translation_de_DE jcr:language="de_DE"
                                                             jcr:primaryType="jnt:translation"
-                                                            text="&lt;h2&gt;L&amp;rsquo;innovation VEGGIEDENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
+                                                            text="&lt;h2&gt;L&amp;rsquo;innovation ELEMENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
+                                                        <j:translation_fr_BE jcr:language="fr_BE"
+                                                            jcr:primaryType="jnt:translation"
+                                                            text="&lt;h2&gt;L&amp;rsquo;innovation ELEMENT Fresh combat les causes d&amp;#39;une mauvaise haleine gr&amp;acirc;ce &amp;agrave; trois nouveaux ingr&amp;eacute;dients&lt;/h2&gt;&#xA;"/>
                                                     </text>
                                                 </title-row-2-col0>
                                             </title-row-2>
@@ -3946,7 +3962,7 @@
                                         rowVerticalAlignment="default"
                                         typeOfGrid="predefinedGrid">
                                                 <card-row-main jcr:primaryType="jnt:contentList">
-                                                    <card image="#/modules/industrial/files/images/veterinary/veggident_persona_xs.jpg"
+                                                    <card image="#/modules/industrial/files/images/veterinary/element_persona_xs.jpg"
                                           j:animation="swing"
                                           j:animationDelay="2.0"
                                           j:animationDelayUsage="delayBeforeAnimation"
@@ -3981,7 +3997,7 @@
                                                     </card>
                                                 </card-row-main>
                                                 <card-row-side jcr:primaryType="jnt:contentList">
-                                                    <card image="#/modules/industrial/files/images/veterinary/veggident_persona_sm.jpg"
+                                                    <card image="#/modules/industrial/files/images/veterinary/element_persona_sm.jpg"
                                           jcr:primaryType="tint:card"
                                           linkTarget="_blank">
                                                         <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;S (5-10 kg)&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -4011,7 +4027,7 @@
                                                     </card>
                                                 </card-row-side>
                                                 <card-row-extra jcr:primaryType="jnt:contentList">
-                                                    <card image="#/modules/industrial/files/images/veterinary/veggident_persona_md.jpg"
+                                                    <card image="#/modules/industrial/files/images/veterinary/element_persona_md.jpg"
                                           jcr:primaryType="tint:card"
                                           linkTarget="_blank">
                                                         <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;M (10-30 kg)&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;lead&#34;&gt;Pour les chiens de taille interm&amp;eacute;diaire&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -4041,7 +4057,7 @@
                                                     </card>
                                                 </card-row-extra>
                                                 <card-row-extra2 jcr:primaryType="jnt:contentList">
-                                                    <card image="#/modules/industrial/files/images/veterinary/veggident_persona_lg.jpg"
+                                                    <card image="#/modules/industrial/files/images/veterinary/element_persona_lg.jpg"
                                           jcr:primaryType="tint:card"
                                           linkTarget="_blank">
                                                         <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;L (&amp;gt;30 kg)&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;lead&#34;&gt;Pour les plus grandes races&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -4140,54 +4156,59 @@
                                                          j:animationIterationCount="1"
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
-                                                    <dentifrice-virbac externalLink="https://fr.virbac.com/home/chiens/hygiene.html"
-                                                       iconClass="ion-md-add icon"
-                                                       image="#/modules/industrial/files/images/veterinary/gallery_1.jpg"
-                                                       jcr:mixinTypes="timix:externalLink"
-                                                       jcr:primaryType="tint:galleryImage"
-                                                       linkTarget="_blank"
-                                                       linkType="externalLink">
-                                                        <j:translation_en heading="Dentifrice Virbac"
+                                                    <dentifrice-element externalLink="https://www.jahia.com"
+                                                        iconClass="ion-md-add icon"
+                                                        image="#/modules/industrial/files/images/veterinary/gallery_1.jpg"
+                                                        jcr:mixinTypes="timix:externalLink"
+                                                        jcr:primaryType="tint:galleryImage"
+                                                        linkTarget="_blank"
+                                                        linkType="externalLink">
+                                                        <j:translation_en heading="Dentifrice Element"
                                                          jcr:language="en"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Dentifrice Virbac"/>
-                                                        <j:translation_de heading="Dentifrice Virbac"
+                                                         jcr:title="Dentifrice Element"/>
+                                                        <j:translation_de heading="Dentifrice Element"
                                                          jcr:language="de"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Dentifrice Virbac"/>
-                                                        <j:translation_pt heading="Dentifrice Virbac"
+                                                         jcr:title="Dentifrice Element"/>
+                                                        <j:translation_pt heading="Dentifrice Element"
                                                          jcr:language="pt"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Dentifrice Virbac"/>
-                                                        <j:translation_it heading="Dentifrice Virbac"
+                                                         jcr:title="Dentifrice Element"/>
+                                                        <j:translation_it heading="Dentifrice Element"
                                                          jcr:language="it"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Dentifrice Virbac"/>
-                                                        <j:translation_fr heading="Dentifrice Virbac"
+                                                         jcr:title="Dentifrice Element"/>
+                                                        <j:translation_fr heading="Dentifrice Element"
                                                          jcr:language="fr"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Dentifrice Virbac"/>
-                                                        <j:translation_da heading="Dentifrice Virbac"
+                                                         jcr:title="Dentifrice Element"/>
+                                                        <j:translation_da heading="Dentifrice Element"
                                                          jcr:language="da"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Dentifrice Virbac"/>
-                                                        <j:translation_es heading="Dentifrice Virbac"
+                                                         jcr:title="Dentifrice Element"/>
+                                                        <j:translation_es heading="Dentifrice Element"
                                                          jcr:language="es"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Dentifrice Virbac"/>
-                                                        <j:translation_de_DE heading="Dentifrice Virbac"
+                                                         jcr:title="Dentifrice Element"/>
+                                                        <j:translation_de_DE heading="Dentifrice Element"
                                                             jcr:language="de_DE"
                                                             jcr:mixinTypes="mix:title"
                                                             jcr:primaryType="jnt:translation"
-                                                            jcr:title="Dentifrice Virbac"/>
-                                                    </dentifrice-virbac>
+                                                            jcr:title="Dentifrice Element"/>
+                                                        <j:translation_fr_BE heading="Dentifrice Element"
+                                                            jcr:language="fr_BE"
+                                                            jcr:mixinTypes="mix:title"
+                                                            jcr:primaryType="jnt:translation"
+                                                            jcr:title="Dentifrice Element"/>
+                                                    </dentifrice-element>
                                                 </container-gallery-col0>
                                                 <container-gallery-col1 j:animation="fadeInUp"
                                                          j:animationDelay="0.1"
@@ -4195,54 +4216,59 @@
                                                          j:animationIterationCount="1"
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
-                                                    <vet-aquadent externalLink="https://fr.virbac.com/home/chiens/hygiene.html"
-                                                  iconClass="ion-md-add icon"
-                                                  image="#/modules/industrial/files/images/veterinary/gallery_2.jpg"
-                                                  jcr:mixinTypes="timix:externalLink"
-                                                  jcr:primaryType="tint:galleryImage"
-                                                  linkTarget="_blank"
-                                                  linkType="externalLink">
-                                                        <j:translation_en heading="Vet Aquadent"
+                                                    <vet-dental externalLink="https://www.jahia.com"
+                                                iconClass="ion-md-add icon"
+                                                image="#/modules/industrial/files/images/veterinary/gallery_2.jpg"
+                                                jcr:mixinTypes="timix:externalLink"
+                                                jcr:primaryType="tint:galleryImage"
+                                                linkTarget="_blank"
+                                                linkType="externalLink">
+                                                        <j:translation_en heading="Vet Dental"
                                                          jcr:language="en"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Vet Aquadent"/>
-                                                        <j:translation_de heading="Vet Aquadent"
+                                                         jcr:title="Vet Dental"/>
+                                                        <j:translation_de heading="Vet Dental"
                                                          jcr:language="de"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Vet Aquadent"/>
-                                                        <j:translation_pt heading="Vet Aquadent"
+                                                         jcr:title="Vet Dental"/>
+                                                        <j:translation_pt heading="Vet Dental"
                                                          jcr:language="pt"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Vet Aquadent"/>
-                                                        <j:translation_it heading="Vet Aquadent"
+                                                         jcr:title="Vet Dental"/>
+                                                        <j:translation_it heading="Vet Dental"
                                                          jcr:language="it"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Vet Aquadent"/>
-                                                        <j:translation_fr heading="Vet Aquadent"
+                                                         jcr:title="Vet Dental"/>
+                                                        <j:translation_fr heading="Vet Dental"
                                                          jcr:language="fr"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Vet Aquadent"/>
-                                                        <j:translation_da heading="Vet Aquadent"
+                                                         jcr:title="Vet Dental"/>
+                                                        <j:translation_da heading="Vet Dental"
                                                          jcr:language="da"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Vet Aquadent"/>
-                                                        <j:translation_es heading="Vet Aquadent"
+                                                         jcr:title="Vet Dental"/>
+                                                        <j:translation_es heading="Vet Dental"
                                                          jcr:language="es"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Vet Aquadent"/>
-                                                        <j:translation_de_DE heading="Vet Aquadent"
+                                                         jcr:title="Vet Dental"/>
+                                                        <j:translation_de_DE heading="Vet Dental"
                                                             jcr:language="de_DE"
                                                             jcr:mixinTypes="mix:title"
                                                             jcr:primaryType="jnt:translation"
-                                                            jcr:title="Vet Aquadent"/>
-                                                    </vet-aquadent>
+                                                            jcr:title="Vet Dental"/>
+                                                        <j:translation_fr_BE heading="Vet Dental"
+                                                            jcr:language="fr_BE"
+                                                            jcr:mixinTypes="mix:title"
+                                                            jcr:primaryType="jnt:translation"
+                                                            jcr:title="Vet Dental"/>
+                                                    </vet-dental>
                                                 </container-gallery-col1>
                                                 <container-gallery-col2 j:animation="fadeInUp"
                                                          j:animationDelay="0.2"
@@ -4250,7 +4276,7 @@
                                                          j:animationIterationCount="1"
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
-                                                    <pack-suite-dentaire externalLink="https://fr.virbac.com/home/chiens/hygiene.html"
+                                                    <pack-suite-dentaire externalLink="https://www.jahia.com"
                                                          iconClass="ion-md-add icon"
                                                          image="#/modules/industrial/files/images/veterinary/gallery_3.jpg"
                                                          jcr:mixinTypes="timix:externalLink"
@@ -4294,6 +4320,11 @@
                                                          jcr:title="Pack Suite Dentaire"/>
                                                         <j:translation_de_DE heading="Pack Suite Dentaire"
                                                             jcr:language="de_DE"
+                                                            jcr:mixinTypes="mix:title"
+                                                            jcr:primaryType="jnt:translation"
+                                                            jcr:title="Pack Suite Dentaire"/>
+                                                        <j:translation_fr_BE heading="Pack Suite Dentaire"
+                                                            jcr:language="fr_BE"
                                                             jcr:mixinTypes="mix:title"
                                                             jcr:primaryType="jnt:translation"
                                                             jcr:title="Pack Suite Dentaire"/>
@@ -4484,56 +4515,62 @@
                                             <text jcr:primaryType="tint:text">
                                                 <j:translation_en jcr:language="en"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Virbac&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
+                                                   text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Element&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
                                                 <j:translation_de jcr:language="de"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Virbac&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
+                                                   text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Element&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
                                                 <j:translation_pt jcr:language="pt"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Virbac&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
+                                                   text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Element&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
                                                 <j:translation_it jcr:language="it"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Virbac&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
+                                                   text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Element&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
                                                 <j:translation_fr jcr:language="fr"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Virbac &lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Accédez à des 100aines de conseils &amp; tutoriaux pour assurer le bien être de tous vos animaux&lt;/p&gt;&#xA;"/>
+                                                   text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Element&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
                                                 <j:translation_da jcr:language="da"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Virbac&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
+                                                   text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Element&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
                                                 <j:translation_es jcr:language="es"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Virbac&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
+                                                   text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Element&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
                                                 <j:translation_de_DE jcr:language="de_DE"
                                                       jcr:primaryType="jnt:translation"
-                                                      text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Virbac&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
+                                                      text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Element&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
+                                                <j:translation_fr_BE jcr:language="fr_BE"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Visitez Tous Les Univers Element&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Acc&amp;eacute;dez &amp;agrave; des 100aines de conseils &amp;amp; tutoriaux pour assurer le bien &amp;ecirc;tre de tous vos animaux&lt;/p&gt;&#xA;"/>
                                             </text>
                                         </bandeau-section-col0>
                                         <bandeau-section-col1 jcr:primaryType="jnt:contentList">
                                             <text jcr:primaryType="tint:text">
                                                 <j:translation_en jcr:language="en"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://fr.virbac.com/&#34;&gt;D&amp;eacute;couvrez Virbac&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                                                   text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://www.jahia.com/&#34;&gt;D&amp;eacute;couvrez Element&lt;/a&gt;&lt;/p&gt;&#xA;"/>
                                                 <j:translation_de jcr:language="de"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://fr.virbac.com/&#34;&gt;D&amp;eacute;couvrez Virbac&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                                                   text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://www.jahia.com/&#34;&gt;D&amp;eacute;couvrez Element&lt;/a&gt;&lt;/p&gt;&#xA;"/>
                                                 <j:translation_pt jcr:language="pt"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://fr.virbac.com/&#34;&gt;D&amp;eacute;couvrez Virbac&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                                                   text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://www.jahia.com/&#34;&gt;D&amp;eacute;couvrez Element&lt;/a&gt;&lt;/p&gt;&#xA;"/>
                                                 <j:translation_it jcr:language="it"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://fr.virbac.com/&#34;&gt;D&amp;eacute;couvrez Virbac&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                                                   text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://www.jahia.com/&#34;&gt;D&amp;eacute;couvrez Element&lt;/a&gt;&lt;/p&gt;&#xA;"/>
                                                 <j:translation_fr jcr:language="fr"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://fr.virbac.com/&#34;&gt;Découvrez Virbac&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                                                   text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://www.jahia.com/&#34;&gt;D&amp;eacute;couvrez Element&lt;/a&gt;&lt;/p&gt;&#xA;"/>
                                                 <j:translation_da jcr:language="da"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://fr.virbac.com/&#34;&gt;D&amp;eacute;couvrez Virbac&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                                                   text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://www.jahia.com/&#34;&gt;D&amp;eacute;couvrez Element&lt;/a&gt;&lt;/p&gt;&#xA;"/>
                                                 <j:translation_es jcr:language="es"
                                                    jcr:primaryType="jnt:translation"
-                                                   text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://fr.virbac.com/&#34;&gt;D&amp;eacute;couvrez Virbac&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                                                   text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://www.jahia.com/&#34;&gt;D&amp;eacute;couvrez Element&lt;/a&gt;&lt;/p&gt;&#xA;"/>
                                                 <j:translation_de_DE jcr:language="de_DE"
                                                       jcr:primaryType="jnt:translation"
-                                                      text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://fr.virbac.com/&#34;&gt;D&amp;eacute;couvrez Virbac&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                                                      text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://www.jahia.com/&#34;&gt;D&amp;eacute;couvrez Element&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                                                <j:translation_fr_BE jcr:language="fr_BE"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://www.jahia.com/&#34;&gt;D&amp;eacute;couvrez Element&lt;/a&gt;&lt;/p&gt;&#xA;"/>
                                             </text>
                                         </bandeau-section-col1>
                                     </bandeau-section>
@@ -4608,61 +4645,68 @@
                                                     <j:translation_fr jcr:language="fr"
                                                       jcr:mixinTypes="mix:title"
                                                       jcr:primaryType="jnt:translation"
-                                                      jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires VEGGIEDENT Fresh par jour à mon animal ?"/>
+                                                      jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires ELEMENT Fresh par jour à mon animal ?"/>
                                                     <j:translation_en jcr:language="en"
                                                       jcr:mixinTypes="mix:title"
                                                       jcr:primaryType="jnt:translation"
-                                                      jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires VEGGIEDENT Fresh par jour à mon animal ?"/>
+                                                      jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires ELEMENT Fresh par jour à mon animal ?"/>
                                                     <text jcr:primaryType="bootstrap4nt:text">
                                                         <j:translation_fr jcr:language="fr"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg;&amp;nbsp; Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_de jcr:language="de"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg;&amp;nbsp; Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_pt jcr:language="pt"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg;&amp;nbsp; Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_en jcr:language="en"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg;&amp;nbsp; Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_it jcr:language="it"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg;&amp;nbsp; Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_da jcr:language="da"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg;&amp;nbsp; Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_es jcr:language="es"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg;&amp;nbsp; Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_de_DE jcr:language="de_DE"
                                                             jcr:primaryType="jnt:translation"
-                                                            text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg;&amp;nbsp; Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
+                                                            text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
+                                                        <j:translation_fr_BE jcr:language="fr_BE"
+                                                            jcr:primaryType="jnt:translation"
+                                                            text="&lt;p&gt;L&amp;rsquo;apport calorique mod&amp;eacute;r&amp;eacute; des lamelles &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de proposer ces lamelles dentaires &amp;agrave; votre chien comme une friandise. Il est conseill&amp;eacute; de donner une lamelle par jour.&lt;/p&gt;&#xA;"/>
                                                     </text>
                                                     <j:translation_de jcr:language="de"
                                                       jcr:mixinTypes="mix:title"
                                                       jcr:primaryType="jnt:translation"
-                                                      jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires VEGGIEDENT Fresh par jour à mon animal ?"/>
+                                                      jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires ELEMENT Fresh par jour à mon animal ?"/>
                                                     <j:translation_pt jcr:language="pt"
                                                       jcr:mixinTypes="mix:title"
                                                       jcr:primaryType="jnt:translation"
-                                                      jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires VEGGIEDENT Fresh par jour à mon animal ?"/>
+                                                      jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires ELEMENT Fresh par jour à mon animal ?"/>
                                                     <j:translation_it jcr:language="it"
                                                       jcr:mixinTypes="mix:title"
                                                       jcr:primaryType="jnt:translation"
-                                                      jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires VEGGIEDENT Fresh par jour à mon animal ?"/>
+                                                      jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires ELEMENT Fresh par jour à mon animal ?"/>
                                                     <j:translation_da jcr:language="da"
                                                       jcr:mixinTypes="mix:title"
                                                       jcr:primaryType="jnt:translation"
-                                                      jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires VEGGIEDENT Fresh par jour à mon animal ?"/>
+                                                      jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires ELEMENT Fresh par jour à mon animal ?"/>
                                                     <j:translation_es jcr:language="es"
                                                       jcr:mixinTypes="mix:title"
                                                       jcr:primaryType="jnt:translation"
-                                                      jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires VEGGIEDENT Fresh par jour à mon animal ?"/>
+                                                      jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires ELEMENT Fresh par jour à mon animal ?"/>
                                                     <j:translation_de_DE jcr:language="de_DE"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires VEGGIEDENT Fresh par jour à mon animal ?"/>
+                                                         jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires ELEMENT Fresh par jour à mon animal ?"/>
+                                                    <j:translation_fr_BE jcr:language="fr_BE"
+                                                         jcr:mixinTypes="mix:title"
+                                                         jcr:primaryType="jnt:translation"
+                                                         jcr:title="Est-ce que je peux donner plusieurs lamelles dentaires ELEMENT Fresh par jour à mon animal ?"/>
                                                 </est-ce-que-je-peux-donner-plusie>
                                                 <mon-chien-vient-de-subir-un-deta block="false"
                                                                    buttonType="collapse"
@@ -4676,61 +4720,68 @@
                                                     <j:translation_fr jcr:language="fr"
                                                       jcr:mixinTypes="mix:title"
                                                       jcr:primaryType="jnt:translation"
-                                                      jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires VEGGIEDENT Fresh ?"/>
+                                                      jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires ELEMENT Fresh ?"/>
                                                     <text jcr:primaryType="bootstrap4nt:text">
                                                         <j:translation_fr jcr:language="fr"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg; Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_de jcr:language="de"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg; Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_pt jcr:language="pt"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg; Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_en jcr:language="en"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg; Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_it jcr:language="it"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg; Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_da jcr:language="da"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg; Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_es jcr:language="es"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg; Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_de_DE jcr:language="de_DE"
                                                             jcr:primaryType="jnt:translation"
-                                                            text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher VEGGIEDENT&amp;reg; Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
+                                                            text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
+                                                        <j:translation_fr_BE jcr:language="fr_BE"
+                                                            jcr:primaryType="jnt:translation"
+                                                            text="&lt;p&gt;Oui ! L&amp;rsquo;action m&amp;eacute;canique des lamelles dentaires &amp;agrave; m&amp;acirc;cher ELEMENT Fresh permet de pr&amp;eacute;venir la formation de tartre de votre animal.&lt;/p&gt;&#xA;"/>
                                                     </text>
                                                     <j:translation_de jcr:language="de"
                                                       jcr:mixinTypes="mix:title"
                                                       jcr:primaryType="jnt:translation"
-                                                      jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires VEGGIEDENT Fresh ?"/>
+                                                      jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires ELEMENT Fresh ?"/>
                                                     <j:translation_pt jcr:language="pt"
                                                       jcr:mixinTypes="mix:title"
                                                       jcr:primaryType="jnt:translation"
-                                                      jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires VEGGIEDENT Fresh ?"/>
+                                                      jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires ELEMENT Fresh ?"/>
                                                     <j:translation_en jcr:language="en"
                                                       jcr:mixinTypes="mix:title"
                                                       jcr:primaryType="jnt:translation"
-                                                      jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires VEGGIEDENT Fresh ?"/>
+                                                      jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires ELEMENT Fresh ?"/>
                                                     <j:translation_it jcr:language="it"
                                                       jcr:mixinTypes="mix:title"
                                                       jcr:primaryType="jnt:translation"
-                                                      jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires VEGGIEDENT Fresh ?"/>
+                                                      jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires ELEMENT Fresh ?"/>
                                                     <j:translation_da jcr:language="da"
                                                       jcr:mixinTypes="mix:title"
                                                       jcr:primaryType="jnt:translation"
-                                                      jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires VEGGIEDENT Fresh ?"/>
+                                                      jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires ELEMENT Fresh ?"/>
                                                     <j:translation_es jcr:language="es"
                                                       jcr:mixinTypes="mix:title"
                                                       jcr:primaryType="jnt:translation"
-                                                      jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires VEGGIEDENT Fresh ?"/>
+                                                      jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires ELEMENT Fresh ?"/>
                                                     <j:translation_de_DE jcr:language="de_DE"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
-                                                         jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires VEGGIEDENT Fresh ?"/>
+                                                         jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires ELEMENT Fresh ?"/>
+                                                    <j:translation_fr_BE jcr:language="fr_BE"
+                                                         jcr:mixinTypes="mix:title"
+                                                         jcr:primaryType="jnt:translation"
+                                                         jcr:title="Mon chien vient de subir un détartrage. Peut-on lui donner des lamelles dentaires ELEMENT Fresh ?"/>
                                                 </mon-chien-vient-de-subir-un-deta>
                                                 <je-donne-a-mon-chien-une-lamelle block="false"
                                                                    buttonType="collapse"
@@ -4748,28 +4799,31 @@
                                                     <text jcr:primaryType="bootstrap4nt:text">
                                                         <j:translation_fr jcr:language="fr"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;Il existe des tailles de lamelles VEGGIEDENT&amp;reg; Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;Il existe des tailles de lamelles ELEMENT Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_de jcr:language="de"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;Il existe des tailles de lamelles VEGGIEDENT&amp;reg; Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;Il existe des tailles de lamelles ELEMENT Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_pt jcr:language="pt"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;Il existe des tailles de lamelles VEGGIEDENT&amp;reg; Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;Il existe des tailles de lamelles ELEMENT Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_en jcr:language="en"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;Il existe des tailles de lamelles VEGGIEDENT&amp;reg; Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;Il existe des tailles de lamelles ELEMENT Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_it jcr:language="it"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;Il existe des tailles de lamelles VEGGIEDENT&amp;reg; Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;Il existe des tailles de lamelles ELEMENT Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_da jcr:language="da"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;Il existe des tailles de lamelles VEGGIEDENT&amp;reg; Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;Il existe des tailles de lamelles ELEMENT Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_es jcr:language="es"
                                                          jcr:primaryType="jnt:translation"
-                                                         text="&lt;p&gt;Il existe des tailles de lamelles VEGGIEDENT&amp;reg; Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
+                                                         text="&lt;p&gt;Il existe des tailles de lamelles ELEMENT Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
                                                         <j:translation_de_DE jcr:language="de_DE"
                                                             jcr:primaryType="jnt:translation"
-                                                            text="&lt;p&gt;Il existe des tailles de lamelles VEGGIEDENT&amp;reg; Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
+                                                            text="&lt;p&gt;Il existe des tailles de lamelles ELEMENT Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
+                                                        <j:translation_fr_BE jcr:language="fr_BE"
+                                                            jcr:primaryType="jnt:translation"
+                                                            text="&lt;p&gt;Il existe des tailles de lamelles ELEMENT Fresh adapt&amp;eacute;es &amp;agrave; chaque taille de chien. L&amp;#39;important est de ne pas donner de lamelle trop petite car le temps de mastication risque d&amp;#39;&amp;ecirc;tre insuffisant et donc de limiter l&amp;#39;efficacit&amp;eacute; anti-tartre. Attention &amp;eacute;galement &amp;agrave; ne pas donner de lamelle trop grosse pour &amp;eacute;viter que l&amp;#39;animal ne se blesse en la mettant dans sa gueule.&lt;/p&gt;&#xA;"/>
                                                     </text>
                                                     <j:translation_de jcr:language="de"
                                                       jcr:mixinTypes="mix:title"
@@ -4796,6 +4850,10 @@
                                                       jcr:primaryType="jnt:translation"
                                                       jcr:title="Je donne à mon chien une lamelle de taille supérieure à celle conseillée pour son poids afin de la couper en deux ou pour que mon chien la mâche plus longtemps. Est-ce que cela a un impact sur la santé de mon chien ?"/>
                                                     <j:translation_de_DE jcr:language="de_DE"
+                                                         jcr:mixinTypes="mix:title"
+                                                         jcr:primaryType="jnt:translation"
+                                                         jcr:title="Je donne à mon chien une lamelle de taille supérieure à celle conseillée pour son poids afin de la couper en deux ou pour que mon chien la mâche plus longtemps. Est-ce que cela a un impact sur la santé de mon chien ?"/>
+                                                    <j:translation_fr_BE jcr:language="fr_BE"
                                                          jcr:mixinTypes="mix:title"
                                                          jcr:primaryType="jnt:translation"
                                                          jcr:title="Je donne à mon chien une lamelle de taille supérieure à celle conseillée pour son poids afin de la couper en deux ou pour que mon chien la mâche plus longtemps. Est-ce que cela a un impact sur la santé de mon chien ?"/>
@@ -4901,7 +4959,7 @@
                                                              jcr:mixinTypes="jmix:animate"
                                                              jcr:primaryType="jnt:contentList">
                                             <figure image="#/modules/industrial/files/images/fashion/article_robe_1.jpg"
-                                      j:view="industrial.content"
+                                      j:view="clip-path_1"
                                       jcr:mixinTypes="jmix:renderable"
                                       jcr:primaryType="bootstrap4nt:figure"/>
                                         </generic-content-right-image-col0>
