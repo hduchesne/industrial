@@ -9,8 +9,8 @@
 <c:set var="body" value="${currentNode.properties.body.string}"/>
 <c:set var="imageNode" value="${currentNode.properties.image.node}"/>
 
-<template:addCacheDependency node="${imageNode}"/>
-<c:url var="imageURL" value="${imageNode.url}"/>
+<%--<template:addCacheDependency node="${imageNode}"/>--%>
+<%--<c:url var="imageURL" value="${imageNode.url}"/>--%>
 
 <template:include view="hidden.generateLink"/>
 
@@ -43,7 +43,12 @@
             <div class="a-like">
         </c:otherwise>
     </c:choose>
-            <img src="${imageURL}" alt="people" class="img-fluid">
+            <template:module view="cloudy.img" node="${imageNode}" editable="false">
+                <template:param name="class" value="img-fluid"/>
+                <template:param name="widths" value="256,512"/>
+                <template:param name="defaultWidth" value="512"/>
+            </template:module>
+<%--            <img src="${imageURL}" alt="people" class="img-fluid">--%>
     <c:choose>
         <c:when test="${not empty moduleMap.linkUrl}">
             </a>

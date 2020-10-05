@@ -9,6 +9,7 @@
 <%@ taglib prefix="query" uri="http://www.jahia.org/tags/queryLib" %>
 <%@ taglib prefix="utility" uri="http://www.jahia.org/tags/utilityLib" %>
 <%@ taglib prefix="s" uri="http://www.jahia.org/tags/search" %>
+<%@ taglib prefix="cl" uri="http://www.jahia.org/tags/cloudinary" %>
 <%--@elvariable id="currentNode" type="org.jahia.services.content.JCRNodeWrapper"--%>
 <%--@elvariable id="out" type="java.io.PrintWriter"--%>
 <%--@elvariable id="script" type="org.jahia.services.render.scripting.Script"--%>
@@ -38,7 +39,32 @@
         </div>
     </c:when>
     <c:otherwise>
-        <div class="slider-item" style="background-image: url('${imageURL}');">
+        <%--
+            NOTE :
+
+            background-image : image-set(
+              url('../img/carousel/bg_360.jpg') 1x,
+              url('../img/carousel/bg_780.jpg') 2x
+            );
+            is currently not well supported. Use it when it will be supported
+        --%>
+        <c:choose>
+            <c:when test="${jcr:isNodeType(renderContext.site, 'cldin:configuration') && renderContext.liveMode == true}">
+                <%-- cloudinary config params --%>
+                <c:set var="gravity" value="${not empty currentResource.moduleParams.gravity ? currentResource.moduleParams.gravity : 'auto'}"/>
+                <c:set var="crop" value="${not empty currentResource.moduleParams.crop ? currentResource.moduleParams.crop : 'fill'}"/>
+                <c:set var="raw" value="${not empty currentResource.moduleParams.raw ? currentResource.moduleParams.raw : ''}"/>
+                <c:set var="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '1900'}"/>
+                <div class="slider-item" style="background-image: url('<cl:url node="${currentNode.properties.image.node.url}" width="${width}" crop="${crop}" gravity="${gravity}" raw="${raw}"/>');">
+            </c:when>
+            <c:otherwise>
+<%--                <c:url var="imageURL" value="${currentNode.properties.image.node.url}"/>--%>
+                <div class="slider-item" style="background-image: url('${imageURL}');">
+            </c:otherwise>
+        </c:choose>
+
+
+<%--        <div class="slider-item" style="background-image: url('${imageURL}');">--%>
             <div class="container">
                 <div class="row slider-text align-items-center justify-content-center">
                     <div class="col-lg-7 text-center col-sm-12 element-animate">

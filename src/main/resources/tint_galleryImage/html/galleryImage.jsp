@@ -3,10 +3,14 @@
 <%@ taglib prefix="jcr" uri="http://www.jahia.org/tags/jcr" %>
 <%@ taglib prefix="template" uri="http://www.jahia.org/tags/templateLib" %>
 <%@ taglib prefix="utility" uri="http://www.jahia.org/tags/utilityLib" %>
+<%@ taglib prefix="" uri="http://www.jahia.org/tags/utilityLib" %>
 
 <c:set var="heading" value="${currentNode.properties.heading.string}"/>
 <c:set var="iconClass" value="${currentNode.properties.iconClass.string}"/>
+<c:set var="imgNode" value="${currentNode.properties.image.node}"/>
 
+<%--<utility:logger level="INFO" value="[gallery] image node : ${imgNode}"/>--%>
+<%--<utility:logger level="INFO" value="[gallery] is jmix:image : ${jcr:isNodeType(imgNode,'jmix:image') }"/>--%>
 <%--<c:set var="linkType" value="${currentNode.properties.linkType.string}" />--%>
 <%--<c:set var="linkTarget" value="${currentNode.properties.linkTarget.string}" />--%>
 
@@ -32,7 +36,13 @@
 <a href="${moduleMap.linkUrl}" class="link-thumbnail">
     <h3>${heading}</h3>
     <span class="${iconClass}"></span>
-    <template:include view="image">
+    <template:module view="cloudy.img" node="${imgNode}" >
         <template:param name="class" value="img-fluid"/>
-    </template:include>
+        <template:param name="widths" value="256,512"/>
+        <template:param name="defaultWidth" value="512"/>
+    </template:module>
+
+<%--    <template:include view="image">--%>
+<%--        <template:param name="class" value="img-fluid"/>--%>
+<%--    </template:include>--%>
 </a>

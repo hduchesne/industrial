@@ -22,7 +22,8 @@
 <c:set var="heading" value="${currentNode.properties.heading.string}"/>
 <c:set var="testimonial" value="${currentNode.properties.testimonial.string}"/>
 
-<c:url var="avatarURL" value="${currentNode.properties.avatar.node.url}"/>
+<c:set var="avatarNode" value="${currentNode.properties.avatar.node}"/>
+<c:url var="avatarURL" value="${avatarNode.url}"/>
 
 <c:choose>
     <c:when test="${renderContext.editMode}">
@@ -41,7 +42,11 @@
             <div class="block-33 h-100">
                 <div class="vcard d-flex mb-3">
                     <div class="image align-self-center">
-                        <img src="${avatarURL}" alt="Person here">
+                        <template:module view="cloudy.img" node="${avatarNode}" editable="false">
+                            <template:param name="widths" value="256,512"/>
+                            <template:param name="defaultWidth" value="512"/>
+                        </template:module>
+<%--                        <img src="${avatarURL}" alt="Person here">--%>
                     </div>
                         ${heading}
                         <%--                    <div class="name-text align-self-center">--%>
@@ -57,23 +62,5 @@
                 </div>
             </div>
         </div>
-        <%--        <div class="slider-item" style="background-image: url('${imageURL}');">--%>
-        <%--            <div class="container">--%>
-        <%--                <div class="row slider-text align-items-center justify-content-center">--%>
-        <%--                    <div class="col-lg-7 text-center col-sm-12 element-animate">--%>
-        <%--                        <div class="btn-play-wrap mx-auto">--%>
-        <%--                            <p class="mb-4">--%>
-        <%--                                <a href="${videoURL}" data-fancybox data-ratio="2" class="btn-play">--%>
-        <%--                                    <span class="ion ion-ios-play"></span>--%>
-        <%--                                </a>--%>
-        <%--                            </p>--%>
-        <%--                        </div>--%>
-        <%--                        ${caption}--%>
-        <%--&lt;%&ndash;                        <h1 class="mb-4"><span>We Are Industrial Company</span></h1>&ndash;%&gt;--%>
-        <%--&lt;%&ndash;                        <p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?</p>&ndash;%&gt;--%>
-        <%--                    </div>--%>
-        <%--                </div>--%>
-        <%--            </div>--%>
-        <%--        </div>--%>
     </c:otherwise>
 </c:choose>

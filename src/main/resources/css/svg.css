@@ -1,0 +1,17 @@
+.svg-desktop {
+    display: none;
+}
+
+.svg-mobile {
+    display: block;
+    margin: -3px 0 0;
+}
+
+@media screen and (min-width: 767px) {
+    .svg-desktop {
+        display: block;
+    }
+    .svg-mobile {
+        display: none;
+    }
+}
