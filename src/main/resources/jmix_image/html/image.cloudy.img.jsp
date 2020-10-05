@@ -24,7 +24,7 @@
 <c:set var="alt" value="${fn:escapeXml(currentNode.displayableName)}"/>
 <c:url var="imgUrl" value="${currentNode.url}" context="/" />
 
-<utility:logger level="INFO" value="imgUrl : ${imgUrl}"/>
+<%--<utility:logger level="INFO" value="imgUrl : ${imgUrl}"/>--%>
 
 <c:choose>
     <c:when test="${jcr:isNodeType(renderContext.site, 'cldin:configuration') && renderContext.liveMode == true}">
