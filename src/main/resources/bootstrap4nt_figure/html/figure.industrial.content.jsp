@@ -5,11 +5,15 @@
 <%--<template:addResources type="css" resources="bootstrap.min.css"/>--%>
 
 <c:set var="caption" value="${currentNode.properties['jcr:title'].string}"/>
+<c:set var="imgNode" value="${currentNode.properties.image.node}"/>
 
 <div class="scaling-image">
     <div class="frame">
-        <template:include view="image">
+        <template:module view="cloudy.img" node="${imgNode}" editable="false">
             <template:param name="class" value="img-fluid"/>
-        </template:include>
+        </template:module>
+<%--        <template:include view="image">--%>
+<%--            <template:param name="class" value="img-fluid"/>--%>
+<%--        </template:include>--%>
     </div>
 </div>

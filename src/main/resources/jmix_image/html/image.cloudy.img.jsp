@@ -32,7 +32,7 @@
         <img src="<cl:url node='${currentNode}' width="${defaultWidth}" gravity="${gravity}" crop="${crop}" raw="${raw}"/>"
              srcset="<c:forEach items="${fn:split(widths, ',')}" var="width" varStatus="status">
                         <c:if test="${!status.first}">,</c:if>
-                        <cl:url node="${currentNode}" width="${width}" crop="${crop}" gravity="${gravity}" raw="${raw}"/> ${width}w
+                        <cl:url node="${currentNode}" width="${width}" crop="${crop}" gravity="${gravity}" raw="${raw}"/>${width}w
                     </c:forEach>"
              class="${class}"
              alt="${alt}"
