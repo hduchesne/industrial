@@ -34,6 +34,9 @@
     <title>${fn:escapeXml(renderContext.mainResource.node.displayableName)}</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<%--	  Needed for cloudy in cas you use image in css background-image--%>
+  	<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+
 
   	<c:if test="${jcr:isNodeType(renderContext.mainResource.node, 'ogmix:openGraph')}">
 		<template:module node="${renderContext.mainResource.node}" nodeTypes="ogmix:openGraph" />

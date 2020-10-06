@@ -32,7 +32,7 @@
             <c:set var="crop" value="${not empty currentResource.moduleParams.crop ? currentResource.moduleParams.crop : 'fill'}"/>
             <c:set var="raw" value="${not empty currentResource.moduleParams.raw ? currentResource.moduleParams.raw : ''}"/>
             <c:set var="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '1900'}"/>
-            <div class="slider-item" style="background-image: url('<cl:url node="${currentNode.properties.image.node.url}" width="${width}" crop="${crop}" gravity="${gravity}" raw="${raw}"/>');">
+            <div class="slider-item" style="background-image: url(<cl:url node="${currentNode.properties.image.node}" width="${width}" crop="${crop}" gravity="${gravity}" raw="${raw}"/>);">
         </c:when>
         <c:otherwise>
             <div class="slider-item" style="background-image: url('${imageURL}');">

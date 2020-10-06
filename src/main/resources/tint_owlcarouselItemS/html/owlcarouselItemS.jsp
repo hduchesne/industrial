@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html;charset=UTF-8" %>
+<%@ page language="java" contentType="text/html;charset=UTF-8" trimDirectiveWhitespaces="true" %>
 <%@ taglib prefix="template" uri="http://www.jahia.org/tags/templateLib" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
@@ -10,6 +10,7 @@
 <%@ taglib prefix="utility" uri="http://www.jahia.org/tags/utilityLib" %>
 <%@ taglib prefix="s" uri="http://www.jahia.org/tags/search" %>
 <%@ taglib prefix="cl" uri="http://www.jahia.org/tags/cloudinary" %>
+
 <%--@elvariable id="currentNode" type="org.jahia.services.content.JCRNodeWrapper"--%>
 <%--@elvariable id="out" type="java.io.PrintWriter"--%>
 <%--@elvariable id="script" type="org.jahia.services.render.scripting.Script"--%>
@@ -55,7 +56,7 @@
                 <c:set var="crop" value="${not empty currentResource.moduleParams.crop ? currentResource.moduleParams.crop : 'fill'}"/>
                 <c:set var="raw" value="${not empty currentResource.moduleParams.raw ? currentResource.moduleParams.raw : ''}"/>
                 <c:set var="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '1900'}"/>
-                <div class="slider-item" style="background-image: url('<cl:url node="${currentNode.properties.image.node.url}" width="${width}" crop="${crop}" gravity="${gravity}" raw="${raw}"/>');">
+                <div class="slider-item" style="background-image: url(<cl:url node="${currentNode.properties.image.node}" width="${width}" crop="${crop}" gravity="${gravity}" raw="${raw}"/>);">
             </c:when>
             <c:otherwise>
 <%--                <c:url var="imageURL" value="${currentNode.properties.image.node.url}"/>--%>

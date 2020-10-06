@@ -22,7 +22,7 @@
         <c:set var="crop" value="${not empty currentResource.moduleParams.crop ? currentResource.moduleParams.crop : 'fill'}"/>
         <c:set var="raw" value="${not empty currentResource.moduleParams.raw ? currentResource.moduleParams.raw : ''}"/>
         <c:set var="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width :'768'}"/>
-        <div class="image-display" style="background-image: url('<cl:url node="${currentNode.properties.image.node.url}" width="${width}" crop="${crop}" gravity="${gravity}" raw="${raw}"/>');"></div>
+        <div class="image-display" style="background-image: url(<cl:url node="${currentNode.properties.image.node}" width="${width}" crop="${crop}" gravity="${gravity}" raw="${raw}"/>);"></div>
     </c:when>
     <c:otherwise>
         <c:url var="imageURL" value="${currentNode.properties.image.node.url}"/>
