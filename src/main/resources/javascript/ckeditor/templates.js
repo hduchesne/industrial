@@ -33,7 +33,7 @@ CKEDITOR.addTemplates('industrial',
             },{
                 title:'Media Block',
                 image:'media-block.png',
-                description:'',
+                description:'Prepared text for media block',
                 html:'<div class="media block-6 d-block text-center">\n' +
                     '  <div class="icon mb-3"><span class="ion-ios-notifications text-primary"></span></div>\n' +
                     '  <div class="media-body">\n' +
@@ -44,7 +44,7 @@ CKEDITOR.addTemplates('industrial',
             },{
                 title:'Feature Block',
                 image:'feature-block.png',
-                description:'',
+                description:'Prepared text for feature block',
                 html:'<div class="feature-1 d-md-flex">\n' +
                     '  <div class="align-self-center">\n' +
                     '    <span class="ion ion-ios-easel display-4 text-primary"></span>\n' +
@@ -55,7 +55,7 @@ CKEDITOR.addTemplates('industrial',
             },{
                 title:'Text Block',
                 image:'text-block.png',
-                description:'',
+                description:'Prepared text for article block',
                 html:'<div class="block-41">\n' +
                     '  <h2 class="block-41-heading mb-5">We\'ll handle any intercate custom design</h2>\n' +
                     '  <div class="block-41-text">\n' +
@@ -80,10 +80,21 @@ CKEDITOR.addTemplates('industrial',
             },{
                 title:'Team card body',
                 image:'team-card-body.png',
-                description:'',
+                description:'Prepared text for Team card block',
                 html:'<div class="media-body">\n' +
                     '  <h3 class="mt-0 text-black">Mike Richardson</h3>\n' +
                     '</div>'
+            },{
+                title:'Call to action',
+                image:'call-2-action-body.png',
+                description:'Prepared text for Call to action',
+                html:'<h2 class="text-white mb-0">Get Started With Industrial Free Template</h2>\n' +
+                    ' <p class="text-white lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>'
+            },{
+                title:'Call to action btn',
+                image:'call-2-action-btn.png',
+                description:'Prepared button text for Call to action',
+                html:'<a href="https://free-template.co/" class="btn btn-outline-white px-4 py-3">Download This Template</a>'
             }
             // {
             //     title:'Blog post 1',
