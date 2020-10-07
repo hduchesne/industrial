@@ -3462,6 +3462,157 @@
                                     jcr:title="Free"/>
                             <headercontent jcr:primaryType="jnt:contentList"/>
                         </free>
+                        <t1 j:hiddenTemplate="false" jcr:primaryType="jnt:pageTemplate">
+                            <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="T1"/>
+                            <pagecontent jcr:primaryType="jnt:contentList">
+                                <page-heading j:allowedTypes="tint:heading"
+                                   j:areaView="default"
+                                   j:numberOfItems="1"
+                                   jcr:primaryType="jnt:area"/>
+                                <feature-section gridLayout="fixed-width"
+                                      jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createSection"
+                                      jcr:primaryType="bootstrap4nt:grid"
+                                      sectionCssClass="section"
+                                      sectionElement="section">
+                                    <feature-section jcr:primaryType="jnt:contentList">
+                                        <title-row gridClasses="col-12 text-center"
+                                      jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                      jcr:primaryType="bootstrap4nt:grid"
+                                      rowCssClass="mb-5"
+                                      rowHorizontalAlignment="default"
+                                      rowVerticalAlignment="default"
+                                      typeOfGrid="customGrid">
+                                            <title-row-col0 jcr:primaryType="jnt:contentList">
+                                                <title-area j:allowedTypes="tint:text"
+                                             j:numberOfItems="1"
+                                             jcr:primaryType="jnt:area"/>
+                                            </title-row-col0>
+                                        </title-row>
+                                        <content-row gridClasses="col-lg-4 order-lg-2,col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1,col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3"
+                                        jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                        jcr:primaryType="bootstrap4nt:grid"
+                                        rowCssClass="align-items-stretch"
+                                        rowHorizontalAlignment="default"
+                                        rowVerticalAlignment="default"
+                                        typeOfGrid="customGrid">
+                                            <content-row-col1 jcr:primaryType="jnt:contentList">
+                                                <area-content-1 j:allowedTypes="tint:text"
+                                                 j:numberOfItems="2"
+                                                 jcr:primaryType="jnt:area"/>
+                                            </content-row-col1>
+                                            <content-row-col2 jcr:primaryType="jnt:contentList">
+                                                <area-content-2 j:allowedTypes="tint:text"
+                                                 j:numberOfItems="2"
+                                                 jcr:primaryType="jnt:area"/>
+                                            </content-row-col2>
+                                            <content-row-col0 jcr:primaryType="jnt:contentList">
+                                                <area-figure-1 j:allowedTypes="bootstrap4nt:figure"
+                                                j:numberOfItems="1"
+                                                j:subNodesView="industrial.features"
+                                                jcr:primaryType="jnt:area"/>
+                                            </content-row-col0>
+                                        </content-row>
+                                    </feature-section>
+                                </feature-section>
+                                <mdeia-3-blocks-grid gridClasses="col-md-6 col-lg-4,col-md-6 col-lg-4,col-md-6 col-lg-4"
+                                          gridLayout="fixed-width"
+                                          jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
+                                          jcr:primaryType="bootstrap4nt:grid"
+                                          rowHorizontalAlignment="default"
+                                          rowVerticalAlignment="default"
+                                          sectionCssClass="section bg-light"
+                                          sectionElement="div"
+                                          typeOfGrid="customGrid">
+                                    <mdeia-3-blocks-grid-col0 jcr:primaryType="jnt:contentList">
+                                        <area-media-block-1 j:allowedTypes="tint:text"
+                                               j:numberOfItems="1"
+                                               jcr:primaryType="jnt:area"/>
+                                    </mdeia-3-blocks-grid-col0>
+                                    <mdeia-3-blocks-grid-col1 jcr:primaryType="jnt:contentList">
+                                        <area-media-block-2 j:allowedTypes="tint:text"
+                                               j:numberOfItems="1"
+                                               jcr:primaryType="jnt:area"/>
+                                    </mdeia-3-blocks-grid-col1>
+                                    <mdeia-3-blocks-grid-col2 jcr:primaryType="jnt:contentList">
+                                        <area-media-block-3 j:allowedTypes="tint:text"
+                                               j:numberOfItems="1"
+                                               jcr:primaryType="jnt:area"/>
+                                    </mdeia-3-blocks-grid-col2>
+                                </mdeia-3-blocks-grid>
+                                <article-grid gridClasses="col-lg-7 order-md-2,col-md-5 pr-md-5 mb-5"
+                                   gridLayout="fixed-width"
+                                   jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
+                                   jcr:primaryType="bootstrap4nt:grid"
+                                   rowCssClass="align-items-center mb-5"
+                                   rowHorizontalAlignment="default"
+                                   rowVerticalAlignment="default"
+                                   sectionCssClass="section"
+                                   sectionElement="section"
+                                   typeOfGrid="customGrid">
+                                    <article-grid-col1 jcr:primaryType="jnt:contentList">
+                                        <area-article-content j:allowedTypes="tint:text"
+                                                 j:numberOfItems="1"
+                                                 jcr:primaryType="jnt:area"/>
+                                    </article-grid-col1>
+                                    <article-grid-col0 jcr:primaryType="jnt:contentList">
+                                        <area-article-figure j:allowedTypes="bootstrap4nt:figure"
+                                                j:numberOfItems="1"
+                                                j:subNodesView="industrial.content"
+                                                jcr:primaryType="jnt:area"/>
+                                    </article-grid-col0>
+                                </article-grid>
+                                <testimonial-grid gridLayout="fixed-width"
+                                       jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createSection"
+                                       jcr:primaryType="bootstrap4nt:grid"
+                                       sectionCssClass="section bg-light block-11"
+                                       sectionElement="section">
+                                    <testimonial-grid jcr:primaryType="jnt:contentList">
+                                        <testimonial-title gridClasses="col-md-8 text-center"
+                                              jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                              jcr:primaryType="bootstrap4nt:grid"
+                                              rowCssClass="justify-content-center mb-5"
+                                              rowHorizontalAlignment="default"
+                                              rowVerticalAlignment="default"
+                                              typeOfGrid="customGrid">
+                                            <testimonial-title-col0 jcr:primaryType="jnt:contentList">
+                                                <area-testimonial-title j:allowedTypes="tint:text"
+                                                         j:numberOfItems="1"
+                                                         jcr:primaryType="jnt:area"/>
+                                            </testimonial-title-col0>
+                                        </testimonial-title>
+                                        <area-testimonial-carousel j:allowedTypes="tint:owlcarousel"
+                                                      j:numberOfItems="1"
+                                                      jcr:primaryType="jnt:area"/>
+                                    </testimonial-grid>
+                                </testimonial-grid>
+                                <call-to-action gridClasses="col-lg-8,col-lg-4 text-lg-right"
+                                     gridLayout="fixed-width"
+                                     jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
+                                     jcr:primaryType="bootstrap4nt:grid"
+                                     rowCssClass="align-items-center"
+                                     rowHorizontalAlignment="default"
+                                     rowVerticalAlignment="default"
+                                     sectionCssClass="section bg-primary"
+                                     sectionElement="section"
+                                     typeOfGrid="customGrid">
+                                    <call-to-action-col0 jcr:primaryType="jnt:contentList">
+                                        <area-call-2-action-content j:allowedTypes="tint:text"
+                                                       j:numberOfItems="1"
+                                                       jcr:primaryType="jnt:area"/>
+                                    </call-to-action-col0>
+                                    <call-to-action-col1 jcr:primaryType="jnt:contentList">
+                                        <area-call-2-action-btn j:allowedTypes="tint:text"
+                                                   j:numberOfItems="1"
+                                                   jcr:primaryType="jnt:area"/>
+                                    </call-to-action-col1>
+                                </call-to-action>
+                            </pagecontent>
+                            <headercontent jcr:primaryType="jnt:contentList"/>
+                            <footercontent jcr:primaryType="jnt:contentList"/>
+                        </t1>
                     </base>
                     <overview j:hiddenTemplate="false"
                       j:view="industrial"
