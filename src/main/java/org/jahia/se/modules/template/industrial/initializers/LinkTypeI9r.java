@@ -1,4 +1,4 @@
-package org.jahia.modules.template.bootstrap4.industrial.initializers;
+package org.jahia.se.modules.template.industrial.initializers;
 
 /**
  * Created by pol on 21.02.17.
@@ -11,6 +11,7 @@ import org.jahia.services.content.nodetypes.initializers.ModuleChoiceListInitial
 import org.jahia.services.content.nodetypes.renderer.AbstractChoiceListRenderer;
 import org.jahia.services.content.nodetypes.renderer.ModuleChoiceListRenderer;
 import org.jahia.services.render.RenderContext;
+import org.osgi.service.component.annotations.Component;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,11 +20,12 @@ import javax.jcr.RepositoryException;
 import javax.jcr.Value;
 import java.util.*;
 
-public class LinkTypeInitializer extends AbstractChoiceListRenderer implements ModuleChoiceListInitializer, ModuleChoiceListRenderer {
-    private static final Logger logger = LoggerFactory.getLogger(LinkTypeInitializer.class);
+@Component(name = "btnLinkTypeI9r", service = ModuleChoiceListInitializer.class, immediate = true)
+public class LinkTypeI9r extends AbstractChoiceListRenderer implements ModuleChoiceListInitializer, ModuleChoiceListRenderer {
+    private static final Logger logger = LoggerFactory.getLogger(LinkTypeI9r.class);
 
-    private String key;
-
+//    private String key = "industrialLinkTypeInitializer";
+        private String key = "i8lLinkTypeI9r";
     /**
      * {@inheritDoc}
      */

@@ -1,4 +1,5 @@
 <bootstrap4mix = 'http://www.jahia.org/bootstrap4/mix/1.0'>
+<wdenmix = 'http://modules.se.jahia.org/wden/mix/1.0'>
 <jmix = 'http://www.jahia.org/jahia/mix/1.0'>
 <jnt = 'http://www.jahia.org/jahia/nt/1.0'>
 <mix = 'http://www.jcp.org/jcr/mix/1.0'>
@@ -7,10 +8,24 @@
 
 [timix:industrial] > jmix:droppableContent, jmix:editorialContent mixin
 
+//*** WIDEN //
+[timix:widenPicker] > jmix:templateMixin mixin
+ extends = timix:damImage
+ - ti:mediaNode (weakreference, picker[type='custom',config='widenPicker']) internationalized indexed=no noqueryorder nofulltext < wdenmix:widenAsset
+
+[timix:jContentPicker] > jmix:templateMixin mixin
+ extends = timix:damImage
+ - ti:mediaNode (weakreference,picker[type='file']) internationalized < jnt:file
+
+[timix:damImage] mixin
+ - ti:imageSrc (string, choicelist[i8lDamSelectorI9r]) indexed=no
+
+
+
 //*** CONTENT LINKER //
 [timix:linkTo] mixin
-// - linkType (string, choicelist[industrialLinkTypeInitializer,resourceBundle]) = 'internalLink' autocreated indexed=no < 'internalLink', 'externalLink', 'self'
- - linkType (string, choicelist[industrialLinkTypeInitializer,resourceBundle]) indexed=no < 'internalLink', 'externalLink', 'self'
+// - linkType (string, choicelist[i8lLinkTypeI9r,resourceBundle]) = 'internalLink' autocreated indexed=no < 'internalLink', 'externalLink', 'self'
+ - linkType (string, choicelist[i8lLinkTypeI9r,resourceBundle]) indexed=no < 'internalLink', 'externalLink', 'self'
  - linkTarget (string, choicelist[resourceBundle]) = _blank autocreated indexed=no < '_blank', '_self', '_parent', '_top'
 [timix:internalLink] > jmix:templateMixin mixin
  extends = timix:linkTo
@@ -30,6 +45,10 @@
 
 //*** GALLERY IMAGE //
 [tint:galleryImage] > jnt:content, timix:industrial, bootstrap4mix:image, timix:linkTo, mix:title
+ - heading (string) internationalized
+ - iconClass (string)
+
+[tint:galleryDamImage] > jnt:content, timix:industrial, timix:damImage, timix:linkTo, mix:title
  - heading (string) internationalized
  - iconClass (string)
 // GALLERY IMAGE ***//
@@ -52,7 +71,7 @@
  - class (string) indexed=no
 
 [tint:owlcarousel] > jnt:content, timix:industrial, jmix:list, jmix:siteContent orderable
- - carouselType (string, choicelist[industrialCarouselItemTypeInitializer,resourceBundle]) mandatory indexed=no < 'standard', 'testimonial'
+ - carouselType (string, choicelist[i8lCarouselItemTypeI9r,resourceBundle]) mandatory indexed=no < 'standard', 'testimonial'
 
 [timix:owlCarouselT] mixin
  extends = tint:owlcarousel

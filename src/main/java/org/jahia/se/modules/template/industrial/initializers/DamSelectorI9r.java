@@ -1,8 +1,5 @@
-package org.jahia.modules.template.bootstrap4.industrial.initializers;
+package org.jahia.se.modules.template.industrial.initializers;
 
-/**
- * Created by pol on 21.02.17.
- */
 import org.jahia.services.content.JCRPropertyWrapper;
 import org.jahia.services.content.nodetypes.ExtendedPropertyDefinition;
 import org.jahia.services.content.nodetypes.ValueImpl;
@@ -11,6 +8,7 @@ import org.jahia.services.content.nodetypes.initializers.ModuleChoiceListInitial
 import org.jahia.services.content.nodetypes.renderer.AbstractChoiceListRenderer;
 import org.jahia.services.content.nodetypes.renderer.ModuleChoiceListRenderer;
 import org.jahia.services.render.RenderContext;
+import org.osgi.service.component.annotations.Component;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,17 +17,18 @@ import javax.jcr.RepositoryException;
 import javax.jcr.Value;
 import java.util.*;
 
-public class CarouselItemTypeInitializer extends AbstractChoiceListRenderer implements ModuleChoiceListInitializer, ModuleChoiceListRenderer {
-    private static final Logger logger = LoggerFactory.getLogger(CarouselItemTypeInitializer.class);
+@Component(name = "btnDamSelectorI9r", service = ModuleChoiceListInitializer.class, immediate = true)
+public class DamSelectorI9r extends AbstractChoiceListRenderer implements ModuleChoiceListInitializer, ModuleChoiceListRenderer {
+    private static final Logger logger = LoggerFactory.getLogger(DamSelectorI9r.class);
 
-    private String key;
+    private String key="i8lDamSelectorI9r";
+//    private String key;
 
     /**
      * {@inheritDoc}
      */
     public List<ChoiceListValue> getChoiceListValues(ExtendedPropertyDefinition epd, String param, List<ChoiceListValue> values,
                                                      Locale locale, Map<String, Object> context) {
-
         //Create the list of ChoiceListValue to return
         List<ChoiceListValue> myChoiceList = new ArrayList<ChoiceListValue>();
 
@@ -40,15 +39,15 @@ public class CarouselItemTypeInitializer extends AbstractChoiceListRenderer impl
         HashMap<String, Object> myPropertiesMap = null;
 
 
-        //heading carousel
+        //externalLink
         myPropertiesMap = new HashMap<String, Object>();
-        myPropertiesMap.put("addMixin","timix:owlCarouselS");
-        myChoiceList.add(new ChoiceListValue("standard",myPropertiesMap,new ValueImpl("standard", PropertyType.STRING, false)));
+        myPropertiesMap.put("addMixin","timix:widenPicker");
+        myChoiceList.add(new ChoiceListValue("Widen",myPropertiesMap,new ValueImpl("widen", PropertyType.STRING, false)));
 
-        //testimonial carousel
+        //internalLink
         myPropertiesMap = new HashMap<String, Object>();
-        myPropertiesMap.put("addMixin","timix:owlCarouselT");
-        myChoiceList.add(new ChoiceListValue("testimonial",myPropertiesMap,new ValueImpl("testimonial", PropertyType.STRING, false)));
+        myPropertiesMap.put("addMixin","timix:jContentPicker");
+        myChoiceList.add(new ChoiceListValue("jContent",myPropertiesMap,new ValueImpl("jContent", PropertyType.STRING, false)));
 
         //Return the list
         return myChoiceList;
