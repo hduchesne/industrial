@@ -8,6 +8,8 @@ import org.jahia.services.content.nodetypes.initializers.ModuleChoiceListInitial
 import org.jahia.services.content.nodetypes.renderer.AbstractChoiceListRenderer;
 import org.jahia.services.content.nodetypes.renderer.ModuleChoiceListRenderer;
 import org.jahia.services.render.RenderContext;
+import org.json.JSONArray;
+import org.json.JSONException;
 import org.osgi.service.component.annotations.Component;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,24 +33,40 @@ public class DamSelectorI9r extends AbstractChoiceListRenderer implements Module
                                                      Locale locale, Map<String, Object> context) {
         //Create the list of ChoiceListValue to return
         List<ChoiceListValue> myChoiceList = new ArrayList<ChoiceListValue>();
+        logger.info("**** btnGenericDamSelectorI9r -> param : "+param);
 
-        if (context == null) {
+        if (context == null)
             return myChoiceList;
+
+        try{
+            JSONArray params= new JSONArray();
+            if(!param.isEmpty())
+                params = new JSONArray(param);
+            HashMap<String, Object> myPropertiesMap = null;
+
+            for (int i = 0, size = params.length(); i < size; i++){
+                JSONArray props = params.getJSONArray(i);
+                String mixin = props.getString(0);
+                String value = props.getString(1);
+                logger.info("**** btnGenericDamSelectorI9r -> add mixin : "+mixin+" and value : "+value);
+                myPropertiesMap = new HashMap<String, Object>();
+                myPropertiesMap.put("addMixin",mixin);
+                myChoiceList.add(new ChoiceListValue(value,myPropertiesMap,new ValueImpl(value, PropertyType.STRING, false)));
+            }
+
+//            //externalLink
+//            myPropertiesMap = new HashMap<String, Object>();
+//            myPropertiesMap.put("addMixin","timix:widenPicker");
+//            myChoiceList.add(new ChoiceListValue("Widen",myPropertiesMap,new ValueImpl("widen", PropertyType.STRING, false)));
+//
+//            //internalLink
+//            myPropertiesMap = new HashMap<String, Object>();
+//            myPropertiesMap.put("addMixin","timix:jContentPicker");
+//            myChoiceList.add(new ChoiceListValue("jContent",myPropertiesMap,new ValueImpl("jContent", PropertyType.STRING, false)));
+
+        } catch (JSONException e) {
+            logger.error("Error happened", e);
         }
-
-        HashMap<String, Object> myPropertiesMap = null;
-
-
-        //externalLink
-        myPropertiesMap = new HashMap<String, Object>();
-        myPropertiesMap.put("addMixin","timix:widenPicker");
-        myChoiceList.add(new ChoiceListValue("Widen",myPropertiesMap,new ValueImpl("widen", PropertyType.STRING, false)));
-
-        //internalLink
-        myPropertiesMap = new HashMap<String, Object>();
-        myPropertiesMap.put("addMixin","timix:jContentPicker");
-        myChoiceList.add(new ChoiceListValue("jContent",myPropertiesMap,new ValueImpl("jContent", PropertyType.STRING, false)));
-
         //Return the list
         return myChoiceList;
     }

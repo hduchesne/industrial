@@ -48,6 +48,11 @@ public class CarouselItemTypeI9r extends AbstractChoiceListRenderer implements M
         myPropertiesMap.put("addMixin","timix:owlCarouselS");
         myChoiceList.add(new ChoiceListValue("standard",myPropertiesMap,new ValueImpl("standard", PropertyType.STRING, false)));
 
+        //heading carousel Widen ready
+        myPropertiesMap = new HashMap<String, Object>();
+        myPropertiesMap.put("addMixin","timix:owlCarouselSW");
+        myChoiceList.add(new ChoiceListValue("standard widen",myPropertiesMap,new ValueImpl("standardWiden", PropertyType.STRING, false)));
+
         //testimonial carousel
         myPropertiesMap = new HashMap<String, Object>();
         myPropertiesMap.put("addMixin","timix:owlCarouselT");
