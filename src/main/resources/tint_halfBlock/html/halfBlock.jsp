@@ -8,7 +8,7 @@
 
 <div class="half d-lg-flex d-block">
     <div class="image ${imagePosition} ${renderContext.editMode == true?' position-relative':''}">
-        <template:module path="image" nodeTypes="tint:image" view="hidden.halfBlock"/>
+        <template:module path="image" nodeTypes="tint:image wdennt:widenReference" view="hidden.halfBlock"/>
     </div>
     <div class="text text-center">
         <template:module path="body" nodeTypes="tint:text"/>

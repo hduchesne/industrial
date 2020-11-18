@@ -1,5 +1,6 @@
 <bootstrap4mix = 'http://www.jahia.org/bootstrap4/mix/1.0'>
 <wdenmix = 'http://modules.se.jahia.org/wden/mix/1.0'>
+<wdennt = 'http://modules.se.jahia.org/wden/nt/1.0'>
 <jmix = 'http://www.jahia.org/jahia/mix/1.0'>
 <jnt = 'http://www.jahia.org/jahia/nt/1.0'>
 <mix = 'http://www.jcp.org/jcr/mix/1.0'>
@@ -8,6 +9,8 @@
 <ti = 'http://www.jahia.org/template/b4/industrial/1.0'>
 
 [timix:industrial] > jmix:droppableContent, jmix:editorialContent mixin
+
+[timix:industrialWiden] > jmix:droppableContent, jmix:editorialContent mixin
 
 //*** WIDEN //
 [timix:genericWidenPicker] > jmix:templateMixin mixin
@@ -33,7 +36,6 @@
 
 [timix:mixDamContent] mixin
  - ti:mediaContentSrc (string, choicelist[i8lDamSelectorI9r='[["timix:mixWidenPicker","widen"],["timix:mixJContentPicker","jContent"]]']) indexed=no
-
 
 //*** CONTENT LINKER //
 [timix:linkTo] mixin
@@ -61,7 +63,7 @@
  - heading (string) internationalized
  - iconClass (string)
 
-[tint:galleryDamImage] > jnt:content, timix:industrial, timix:genericDamContent, timix:linkTo, mix:title
+[tint:galleryDamImage] > jnt:content, timix:industrialWiden, timix:genericDamContent, timix:linkTo, mix:title
  - heading (string) internationalized
  - iconClass (string)
 // GALLERY IMAGE ***//
@@ -122,6 +124,13 @@
  + image (tint:image)
  + body (tint:text)
 
+[tint:damImage] > jnt:content, timix:genericDamContent, timix:industrialWiden
+
+[tint:halfBlockWden] > jnt:content, timix:industrialWiden
+- imagePosition (string, choicelist[resourceBundle]) = 'left' autocreated indexed=no < 'left', 'right'
++ image (tint:damImage)
+//+ image (timix:genericDamContent)
++ body (tint:text)
 
 [tint:card] > jnt:content, timix:content, timix:industrial, timix:linkTo
 // CONTENT ***//
