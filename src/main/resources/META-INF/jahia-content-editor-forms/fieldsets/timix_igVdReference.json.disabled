@@ -1,0 +1,10 @@
+{
+  "name": "timix:igVdReference",
+  "fields": [
+    {
+      "name": "ti:mediaPicker",
+      "selectorType": "choicelist",
+      "valueConstraints": [["timix:igVdPickerWd","widen"],["timix:igVdPickerJc","jContent"]]
+    }
+  ]
+}

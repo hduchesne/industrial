@@ -11,6 +11,7 @@ import org.jahia.services.content.nodetypes.initializers.ModuleChoiceListInitial
 import org.jahia.services.content.nodetypes.renderer.AbstractChoiceListRenderer;
 import org.jahia.services.content.nodetypes.renderer.ModuleChoiceListRenderer;
 import org.jahia.services.render.RenderContext;
+import org.osgi.service.component.annotations.Component;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,10 +20,12 @@ import javax.jcr.RepositoryException;
 import javax.jcr.Value;
 import java.util.*;
 
-public class LinkTypeInitializer extends AbstractChoiceListRenderer implements ModuleChoiceListInitializer, ModuleChoiceListRenderer {
-    private static final Logger logger = LoggerFactory.getLogger(LinkTypeInitializer.class);
+@Component(name = "btnCarouselItemTypeI9r", service = ModuleChoiceListInitializer.class, immediate = true)
+public class CarouselItemTypeI9r extends AbstractChoiceListRenderer implements ModuleChoiceListInitializer, ModuleChoiceListRenderer {
+    private static final Logger logger = LoggerFactory.getLogger(CarouselItemTypeI9r.class);
 
-    private String key;
+//    private String key ="industrialCarouselItemTypeInitializer";
+    private String key ="i8lCarouselItemTypeI9r";
 
     /**
      * {@inheritDoc}
@@ -40,20 +43,20 @@ public class LinkTypeInitializer extends AbstractChoiceListRenderer implements M
         HashMap<String, Object> myPropertiesMap = null;
 
 
-        //externalLink
+        //heading carousel
         myPropertiesMap = new HashMap<String, Object>();
-        myPropertiesMap.put("addMixin","timix:externalLink");
-        myChoiceList.add(new ChoiceListValue("externalLink",myPropertiesMap,new ValueImpl("externalLink", PropertyType.STRING, false)));
+        myPropertiesMap.put("addMixin","timix:owlCarouselS");
+        myChoiceList.add(new ChoiceListValue("standard",myPropertiesMap,new ValueImpl("standard", PropertyType.STRING, false)));
 
-        //internalLink
+        //heading carousel Widen ready
         myPropertiesMap = new HashMap<String, Object>();
-        myPropertiesMap.put("addMixin","timix:internalLink");
-        myChoiceList.add(new ChoiceListValue("internalLink",myPropertiesMap,new ValueImpl("internalLink", PropertyType.STRING, false)));
+        myPropertiesMap.put("addMixin","timix:owlCarouselSW");
+        myChoiceList.add(new ChoiceListValue("standard widen",myPropertiesMap,new ValueImpl("standardWiden", PropertyType.STRING, false)));
 
-        //self
+        //testimonial carousel
         myPropertiesMap = new HashMap<String, Object>();
-//        myPropertiesMap.put("addMixin","timix:internalLink");
-        myChoiceList.add(new ChoiceListValue("self",myPropertiesMap,new ValueImpl("self", PropertyType.STRING, false)));
+        myPropertiesMap.put("addMixin","timix:owlCarouselT");
+        myChoiceList.add(new ChoiceListValue("testimonial",myPropertiesMap,new ValueImpl("testimonial", PropertyType.STRING, false)));
 
         //Return the list
         return myChoiceList;

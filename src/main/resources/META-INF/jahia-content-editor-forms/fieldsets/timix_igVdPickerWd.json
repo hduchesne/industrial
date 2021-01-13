@@ -1,0 +1,13 @@
+{
+  "name": "timix:igVdPickerWd",
+  "fields": [
+    {
+      "name": "ti:imageNode",
+      "selectorType": "widenPicker"
+    },
+    {
+      "name": "ti:videoNode",
+      "selectorType": "widenPicker"
+    }
+  ]
+}

@@ -1,16 +1,44 @@
 <bootstrap4mix = 'http://www.jahia.org/bootstrap4/mix/1.0'>
+<wdenmix = 'http://modules.se.jahia.org/wden/mix/1.0'>
 <jmix = 'http://www.jahia.org/jahia/mix/1.0'>
 <jnt = 'http://www.jahia.org/jahia/nt/1.0'>
 <mix = 'http://www.jcp.org/jcr/mix/1.0'>
 <timix = 'http://www.jahia.org/template/b4/industrial/mix/1.0'>
 <tint = 'http://www.jahia.org/template/b4/industrial/nt/1.0'>
+<ti = 'http://www.jahia.org/template/b4/industrial/1.0'>
 
 [timix:industrial] > jmix:droppableContent, jmix:editorialContent mixin
 
+//*** WIDEN //
+[timix:mediaPickerWd] > jmix:templateMixin mixin
+ extends = timix:mediaReference
+ - ti:mediaNode (weakreference) internationalized < wdenmix:widenAsset
+
+[timix:mediaPickerJc] > jmix:templateMixin mixin
+ extends = timix:mediaReference
+ - ti:mediaNode (weakreference,picker[type='file']) internationalized < jnt:file
+
+[timix:mediaReference] mixin
+ - ti:mediaPicker (string, choicelist[i8lDamSelectorI9r='[["timix:mediaPickerWd","widen"],["timix:mediaPickerJc","jContent"]]']) indexed=no
+
+[timix:igVdPickerWd] > jmix:templateMixin mixin
+ extends = timix:igVdReference
+- ti:imageNode (weakreference) internationalized < wdenmix:widenAsset
+- ti:videoNode (weakreference) internationalized < wdenmix:widenAsset
+
+[timix:igVdPickerJc] > jmix:templateMixin mixin
+ extends = timix:igVdReference
+ - ti:imageNode (weakreference,picker[type='image']) internationalized < jmix:image
+ - ti:videoNode (weakreference,picker[type='file']) internationalized < jnt:file
+
+[timix:igVdReference] mixin
+ - ti:mediaPicker (string, choicelist[i8lDamSelectorI9r='[["timix:igVdPickerWd","widen"],["timix:igVdPickerJc","jContent"]]']) indexed=no
+
+
+
 //*** CONTENT LINKER //
 [timix:linkTo] mixin
-// - linkType (string, choicelist[industrialLinkTypeInitializer,resourceBundle]) = 'internalLink' autocreated indexed=no < 'internalLink', 'externalLink', 'self'
- - linkType (string, choicelist[industrialLinkTypeInitializer,resourceBundle]) indexed=no < 'internalLink', 'externalLink', 'self'
+ - linkType (string, choicelist[i8lLinkTypeI9r,resourceBundle]) indexed=no < 'internalLink', 'externalLink', 'self'
  - linkTarget (string, choicelist[resourceBundle]) = _blank autocreated indexed=no < '_blank', '_self', '_parent', '_top'
 [timix:internalLink] > jmix:templateMixin mixin
  extends = timix:linkTo
@@ -32,6 +60,10 @@
 [tint:galleryImage] > jnt:content, timix:industrial, bootstrap4mix:image, timix:linkTo, mix:title
  - heading (string) internationalized
  - iconClass (string)
+
+[tint:galleryDamImage] > jnt:content, timix:industrial, timix:mediaReference, timix:linkTo, mix:title
+ - heading (string) internationalized
+- iconClass (string)
 // GALLERY IMAGE ***//
 
 //*** CAROUSEL //
@@ -45,6 +77,9 @@
  - heading (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
  - testimonial (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
 
+[tint:owlcarouselItemSW] > jnt:content, timix:igVdReference, mix:title
+ - caption (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
+
 [timix:owlcarouselAdvancedSettings] mixin
  extends = tint:owlcarousel
  itemtype = content
@@ -52,7 +87,7 @@
  - class (string) indexed=no
 
 [tint:owlcarousel] > jnt:content, timix:industrial, jmix:list, jmix:siteContent orderable
- - carouselType (string, choicelist[industrialCarouselItemTypeInitializer,resourceBundle]) mandatory indexed=no < 'standard', 'testimonial'
+ - carouselType (string, choicelist[i8lCarouselItemTypeI9r,resourceBundle]) mandatory indexed=no < 'standard', 'testimonial', 'standardWiden'
 
 [timix:owlCarouselT] mixin
  extends = tint:owlcarousel
@@ -61,6 +96,10 @@
 [timix:owlCarouselS] mixin
  extends = tint:owlcarousel
  + * (tint:owlcarouselItemS)
+
+[timix:owlCarouselSW] mixin
+ extends = tint:owlcarousel
+ + * (tint:owlcarouselItemSW)
 //CAROUSEL ***//
 
 
@@ -68,6 +107,8 @@
 //Note could use jnt:imageReferenceLink but prefere mine
 [tint:image] > jnt:content, timix:industrial
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
+
+[tint:damImage] > jnt:content, timix:mediaReference, timix:industrial
 
 [timix:content] mixin
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
@@ -83,6 +124,8 @@
  + image (tint:image)
  + body (tint:text)
 
+[tint:damHalfBlock] > tint:halfBlock
+ + image (tint:damImage)
 
 [tint:card] > jnt:content, timix:content, timix:industrial, timix:linkTo
 // CONTENT ***//
