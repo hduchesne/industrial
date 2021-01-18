@@ -1,0 +1,55 @@
+{
+  "name": "tint:owlcarousel",
+  "displayName": "Owl Carousel",
+  "description": "",
+  "dynamic": false,
+  "fields": [
+    {
+      "name": "carouselType",
+      "displayName": "Carousel Type",
+      "valueConstraints": [
+        {
+          "value": {
+            "type": "String",
+            "value": "standard"
+          },
+          "displayValue": "Standard",
+          "propertyList": [
+            {
+              "name": "addMixin",
+              "value": "timix:owlCarouselS"
+            }
+          ]
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "standardWiden"
+          },
+          "displayValue": "Standard (DAM)",
+          "propertyList": [
+            {
+              "name": "addMixin",
+              "value": "timix:owlCarouselSW"
+            }
+          ]
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "testimonial"
+          },
+          "displayValue": "Testimonial",
+          "propertyList": [
+            {
+              "name": "addMixin",
+              "value": "timix:owlCarouselT"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+	
+ 

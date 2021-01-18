@@ -10,41 +10,41 @@
 [timix:industrial] > jmix:droppableContent, jmix:editorialContent mixin
 
 //*** WIDEN //
-[timix:mediaPickerWd] > jmix:templateMixin mixin
+[timix:mediaPickerWd] > jmix:dynamicFieldset mixin
  extends = timix:mediaReference
  - ti:mediaNode (weakreference) internationalized < wdenmix:widenAsset
 
-[timix:mediaPickerJc] > jmix:templateMixin mixin
+[timix:mediaPickerJc] > jmix:dynamicFieldset mixin
  extends = timix:mediaReference
  - ti:mediaNode (weakreference,picker[type='file']) internationalized < jnt:file
 
 [timix:mediaReference] mixin
- - ti:mediaPicker (string, choicelist[i8lDamSelectorI9r='[["timix:mediaPickerWd","widen"],["timix:mediaPickerJc","jContent"]]']) indexed=no
+ - ti:mediaPicker (string, choicelist) indexed=no
 
-[timix:igVdPickerWd] > jmix:templateMixin mixin
+[timix:igVdPickerWd] > jmix:dynamicFieldset mixin
  extends = timix:igVdReference
 - ti:imageNode (weakreference) internationalized < wdenmix:widenAsset
 - ti:videoNode (weakreference) internationalized < wdenmix:widenAsset
 
-[timix:igVdPickerJc] > jmix:templateMixin mixin
+[timix:igVdPickerJc] > jmix:dynamicFieldset mixin
  extends = timix:igVdReference
  - ti:imageNode (weakreference,picker[type='image']) internationalized < jmix:image
  - ti:videoNode (weakreference,picker[type='file']) internationalized < jnt:file
 
 [timix:igVdReference] mixin
- - ti:mediaPicker (string, choicelist[i8lDamSelectorI9r='[["timix:igVdPickerWd","widen"],["timix:igVdPickerJc","jContent"]]']) indexed=no
+ - ti:mediaPicker (string, choicelist) indexed=no
 
 
 
 //*** CONTENT LINKER //
 [timix:linkTo] mixin
- - linkType (string, choicelist[i8lLinkTypeI9r,resourceBundle]) indexed=no < 'internalLink', 'externalLink', 'self'
+ - linkType (string, choicelist) indexed=no
  - linkTarget (string, choicelist[resourceBundle]) = _blank autocreated indexed=no < '_blank', '_self', '_parent', '_top'
-[timix:internalLink] > jmix:templateMixin mixin
+[timix:internalLink] > jmix:dynamicFieldset mixin
  extends = timix:linkTo
  - internalLink (weakreference, picker[type='editoriallink']) < 'jmix:droppableContent', 'jnt:page', 'jnt:file'
 
-[timix:externalLink] > jmix:templateMixin mixin
+[timix:externalLink] > jmix:dynamicFieldset mixin
  extends = timix:linkTo
  - externalLink (string) = 'https://'
 // CONTENT LINKER ***//
@@ -87,17 +87,17 @@
  - class (string) indexed=no
 
 [tint:owlcarousel] > jnt:content, timix:industrial, jmix:list, jmix:siteContent orderable
- - carouselType (string, choicelist[i8lCarouselItemTypeI9r,resourceBundle]) mandatory indexed=no < 'standard', 'testimonial', 'standardWiden'
+ - carouselType (string, choicelist) mandatory indexed=no
 
-[timix:owlCarouselT] mixin
+[timix:owlCarouselT] > jmix:dynamicFieldset mixin
  extends = tint:owlcarousel
  + * (tint:owlcarouselItemT)
 
-[timix:owlCarouselS] mixin
+[timix:owlCarouselS] > jmix:dynamicFieldset mixin
  extends = tint:owlcarousel
  + * (tint:owlcarouselItemS)
 
-[timix:owlCarouselSW] mixin
+[timix:owlCarouselSW] > jmix:dynamicFieldset mixin
  extends = tint:owlcarousel
  + * (tint:owlcarouselItemSW)
 //CAROUSEL ***//
@@ -107,8 +107,8 @@
 //Note could use jnt:imageReferenceLink but prefere mine
 [tint:image] > jnt:content, timix:industrial
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
-
-[tint:damImage] > jnt:content, timix:mediaReference, timix:industrial
+//timix:industrial
+[tint:damImage] > jnt:content, timix:mediaReference
 
 [timix:content] mixin
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'

@@ -1,0 +1,42 @@
+{
+  "name": "timix:mediaReference",
+  "displayName": "Media Content",
+  "description": "",
+  "dynamic": false,
+  "fields": [
+    {
+      "name": "ti:mediaPicker",
+      "displayName": "Media Source",
+      "valueConstraints": [
+        {
+          "value": {
+            "type": "String",
+            "value": "widen"
+          },
+          "displayValue": "Widen (DAM)",
+          "propertyList": [
+            {
+              "name": "addMixin",
+              "value": "timix:mediaPickerWd"
+            }
+          ]
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "jContent"
+          },
+          "displayValue": "jContent",
+          "propertyList": [
+            {
+              "name": "addMixin",
+              "value": "timix:mediaPickerJc"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+	
+ 

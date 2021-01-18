@@ -30,6 +30,8 @@
 <c:set var="sliderId" value="slider-${rand}"/>
 
 <c:set var="type" value="${currentNode.properties.carouselType.string}"/>
+<%--<utility:logger level="info" value="****** V8 DEBUG ******* type: ${type}"/>--%>
+
 <c:set var="displayView" value="hidden.items.display.${type}"/>
 <c:set var="addView" value="hidden.items.add.${type}"/>
 
