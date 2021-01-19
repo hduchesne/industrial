@@ -87,9 +87,9 @@
         <extensions>true</extensions>
         <configuration>
           <instructions>
-            <_dsannotations>
-              org.jahia.se.modules.template.industrial.initializers.*
-            </_dsannotations>
+<!--            <_dsannotations>-->
+<!--              org.jahia.se.modules.template.industrial.initializers.*-->
+<!--            </_dsannotations>-->
             <Jahia-Module-Type>templatesSet</Jahia-Module-Type>
             <Jahia-Static-Resources>/css,/fonts,/javascript,/images,/icons</Jahia-Static-Resources>
           </instructions>

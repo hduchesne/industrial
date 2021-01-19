@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "ti:mediaNode",
-      "selectorType": "widenPicker"
+      "selectorType": "WidenPicker"
     }
   ]
 }
