@@ -8,8 +8,8 @@
     <div class="frame">
         <template:include view="default">
             <template:param name="class" value="img-fluid"/>
-            <template:param name="widths" value="256,768,1024"/>
-            <template:param name="defaultWidth" value="1024"/>
+            <<template:param name="widths" value="${currentResource.moduleParams.widths}"/>
+            <template:param name="defaultWidth" value="${currentResource.moduleParams.defaultWidth}"/>
         </template:include>
     </div>
 </div>

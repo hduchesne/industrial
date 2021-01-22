@@ -24,7 +24,7 @@
 
     <template:include view="default">
         <template:param name="class" value="img-fluid Blob__img--blob-2"/>
-        <template:param name="widths" value="256,768,1024"/>
-        <template:param name="defaultWidth" value="1024"/>
+        <template:param name="widths" value="${currentResource.moduleParams.widths}"/>
+        <template:param name="defaultWidth" value="${currentResource.moduleParams.defaultWidth}"/>
     </template:include>
 </figure>

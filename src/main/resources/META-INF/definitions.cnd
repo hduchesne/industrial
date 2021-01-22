@@ -16,7 +16,7 @@
 
 [timix:mediaPickerJc] > jmix:dynamicFieldset mixin
  extends = timix:mediaReference
- - ti:mediaNode (weakreference,picker[type='file']) internationalized < jnt:file
+ - ti:mediaNode (weakreference,picker[type='image']) internationalized < jnt:file
 
 [timix:mediaReference] mixin
  - ti:mediaPicker (string, choicelist) indexed=no
@@ -52,7 +52,7 @@
 
 //*** TEXT //
 [tint:text]> jnt:content, timix:industrial
- - text (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
+ - text (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
 // TEXT ***//
 
 
@@ -70,15 +70,15 @@
 [tint:owlcarouselItemS] > jnt:content, mix:title
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
  - videoURL (string) internationalized
- - caption (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
+ - caption (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
 
 [tint:owlcarouselItemT] > jnt:content, mix:title
  - avatar (weakreference, picker[type='image']) mandatory < 'jmix:image'
- - heading (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
- - testimonial (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
+ - heading (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
+ - testimonial (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
 
 [tint:owlcarouselItemSW] > jnt:content, timix:igVdReference, mix:title
- - caption (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
+ - caption (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
 
 [timix:owlcarouselAdvancedSettings] mixin
  extends = tint:owlcarousel
@@ -112,7 +112,7 @@
 
 [timix:content] mixin
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
- - body (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
+ - body (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
 
 [tint:heading] > jnt:content, timix:content, timix:industrial
 
@@ -124,8 +124,13 @@
  + image (tint:image)
  + body (tint:text)
 
-[tint:damHalfBlock] > tint:halfBlock
+//[tint:damHalfBlock] > tint:halfBlock
+// + image (tint:damImage)
+
+[tint:damHalfBlock] > jnt:content, timix:industrial
+ - imagePosition (string, choicelist[resourceBundle]) = 'left' autocreated indexed=no < 'left', 'right'
  + image (tint:damImage)
+ + body (tint:text)
 
 [tint:card] > jnt:content, timix:content, timix:industrial, timix:linkTo
 // CONTENT ***//

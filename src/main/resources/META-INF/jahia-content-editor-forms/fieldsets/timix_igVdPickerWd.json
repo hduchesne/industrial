@@ -3,11 +3,11 @@
   "fields": [
     {
       "name": "ti:imageNode",
-      "selectorType": "widenPicker"
+      "selectorType": "WidenPicker"
     },
     {
       "name": "ti:videoNode",
-      "selectorType": "widenPicker"
+      "selectorType": "WidenPicker"
     }
   ]
 }

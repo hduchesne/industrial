@@ -5,16 +5,16 @@
 <%--@elvariable id="renderContext" type="org.jahia.services.render.RenderContext"--%>
 
 <template:include view="hidden.getSrc">
-    <template:param name="widths" value="1024"/>
-    <template:param name="defaultWidth" value="1024"/>
+    <template:param name="widths" value="${currentResource.moduleParams.widths}"/>
+    <template:param name="defaultWidth" value="${currentResource.moduleParams.defaultWidth}"/>
 </template:include>
 
 <c:choose>
     <c:when test="${renderContext.editMode}">
         <template:include view="default">
             <template:param name="class" value="img-fluid"/>
-            <template:param name="widths" value="1024"/>
-            <template:param name="defaultWidth" value="1024"/>
+            <template:param name="widths" value="${currentResource.moduleParams.widths}"/>
+            <template:param name="defaultWidth" value="${currentResource.moduleParams.defaultWidth}"/>
         </template:include>
     </c:when>
     <c:otherwise>

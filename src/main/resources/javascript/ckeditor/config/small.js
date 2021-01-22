@@ -14,7 +14,7 @@ CKEDITOR.editorConfig = function (config) {
     config.filebrowserLinkBrowseUrl = config.contextPath + '/engines/contentpicker.jsp?type=editoriallinkpicker&site=' + config.siteUuid + '&lang=' + config.contentlanguage + '&uilang=' + config.language;
     config.image_previewText = '';
 
-    config.toolbar = 'Tinny';
+    // config.toolbar = 'Tinny'; //moved to ckeditor config in cnd
     config.templates = 'industrial,default';
     config.stylesSet = 'B4:'+((typeof contextJsParameters != 'undefined') ? contextJsParameters.contextPath : '') + '/modules/industrial/javascript/ckeditor/stylesSet.js';
     config.contentsCss = [
