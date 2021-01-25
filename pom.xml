@@ -56,14 +56,14 @@
   <artifactId>industrial</artifactId>
   <version>8.0.1.0_widen-SNAPSHOT</version>
   <packaging>bundle</packaging>
-  <name>industrial</name>
+  <name>Industrial</name>
   <description>This is the custom profile module (industrial) for running on a Digital Experience Manager server.</description>
   <scm>
     <connection>scm:git:https://github.com/hduchesne/industrial.git</connection>
     <developerConnection>scm:git:https://github.com/hduchesne/industrial.git</developerConnection>
   </scm>
   <properties>
-    <jahia-depends>animate,bootstrap4-components,bootstrap4-core,default,font-awesome,jquery,popperjs</jahia-depends>
+    <jahia-depends>animate,bootstrap4-components,bootstrap4-core,default,font-awesome,industrial-media-component,jquery,popperjs,widen-picker</jahia-depends>
   </properties>
   <repositories>
     <repository>
@@ -87,9 +87,6 @@
         <extensions>true</extensions>
         <configuration>
           <instructions>
-<!--            <_dsannotations>-->
-<!--              org.jahia.se.modules.template.industrial.initializers.*-->
-<!--            </_dsannotations>-->
             <Jahia-Module-Type>templatesSet</Jahia-Module-Type>
             <Jahia-Static-Resources>/css,/fonts,/javascript,/images,/icons</Jahia-Static-Resources>
           </instructions>

@@ -1,0 +1,13 @@
+{
+  "name": "tint:owlcarouselItemSW",
+  "fields": [
+    {
+      "name": "ti:imageNode",
+      "selectorType": "WidenPicker"
+    },
+    {
+      "name": "ti:videoNode",
+      "selectorType": "WidenPicker"
+    }
+  ]
+}

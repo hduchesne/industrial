@@ -1,0 +1,12 @@
+{
+  "nodeType": "tint:owlcarouselItemSW",
+  "priority": 1.0,
+  "hasPreview": true,
+  "sections": [
+    {
+      "name": "metadata",
+      "labelKey": "label.engineTab.metadata",
+      "requiredPermission": "viewMetadataTab"
+    }
+  ]
+}

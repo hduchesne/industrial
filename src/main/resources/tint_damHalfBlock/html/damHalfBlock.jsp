@@ -9,7 +9,9 @@
 <div class="half d-lg-flex d-block">
     <div class="image ${imagePosition} ${renderContext.editMode == true?' position-relative':''}">
 <%--        <template:module path="image" nodeTypes="tint:damImage" view="hidden.halfBlock"/>--%>
-        <template:module path="image" nodeTypes="" view="hidden.halfBlock"/>
+        <template:module path="image" nodeTypes="" view="hidden.halfBlock">
+            <template:param name="defaultWidth" value="1280"/>
+        </template:module>
     </div>
     <div class="text text-center">
         <template:module path="body" nodeTypes="tint:text"/>

@@ -114,7 +114,12 @@
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
  - body (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
 
+[timix:damContent] > timix:mediaReference mixin
+ - body (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
+
+
 [tint:heading] > jnt:content, timix:content, timix:industrial
+[tint:damHeading] > jnt:content, timix:damContent, timix:industrial
 
 //[tint:halfBlock] > jnt:content, timix:content, timix:industrial
 // - imagePosition (string, choicelist[resourceBundle]) = 'left' autocreated indexed=no < 'left', 'right'
@@ -133,6 +138,7 @@
  + body (tint:text)
 
 [tint:card] > jnt:content, timix:content, timix:industrial, timix:linkTo
+[tint:damCard] > jnt:content, timix:damContent, timix:industrial, timix:linkTo
 // CONTENT ***//
 
 
