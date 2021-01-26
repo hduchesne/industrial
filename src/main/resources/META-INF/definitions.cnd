@@ -80,6 +80,11 @@
 [tint:owlcarouselItemSW] > jnt:content, timix:igVdReference, mix:title
  - caption (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
 
+[tint:owlcarouselItemTW] > jnt:content, timix:mediaReference, mix:title
+ - heading (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
+ - testimonial (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
+
+
 [timix:owlcarouselAdvancedSettings] mixin
  extends = tint:owlcarousel
  itemtype = content
@@ -100,6 +105,10 @@
 [timix:owlCarouselSW] > jmix:dynamicFieldset mixin
  extends = tint:owlcarousel
  + * (tint:owlcarouselItemSW)
+
+[timix:owlCarouselTW] > jmix:dynamicFieldset mixin
+ extends = tint:owlcarousel
+ + * (tint:owlcarouselItemTW)
 //CAROUSEL ***//
 
 
