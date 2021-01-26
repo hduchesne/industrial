@@ -13,7 +13,6 @@
         width: 0;
     }
 </style>
-
 <figure class="">
     <svg class="Blob__svg" width="482" height="430" viewBox="0 0 482 430" aria-hidden="true">
 
