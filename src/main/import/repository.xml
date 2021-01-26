@@ -12,36 +12,6 @@
                   jcr:primaryType="jnt:module">
          <portlets jcr:primaryType="jnt:portletFolder"/>
          <files jcr:primaryType="jnt:folder">
-            <media jcr:primaryType="jnt:folder">
-               <images jcr:primaryType="jnt:folder">
-                  <veterinary jcr:primaryType="jnt:folder">
-                     <erythritol.png j:height="150"
-                                     j:width="150"
-                                     jcr:mixinTypes="jmix:image"
-                                     jcr:primaryType="jnt:file">
-                        <jcr:content jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                        <thumbnail jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                        <thumbnail2 jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                     </erythritol.png>
-                     <inuline.png j:height="150"
-                                  j:width="150"
-                                  jcr:mixinTypes="jmix:image"
-                                  jcr:primaryType="jnt:file">
-                        <jcr:content jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                        <thumbnail jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                        <thumbnail2 jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                     </inuline.png>
-                     <grenade.png j:height="150"
-                                  j:width="150"
-                                  jcr:mixinTypes="jmix:image"
-                                  jcr:primaryType="jnt:file">
-                        <jcr:content jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                        <thumbnail jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                        <thumbnail2 jcr:mimeType="image/png" jcr:primaryType="jnt:resource"/>
-                     </grenade.png>
-                  </veterinary>
-               </images>
-            </media>
             <css jcr:primaryType="jnt:folder">
                <animate.custom.css jcr:primaryType="jnt:file">
                   <jcr:content jcr:mimeType="text/css" jcr:primaryType="jnt:resource"/>
@@ -1595,107 +1565,7 @@
                   <default jcr:primaryType="jnt:folder"/>
                </themes>
             </files>
-            <contents jcr:primaryType="jnt:contentFolder">
-               <text-grenade jcr:mixinTypes="jmix:referencesInField" jcr:primaryType="tint:text">
-                  <j:translation_en jcr:language="en"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_de jcr:language="de"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_pt jcr:language="pt"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_it jcr:language="it"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_fr jcr:language="fr"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:referenceInField_text_fr_1 j:fieldName="text_fr" jcr:primaryType="jnt:referenceInField"/>
-                  <j:translation_da jcr:language="da"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;/missing-image.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_es jcr:language="es"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_de_DE jcr:language="de_DE"
-                                       jcr:primaryType="jnt:translation"
-                                       text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:referenceInField_text_de_1 j:fieldName="text_de" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_pt_1 j:fieldName="text_pt" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_en_1 j:fieldName="text_en" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_it_1 j:fieldName="text_it" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_es_1 j:fieldName="text_es" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_de_DE_1 j:fieldName="text_de_DE" jcr:primaryType="jnt:referenceInField"/>
-               </text-grenade>
-               <text-eryth jcr:mixinTypes="jmix:referencesInField" jcr:primaryType="tint:text">
-                  <j:translation_en jcr:language="en"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_de jcr:language="de"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_pt jcr:language="pt"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_it jcr:language="it"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_fr jcr:language="fr"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;/modules/industrial/8.0.1.0_widen-SNAPSHOT/files/media/images/veterinary/erythritol.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_da jcr:language="da"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;/missing-image.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_es jcr:language="es"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_de_DE jcr:language="de_DE"
-                                       jcr:primaryType="jnt:translation"
-                                       text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:referenceInField_text_de_1 j:fieldName="text_de" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_pt_1 j:fieldName="text_pt" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_en_1 j:fieldName="text_en" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_it_1 j:fieldName="text_it" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_fr_1 j:fieldName="text_fr" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_es_1 j:fieldName="text_es" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_de_DE_1 j:fieldName="text_de_DE" jcr:primaryType="jnt:referenceInField"/>
-               </text-eryth>
-               <text-inul jcr:mixinTypes="jmix:referencesInField" jcr:primaryType="tint:text">
-                  <j:translation_en jcr:language="en"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_de jcr:language="de"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_pt jcr:language="pt"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_it jcr:language="it"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_fr jcr:language="fr"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_da jcr:language="da"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;/missing-image.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_es jcr:language="es"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_de_DE jcr:language="de_DE"
-                                       jcr:primaryType="jnt:translation"
-                                       text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:referenceInField_text_de_1 j:fieldName="text_de" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_pt_1 j:fieldName="text_pt" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_en_1 j:fieldName="text_en" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_it_1 j:fieldName="text_it" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_fr_1 j:fieldName="text_fr" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_es_1 j:fieldName="text_es" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_de_DE_1 j:fieldName="text_de_DE" jcr:primaryType="jnt:referenceInField"/>
-               </text-inul>
-            </contents>
+            <contents jcr:primaryType="jnt:contentFolder"/>
             <base j:view="industrial"
                   jcr:mixinTypes="jmix:theme"
                   jcr:primaryType="jnt:template">
@@ -2057,7 +1927,92 @@
                                                jcr:primaryType="bootstrap4nt:grid"
                                                rowHorizontalAlignment="default"
                                                rowVerticalAlignment="default"
-                                               typeOfGrid="customGrid"/>
+                                               typeOfGrid="customGrid">
+                              <media-blocks-row-1-col0 jcr:primaryType="jnt:contentList">
+                                 <text-grenade jcr:mixinTypes="jmix:referencesInField" jcr:primaryType="tint:text">
+                                    <j:translation_en jcr:language="en"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/kgdhvokpyv/150px@1x/grenade.png?q=72&amp;amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_de jcr:language="de"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/kgdhvokpyv/150px@1x/grenade.png?q=72&amp;amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_pt jcr:language="pt"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/kgdhvokpyv/150px@1x/grenade.png?q=72&amp;amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_it jcr:language="it"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/kgdhvokpyv/150px@1x/grenade.png?q=72&amp;amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_fr jcr:language="fr"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/kgdhvokpyv/150px@1x/grenade.png?q=72&amp;amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_da jcr:language="da"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;/missing-image.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_es jcr:language="es"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/kgdhvokpyv/150px@1x/grenade.png?q=72&amp;amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_de_DE jcr:language="de_DE"
+                                                         jcr:primaryType="jnt:translation"
+                                                         text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/kgdhvokpyv/150px@1x/grenade.png?q=72&amp;amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                 </text-grenade>
+                              </media-blocks-row-1-col0>
+                              <media-blocks-row-1-col1 jcr:primaryType="jnt:contentList">
+                                 <text-eryth jcr:mixinTypes="jmix:referencesInField" jcr:primaryType="tint:text">
+                                    <j:translation_en jcr:language="en"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/0gtb8ly9fd/150px@1x/inuline.png?q=72&amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_de jcr:language="de"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/0gtb8ly9fd/150px@1x/inuline.png?q=72&amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_pt jcr:language="pt"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/0gtb8ly9fd/150px@1x/inuline.png?q=72&amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_it jcr:language="it"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/0gtb8ly9fd/150px@1x/inuline.png?q=72&amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_fr jcr:language="fr"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/0gtb8ly9fd/150px@1x/inuline.png?q=72&amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_da jcr:language="da"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;/missing-image.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_es jcr:language="es"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/0gtb8ly9fd/150px@1x/inuline.png?q=72&amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_de_DE jcr:language="de_DE"
+                                                         jcr:primaryType="jnt:translation"
+                                                         text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/0gtb8ly9fd/150px@1x/inuline.png?q=72&amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                 </text-eryth>
+                              </media-blocks-row-1-col1>
+                              <media-blocks-row-1-col2 jcr:primaryType="jnt:contentList">
+                                 <text-inul jcr:mixinTypes="jmix:referencesInField" jcr:primaryType="tint:text">
+                                    <j:translation_en jcr:language="en"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/ry3gy4x8xq/150px@1x/erythritol.png?q=72&amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_de jcr:language="de"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/ry3gy4x8xq/150px@1x/erythritol.png?q=72&amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_pt jcr:language="pt"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/ry3gy4x8xq/150px@1x/erythritol.png?q=72&amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_it jcr:language="it"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/ry3gy4x8xq/150px@1x/erythritol.png?q=72&amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_fr jcr:language="fr"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/ry3gy4x8xq/150px@1x/erythritol.png?q=72&amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_da jcr:language="da"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;/missing-image.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_es jcr:language="es"
+                                                      jcr:primaryType="jnt:translation"
+                                                      text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/ry3gy4x8xq/150px@1x/erythritol.png?q=72&amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                    <j:translation_de_DE jcr:language="de_DE"
+                                                         jcr:primaryType="jnt:translation"
+                                                         text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;https://embed.widencdn.net/img/cloud/ry3gy4x8xq/150px@1x/erythritol.png?q=72&amp;x.template=y&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                                 </text-inul>
+                              </media-blocks-row-1-col2>
+                           </media-blocks-row-1>
                         </media-blocks-section>
                      </media-blocks-section>
                      <card-section gridLayout="fixed-width"
@@ -4881,7 +4836,7 @@
                                  jcr:primaryType="jnt:translation"
                                  jcr:title="Home"/>
          </home>
-         <industrial-template-overview j:templateName="industrial-main" jcr:primaryType="jnt:page">
+         <industrial-template-overview j:templateName="free" jcr:primaryType="jnt:page">
             <j:translation_en jcr:language="en"
                               jcr:mixinTypes="mix:title"
                               jcr:primaryType="jnt:translation"
@@ -4948,6 +4903,947 @@
                                  jcr:mixinTypes="mix:title"
                                  jcr:primaryType="jnt:translation"
                                  jcr:title="Industrial Template Overview"/>
+            <pagecontent jcr:primaryType="jnt:contentList">
+               <heading-carousel-dam carouselType="standardWiden"
+                                     class="home-slider owl-carousel"
+                                     jcr:mixinTypes="timix:owlCarouselSW timix:owlcarouselAdvancedSettings"
+                                     jcr:primaryType="tint:owlcarousel"
+                                     options="{&#xA;    loop:true,&#xA;    autoplay: true,&#xA;    margin:0,&#xA;    animateOut: 'fadeOut',&#xA;    animateIn: 'fadeIn',&#xA;    nav:true,&#xA;    autoplayHoverPause: true,&#xA;    items: 1,&#xA;    dragTouch: false,&#xA;    navText: ['&lt;span class=&#34;ion-ios-arrow-back&#34;&gt;', '&lt;span class=&#34;ion-ios-arrow-forward&#34;&gt;'],&#xA;    responsive:{&#xA;      0:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      600:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      1000:{&#xA;        items:1,&#xA;        nav:true&#xA;      }&#xA;    }&#xA; }">
+                  <the-best-level-of-excellence-in-steel-fabrication jcr:mixinTypes="timix:igVdPickerWd"
+                                                                     jcr:primaryType="tint:owlcarouselItemSW"
+                                                                     ti:mediaPicker="widen">
+                     <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
+                                       jcr:language="en"
+                                       jcr:mixinTypes="mix:title"
+                                       jcr:primaryType="jnt:translation"
+                                       jcr:title="The Best Level of Excellence in Steel Fabrication"
+                                       ti:imageNode="#/sites/systemsite/contents/dam-widen/a97c33b7-8a30-4918-880b-af6344a3ad40"
+                                       ti:videoNode="#/sites/systemsite/contents/dam-widen/73af9968-3c33-4cd4-aa4e-50dccce7519f"/>
+                     <j:translation_fr caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
+                                       jcr:language="fr"
+                                       jcr:primaryType="jnt:translation"
+                                       ti:imageNode="#/sites/systemsite/contents/dam-widen/a97c33b7-8a30-4918-880b-af6344a3ad40"
+                                       ti:videoNode="#/sites/systemsite/contents/dam-widen/73af9968-3c33-4cd4-aa4e-50dccce7519f"/>
+                  </the-best-level-of-excellence-in-steel-fabrication>
+                  <owl-carousel-heading-item-dam jcr:mixinTypes="timix:igVdPickerWd"
+                                                 jcr:primaryType="tint:owlcarouselItemSW"
+                                                 ti:mediaPicker="widen">
+                     <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
+                                       jcr:language="en"
+                                       jcr:primaryType="jnt:translation"
+                                       ti:imageNode="#/sites/systemsite/contents/dam-widen/aad656ad-e22b-4d1b-b1ec-f61d219a7c83"
+                                       ti:videoNode="#/sites/systemsite/contents/dam-widen/73af9968-3c33-4cd4-aa4e-50dccce7519f"/>
+                     <j:translation_fr caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
+                                       jcr:language="fr"
+                                       jcr:primaryType="jnt:translation"
+                                       ti:imageNode="#/sites/systemsite/contents/dam-widen/aad656ad-e22b-4d1b-b1ec-f61d219a7c83"
+                                       ti:videoNode="#/sites/systemsite/contents/dam-widen/73af9968-3c33-4cd4-aa4e-50dccce7519f"/>
+                  </owl-carousel-heading-item-dam>
+               </heading-carousel-dam>
+               <features-section gridLayout="fixed-width"
+                                 jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createSection"
+                                 jcr:primaryType="bootstrap4nt:grid"
+                                 sectionCssClass="section"
+                                 sectionElement="section">
+                  <main jcr:primaryType="jnt:contentList">
+                     <title-row gridClasses="col-12 text-center"
+                                jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                jcr:primaryType="bootstrap4nt:grid"
+                                rowCssClass="mb-5"
+                                rowHorizontalAlignment="default"
+                                rowVerticalAlignment="default"
+                                typeOfGrid="customGrid">
+                        <col0 jcr:primaryType="jnt:contentList">
+                           <text jcr:primaryType="tint:text">
+                              <j:translation_en jcr:language="en"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2&gt;We&amp;#39;ll Handle Any Problems and Solve Them&lt;/h2&gt;&#xA;"/>
+                              <j:translation_de jcr:language="de"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2&gt;We&amp;#39;ll Handle Any Problems and Solve Them&lt;/h2&gt;&#xA;"/>
+                              <j:translation_pt jcr:language="pt"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2&gt;We&amp;#39;ll Handle Any Problems and Solve Them&lt;/h2&gt;&#xA;"/>
+                              <j:translation_it jcr:language="it"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2&gt;We&amp;#39;ll Handle Any Problems and Solve Them&lt;/h2&gt;&#xA;"/>
+                              <j:translation_fr jcr:language="fr"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2&gt;We&amp;#39;ll Handle Any Problems and Solve Them&lt;/h2&gt;&#xA;"/>
+                              <j:translation_da jcr:language="da"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2&gt;We&amp;#39;ll Handle Any Problems and Solve Them&lt;/h2&gt;&#xA;"/>
+                              <j:translation_es jcr:language="es"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2&gt;We&amp;#39;ll Handle Any Problems and Solve Them&lt;/h2&gt;&#xA;"/>
+                              <j:translation_de_DE jcr:language="de_DE"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;h2&gt;We&amp;#39;ll Handle Any Problems and Solve Them&lt;/h2&gt;&#xA;"/>
+                           </text>
+                        </col0>
+                     </title-row>
+                     <content-row gridClasses="col-lg-4 order-lg-2,col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1,col-md-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-3,"
+                                  jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                  jcr:primaryType="bootstrap4nt:grid"
+                                  rowCssClass="align-items-stretch"
+                                  rowHorizontalAlignment="default"
+                                  rowVerticalAlignment="default"
+                                  typeOfGrid="customGrid">
+                        <col1 jcr:primaryType="jnt:contentList">
+                           <text jcr:primaryType="tint:text">
+                              <j:translation_en jcr:language="en"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-easel display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Ducting Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_de jcr:language="de"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-easel display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Ducting Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_pt jcr:language="pt"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-easel display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Ducting Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_it jcr:language="it"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-easel display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Ducting Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_fr jcr:language="fr"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-easel display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Ducting Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_da jcr:language="da"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-easel display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Ducting Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_es jcr:language="es"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-easel display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Ducting Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_de_DE jcr:language="de_DE"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-easel display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Ducting Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                           </text>
+                           <text-1 jcr:primaryType="tint:text">
+                              <j:translation_en jcr:language="en"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-hammer display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Stacks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_de jcr:language="de"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-hammer display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Stacks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_pt jcr:language="pt"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-hammer display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Stacks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_it jcr:language="it"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-hammer display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Stacks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_fr jcr:language="fr"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-hammer display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Stacks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_da jcr:language="da"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-hammer display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Stacks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_es jcr:language="es"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-hammer display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Stacks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_de_DE jcr:language="de_DE"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-hammer display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Stacks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                           </text-1>
+                        </col1>
+                        <col2 jcr:primaryType="jnt:contentList">
+                           <text-1 jcr:primaryType="tint:text">
+                              <j:translation_en jcr:language="en"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-cube display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Tanks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_de jcr:language="de"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-cube display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Tanks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_pt jcr:language="pt"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-cube display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Tanks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_it jcr:language="it"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-cube display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Tanks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_fr jcr:language="fr"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-cube display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Tanks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_da jcr:language="da"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-cube display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Tanks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_es jcr:language="es"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-cube display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Tanks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_de_DE jcr:language="de_DE"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-cube display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Tanks Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                           </text-1>
+                           <text-2 jcr:primaryType="tint:text">
+                              <j:translation_en jcr:language="en"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-clipboard display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Structural Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_de jcr:language="de"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-clipboard display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Structural Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_pt jcr:language="pt"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-clipboard display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Structural Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_it jcr:language="it"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-clipboard display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Structural Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_fr jcr:language="fr"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-clipboard display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Structural Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_da jcr:language="da"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-clipboard display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Structural Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_es jcr:language="es"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-clipboard display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Structural Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_de_DE jcr:language="de_DE"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;div class=&#34;feature-1 d-md-flex&#34;&gt;&#xA;&lt;div class=&#34;align-self-center&#34;&gt;&lt;span class=&#34;ion ion-ios-clipboard display-4 text-primary&#34;&gt;&lt;/span&gt;&#xA;&lt;h3&gt;Structural Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                           </text-2>
+                        </col2>
+                        <col0 jcr:primaryType="jnt:contentList">
+                           <widen j:node="#/sites/systemsite/contents/dam-widen/1fd57412-bd78-4349-827c-992b1f015827"
+                                  j:referenceView="industrial.features"
+                                  jcr:mixinTypes="jmix:renderableReference"
+                                  jcr:primaryType="wdennt:widenReference"/>
+                        </col0>
+                     </content-row>
+                  </main>
+               </features-section>
+               <media-blocks-section-3 gridLayout="fixed-width"
+                                       jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createSection"
+                                       jcr:primaryType="bootstrap4nt:grid"
+                                       sectionCssClass="section bg-light"
+                                       sectionElement="section">
+                  <main jcr:primaryType="jnt:contentList">
+                     <media-blocks-row-1 gridClasses="col-md-6 col-lg-4,col-md-6 col-lg-4,col-md-6 col-lg-4"
+                                         jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                         jcr:primaryType="bootstrap4nt:grid"
+                                         rowHorizontalAlignment="default"
+                                         rowVerticalAlignment="default"
+                                         typeOfGrid="customGrid">
+                        <col0 j:animation="fadeInUp"
+                              j:animationDelay="0.0"
+                              j:animationDelayUsage="delayBeforeAnimation"
+                              j:animationIterationCount="1"
+                              jcr:mixinTypes="jmix:animate"
+                              jcr:primaryType="jnt:contentList">
+                           <text jcr:primaryType="tint:text">
+                              <j:translation_en jcr:language="en"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-notifications text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Modern Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_de jcr:language="de"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-notifications text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Modern Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_pt jcr:language="pt"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-notifications text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Modern Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_it jcr:language="it"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-notifications text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Modern Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_fr jcr:language="fr"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-notifications text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Modern Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_da jcr:language="da"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-notifications text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Modern Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_es jcr:language="es"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-notifications text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Modern Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_de_DE jcr:language="de_DE"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-notifications text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Modern Design&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                           </text>
+                        </col0>
+                        <col1 j:animation="fadeInUp"
+                              j:animationDelay="0.1"
+                              j:animationDelayUsage="delayBeforeAnimation"
+                              j:animationIterationCount="1"
+                              jcr:mixinTypes="jmix:animate"
+                              jcr:primaryType="jnt:contentList">
+                           <text jcr:primaryType="tint:text">
+                              <j:translation_en jcr:language="en"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-heart text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Built With Passion&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_de jcr:language="de"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-heart text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Built With Passion&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_pt jcr:language="pt"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-heart text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Built With Passion&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_it jcr:language="it"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-heart text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Built With Passion&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_fr jcr:language="fr"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-heart text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Built With Passion&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_da jcr:language="da"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-heart text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Built With Passion&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_es jcr:language="es"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-heart text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Built With Passion&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_de_DE jcr:language="de_DE"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-heart text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Built With Passion&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                           </text>
+                        </col1>
+                        <col2 j:animation="fadeInUp"
+                              j:animationDelay="0.2"
+                              j:animationDelayUsage="delayBeforeAnimation"
+                              j:animationIterationCount="1"
+                              jcr:mixinTypes="jmix:animate"
+                              jcr:primaryType="jnt:contentList">
+                           <text jcr:primaryType="tint:text">
+                              <j:translation_en jcr:language="en"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-flash text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Fast Loading&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_de jcr:language="de"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-flash text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Fast Loading&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_pt jcr:language="pt"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-flash text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Fast Loading&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_it jcr:language="it"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-flash text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Fast Loading&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_fr jcr:language="fr"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-flash text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Fast Loading&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_da jcr:language="da"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-flash text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Fast Loading&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_es jcr:language="es"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-flash text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Fast Loading&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                              <j:translation_de_DE jcr:language="de_DE"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;span class=&#34;ion-ios-flash text-primary&#34;&gt;&lt;/span&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;Fast Loading&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                           </text>
+                        </col2>
+                     </media-blocks-row-1>
+                  </main>
+               </media-blocks-section-3>
+               <article-left-section gridClasses="col-lg-7 order-md-2,col-md-5 pr-md-5 mb-5"
+                                     gridLayout="fixed-width"
+                                     jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
+                                     jcr:primaryType="bootstrap4nt:grid"
+                                     rowCssClass="align-items-center mb-5"
+                                     rowHorizontalAlignment="default"
+                                     rowVerticalAlignment="default"
+                                     sectionCssClass="section"
+                                     sectionElement="section"
+                                     typeOfGrid="customGrid">
+                  <col0 j:animation="fadeInUp"
+                        j:animationDelay="0.0"
+                        j:animationDelayUsage="delayBeforeAnimation"
+                        j:animationIterationCount="1"
+                        jcr:mixinTypes="jmix:animate"
+                        jcr:primaryType="jnt:contentList">
+                     <widen j:node="#/sites/systemsite/contents/dam-widen/629a9655-eb88-4453-889e-2c92a8e99285"
+                            j:referenceView="industrial.content"
+                            jcr:mixinTypes="jmix:renderableReference"
+                            jcr:primaryType="wdennt:widenReference"/>
+                  </col0>
+                  <col1 j:animation="fadeInUp"
+                        j:animationDelay="0.0"
+                        j:animationDelayUsage="delayBeforeAnimation"
+                        j:animationIterationCount="1"
+                        jcr:mixinTypes="jmix:animate"
+                        jcr:primaryType="jnt:contentList">
+                     <text jcr:primaryType="tint:text">
+                        <j:translation_en jcr:language="en"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;Let&amp;#39;s Build Together&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                        <j:translation_de jcr:language="de"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;Let&amp;#39;s Build Together&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                        <j:translation_pt jcr:language="pt"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;Let&amp;#39;s Build Together&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                        <j:translation_it jcr:language="it"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;Let&amp;#39;s Build Together&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                        <j:translation_fr jcr:language="fr"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;Let&amp;#39;s Build Together&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                        <j:translation_da jcr:language="da"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;Let&amp;#39;s Build Together&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                        <j:translation_es jcr:language="es"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;Let&amp;#39;s Build Together&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                        <j:translation_de_DE jcr:language="de_DE"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;Let&amp;#39;s Build Together&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                     </text>
+                  </col1>
+               </article-left-section>
+               <article-right-section gridClasses="col-lg-7 order-md-1,col-md-5 pl-md-5 mb-5 order-md-2"
+                                      gridLayout="fixed-width"
+                                      jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
+                                      jcr:primaryType="bootstrap4nt:grid"
+                                      rowCssClass="align-items-center mb-5"
+                                      rowHorizontalAlignment="default"
+                                      rowVerticalAlignment="default"
+                                      sectionCssClass="section bg-light"
+                                      sectionElement="section"
+                                      typeOfGrid="customGrid">
+                  <col0 j:animation="fadeInUp"
+                        j:animationDelay="0.0"
+                        j:animationDelayUsage="delayBeforeAnimation"
+                        j:animationIterationCount="1"
+                        jcr:mixinTypes="jmix:animate"
+                        jcr:primaryType="jnt:contentList">
+                     <widen j:node="#/sites/systemsite/contents/dam-widen/ed5ae220-ee60-4337-a64e-099d8abc2602"
+                            j:referenceView="industrial.content"
+                            jcr:mixinTypes="jmix:renderableReference"
+                            jcr:primaryType="wdennt:widenReference"/>
+                  </col0>
+                  <col1 j:animation="fadeInUp"
+                        j:animationDelay="0.0"
+                        j:animationDelayUsage="delayBeforeAnimation"
+                        j:animationIterationCount="1"
+                        jcr:mixinTypes="jmix:animate"
+                        jcr:primaryType="jnt:contentList">
+                     <text jcr:primaryType="tint:text">
+                        <j:translation_en jcr:language="en"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;We&amp;#39;ll handle any intercate custom design&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                        <j:translation_de jcr:language="de"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;We&amp;#39;ll handle any intercate custom design&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                        <j:translation_pt jcr:language="pt"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;We&amp;#39;ll handle any intercate custom design&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                        <j:translation_it jcr:language="it"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;We&amp;#39;ll handle any intercate custom design&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                        <j:translation_fr jcr:language="fr"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;We&amp;#39;ll handle any intercate custom design&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                        <j:translation_da jcr:language="da"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;We&amp;#39;ll handle any intercate custom design&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                        <j:translation_es jcr:language="es"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;We&amp;#39;ll handle any intercate custom design&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                        <j:translation_de_DE jcr:language="de_DE"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;div class=&#34;block-41&#34;&gt;&#xA;&lt;h2 class=&#34;block-41-heading mb-5&#34;&gt;We&amp;#39;ll handle any intercate custom design&lt;/h2&gt;&#xA;&#xA;&lt;div class=&#34;block-41-text&#34;&gt;&#xA;&lt;p&gt;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;readmore&#34; href=&#34;#&#34;&gt;Read More &lt;span class=&#34;ion-md-arrow-dropright-circle&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
+                     </text>
+                  </col1>
+               </article-right-section>
+               <gallery-section jcr:mixinTypes="bootstrap4mix:createSection"
+                                jcr:primaryType="bootstrap4nt:grid"
+                                sectionCssClass="section border-t pb-0"
+                                sectionElement="section">
+                  <main jcr:primaryType="jnt:contentList">
+                     <content-row gridClasses="col-md-8 text-center"
+                                  gridLayout="fixed-width"
+                                  jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                  jcr:primaryType="bootstrap4nt:grid"
+                                  rowCssClass="justify-content-center mb-5"
+                                  rowHorizontalAlignment="default"
+                                  rowVerticalAlignment="default"
+                                  typeOfGrid="customGrid">
+                        <col0 j:animation="fadeInUp"
+                              j:animationDelay="0.0"
+                              j:animationDelayUsage="delayBeforeAnimation"
+                              j:animationIterationCount="1"
+                              jcr:mixinTypes="jmix:animate"
+                              jcr:primaryType="jnt:contentList">
+                           <heading jcr:primaryType="tint:text">
+                              <j:translation_en jcr:language="en"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Projects&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;"/>
+                              <j:translation_de jcr:language="de"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Projects&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;"/>
+                              <j:translation_pt jcr:language="pt"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Projects&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;"/>
+                              <j:translation_it jcr:language="it"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Projects&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;"/>
+                              <j:translation_fr jcr:language="fr"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Projects&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;"/>
+                              <j:translation_da jcr:language="da"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Projects&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;"/>
+                              <j:translation_es jcr:language="es"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Projects&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;"/>
+                              <j:translation_de_DE jcr:language="de_DE"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Projects&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;"/>
+                           </heading>
+                        </col0>
+                     </content-row>
+                     <container-gallery gridClasses="col-md-4,col-md-4,col-md-4,col-md-4,col-md-4,col-md-4"
+                                        gridLayout="full-width"
+                                        jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                        jcr:primaryType="bootstrap4nt:grid"
+                                        rowCssClass="no-gutters"
+                                        rowHorizontalAlignment="default"
+                                        rowVerticalAlignment="default"
+                                        typeOfGrid="customGrid">
+                        <col0 j:animation="fadeInUp"
+                              j:animationDelay="0.0"
+                              j:animationDelayUsage="delayBeforeAnimation"
+                              j:animationIterationCount="1"
+                              jcr:mixinTypes="jmix:animate"
+                              jcr:primaryType="jnt:contentList">
+                           <gallery-image-dam iconClass="ion-md-add icon"
+                                              jcr:mixinTypes="timix:mediaPickerWd"
+                                              jcr:primaryType="tint:galleryDamImage"
+                                              linkTarget="_blank"
+                                              ti:mediaPicker="widen">
+                              <j:translation_en heading="Ducting Design in Colorado"
+                                                jcr:language="en"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Ducting Design in Colorado"
+                                                ti:mediaNode="#/sites/systemsite/contents/dam-widen/3047b94a-e1c7-43c3-a2d3-7ec5a6a27ff6"/>
+                              <j:translation_fr heading="Ducting Design in Colorado"
+                                                jcr:language="fr"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Ducting Design in Colorado"
+                                                ti:mediaNode="#/sites/systemsite/contents/dam-widen/3047b94a-e1c7-43c3-a2d3-7ec5a6a27ff6"/>
+                           </gallery-image-dam>
+                        </col0>
+                        <col1 j:animation="fadeInUp"
+                              j:animationDelay="0.1"
+                              j:animationDelayUsage="delayBeforeAnimation"
+                              j:animationIterationCount="1"
+                              jcr:mixinTypes="jmix:animate"
+                              jcr:primaryType="jnt:contentList">
+                           <gallery-image-dam iconClass="ion-md-add icon"
+                                              jcr:mixinTypes="timix:mediaPickerWd"
+                                              jcr:primaryType="tint:galleryDamImage"
+                                              linkTarget="_blank"
+                                              ti:mediaPicker="widen">
+                              <j:translation_en heading="Tanks Project In California"
+                                                jcr:language="en"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Tanks Project In California"
+                                                ti:mediaNode="#/sites/systemsite/contents/dam-widen/7f3373e2-6bd0-4b29-bfd1-3c3ed004fcd7"/>
+                              <j:translation_fr heading="Tanks Project In California"
+                                                jcr:language="fr"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Tanks Project In California"
+                                                ti:mediaNode="#/sites/systemsite/contents/dam-widen/7f3373e2-6bd0-4b29-bfd1-3c3ed004fcd7"/>
+                           </gallery-image-dam>
+                        </col1>
+                        <col2 j:animation="fadeInUp"
+                              j:animationDelay="0.2"
+                              j:animationDelayUsage="delayBeforeAnimation"
+                              j:animationIterationCount="1"
+                              jcr:mixinTypes="jmix:animate"
+                              jcr:primaryType="jnt:contentList">
+                           <gallery-image-dam iconClass="ion-md-add icon"
+                                              jcr:mixinTypes="timix:mediaPickerWd"
+                                              jcr:primaryType="tint:galleryDamImage"
+                                              linkTarget="_blank"
+                                              ti:mediaPicker="widen">
+                              <j:translation_en heading="Structural Design in New York"
+                                                jcr:language="en"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Structural Design in New York"
+                                                ti:mediaNode="#/sites/systemsite/contents/dam-widen/9e66f19e-94e6-4356-9ec9-fc98893987dd"/>
+                              <j:translation_fr heading="Structural Design in New York"
+                                                jcr:language="fr"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Structural Design in New York"
+                                                ti:mediaNode="#/sites/systemsite/contents/dam-widen/9e66f19e-94e6-4356-9ec9-fc98893987dd"/>
+                           </gallery-image-dam>
+                        </col2>
+                        <col3 j:animation="fadeInUp"
+                              j:animationDelay="0.0"
+                              j:animationDelayUsage="delayBeforeAnimation"
+                              j:animationIterationCount="1"
+                              jcr:mixinTypes="jmix:animate"
+                              jcr:primaryType="jnt:contentList">
+                           <gallery-image-dam iconClass="ion-md-add icon"
+                                              jcr:mixinTypes="timix:mediaPickerWd"
+                                              jcr:primaryType="tint:galleryDamImage"
+                                              linkTarget="_blank"
+                                              ti:mediaPicker="widen">
+                              <j:translation_en heading="Stacks Design"
+                                                jcr:language="en"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Stacks Design"
+                                                ti:mediaNode="#/sites/systemsite/contents/dam-widen/b6b49db6-b9fd-4e9c-8bcf-1c32c01b572d"/>
+                              <j:translation_fr heading="Stacks Design"
+                                                jcr:language="fr"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Stacks Design"
+                                                ti:mediaNode="#/sites/systemsite/contents/dam-widen/b6b49db6-b9fd-4e9c-8bcf-1c32c01b572d"/>
+                           </gallery-image-dam>
+                        </col3>
+                        <col4 j:animation="fadeInUp"
+                              j:animationDelay="0.1"
+                              j:animationDelayUsage="delayBeforeAnimation"
+                              j:animationIterationCount="1"
+                              jcr:mixinTypes="jmix:animate"
+                              jcr:primaryType="jnt:contentList">
+                           <gallery-image-dam iconClass="ion-md-add icon"
+                                              jcr:mixinTypes="timix:mediaPickerWd"
+                                              jcr:primaryType="tint:galleryDamImage"
+                                              linkTarget="_blank"
+                                              ti:mediaPicker="widen">
+                              <j:translation_en heading="Intercate Custom"
+                                                jcr:language="en"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Intercate Custom"
+                                                ti:mediaNode="#/sites/systemsite/contents/dam-widen/e3a9509f-10fa-42ad-b588-f78b7bbc2af2"/>
+                              <j:translation_fr heading="Intercate Custom"
+                                                jcr:language="fr"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Intercate Custom"
+                                                ti:mediaNode="#/sites/systemsite/contents/dam-widen/e3a9509f-10fa-42ad-b588-f78b7bbc2af2"/>
+                           </gallery-image-dam>
+                        </col4>
+                        <col5 j:animation="fadeInUp"
+                              j:animationDelay="0.2"
+                              j:animationDelayUsage="delayBeforeAnimation"
+                              j:animationIterationCount="1"
+                              jcr:mixinTypes="jmix:animate"
+                              jcr:primaryType="jnt:contentList">
+                           <gallery-image-dam iconClass="ion-md-add icon"
+                                              jcr:mixinTypes="timix:mediaPickerWd"
+                                              jcr:primaryType="tint:galleryDamImage"
+                                              linkTarget="_blank"
+                                              ti:mediaPicker="widen">
+                              <j:translation_en heading="Banker Design"
+                                                jcr:language="en"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Banker Design"
+                                                ti:mediaNode="#/sites/systemsite/contents/dam-widen/06421cdf-e260-4300-890f-db2607a970de"/>
+                              <j:translation_fr heading="Banker Design"
+                                                jcr:language="fr"
+                                                jcr:mixinTypes="mix:title"
+                                                jcr:primaryType="jnt:translation"
+                                                jcr:title="Banker Design"
+                                                ti:mediaNode="#/sites/systemsite/contents/dam-widen/06421cdf-e260-4300-890f-db2607a970de"/>
+                           </gallery-image-dam>
+                        </col5>
+                     </container-gallery>
+                  </main>
+               </gallery-section>
+               <testimonial-section gridLayout="fixed-width"
+                                    jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createSection"
+                                    jcr:primaryType="bootstrap4nt:grid"
+                                    sectionCssClass="section bg-light block-11"
+                                    sectionElement="div">
+                  <main jcr:primaryType="jnt:contentList">
+                     <testimonial-title gridClasses="col-md-8 text-center"
+                                        jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                                        jcr:primaryType="bootstrap4nt:grid"
+                                        rowCssClass="justify-content-center mb-5"
+                                        rowHorizontalAlignment="default"
+                                        rowVerticalAlignment="default"
+                                        typeOfGrid="customGrid">
+                        <col0 jcr:primaryType="jnt:contentList">
+                           <text jcr:primaryType="bootstrap4nt:text">
+                              <j:translation_en jcr:language="en"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Testimonial&lt;/h2&gt;&#xA;"/>
+                              <j:translation_de jcr:language="de"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Testimonial&lt;/h2&gt;&#xA;"/>
+                              <j:translation_pt jcr:language="pt"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Testimonial&lt;/h2&gt;&#xA;"/>
+                              <j:translation_it jcr:language="it"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Testimonial&lt;/h2&gt;&#xA;"/>
+                              <j:translation_fr jcr:language="fr"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Testimonial&lt;/h2&gt;&#xA;"/>
+                              <j:translation_da jcr:language="da"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Testimonial&lt;/h2&gt;&#xA;"/>
+                              <j:translation_es jcr:language="es"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Testimonial&lt;/h2&gt;&#xA;"/>
+                              <j:translation_de_DE jcr:language="de_DE"
+                                                   jcr:primaryType="jnt:translation"
+                                                   text="&lt;h2 class=&#34;heading mb-4&#34;&gt;Testimonial&lt;/h2&gt;&#xA;"/>
+                           </text>
+                        </col0>
+                     </testimonial-title>
+                     <owl-carousel carouselType="testimonialWiden"
+                                   class="nonloop-block-11 owl-carousel"
+                                   j:workInProgressStatus="DISABLED"
+                                   jcr:mixinTypes="timix:owlCarouselTW timix:owlcarouselAdvancedSettings"
+                                   jcr:primaryType="tint:owlcarousel"
+                                   options="{&#xA;      center: false,&#xA;      items: 1,&#xA;      loop: false,&#xA;      stagePadding: 20,&#xA;      margin:50,&#xA;      nav: true,&#xA;      smartSpeed: 1000,&#xA;      navText: ['&lt;span class=&#34;ion-ios-arrow-back&#34;&gt;', '&lt;span class=&#34;ion-ios-arrow-forward&#34;&gt;'],&#xA;      responsive:{&#xA;        600:{&#xA;          stagePadding: 20,&#xA;          items:1&#xA;        },&#xA;        800:{&#xA;          stagePadding: 20,&#xA;          items:1&#xA;        },&#xA;        1000:{&#xA;          // stagePadding: 200,&#xA;          items:1&#xA;        }&#xA;      }&#xA;    }">
+                        <owl-carousel-testimonial-item-dam jcr:mixinTypes="timix:mediaPickerWd"
+                                                           jcr:primaryType="tint:owlcarouselItemTW"
+                                                           ti:mediaPicker="widen">
+                           <j:translation_fr heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;John Smith&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Free-Template.co Client&lt;/span&gt;&lt;/div&gt;&#xA;"
+                                             jcr:language="fr"
+                                             jcr:primaryType="jnt:translation"
+                                             testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"
+                                             ti:mediaNode="#/sites/systemsite/contents/dam-widen/2a817889-ba20-402f-821a-f0f6e4b80c46"/>
+                           <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;John Smith&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Free-Template.co Client&lt;/span&gt;&lt;/div&gt;&#xA;"
+                                             jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn&amp;rsquo;t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"
+                                             ti:mediaNode="#/sites/systemsite/contents/dam-widen/2a817889-ba20-402f-821a-f0f6e4b80c46"/>
+                        </owl-carousel-testimonial-item-dam>
+                        <owl-carousel-testimonial-item-dam-1 jcr:mixinTypes="timix:mediaPickerWd"
+                                                             jcr:primaryType="tint:owlcarouselItemTW"
+                                                             ti:mediaPicker="widen">
+                           <j:translation_fr heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Lily Qwan&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Free-Template.co Client&lt;/span&gt;&lt;/div&gt;&#xA;"
+                                             jcr:language="fr"
+                                             jcr:primaryType="jnt:translation"
+                                             testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"
+                                             ti:mediaNode="#/sites/systemsite/contents/dam-widen/08491035-b960-4a8d-80ef-347bc54998dd"/>
+                           <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Lily Qwan&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Free-Template.co Client&lt;/span&gt;&lt;/div&gt;&#xA;"
+                                             jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"
+                                             ti:mediaNode="#/sites/systemsite/contents/dam-widen/08491035-b960-4a8d-80ef-347bc54998dd"/>
+                        </owl-carousel-testimonial-item-dam-1>
+                        <owl-carousel-testimonial-item-dam-2 jcr:mixinTypes="timix:mediaPickerWd"
+                                                             jcr:primaryType="tint:owlcarouselItemTW"
+                                                             ti:mediaPicker="widen">
+                           <j:translation_fr heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Joshua Darren&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;IT-advisor.io Partner&lt;/span&gt;&lt;/div&gt;&#xA;"
+                                             jcr:language="fr"
+                                             jcr:primaryType="jnt:translation"
+                                             testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"
+                                             ti:mediaNode="#/sites/systemsite/contents/dam-widen/a83664a1-db0a-4c2c-8f60-d78db2c58fea"/>
+                           <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Joshua Darren&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;IT-advisor.io Partner&lt;/span&gt;&lt;/div&gt;&#xA;"
+                                             jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"
+                                             ti:mediaNode="#/sites/systemsite/contents/dam-widen/a83664a1-db0a-4c2c-8f60-d78db2c58fea"/>
+                        </owl-carousel-testimonial-item-dam-2>
+                     </owl-carousel>
+                  </main>
+               </testimonial-section>
+               <bandeau-section gridClasses="col-lg-8,col-lg-4 text-lg-right"
+                                gridLayout="fixed-width"
+                                jcr:mixinTypes="bootstrap4mix:createContainer bootstrap4mix:createRow bootstrap4mix:createSection bootstrap4mix:customGrid"
+                                jcr:primaryType="bootstrap4nt:grid"
+                                rowCssClass="align-items-center"
+                                rowHorizontalAlignment="default"
+                                rowVerticalAlignment="default"
+                                sectionCssClass="section bg-primary"
+                                sectionElement="section"
+                                typeOfGrid="customGrid">
+                  <col0 jcr:primaryType="jnt:contentList">
+                     <text jcr:primaryType="tint:text">
+                        <j:translation_en jcr:language="en"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Get Started With Industrial Free Template&lt;/h2&gt;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;"/>
+                        <j:translation_de jcr:language="de"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Get Started With Industrial Free Template&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;"/>
+                        <j:translation_pt jcr:language="pt"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Get Started With Industrial Free Template&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;"/>
+                        <j:translation_it jcr:language="it"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Get Started With Industrial Free Template&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;"/>
+                        <j:translation_fr jcr:language="fr"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Get Started With Industrial Free Template&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;"/>
+                        <j:translation_da jcr:language="da"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Get Started With Industrial Free Template&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;"/>
+                        <j:translation_es jcr:language="es"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Get Started With Industrial Free Template&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;"/>
+                        <j:translation_de_DE jcr:language="de_DE"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;h2 class=&#34;text-white mb-0&#34;&gt;Get Started With Industrial Free Template&lt;/h2&gt;&#xA;&#xA;&lt;p class=&#34;text-white lead&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;"/>
+                     </text>
+                  </col0>
+                  <col1 jcr:primaryType="jnt:contentList">
+                     <text jcr:primaryType="tint:text">
+                        <j:translation_en jcr:language="en"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://free-template.co/&#34;&gt;Download This Template&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                        <j:translation_de jcr:language="de"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://free-template.co/&#34;&gt;Download This Template&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                        <j:translation_pt jcr:language="pt"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://free-template.co/&#34;&gt;Download This Template&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                        <j:translation_it jcr:language="it"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://free-template.co/&#34;&gt;Download This Template&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                        <j:translation_fr jcr:language="fr"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://free-template.co/&#34;&gt;Download This Template&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                        <j:translation_da jcr:language="da"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://free-template.co/&#34;&gt;Download This Template&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                        <j:translation_es jcr:language="es"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://free-template.co/&#34;&gt;Download This Template&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                        <j:translation_de_DE jcr:language="de_DE"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;p&gt;&lt;a class=&#34;btn btn-outline-white px-4 py-3&#34; href=&#34;https://free-template.co/&#34;&gt;Download This Template&lt;/a&gt;&lt;/p&gt;&#xA;"/>
+                     </text>
+                  </col1>
+               </bandeau-section>
+            </pagecontent>
+            <header-static-area jcr:primaryType="jnt:contentList">
+               <navbar-no-search addContainerWithinTheNavbar="true"
+                                 addLanguageButton="false"
+                                 addLoginButton="false"
+                                 buttonClass="navbar-toggler"
+                                 divClass="collapse navbar-collapse"
+                                 j:view="industrial.no.search"
+                                 jcr:mixinTypes="bootstrap4mix:advancedNavbar bootstrap4mix:brand bootstrap4mix:customBaseNavbar bootstrap4mix:customButtonNavbar jmix:renderable"
+                                 jcr:primaryType="bootstrap4nt:navbar"
+                                 navClass="navbar navbar-expand-lg navbar-dark bg-dark"
+                                 recursive="true"
+                                 root="currentPage"
+                                 ulClass="navbar-nav pl-md-5 ml-auto">
+                  <j:translation_en brandText="industrial"
+                                    jcr:language="en"
+                                    jcr:primaryType="jnt:translation"/>
+                  <j:translation_de brandText="industrial"
+                                    jcr:language="de"
+                                    jcr:primaryType="jnt:translation"/>
+                  <j:translation_pt brandText="industrial"
+                                    jcr:language="pt"
+                                    jcr:primaryType="jnt:translation"/>
+                  <j:translation_it brandText="industrial"
+                                    jcr:language="it"
+                                    jcr:primaryType="jnt:translation"/>
+                  <j:translation_fr brandText="industrial"
+                                    jcr:language="fr"
+                                    jcr:primaryType="jnt:translation"/>
+                  <j:translation_da brandText="industrial"
+                                    jcr:language="da"
+                                    jcr:primaryType="jnt:translation"/>
+                  <j:translation_es brandText="industrial"
+                                    jcr:language="es"
+                                    jcr:primaryType="jnt:translation"/>
+                  <j:translation_de_DE brandText="industrial"
+                                       jcr:language="de_DE"
+                                       jcr:primaryType="jnt:translation"/>
+               </navbar-no-search>
+            </header-static-area>
+            <footer-static-area jcr:primaryType="jnt:contentList">
+               <row-footer-1 gridClasses="col-md-4 mb-5,col-md-5 mb-5 pl-md-5,col-md-3 mb-5"
+                             jcr:mixinTypes="bootstrap4mix:createRow bootstrap4mix:customGrid"
+                             jcr:primaryType="bootstrap4nt:grid"
+                             rowCssClass="mb-5"
+                             rowHorizontalAlignment="default"
+                             rowVerticalAlignment="default"
+                             typeOfGrid="customGrid">
+                  <col0 jcr:primaryType="jnt:contentList">
+                     <footer-about jcr:primaryType="tint:text">
+                        <j:translation_en jcr:language="en"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;About The Industrial&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link d-flex footer-social&#34;&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-twitter&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-facebook&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-linkedin&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-instagram&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        <j:translation_de jcr:language="de"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;About The Industrial&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link d-flex footer-social&#34;&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-twitter&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-facebook&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-linkedin&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-instagram&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        <j:translation_pt jcr:language="pt"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;About The Industrial&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link d-flex footer-social&#34;&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-twitter&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-facebook&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-linkedin&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-instagram&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        <j:translation_it jcr:language="it"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;About The Industrial&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link d-flex footer-social&#34;&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-twitter&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-facebook&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-linkedin&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-instagram&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        <j:translation_fr jcr:language="fr"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;About The Industrial&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link d-flex footer-social&#34;&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-twitter&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-facebook&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-linkedin&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-instagram&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        <j:translation_da jcr:language="da"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;About The Industrial&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link d-flex footer-social&#34;&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-twitter&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-facebook&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-linkedin&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-instagram&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        <j:translation_es jcr:language="es"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;About The Industrial&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link d-flex footer-social&#34;&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-twitter&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-facebook&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-linkedin&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-instagram&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        <j:translation_de_DE jcr:language="de_DE"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;h3&gt;About The Industrial&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. .&lt;/p&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link d-flex footer-social&#34;&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-twitter&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-facebook&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-linkedin&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA; &lt;li&gt;&lt;a class=&#34;p-2&#34; href=&#34;#&#34;&gt;&lt;span class=&#34;fa fa-instagram&#34;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                     </footer-about>
+                  </col0>
+                  <col1 jcr:primaryType="jnt:contentList">
+                     <footer-contact jcr:primaryType="tint:text">
+                        <j:translation_en jcr:language="en"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;Contact Info&lt;/h3&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link&#34;&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Address:&lt;/span&gt; &lt;span&gt;34 Street Name, City Name Here, United States&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Telephone:&lt;/span&gt;&lt;span&gt;+1 242 4942 290&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Email:&lt;/span&gt;&lt;span&gt;info@yourdomain.com&lt;/span&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        <j:translation_de jcr:language="de"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;Contact Info&lt;/h3&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link&#34;&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Address:&lt;/span&gt; &lt;span&gt;34 Street Name, City Name Here, United States&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Telephone:&lt;/span&gt;&lt;span&gt;+1 242 4942 290&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Email:&lt;/span&gt;&lt;span&gt;info@yourdomain.com&lt;/span&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        <j:translation_pt jcr:language="pt"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;Contact Info&lt;/h3&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link&#34;&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Address:&lt;/span&gt; &lt;span&gt;34 Street Name, City Name Here, United States&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Telephone:&lt;/span&gt;&lt;span&gt;+1 242 4942 290&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Email:&lt;/span&gt;&lt;span&gt;info@yourdomain.com&lt;/span&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        <j:translation_it jcr:language="it"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;Contact Info&lt;/h3&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link&#34;&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Address:&lt;/span&gt; &lt;span&gt;34 Street Name, City Name Here, United States&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Telephone:&lt;/span&gt;&lt;span&gt;+1 242 4942 290&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Email:&lt;/span&gt;&lt;span&gt;info@yourdomain.com&lt;/span&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        <j:translation_fr jcr:language="fr"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;Contact Info&lt;/h3&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link&#34;&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Address:&lt;/span&gt; &lt;span&gt;34 Street Name, City Name Here, United States&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Telephone:&lt;/span&gt;&lt;span&gt;+1 242 4942 290&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Email:&lt;/span&gt;&lt;span&gt;info@yourdomain.com&lt;/span&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        <j:translation_da jcr:language="da"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;Contact Info&lt;/h3&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link&#34;&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Address:&lt;/span&gt; &lt;span&gt;34 Street Name, City Name Here, United States&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Telephone:&lt;/span&gt;&lt;span&gt;+1 242 4942 290&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Email:&lt;/span&gt;&lt;span&gt;info@yourdomain.com&lt;/span&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        <j:translation_es jcr:language="es"
+                                          jcr:primaryType="jnt:translation"
+                                          text="&lt;h3&gt;Contact Info&lt;/h3&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link&#34;&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Address:&lt;/span&gt; &lt;span&gt;34 Street Name, City Name Here, United States&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Telephone:&lt;/span&gt;&lt;span&gt;+1 242 4942 290&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Email:&lt;/span&gt;&lt;span&gt;info@yourdomain.com&lt;/span&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                        <j:translation_de_DE jcr:language="de_DE"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;h3&gt;Contact Info&lt;/h3&gt;&#xA;&#xA;&lt;ul class=&#34;list-unstyled footer-link&#34;&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Address:&lt;/span&gt; &lt;span&gt;34 Street Name, City Name Here, United States&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Telephone:&lt;/span&gt;&lt;span&gt;+1 242 4942 290&lt;/span&gt;&lt;/li&gt;&#xA; &lt;li class=&#34;d-block&#34;&gt;&lt;span class=&#34;d-block&#34;&gt;Email:&lt;/span&gt;&lt;span&gt;info@yourdomain.com&lt;/span&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;"/>
+                     </footer-contact>
+                  </col1>
+                  <col2 jcr:primaryType="jnt:contentList">
+                     <footer-nav jcr:primaryType="jnt:contentList">
+                        <j:translation_en jcr:language="en"
+                                          jcr:mixinTypes="mix:title"
+                                          jcr:primaryType="jnt:translation"
+                                          jcr:title="footer-nav"/>
+                        <footer-title jcr:primaryType="tint:text">
+                           <j:translation_en jcr:language="en"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;h3&gt;Quick Links&lt;/h3&gt;"/>
+                           <j:translation_de jcr:language="de"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;h3&gt;Quick Links&lt;/h3&gt;&#xA;"/>
+                           <j:translation_pt jcr:language="pt"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;h3&gt;Quick Links&lt;/h3&gt;&#xA;"/>
+                           <j:translation_it jcr:language="it"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;h3&gt;Quick Links&lt;/h3&gt;&#xA;"/>
+                           <j:translation_fr jcr:language="fr"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;h3&gt;Quick Links&lt;/h3&gt;&#xA;"/>
+                           <j:translation_da jcr:language="da"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;h3&gt;Quick Links&lt;/h3&gt;&#xA;"/>
+                           <j:translation_es jcr:language="es"
+                                             jcr:primaryType="jnt:translation"
+                                             text="&lt;h3&gt;Quick Links&lt;/h3&gt;&#xA;"/>
+                           <j:translation_de_DE jcr:language="de_DE"
+                                                jcr:primaryType="jnt:translation"
+                                                text="&lt;h3&gt;Quick Links&lt;/h3&gt;&#xA;"/>
+                        </footer-title>
+                        <navbar-footer j:view="industrial.basenav.footer"
+                                       jcr:mixinTypes="bootstrap4mix:customBaseNavbar jmix:renderable"
+                                       jcr:primaryType="bootstrap4nt:navbar"
+                                       recursive="false"
+                                       root="homePage"
+                                       ulClass="list-unstyled footer-link"/>
+                     </footer-nav>
+                  </col2>
+               </row-footer-1>
+            </footer-static-area>
          </industrial-template-overview>
          <veterinary j:templateName="veterinary" jcr:primaryType="jnt:page">
             <j:translation_en jcr:language="en"
@@ -4982,111 +5878,6 @@
                                  jcr:mixinTypes="mix:title"
                                  jcr:primaryType="jnt:translation"
                                  jcr:title="Veterinary"/>
-            <media-blocks-row-1-col0 jcr:primaryType="jnt:contentList">
-               <text-grenade jcr:mixinTypes="jmix:referencesInField" jcr:primaryType="tint:text">
-                  <j:translation_en jcr:language="en"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_de jcr:language="de"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_pt jcr:language="pt"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_it jcr:language="it"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_fr jcr:language="fr"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_da jcr:language="da"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;/missing-image.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_es jcr:language="es"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_de_DE jcr:language="de_DE"
-                                       jcr:primaryType="jnt:translation"
-                                       text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:referenceInField_text_de_1 j:fieldName="text_de" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_pt_1 j:fieldName="text_pt" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_en_1 j:fieldName="text_en" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_it_1 j:fieldName="text_it" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_fr_1 j:fieldName="text_fr" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_es_1 j:fieldName="text_es" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_de_DE_1 j:fieldName="text_de_DE" jcr:primaryType="jnt:referenceInField"/>
-               </text-grenade>
-            </media-blocks-row-1-col0>
-            <media-blocks-row-1-col1 jcr:primaryType="jnt:contentList">
-               <text-eryth jcr:mixinTypes="jmix:referencesInField" jcr:primaryType="tint:text">
-                  <j:translation_en jcr:language="en"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_de jcr:language="de"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_pt jcr:language="pt"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_it jcr:language="it"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_fr jcr:language="fr"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_da jcr:language="da"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;/missing-image.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_es jcr:language="es"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_de_DE jcr:language="de_DE"
-                                       jcr:primaryType="jnt:translation"
-                                       text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:referenceInField_text_de_1 j:fieldName="text_de" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_pt_1 j:fieldName="text_pt" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_en_1 j:fieldName="text_en" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_it_1 j:fieldName="text_it" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_fr_1 j:fieldName="text_fr" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_es_1 j:fieldName="text_es" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_de_DE_1 j:fieldName="text_de_DE" jcr:primaryType="jnt:referenceInField"/>
-               </text-eryth>
-            </media-blocks-row-1-col1>
-            <media-blocks-row-1-col2 jcr:primaryType="jnt:contentList">
-               <text-inul jcr:mixinTypes="jmix:referencesInField" jcr:primaryType="tint:text">
-                  <j:translation_en jcr:language="en"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_de jcr:language="de"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_pt jcr:language="pt"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_it jcr:language="it"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_fr jcr:language="fr"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_da jcr:language="da"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;/missing-image.png&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_es jcr:language="es"
-                                    jcr:primaryType="jnt:translation"
-                                    text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:translation_de_DE jcr:language="de_DE"
-                                       jcr:primaryType="jnt:translation"
-                                       text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
-                  <j:referenceInField_text_de_1 j:fieldName="text_de" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_pt_1 j:fieldName="text_pt" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_en_1 j:fieldName="text_en" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_it_1 j:fieldName="text_it" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_fr_1 j:fieldName="text_fr" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_es_1 j:fieldName="text_es" jcr:primaryType="jnt:referenceInField"/>
-                  <j:referenceInField_text_de_DE_1 j:fieldName="text_de_DE" jcr:primaryType="jnt:referenceInField"/>
-               </text-inul>
-            </media-blocks-row-1-col2>
          </veterinary>
          <sample j:templateName="free" jcr:primaryType="jnt:page">
             <j:translation_fr jcr:language="fr"
