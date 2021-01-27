@@ -54,7 +54,7 @@
   </parent>
   <groupId>org.jahia.se.modules</groupId>
   <artifactId>industrial</artifactId>
-  <version>8.0.1.0_widen-SNAPSHOT</version>
+  <version>8.0.2.0_dam-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>Industrial</name>
   <description>This is the custom profile module (industrial) for running on a Digital Experience Manager server.</description>
@@ -88,7 +88,7 @@
         <configuration>
           <instructions>
             <Jahia-Module-Type>templatesSet</Jahia-Module-Type>
-            <Jahia-Static-Resources>/css,/fonts,/javascript,/images,/icons</Jahia-Static-Resources>
+            <Jahia-Static-Resources>/css,/fonts,/javascript,/images,/icons,/img</Jahia-Static-Resources>
           </instructions>
         </configuration>
       </plugin>

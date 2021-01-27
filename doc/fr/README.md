@@ -1,6 +1,6 @@
 # industrial
 
-* [English](./README.md)
+* [English](../../README.md)
 
 Ce module a été pensé et conçu pour être utilisé par une équipe de web-marketing.
 Il permet de créer rapidement et facilement des pages d'accueil de campagne marketing ou des microsites.
@@ -8,25 +8,25 @@ Le module contient un template, quatre pages d'exemples et une collection de blo
 
 * Carousel (2 types : heading et témoignage)
 
-    ![](./src/main/resources/images/readme/100_component_carousel.png)
+    ![](../images/100_component_carousel.png)
     
-    ![](./src/main/resources/images/readme/101_component_carousel.png)
+    ![](../images/101_component_carousel.png)
     
 * Une gallerie d'image
 
-    ![](./src/main/resources/images/readme/102_component_gallery.png)
+    ![](../images/102_component_gallery.png)
     
 * Features list
 
-    ![](./src/main/resources/images/readme/104_component_features.png)
+    ![](../images/104_component_features.png)
     
 * Cards elements
 
-    ![](./src/main/resources/images/readme/105_component_cards.png)
+    ![](../images/105_component_cards.png)
     
 * Text and illustration
 
-    ![](./src/main/resources/images/readme/103_component_text.png)
+    ![](../images/103_component_text.png)
     
 * Navigation bar
 * Footer components (about, contact, navigation)
@@ -50,18 +50,18 @@ Thus, before to install and run the Industrial module we need to ensure dependen
 1. Expand `System components` entry and click `Modules`
 1. In the right panel click on top `Available modules` and search for *Bootstrap 4 Package*
 
-    ![](./src/main/resources/images/readme/200_modules_B4.png)
+    ![](../images/200_modules_B4.png)
     
-1. Click the icon ![](./src/main/resources/images/readme/201_modules_download_icon.png) in the right of the package to download and install the module
+1. Click the icon ![](../images/201_modules_download_icon.png) in the right of the package to download and install the module
 
 #### Install the module `animate` : 
 1. Goto `Administration` mode
 1. Expand `System components` entry and click `Modules`
 1. In the right panel click on top `Available modules` and search for *animate*
 
-    ![](./src/main/resources/images/readme/202_modules_animate.png)
+    ![](../images/202_modules_animate.png)
     
-1. Click the icon ![](./src/main/resources/images/readme/201_modules_download_icon.png) in the right of the package to download and install the module
+1. Click the icon ![](../images/201_modules_download_icon.png) in the right of the package to download and install the module
 
 ### Install the Industrial module
 
@@ -72,9 +72,9 @@ To install and deploy the module `Industrial` follow the next steps :
 1. Expand `System components` entry and click `Modules`
 1. In the right panel click on top `Available modules` and search for *Industrial*
 
-    ![](./src/main/resources/images/readme/202_modules_industrial.png)
+    ![](doc/readme/202_modules_industrial.png)
     
-1. Click the icon ![](./src/main/resources/images/readme/201_modules_download_icon.png) in the right of the package to download and install the module
+1. Click the icon ![](../images/201_modules_download_icon.png) in the right of the package to download and install the module
 
 ## Create a new website using `industrial` template set
 
@@ -84,18 +84,18 @@ To create a new website using `industrial` follow the next steps :
 1. Goto `Administration` mode
 1. Click `Web Projects` entry and click `CREATE` in the right panel
 
-    ![Create a new web project](./src/main/resources/images/readme/000_create_new_site.png)
+    ![Create a new web project](../images/000_create_new_site.png)
 
 1. Fill the website name and key with the name you want and click NEXT
 
-    ![Create a new web project](./src/main/resources/images/readme/001_create_new_site.png)
+    ![Create a new web project](../images/001_create_new_site.png)
 
 1. Select the template set `industrial`
 1. Choose modules to be deployed :
     1. `Bootstrap 4 Components` : this enable all default bootstrap 4 elements as the usefull `Layout and Grid`
     1. `Jahia Google Analytics` : this enable the `Google Analytics site settings` entry used to include your google analytics tag (explained later)
     
-    ![Create a new web project](./src/main/resources/images/readme/002_create_new_site.png)
+    ![Create a new web project](../images/002_create_new_site.png)
 
 
 ## Use Jahia `Forms` and `jExperience` with an Industrial website
@@ -108,7 +108,7 @@ Before to use *Forms* and *jExperience* ensure modules are deployed in *jContent
 1. Expand `System components` entry and click `Modules`
 1. Search if `Forms core` is available
 
-    ![](./src/main/resources/images/readme/400_Forms_is_enabled.png)
+    ![](../images/400_Forms_is_enabled.png)
 
 If module is not deployed ...
 
@@ -123,7 +123,7 @@ Thus, we need to check if the required module are available in our instance :
 1. Expand `System components` entry and click `Modules`
 1. Search if `jExperience` & `jExperience Forms bridge` are available
 
-    ![](./src/main/resources/images/readme/300_jExperience_is_enabled.png)
+    ![](../images/300_jExperience_is_enabled.png)
 
 If module is not deployed ...
 
@@ -131,7 +131,7 @@ Then activate both for you sitecd ..
 
 When modules are available for your website you can find new entry in the settings tab of your website
 
-![](./src/main/resources/images/readme/500_jX_Form_active.png)
+![](../images/500_jX_Form_active.png)
 
 ## Google Analytics site settings
 Jahia offer to you an easy way to include your google analytics tag in your html page. To configure this feature follow the next steps :
