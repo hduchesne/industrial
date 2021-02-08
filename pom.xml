@@ -53,14 +53,14 @@
   </parent>
   <groupId>org.jahia.modules</groupId>
   <artifactId>industrial</artifactId>
-  <version>1.0.2</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>industrial</name>
   <description>his module is designed for marketers to create quickly and easily landing pages or microsites.</description>
   <scm>
     <connection>scm:git:https://github.com/hduchesne/industrial.git</connection>
     <developerConnection>scm:git:https://github.com/hduchesne/industrial.git</developerConnection>
-    <tag>industrial-1.0.2</tag>
+    <url>https://github.com/hduchesne/industrial</url>
   </scm>
   <properties>
     <jahia-depends>animate,bootstrap4-components,bootstrap4-core,default,font-awesome,jquery,popperjs</jahia-depends>
