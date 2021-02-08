@@ -12,11 +12,11 @@
 // - linkType (string, choicelist[industrialLinkTypeInitializer,resourceBundle]) = 'internalLink' autocreated indexed=no < 'internalLink', 'externalLink', 'self'
  - linkType (string, choicelist[industrialLinkTypeInitializer,resourceBundle]) indexed=no < 'internalLink', 'externalLink', 'self'
  - linkTarget (string, choicelist[resourceBundle]) = _blank autocreated indexed=no < '_blank', '_self', '_parent', '_top'
-[timix:internalLink] > jmix:templateMixin mixin
+[timix:internalLink] > jmix:dynamicFieldset mixin
  extends = timix:linkTo
  - internalLink (weakreference, picker[type='editoriallink']) < 'jmix:droppableContent', 'jnt:page', 'jnt:file'
 
-[timix:externalLink] > jmix:templateMixin mixin
+[timix:externalLink] > jmix:dynamicFieldset mixin
  extends = timix:linkTo
  - externalLink (string) = 'https://'
 // CONTENT LINKER ***//
@@ -24,7 +24,7 @@
 
 //*** TEXT //
 [tint:text]> jnt:content, timix:industrial
- - text (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
+ - text (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
 // TEXT ***//
 
 
@@ -38,12 +38,12 @@
 [tint:owlcarouselItemS] > jnt:content, mix:title
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
  - videoURL (string) internationalized
- - caption (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
+ - caption (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
 
 [tint:owlcarouselItemT] > jnt:content, mix:title
  - avatar (weakreference, picker[type='image']) mandatory < 'jmix:image'
- - heading (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
- - testimonial (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
+ - heading (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
+ - testimonial (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
 
 [timix:owlcarouselAdvancedSettings] mixin
  extends = tint:owlcarousel
@@ -54,11 +54,11 @@
 [tint:owlcarousel] > jnt:content, timix:industrial, jmix:list, jmix:siteContent orderable
  - carouselType (string, choicelist[industrialCarouselItemTypeInitializer,resourceBundle]) mandatory indexed=no < 'standard', 'testimonial'
 
-[timix:owlCarouselT] mixin
+[timix:owlCarouselT] > jmix:dynamicFieldset mixin
  extends = tint:owlcarousel
  + * (tint:owlcarouselItemT)
 
-[timix:owlCarouselS] mixin
+[timix:owlCarouselS] > jmix:dynamicFieldset mixin
  extends = tint:owlcarousel
  + * (tint:owlcarouselItemS)
 //CAROUSEL ***//
@@ -71,7 +71,7 @@
 
 [timix:content] mixin
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
- - body (string, richtext[ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
+ - body (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
 
 [tint:heading] > jnt:content, timix:content, timix:industrial
 
