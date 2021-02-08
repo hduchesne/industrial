@@ -1465,7 +1465,7 @@
                                        jcr:mixinTypes="mix:title"
                                        jcr:primaryType="jnt:translation"
                                        jcr:title="Heading content list"/>
-                     <heading image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/hero_3.jpg"
+                     <heading image="#/modules/industrial/files/images/industry/hero_3.jpg"
                               jcr:primaryType="tint:heading">
                         <j:translation_en body="&lt;h1 class=&#34;pt-5&#34;&gt;&lt;span&gt;About Us&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.&lt;/p&gt;&#xA;"
                                           jcr:language="en"
@@ -1503,7 +1503,7 @@
                                     jcr:mixinTypes="timix:owlCarouselS timix:owlcarouselAdvancedSettings"
                                     jcr:primaryType="tint:owlcarousel"
                                     options="{&#xA;    loop:true,&#xA;    autoplay: true,&#xA;    margin:0,&#xA;    animateOut: 'fadeOut',&#xA;    animateIn: 'fadeIn',&#xA;    nav:true,&#xA;    autoplayHoverPause: true,&#xA;    items: 1,&#xA;    dragTouch: false,&#xA;    navText: ['&lt;span class=&#34;ion-ios-arrow-back&#34;&gt;', '&lt;span class=&#34;ion-ios-arrow-forward&#34;&gt;'],&#xA;    responsive:{&#xA;      0:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      600:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      1000:{&#xA;        items:1,&#xA;        nav:true&#xA;      }&#xA;    }&#xA; }">
-                        <we-are-industrial-company image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/hero_1.jpg"
+                        <we-are-industrial-company image="#/modules/industrial/files/images/industry/hero_1.jpg"
                                                    jcr:primaryType="tint:owlcarouselItemS">
                            <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="en"
@@ -1554,7 +1554,7 @@
                                                 jcr:title="We Are Industrial Company"
                                                 videoURL="https://vimeo.com/59256790"/>
                         </we-are-industrial-company>
-                        <the-best-level-of-excellence-in image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/hero_2.jpg"
+                        <the-best-level-of-excellence-in image="#/modules/industrial/files/images/industry/hero_2.jpg"
                                                          jcr:primaryType="tint:owlcarouselItemS">
                            <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="en"
@@ -1958,7 +1958,7 @@
                               </text-2>
                            </col2>
                            <col0 jcr:primaryType="jnt:contentList">
-                              <figure image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/feature_1.jpg"
+                              <figure image="#/modules/industrial/files/images/industry/feature_1.jpg"
                                       j:view="industrial.features"
                                       jcr:mixinTypes="jmix:renderable"
                                       jcr:primaryType="bootstrap4nt:figure"/>
@@ -1973,7 +1973,7 @@
                                     jcr:primaryType="jnt:translation"
                                     jcr:title="Half-block list"/>
                   <half-block imagePosition="left" jcr:primaryType="tint:halfBlock">
-                     <image image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/hero_1.jpg"
+                     <image image="#/modules/industrial/files/images/industry/hero_1.jpg"
                             j:animation="fadeIn"
                             j:animationDelay="0.0"
                             j:animationDelayUsage="delayBeforeAnimation"
@@ -2044,7 +2044,7 @@
                                              jcr:primaryType="jnt:translation"
                                              text="&lt;h3 class=&#34;mb-4&#34;&gt;Company History&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Learn More&lt;/a&gt;&lt;/p&gt;&#xA;"/>
                      </body>
-                     <image image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/hero_2.jpg"
+                     <image image="#/modules/industrial/files/images/industry/hero_2.jpg"
                             j:animation="fadeIn"
                             j:animationDelay="0.0"
                             j:animationDelayUsage="delayBeforeAnimation"
@@ -2120,7 +2120,7 @@
                                  jcr:mixinTypes="jmix:animate"
                                  jcr:primaryType="jnt:contentList">
                               <ducting-design iconClass="ion-md-add icon"
-                                              image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/gallery_1.jpg"
+                                              image="#/modules/industrial/files/images/industry/gallery_1.jpg"
                                               jcr:mixinTypes="timix:internalLink"
                                               jcr:primaryType="tint:galleryImage"
                                               linkTarget="_blank"
@@ -2174,7 +2174,7 @@
                                  jcr:mixinTypes="jmix:animate"
                                  jcr:primaryType="jnt:contentList">
                               <tanks-project iconClass="ion-md-add icon"
-                                             image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/gallery_2.jpg"
+                                             image="#/modules/industrial/files/images/industry/gallery_2.jpg"
                                              jcr:mixinTypes="timix:internalLink"
                                              jcr:primaryType="tint:galleryImage"
                                              linkTarget="_blank"
@@ -2228,7 +2228,7 @@
                                  jcr:mixinTypes="jmix:animate"
                                  jcr:primaryType="jnt:contentList">
                               <structural-design iconClass="ion-md-add icon"
-                                                 image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/gallery_3.jpg"
+                                                 image="#/modules/industrial/files/images/industry/gallery_3.jpg"
                                                  jcr:mixinTypes="timix:internalLink"
                                                  jcr:primaryType="tint:galleryImage"
                                                  linkTarget="_blank"
@@ -2282,7 +2282,7 @@
                                  jcr:mixinTypes="jmix:animate"
                                  jcr:primaryType="jnt:contentList">
                               <stacks-design iconClass="ion-md-add icon"
-                                             image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/gallery_4.jpg"
+                                             image="#/modules/industrial/files/images/industry/gallery_4.jpg"
                                              jcr:mixinTypes="timix:internalLink"
                                              jcr:primaryType="tint:galleryImage"
                                              linkTarget="_blank"
@@ -2336,7 +2336,7 @@
                                  jcr:mixinTypes="jmix:animate"
                                  jcr:primaryType="jnt:contentList">
                               <intercate-custom iconClass="ion-md-add icon"
-                                                image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/gallery_5.jpg"
+                                                image="#/modules/industrial/files/images/industry/gallery_5.jpg"
                                                 jcr:mixinTypes="timix:internalLink"
                                                 jcr:primaryType="tint:galleryImage"
                                                 linkTarget="_blank"
@@ -2390,7 +2390,7 @@
                                  jcr:mixinTypes="jmix:animate"
                                  jcr:primaryType="jnt:contentList">
                               <banker-design iconClass="ion-md-add icon"
-                                             image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/gallery_6.jpg"
+                                             image="#/modules/industrial/files/images/industry/gallery_6.jpg"
                                              jcr:mixinTypes="timix:internalLink"
                                              jcr:primaryType="tint:galleryImage"
                                              linkTarget="_blank"
@@ -2466,7 +2466,7 @@
                         <figure align="default"
                                 borderRadius="rounded-0"
                                 borderRadiusSize="default"
-                                image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/article_2.jpg"
+                                image="#/modules/industrial/files/images/industry/article_2.jpg"
                                 j:view="industrial.content"
                                 jcr:mixinTypes="bootstrap4mix:imageAdvancedSettings jmix:renderable"
                                 jcr:primaryType="bootstrap4nt:figure"
@@ -2530,7 +2530,7 @@
                            j:animationIterationCount="1"
                            jcr:mixinTypes="jmix:animate"
                            jcr:primaryType="jnt:contentList">
-                        <figure image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/article_1.jpg"
+                        <figure image="#/modules/industrial/files/images/industry/article_1.jpg"
                                 j:view="industrial.content"
                                 jcr:mixinTypes="jmix:renderable"
                                 jcr:primaryType="bootstrap4nt:figure"/>
@@ -3052,7 +3052,7 @@
                                   rowVerticalAlignment="default"
                                   typeOfGrid="predefinedGrid">
                            <main jcr:primaryType="jnt:contentList">
-                              <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_13.jpg"
+                              <card image="#/modules/industrial/files/images/person/person_13.jpg"
                                     jcr:primaryType="tint:card"
                                     linkTarget="_blank">
                                  <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Lily Qwan&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -3082,7 +3082,7 @@
                               </card>
                            </main>
                            <side jcr:primaryType="jnt:contentList">
-                              <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_15.jpg"
+                              <card image="#/modules/industrial/files/images/person/person_15.jpg"
                                     jcr:primaryType="tint:card"
                                     linkTarget="_blank">
                                  <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Mike Richardson&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -3112,7 +3112,7 @@
                               </card>
                            </side>
                            <extra jcr:primaryType="jnt:contentList">
-                              <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_16.jpg"
+                              <card image="#/modules/industrial/files/images/person/person_16.jpg"
                                     jcr:primaryType="tint:card"
                                     linkTarget="_blank">
                                  <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Laura Smith&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -3142,7 +3142,7 @@
                               </card>
                            </extra>
                            <extra2 jcr:primaryType="jnt:contentList">
-                              <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_14.jpg"
+                              <card image="#/modules/industrial/files/images/person/person_14.jpg"
                                     jcr:primaryType="tint:card"
                                     linkTarget="_blank">
                                  <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Kevin Gold&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -3227,7 +3227,7 @@
                                               jcr:mixinTypes="timix:owlCarouselT timix:owlcarouselAdvancedSettings"
                                               jcr:primaryType="tint:owlcarousel"
                                               options="{&#xA;      center: false,&#xA;      items: 1,&#xA;      loop: false,&#xA;      stagePadding: 20,&#xA;      margin:50,&#xA;      nav: true,&#xA;      smartSpeed: 1000,&#xA;      navText: ['&lt;span class=&#34;ion-ios-arrow-back&#34;&gt;', '&lt;span class=&#34;ion-ios-arrow-forward&#34;&gt;'],&#xA;      responsive:{&#xA;        600:{&#xA;          stagePadding: 20,&#xA;          items:1&#xA;        },&#xA;        800:{&#xA;          stagePadding: 20,&#xA;          items:1&#xA;        },&#xA;        1000:{&#xA;          // stagePadding: 200,&#xA;          items:1&#xA;        }&#xA;      }&#xA;    }">
-                           <john-smith avatar="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_14.jpg"
+                           <john-smith avatar="#/modules/industrial/files/images/person/person_14.jpg"
                                        jcr:primaryType="tint:owlcarouselItemT">
                               <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;John Smith&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Free-Template.co Client&lt;/span&gt;&lt;/div&gt;&#xA;"
                                                 jcr:language="en"
@@ -3278,7 +3278,7 @@
                                                    jcr:title="John Smith"
                                                    testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"/>
                            </john-smith>
-                           <lily-qwan avatar="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_13.jpg"
+                           <lily-qwan avatar="#/modules/industrial/files/images/person/person_13.jpg"
                                       jcr:primaryType="tint:owlcarouselItemT">
                               <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Lily Qwan&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Jahia-inc.co Partner&lt;/span&gt;&lt;/div&gt;&#xA;"
                                                 jcr:language="en"
@@ -3329,7 +3329,7 @@
                                                    jcr:title="Lily Qwan"
                                                    testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"/>
                            </lily-qwan>
-                           <joshua-darren avatar="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_15.jpg"
+                           <joshua-darren avatar="#/modules/industrial/files/images/person/person_15.jpg"
                                           jcr:primaryType="tint:owlcarouselItemT">
                               <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Joshua Darren&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Jahia.co Client&lt;/span&gt;&lt;/div&gt;&#xA;"
                                                 jcr:language="en"
@@ -3380,7 +3380,7 @@
                                                    jcr:title="Joshua Darren"
                                                    testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"/>
                            </joshua-darren>
-                           <marta-brown avatar="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_16.jpg"
+                           <marta-brown avatar="#/modules/industrial/files/images/person/person_16.jpg"
                                         jcr:primaryType="tint:owlcarouselItemT">
                               <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Marta Brown&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Jahia-design.co Web customer&lt;/span&gt;&lt;/div&gt;&#xA;"
                                                 jcr:language="en"
@@ -4097,7 +4097,7 @@
                                        jcr:mixinTypes="timix:owlCarouselS timix:owlcarouselAdvancedSettings"
                                        jcr:primaryType="tint:owlcarousel"
                                        options="{&#xA;    loop:true,&#xA;    autoplay: true,&#xA;    margin:0,&#xA;    animateOut: 'fadeOut',&#xA;    animateIn: 'fadeIn',&#xA;    nav:true,&#xA;    autoplayHoverPause: true,&#xA;    items: 1,&#xA;    dragTouch: false,&#xA;    navText: ['&lt;span class=&#34;ion-ios-arrow-back&#34;&gt;', '&lt;span class=&#34;ion-ios-arrow-forward&#34;&gt;'],&#xA;    responsive:{&#xA;      0:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      600:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      1000:{&#xA;        items:1,&#xA;        nav:true&#xA;      }&#xA;    }&#xA; }">
-                           <element-fresh image="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/element_hero_1.jpg"
+                           <element-fresh image="#/modules/industrial/files/images/veterinary/element_hero_1.jpg"
                                           jcr:primaryType="tint:owlcarouselItemS">
                               <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;ELEMENT FRESH&lt;/span&gt;&lt;/h1&gt;&#xA;"
                                                 jcr:language="en"
@@ -4153,7 +4153,7 @@
                                                    jcr:primaryType="jnt:translation"
                                                    jcr:title="Element FrEsh"/>
                            </element-fresh>
-                           <element-fresh-1 image="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/element_hero_4.jpg"
+                           <element-fresh-1 image="#/modules/industrial/files/images/veterinary/element_hero_4.jpg"
                                             jcr:primaryType="tint:owlcarouselItemS">
                               <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;TUTORIAL BROSSAGE DE DENT&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Comment laver les dents de son chien avec les produits Element.&lt;/p&gt;&#xA;"
                                                 jcr:language="en"
@@ -4228,7 +4228,7 @@
                                                              j:animationIterationCount="1"
                                                              jcr:mixinTypes="jmix:animate"
                                                              jcr:primaryType="jnt:contentList">
-                              <figure image="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/article_1.jpg"
+                              <figure image="#/modules/industrial/files/images/veterinary/article_1.jpg"
                                       j:view="industrial.content"
                                       jcr:mixinTypes="jmix:renderable"
                                       jcr:primaryType="bootstrap4nt:figure"/>
@@ -4363,28 +4363,28 @@
                                                             jcr:primaryType="jnt:translation"
                                                             text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;grenade.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;La Grenade&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;La grenade lutte contre les causes orales de la mauvaise haleine gr&amp;acirc;ce &amp;agrave; son action sur la plaque dentaire.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
                                        <j:referenceInField_text_de_1 j:fieldName="text_de"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/grenade.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/grenade.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_pt_1 j:fieldName="text_pt"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/grenade.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/grenade.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_en_1 j:fieldName="text_en"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/grenade.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/grenade.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_it_1 j:fieldName="text_it"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/grenade.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/grenade.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_fr_2 j:fieldName="text_fr"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/grenade.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/grenade.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_da_1 j:fieldName="text_da"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/grenade.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/grenade.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_es_1 j:fieldName="text_es"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/grenade.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/grenade.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_de_DE_1 j:fieldName="text_de_DE"
-                                                                        j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/grenade.png"
+                                                                        j:reference="#/modules/industrial/files/images/veterinary/grenade.png"
                                                                         jcr:primaryType="jnt:referenceInField"/>
                                     </text>
                                  </media-blocks-row-1-col0>
@@ -4420,28 +4420,28 @@
                                                             jcr:primaryType="jnt:translation"
                                                             text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;inuline.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Erythirol&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;erythirol apporte une sensation de fraicheur et am&amp;eacute;liore de ce fait l&amp;#39;haleine de votre chien en toute circonstance.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
                                        <j:referenceInField_text_de_1 j:fieldName="text_de"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/inuline.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/inuline.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_pt_1 j:fieldName="text_pt"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/inuline.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/inuline.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_en_1 j:fieldName="text_en"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/inuline.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/inuline.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_it_1 j:fieldName="text_it"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/inuline.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/inuline.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_fr_2 j:fieldName="text_fr"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/inuline.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/inuline.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_da_1 j:fieldName="text_da"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/inuline.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/inuline.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_es_1 j:fieldName="text_es"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/inuline.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/inuline.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_de_DE_1 j:fieldName="text_de_DE"
-                                                                        j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/inuline.png"
+                                                                        j:reference="#/modules/industrial/files/images/veterinary/inuline.png"
                                                                         jcr:primaryType="jnt:referenceInField"/>
                                     </text-1>
                                  </media-blocks-row-1-col1>
@@ -4477,28 +4477,28 @@
                                                             jcr:primaryType="jnt:translation"
                                                             text="&lt;div class=&#34;media block-6 d-block text-center&#34;&gt;&#xA;&lt;div class=&#34;icon mb-3&#34;&gt;&lt;img alt=&#34;erythritol.png&#34; src=&#34;##doc-context##/{workspace}/##ref:link1##&#34; style=&#34;width: 100px; height: 100px;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;heading&#34;&gt;L&amp;#39;Inuline&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;L&amp;#39;inuline agit sur la flore intestinale en r&amp;eacute;tablissant l&amp;#39;&amp;eacute;quilibre microbien du tube digestif des chiens.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;"/>
                                        <j:referenceInField_text_de_1 j:fieldName="text_de"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/erythritol.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/erythritol.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_pt_1 j:fieldName="text_pt"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/erythritol.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/erythritol.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_en_1 j:fieldName="text_en"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/erythritol.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/erythritol.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_it_1 j:fieldName="text_it"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/erythritol.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/erythritol.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_fr_2 j:fieldName="text_fr"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/erythritol.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/erythritol.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_da_1 j:fieldName="text_da"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/erythritol.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/erythritol.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_es_1 j:fieldName="text_es"
-                                                                     j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/erythritol.png"
+                                                                     j:reference="#/modules/industrial/files/images/veterinary/erythritol.png"
                                                                      jcr:primaryType="jnt:referenceInField"/>
                                        <j:referenceInField_text_de_DE_1 j:fieldName="text_de_DE"
-                                                                        j:reference="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/erythritol.png"
+                                                                        j:reference="#/modules/industrial/files/images/veterinary/erythritol.png"
                                                                         jcr:primaryType="jnt:referenceInField"/>
                                     </text-1>
                                  </media-blocks-row-1-col2>
@@ -4565,7 +4565,7 @@
                                         rowVerticalAlignment="default"
                                         typeOfGrid="predefinedGrid">
                                  <card-row-main jcr:primaryType="jnt:contentList">
-                                    <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/element_persona_xs.jpg"
+                                    <card image="#/modules/industrial/files/images/veterinary/element_persona_xs.jpg"
                                           j:animation="swing"
                                           j:animationDelay="2.0"
                                           j:animationDelayUsage="delayBeforeAnimation"
@@ -4600,7 +4600,7 @@
                                     </card>
                                  </card-row-main>
                                  <card-row-side jcr:primaryType="jnt:contentList">
-                                    <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/element_persona_sm.jpg"
+                                    <card image="#/modules/industrial/files/images/veterinary/element_persona_sm.jpg"
                                           jcr:primaryType="tint:card"
                                           linkTarget="_blank">
                                        <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;S (5-10 kg)&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -4630,7 +4630,7 @@
                                     </card>
                                  </card-row-side>
                                  <card-row-extra jcr:primaryType="jnt:contentList">
-                                    <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/element_persona_md.jpg"
+                                    <card image="#/modules/industrial/files/images/veterinary/element_persona_md.jpg"
                                           jcr:primaryType="tint:card"
                                           linkTarget="_blank">
                                        <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;M (10-30 kg)&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;lead&#34;&gt;Pour les chiens de taille interm&amp;eacute;diaire&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -4660,7 +4660,7 @@
                                     </card>
                                  </card-row-extra>
                                  <card-row-extra2 jcr:primaryType="jnt:contentList">
-                                    <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/element_persona_lg.jpg"
+                                    <card image="#/modules/industrial/files/images/veterinary/element_persona_lg.jpg"
                                           jcr:primaryType="tint:card"
                                           linkTarget="_blank">
                                        <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;L (&amp;gt;30 kg)&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;lead&#34;&gt;Pour les plus grandes races&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -4761,7 +4761,7 @@
                                                          jcr:primaryType="jnt:contentList">
                                     <dentifrice-element externalLink="https://www.jahia.com"
                                                         iconClass="ion-md-add icon"
-                                                        image="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/gallery_1.jpg"
+                                                        image="#/modules/industrial/files/images/veterinary/gallery_1.jpg"
                                                         jcr:mixinTypes="timix:externalLink"
                                                         jcr:primaryType="tint:galleryImage"
                                                         linkTarget="_blank"
@@ -4821,7 +4821,7 @@
                                                          jcr:primaryType="jnt:contentList">
                                     <vet-dental externalLink="https://www.jahia.com"
                                                 iconClass="ion-md-add icon"
-                                                image="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/gallery_2.jpg"
+                                                image="#/modules/industrial/files/images/veterinary/gallery_2.jpg"
                                                 jcr:mixinTypes="timix:externalLink"
                                                 jcr:primaryType="tint:galleryImage"
                                                 linkTarget="_blank"
@@ -4881,7 +4881,7 @@
                                                          jcr:primaryType="jnt:contentList">
                                     <pack-suite-dentaire externalLink="https://www.jahia.com"
                                                          iconClass="ion-md-add icon"
-                                                         image="#/modules/industrial/7.3.0.1-WIDEN/files/images/veterinary/gallery_3.jpg"
+                                                         image="#/modules/industrial/files/images/veterinary/gallery_3.jpg"
                                                          jcr:mixinTypes="timix:externalLink"
                                                          jcr:primaryType="tint:galleryImage"
                                                          linkTarget="_blank"
@@ -5513,7 +5513,7 @@
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Heading content list"/>
-                        <heading image="#/modules/industrial/7.3.0.1-WIDEN/files/images/fashion/hero_porte_vetement.jpg"
+                        <heading image="#/modules/industrial/files/images/fashion/hero_porte_vetement.jpg"
                                  jcr:primaryType="tint:heading">
                            <j:translation_en body="&lt;h1 class=&#34;pt-5&#34;&gt;&lt;span&gt;Comment porter la robe longue ?&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;4 looks incontournables pour le printemps-&amp;eacute;t&amp;eacute; 2020 !&lt;/p&gt;&#xA;"
                                              jcr:language="en"
@@ -5558,7 +5558,7 @@
                                                              j:animationIterationCount="1"
                                                              jcr:mixinTypes="jmix:animate"
                                                              jcr:primaryType="jnt:contentList">
-                              <figure image="#/modules/industrial/7.3.0.1-WIDEN/files/images/fashion/article_robe_1.jpg"
+                              <figure image="#/modules/industrial/files/images/fashion/article_robe_1.jpg"
                                       j:view="clip-path_1"
                                       jcr:mixinTypes="jmix:renderable"
                                       jcr:primaryType="bootstrap4nt:figure"/>
@@ -5661,7 +5661,7 @@
                                         rowVerticalAlignment="default"
                                         typeOfGrid="predefinedGrid">
                                  <card-row-main jcr:primaryType="jnt:contentList">
-                                    <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/fashion/A.png"
+                                    <card image="#/modules/industrial/files/images/fashion/A.png"
                                           jcr:primaryType="tint:card"
                                           linkTarget="_blank">
                                        <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Morphologie en A&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&amp;Eacute;paules plus &amp;eacute;troites que les hanches&lt;br /&gt;&#xA;Hanches l&amp;eacute;g&amp;egrave;rement ou tr&amp;egrave;s arrondies&lt;br /&gt;&#xA;Taille marqu&amp;eacute;e&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -5691,7 +5691,7 @@
                                     </card>
                                  </card-row-main>
                                  <card-row-side jcr:primaryType="jnt:contentList">
-                                    <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/fashion/H.png"
+                                    <card image="#/modules/industrial/files/images/fashion/H.png"
                                           jcr:primaryType="tint:card"
                                           linkTarget="_blank">
                                        <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Morphologie en H&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&amp;Eacute;paules, taille et hanches dans le m&amp;ecirc;me alignement&lt;br /&gt;&#xA;Taille non marqu&amp;eacute;e&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -5721,7 +5721,7 @@
                                     </card>
                                  </card-row-side>
                                  <card-row-extra jcr:primaryType="jnt:contentList">
-                                    <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/fashion/V.png"
+                                    <card image="#/modules/industrial/files/images/fashion/V.png"
                                           jcr:primaryType="tint:card"
                                           linkTarget="_blank">
                                        <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Morphologie en V&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&amp;Eacute;paules plus larges que les hanches&lt;br /&gt;&#xA;Taille marqu&amp;eacute;e ou non&lt;br /&gt;&#xA;Hanches &amp;eacute;troites&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -5751,7 +5751,7 @@
                                     </card>
                                  </card-row-extra>
                                  <card-row-extra2 jcr:primaryType="jnt:contentList">
-                                    <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/fashion/X.png"
+                                    <card image="#/modules/industrial/files/images/fashion/X.png"
                                           jcr:primaryType="tint:card"
                                           linkTarget="_blank">
                                        <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Morphologie en X&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&amp;Eacute;paules et hanches dans le m&amp;ecirc;me alignement&lt;br /&gt;&#xA;Taille plus &amp;eacute;troite que les &amp;eacute;paules et les hanches&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -5790,7 +5790,7 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Half-block list"/>
                         <half-block imagePosition="left" jcr:primaryType="tint:halfBlock">
-                           <image image="#/modules/industrial/7.3.0.1-WIDEN/files/images/fashion/hero_block_A.jpg"
+                           <image image="#/modules/industrial/files/images/fashion/hero_block_A.jpg"
                                   j:animation="fadeIn"
                                   j:animationDelay="0.0"
                                   j:animationDelayUsage="delayBeforeAnimation"
@@ -5861,7 +5861,7 @@
                                                    jcr:primaryType="jnt:translation"
                                                    text="&lt;h3 class=&#34;mb-4&#34;&gt;Les Robes pour les H&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Les morphologies en H doivent structurer leur silhouette trop marquer leur taille ! Si vous avez une morphologie en H, c&amp;rsquo;est que vous n&amp;rsquo;avez pas la taille marqu&amp;eacute;e. Alors &amp;eacute;vitez les robes trop resserr&amp;eacute;es &amp;agrave; la taille, cela ne fera qu&amp;rsquo;accentuer l&amp;rsquo;effet &amp;laquo; taille non marqu&amp;eacute;e &amp;raquo;.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Voir les mod&amp;egrave;les&lt;/a&gt;&lt;/p&gt;&#xA;"/>
                            </body>
-                           <image image="#/modules/industrial/7.3.0.1-WIDEN/files/images/fashion/block_H.jpg"
+                           <image image="#/modules/industrial/files/images/fashion/block_H.jpg"
                                   j:animation="fadeIn"
                                   j:animationDelay="0.0"
                                   j:animationDelayUsage="delayBeforeAnimation"
@@ -5876,7 +5876,7 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Half-block list"/>
                         <half-block imagePosition="left" jcr:primaryType="tint:halfBlock">
-                           <image image="#/modules/industrial/7.3.0.1-WIDEN/files/images/fashion/block_V.jpg"
+                           <image image="#/modules/industrial/files/images/fashion/block_V.jpg"
                                   j:animation="fadeIn"
                                   j:animationDelay="0.0"
                                   j:animationDelayUsage="delayBeforeAnimation"
@@ -5947,7 +5947,7 @@
                                                    jcr:primaryType="jnt:translation"
                                                    text="&lt;h3 class=&#34;mb-4&#34;&gt;Je Suis X&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Les mod&amp;egrave;les de robes longues pour les morphologies en X doivent mettre en valeur la taille en la serrant plus ou moins fortement.&lt;br /&gt;&#xA;Les robes portefeuille vous vont &amp;agrave; merveille, tout comme les robes droites pr&amp;egrave;s du corps cintr&amp;eacute;es &amp;agrave; la taille.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Voir les mod&amp;egrave;les&lt;/a&gt;&lt;/p&gt;&#xA;"/>
                            </body>
-                           <image image="#/modules/industrial/7.3.0.1-WIDEN/files/images/fashion/block_X.jpg"
+                           <image image="#/modules/industrial/files/images/fashion/block_X.jpg"
                                   j:animation="fadeIn"
                                   j:animationDelay="0.0"
                                   j:animationDelayUsage="delayBeforeAnimation"
@@ -6023,7 +6023,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                     <quel-pantalon-pour-2020 iconClass="ion-md-add icon"
-                                                             image="#/modules/industrial/7.3.0.1-WIDEN/files/images/fashion/gallery_pantalon.jpg"
+                                                             image="#/modules/industrial/files/images/fashion/gallery_pantalon.jpg"
                                                              jcr:mixinTypes="timix:internalLink"
                                                              jcr:primaryType="tint:galleryImage"
                                                              linkTarget="_blank"
@@ -6077,7 +6077,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                     <les-basquettes-urbaines-une-mode iconClass="ion-md-add icon"
-                                                                      image="#/modules/industrial/7.3.0.1-WIDEN/files/images/fashion/gallery_boots.jpg"
+                                                                      image="#/modules/industrial/files/images/fashion/gallery_boots.jpg"
                                                                       jcr:mixinTypes="timix:internalLink"
                                                                       jcr:primaryType="tint:galleryImage"
                                                                       linkTarget="_blank"
@@ -6131,7 +6131,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                     <la-salopette-la-tenue-chic-ou-ch iconClass="ion-md-add icon"
-                                                                      image="#/modules/industrial/7.3.0.1-WIDEN/files/images/fashion/gallery_s.jpg"
+                                                                      image="#/modules/industrial/files/images/fashion/gallery_s.jpg"
                                                                       jcr:mixinTypes="timix:internalLink"
                                                                       jcr:primaryType="tint:galleryImage"
                                                                       linkTarget="_blank"
@@ -6612,7 +6612,7 @@
                                        jcr:mixinTypes="timix:owlCarouselS timix:owlcarouselAdvancedSettings"
                                        jcr:primaryType="tint:owlcarousel"
                                        options="{&#xA;    loop:true,&#xA;    autoplay: true,&#xA;    margin:0,&#xA;    animateOut: 'fadeOut',&#xA;    animateIn: 'fadeIn',&#xA;    nav:true,&#xA;    autoplayHoverPause: true,&#xA;    items: 1,&#xA;    dragTouch: false,&#xA;    navText: ['&lt;span class=&#34;ion-ios-arrow-back&#34;&gt;', '&lt;span class=&#34;ion-ios-arrow-forward&#34;&gt;'],&#xA;    responsive:{&#xA;      0:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      600:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      1000:{&#xA;        items:1,&#xA;        nav:true&#xA;      }&#xA;    }&#xA; }">
-                           <we-are-industrial-company image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/hero_1.jpg"
+                           <we-are-industrial-company image="#/modules/industrial/files/images/industry/hero_1.jpg"
                                                       jcr:primaryType="tint:owlcarouselItemS">
                               <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                                 jcr:language="en"
@@ -6649,7 +6649,7 @@
                                                    jcr:primaryType="jnt:translation"
                                                    videoURL="https://vimeo.com/59256790"/>
                            </we-are-industrial-company>
-                           <the-best-level-of-excellence-in image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/hero_2.jpg"
+                           <the-best-level-of-excellence-in image="#/modules/industrial/files/images/industry/hero_2.jpg"
                                                             jcr:primaryType="tint:owlcarouselItemS">
                               <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                                 jcr:language="en"
@@ -6865,7 +6865,7 @@
                                     </text-2>
                                  </content-row-col2>
                                  <content-row-col0 jcr:primaryType="jnt:contentList">
-                                    <figure image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/feature_1.jpg"
+                                    <figure image="#/modules/industrial/files/images/industry/feature_1.jpg"
                                             j:view="industrial.features"
                                             jcr:mixinTypes="jmix:renderable"
                                             jcr:primaryType="bootstrap4nt:figure"/>
@@ -7011,7 +7011,7 @@
                                                              j:animationIterationCount="1"
                                                              jcr:mixinTypes="jmix:animate"
                                                              jcr:primaryType="jnt:contentList">
-                              <figure image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/article_1.jpg"
+                              <figure image="#/modules/industrial/files/images/industry/article_1.jpg"
                                       j:view="industrial.content"
                                       jcr:mixinTypes="jmix:renderable"
                                       jcr:primaryType="bootstrap4nt:figure"/>
@@ -7080,7 +7080,7 @@
                               <figure align="default"
                                       borderRadius="rounded-0"
                                       borderRadiusSize="default"
-                                      image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/article_2.jpg"
+                                      image="#/modules/industrial/files/images/industry/article_2.jpg"
                                       j:view="industrial.content"
                                       jcr:mixinTypes="bootstrap4mix:imageAdvancedSettings jmix:renderable"
                                       jcr:primaryType="bootstrap4nt:figure"
@@ -7194,7 +7194,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                     <ducting-design iconClass="ion-md-add icon"
-                                                    image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/gallery_1.jpg"
+                                                    image="#/modules/industrial/files/images/industry/gallery_1.jpg"
                                                     jcr:mixinTypes="timix:internalLink"
                                                     jcr:primaryType="tint:galleryImage"
                                                     linkTarget="_blank"
@@ -7248,7 +7248,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                     <tanks-project iconClass="ion-md-add icon"
-                                                   image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/gallery_2.jpg"
+                                                   image="#/modules/industrial/files/images/industry/gallery_2.jpg"
                                                    jcr:mixinTypes="timix:internalLink"
                                                    jcr:primaryType="tint:galleryImage"
                                                    linkTarget="_blank"
@@ -7302,7 +7302,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                     <structural-design iconClass="ion-md-add icon"
-                                                       image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/gallery_3.jpg"
+                                                       image="#/modules/industrial/files/images/industry/gallery_3.jpg"
                                                        jcr:mixinTypes="timix:internalLink"
                                                        jcr:primaryType="tint:galleryImage"
                                                        linkTarget="_blank"
@@ -7356,7 +7356,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                     <stacks-design iconClass="ion-md-add icon"
-                                                   image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/gallery_4.jpg"
+                                                   image="#/modules/industrial/files/images/industry/gallery_4.jpg"
                                                    jcr:mixinTypes="timix:internalLink"
                                                    jcr:primaryType="tint:galleryImage"
                                                    linkTarget="_blank"
@@ -7410,7 +7410,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                     <intercate-custom iconClass="ion-md-add icon"
-                                                      image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/gallery_5.jpg"
+                                                      image="#/modules/industrial/files/images/industry/gallery_5.jpg"
                                                       jcr:mixinTypes="timix:internalLink"
                                                       jcr:primaryType="tint:galleryImage"
                                                       linkTarget="_blank"
@@ -7464,7 +7464,7 @@
                                                          jcr:mixinTypes="jmix:animate"
                                                          jcr:primaryType="jnt:contentList">
                                     <banker-design iconClass="ion-md-add icon"
-                                                   image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/gallery_6.jpg"
+                                                   image="#/modules/industrial/files/images/industry/gallery_6.jpg"
                                                    jcr:mixinTypes="timix:internalLink"
                                                    jcr:primaryType="tint:galleryImage"
                                                    linkTarget="_blank"
@@ -7567,7 +7567,7 @@
                                                     jcr:mixinTypes="timix:owlCarouselT timix:owlcarouselAdvancedSettings"
                                                     jcr:primaryType="tint:owlcarousel"
                                                     options="{&#xA;      center: false,&#xA;      items: 1,&#xA;      loop: false,&#xA;      stagePadding: 20,&#xA;      margin:50,&#xA;      nav: true,&#xA;      smartSpeed: 1000,&#xA;      navText: ['&lt;span class=&#34;ion-ios-arrow-back&#34;&gt;', '&lt;span class=&#34;ion-ios-arrow-forward&#34;&gt;'],&#xA;      responsive:{&#xA;        600:{&#xA;          stagePadding: 20,&#xA;          items:1&#xA;        },&#xA;        800:{&#xA;          stagePadding: 20,&#xA;          items:1&#xA;        },&#xA;        1000:{&#xA;          // stagePadding: 200,&#xA;          items:1&#xA;        }&#xA;      }&#xA;    }">
-                                 <john-smith avatar="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_14.jpg"
+                                 <john-smith avatar="#/modules/industrial/files/images/person/person_14.jpg"
                                              jcr:primaryType="tint:owlcarouselItemT">
                                     <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;John Smith&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Free-Template.co Client&lt;/span&gt;&lt;/div&gt;&#xA;"
                                                       jcr:language="en"
@@ -7618,7 +7618,7 @@
                                                          jcr:title="John Smith"
                                                          testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"/>
                                  </john-smith>
-                                 <lily-qwan avatar="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_13.jpg"
+                                 <lily-qwan avatar="#/modules/industrial/files/images/person/person_13.jpg"
                                             jcr:primaryType="tint:owlcarouselItemT">
                                     <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Lily Qwan&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Jahia-inc.co Partner&lt;/span&gt;&lt;/div&gt;&#xA;"
                                                       jcr:language="en"
@@ -7669,7 +7669,7 @@
                                                          jcr:title="Lily Qwan"
                                                          testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"/>
                                  </lily-qwan>
-                                 <joshua-darren avatar="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_15.jpg"
+                                 <joshua-darren avatar="#/modules/industrial/files/images/person/person_15.jpg"
                                                 jcr:primaryType="tint:owlcarouselItemT">
                                     <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Joshua Darren&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Jahia.co Client&lt;/span&gt;&lt;/div&gt;&#xA;"
                                                       jcr:language="en"
@@ -7720,7 +7720,7 @@
                                                          jcr:title="Joshua Darren"
                                                          testimonial="&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;rdquo; Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. &amp;ldquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;"/>
                                  </joshua-darren>
-                                 <marta-brown avatar="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_16.jpg"
+                                 <marta-brown avatar="#/modules/industrial/files/images/person/person_16.jpg"
                                               jcr:primaryType="tint:owlcarouselItemT">
                                     <j:translation_en heading="&lt;div class=&#34;name-text align-self-center&#34;&gt;&#xA;&lt;h2 class=&#34;heading&#34;&gt;Marta Brown&lt;/h2&gt;&#xA;&lt;span class=&#34;meta&#34;&gt;Jahia-design.co Web customer&lt;/span&gt;&lt;/div&gt;&#xA;"
                                                       jcr:language="en"
@@ -7915,7 +7915,7 @@
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Heading content list"/>
-                        <heading image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/hero_3.jpg"
+                        <heading image="#/modules/industrial/files/images/industry/hero_3.jpg"
                                  jcr:primaryType="tint:heading">
                            <j:translation_en body="&lt;h1 class=&#34;pt-5&#34;&gt;&lt;span&gt;About Us&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.&lt;/p&gt;&#xA;"
                                              jcr:language="en"
@@ -7949,7 +7949,7 @@
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="Half-block list"/>
                         <half-block imagePosition="left" jcr:primaryType="tint:halfBlock">
-                           <image image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/hero_1.jpg"
+                           <image image="#/modules/industrial/files/images/industry/hero_1.jpg"
                                   j:animation="fadeIn"
                                   j:animationDelay="0.0"
                                   j:animationDelayUsage="delayBeforeAnimation"
@@ -8020,7 +8020,7 @@
                                                    jcr:primaryType="jnt:translation"
                                                    text="&lt;h3 class=&#34;mb-4&#34;&gt;Company History&lt;/h3&gt;&#xA;&#xA;&lt;p class=&#34;mb-5&#34;&gt;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a class=&#34;btn btn-primary btn-sm px-3 py-2&#34; href=&#34;#&#34;&gt;Learn More&lt;/a&gt;&lt;/p&gt;&#xA;"/>
                            </body>
-                           <image image="#/modules/industrial/7.3.0.1-WIDEN/files/images/industry/hero_2.jpg"
+                           <image image="#/modules/industrial/files/images/industry/hero_2.jpg"
                                   j:animation="fadeIn"
                                   j:animationDelay="0.0"
                                   j:animationDelayUsage="delayBeforeAnimation"
@@ -8314,7 +8314,7 @@
                                         rowVerticalAlignment="default"
                                         typeOfGrid="predefinedGrid">
                                  <card-row-main jcr:primaryType="jnt:contentList">
-                                    <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_13.jpg"
+                                    <card image="#/modules/industrial/files/images/person/person_13.jpg"
                                           jcr:primaryType="tint:card"
                                           linkTarget="_blank">
                                        <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Lily Qwan&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -8344,7 +8344,7 @@
                                     </card>
                                  </card-row-main>
                                  <card-row-side jcr:primaryType="jnt:contentList">
-                                    <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_15.jpg"
+                                    <card image="#/modules/industrial/files/images/person/person_15.jpg"
                                           jcr:primaryType="tint:card"
                                           linkTarget="_blank">
                                        <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Mike Richardson&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -8374,7 +8374,7 @@
                                     </card>
                                  </card-row-side>
                                  <card-row-extra jcr:primaryType="jnt:contentList">
-                                    <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_16.jpg"
+                                    <card image="#/modules/industrial/files/images/person/person_16.jpg"
                                           jcr:primaryType="tint:card"
                                           linkTarget="_blank">
                                        <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Laura Smith&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;"
@@ -8404,7 +8404,7 @@
                                     </card>
                                  </card-row-extra>
                                  <card-row-extra2 jcr:primaryType="jnt:contentList">
-                                    <card image="#/modules/industrial/7.3.0.1-WIDEN/files/images/person/person_14.jpg"
+                                    <card image="#/modules/industrial/files/images/person/person_14.jpg"
                                           jcr:primaryType="tint:card"
                                           linkTarget="_blank">
                                        <j:translation_en body="&lt;div class=&#34;media-body&#34;&gt;&#xA;&lt;h3 class=&#34;mt-0 text-black&#34;&gt;Kevin Gold&lt;/h3&gt;&#xA;&lt;/div&gt;&#xA;"

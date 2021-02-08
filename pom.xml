@@ -56,12 +56,11 @@
   <version>1.0.3-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>industrial</name>
-  <description>his module is designed for marketers to create quickly and easily landing pages or microsites.</description>
+  <description>This module is designed for marketers to create quickly and easily landing pages or microsites.</description>
   <scm>
     <connection>scm:git:git@github.com:hduchesne/industrial.git</connection>
     <developerConnection>scm:git:git@github.com:hduchesne/industrial.git</developerConnection>
     <url>https://github.com/hduchesne/industrial</url>
-    <tag>HEAD</tag>
   </scm>
   <properties>
     <jahia-depends>animate,bootstrap4-components,bootstrap4-core,default,font-awesome,jquery,popperjs,widen-picker</jahia-depends>
