@@ -25,6 +25,7 @@ you can see the [Widen Picker Accelerator][wpa:gitUrl] in action within complex 
         - [Install the module `Bootstrap 4 Package`](#install-the-module-bootstrap-4-package)
         - [Install the module `animate`](#install-the-module-animate)
         - [Install the module `widen-picker`](#install-the-module-widen-picker)
+        - [Install the module `codeMirror-editor`](#install-the-module-codeMirror)
     - [Install the Industrial module](#install-the-industrial-module)
 - [Create a new website using `industrial` template set](#create-a-new-website-using-industrial-template-set)
 - [Contribute with prepackage components](#contribute-with-prepackage-components)
@@ -106,6 +107,16 @@ Thus, before to install and to run the Industrial module we need to ensure depen
 4. Click the icon ![201] in the right of the package to download and install the module
 5. To request the Widen server, you have to configure the module with your Widen API access information.
 Have a look at the [post-install][wpa:postInstall] process. 
+
+#### Install the module `CodeMirror Editor`:
+
+1. In jContent, go to `Administration` panel.
+2. In the `Server` section expand the `Modules and Extensions` entry and click `Modules`.
+3. From the right panel, click `Available modules` and search for **codeMirror**.
+
+   ![206]
+
+4. Click the icon ![201] in the right of the package to download and install the module
 
 ### Install the Industrial module
 
@@ -202,7 +213,7 @@ Components can also be copy from the `jContent/Content Folders` tree as presente
 [202A]: doc/images/202_modules_animate.png
 [202I]: doc/images/202_modules_industrial.png
 [205]: doc/images/205_module_widen.png
-
+[206]: doc/images/206_module_codeMirror.png
 [800]: doc/images/800_template_sections.png
 [801]: doc/images/801_site_sample.png
 
