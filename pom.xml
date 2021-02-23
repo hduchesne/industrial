@@ -8,7 +8,7 @@
   </parent>
   <groupId>org.jahia.se.modules</groupId>
   <artifactId>industrial</artifactId>
-  <version>2.1.1-SNAPSHOT</version>
+  <version>2.1.1</version>
   <packaging>bundle</packaging>
   <name>Industrial</name>
   <description>This module is designed for marketers or communication team to create quickly and easily
@@ -17,7 +17,7 @@
     <connection>scm:git:git@github.com:hduchesne/industrial.git</connection>
     <developerConnection>scm:git:git@github.com:hduchesne/industrial.git</developerConnection>
     <url>https://github.com/hduchesne/industrial</url>
-    <tag>HEAD</tag>
+    <tag>industrial-2.1.1</tag>
   </scm>
   <properties>
     <jahia-depends>animate,bootstrap4-components,bootstrap4-core,codeMirror-editor,default,font-awesome,jquery,popperjs,widen-picker</jahia-depends>
