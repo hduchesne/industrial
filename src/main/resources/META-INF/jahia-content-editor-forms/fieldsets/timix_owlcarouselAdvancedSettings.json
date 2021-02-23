@@ -1,0 +1,15 @@
+{
+  "name": "timix:owlcarouselAdvancedSettings",
+  "fields": [
+    {
+      "name": "options",
+      "selectorType": "CodeMirror",
+      "selectorOptions":[
+        {
+          "name": "mode",
+          "value" : "javascript"
+        }
+      ]
+    }
+  ]
+}
