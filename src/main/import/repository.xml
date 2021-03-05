@@ -3,7 +3,7 @@
          xmlns:jcr="http://www.jcp.org/jcr/1.0"
          xmlns:ti="http://www.jahia.org/template/b4/industrial/1.0">
    <modules jcr:primaryType="jnt:modules">
-      <industrial j:dependencies="animate bootstrap4-components bootstrap4-core codeMirror-editor default font-awesome jquery popperjs widen-picker"
+      <industrial j:dependencies="animate bootstrap4-components bootstrap4-core default font-awesome jquery popperjs widen-picker"
                   j:installedModules="industrial"
                   j:modulePriority="0"
                   j:moduleType="templatesSet"
