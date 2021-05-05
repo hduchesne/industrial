@@ -35,9 +35,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  	<c:if test="${jcr:isNodeType(renderContext.mainResource.node, 'ogmix:openGraph')}">
-		<template:module node="${renderContext.mainResource.node}" nodeTypes="ogmix:openGraph" />
-	</c:if>
+<%--  	<c:if test="${jcr:isNodeType(renderContext.mainResource.node, 'ogmix:openGraph')}">--%>
+<%--		<template:module node="${renderContext.mainResource.node}" nodeTypes="ogmix:openGraph" />--%>
+<%--	</c:if>--%>
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:400,700" rel="stylesheet">
 <%--    <link rel="stylesheet" href="/modules/industrial/css/ionicons.4.6.3.min.css" media="screen" type="text/css">--%>
