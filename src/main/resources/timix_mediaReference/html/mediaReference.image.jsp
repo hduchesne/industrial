@@ -19,8 +19,7 @@
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
 
 <c:set var="mediaNode" value="${currentNode.properties['ti:mediaNode'].node}"/>
-<utility:logger level="INFO" value="*** damImage.image mediaNode NodeTypes : ${mediaNode.displayableName}"/>
-
+<utility:logger level="DEBUG" value="*** damImage.image mediaNode NodeTypes : ${mediaNode.displayableName}"/>
 
 <c:set var="view" value="galleryImage"/>
 <c:if test="${!empty mediaNode && jcr:isNodeType(mediaNode, 'wdenmix:widenAsset')}">

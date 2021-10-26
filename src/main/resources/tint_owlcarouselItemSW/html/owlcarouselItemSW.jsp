@@ -28,7 +28,7 @@
 
 <c:choose>
     <c:when test="${!empty imageNode && jcr:isNodeType(imageNode, 'wdenmix:widenAsset')}">
-        <utility:logger level="INFO" value="**** jcr:isNodeType(imageNode, 'wdenmix:widenAsset') : ${jcr:isNodeType(imageNode, 'wdenmix:widenAsset')}"/>
+        <utility:logger level="DEBUG" value="**** jcr:isNodeType(imageNode, 'wdenmix:widenAsset') : ${jcr:isNodeType(imageNode, 'wdenmix:widenAsset')}"/>
         <c:set var="imageURL" value="${imageNode.properties['wden:templatedUrl'].string}"/>
         <c:set var="imageURL" value="${fn:replace(imageURL, '{scale}', '1')}"/>
         <c:set var="imageURL" value="${fn:replace(imageURL, '{quality}', '72')}"/>
