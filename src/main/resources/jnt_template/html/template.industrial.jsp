@@ -16,8 +16,12 @@
 
 <%--Get custom css--%>
 <jcr:sql
-	var="_css_"
-	 sql="SELECT * FROM [jnt:file] As node WHERE ISDESCENDANTNODE (node, '${renderContext.site.path}/files/css')"
+		var="_css_"
+	 	sql="SELECT * FROM [jnt:file] As node WHERE ISDESCENDANTNODE (node, '${renderContext.site.path}/files/css')"
+/>
+<jcr:sql
+		var="_css_content_"
+		sql="SELECT * FROM [tint:css] As node WHERE ISDESCENDANTNODE (node, '${renderContext.site.path}/contents')"
 />
 <%--Get custom script--%>
 <jcr:sql
@@ -62,12 +66,18 @@
 <%--	  position is important to be sure custom css will not merged with ofthers and is loaded at the end --%>
 	  <template:addResources type="css" resources="ionicons.4.6.3.min.css" media="screen"/>
 
-	  	<c:forEach items="${_css_.nodes}" var="node">
+		<c:forEach items="${_css_.nodes}" var="node">
 			<c:url var="customCSSUrl" value="${node.url}"/>
 			<c:if test="${fn:endsWith(customCSSUrl, '.css')}">
 				<template:addResources type="css" resources="${customCSSUrl}"/>
 			</c:if>
 		</c:forEach>
+
+		<c:forEach items="${_css_content_.nodes}" var="node">
+<%--			<utility:logger level="info" value=" ***** css : ${node.properties.text.string}"/>--%>
+			<template:module node="${node}" nodeTypes="tint:css"/>
+		</c:forEach>
+
 
 		<c:if test="${renderContext.editMode}">
 			<template:addResources type="css" resources="edit.css"/>
@@ -122,5 +132,5 @@
 			</c:if>
 		</c:forEach>
 	</body>
-  
+
 </html>

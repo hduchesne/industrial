@@ -49,6 +49,9 @@
  - externalLink (string) = 'https://'
 // CONTENT LINKER ***//
 
+//*** CSS //
+[tint:css] > jnt:content, timix:industrial
+- text (string)
 
 //*** TEXT //
 [tint:text]> jnt:content, timix:industrial

@@ -1,0 +1,15 @@
+{
+  "name": "tint:css",
+  "fields": [
+    {
+      "name": "text",
+      "selectorType": "CodeMirror",
+      "selectorOptions":[
+        {
+          "name": "mode",
+          "value" : "css"
+        }
+      ]
+    }
+  ]
+}
