@@ -28,7 +28,12 @@
 <%--</c:choose>--%>
 
 <template:include view="hidden.generateLink"/>
-
+<style>
+    a.link-thumbnail img{
+        max-width: 100%;
+        height: auto;
+    }
+</style>
 <a href="${moduleMap.linkUrl}" class="link-thumbnail">
     <h3>${heading}</h3>
     <span class="${iconClass}"></span>
