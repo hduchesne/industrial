@@ -24,19 +24,6 @@
         {
           "value": {
             "type": "String",
-            "value": "standardWiden"
-          },
-          "displayValue": "Standard (DAM)",
-          "propertyList": [
-            {
-              "name": "addMixin",
-              "value": "timix:owlCarouselSW"
-            }
-          ]
-        },
-        {
-          "value": {
-            "type": "String",
             "value": "testimonial"
           },
           "displayValue": "Testimonial",
@@ -46,23 +33,9 @@
               "value": "timix:owlCarouselT"
             }
           ]
-        },
-        {
-          "value": {
-            "type": "String",
-            "value": "testimonialWiden"
-          },
-          "displayValue": "Testimonial (DAM)",
-          "propertyList": [
-            {
-              "name": "addMixin",
-              "value": "timix:owlCarouselTW"
-            }
-          ]
         }
       ]
     }
   ]
 }
-	
- 
+

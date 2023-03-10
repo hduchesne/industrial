@@ -9,33 +9,6 @@
 
 [timix:industrial] > jmix:droppableContent, jmix:editorialContent mixin
 
-//*** WIDEN //
-[timix:mediaPickerWd] > jmix:dynamicFieldset mixin
- extends = timix:mediaReference
- - ti:mediaNode (weakreference) internationalized < wdenmix:widenAsset
-
-[timix:mediaPickerJc] > jmix:dynamicFieldset mixin
- extends = timix:mediaReference
- - ti:mediaNode (weakreference,picker[type='image']) internationalized < jnt:file
-
-[timix:mediaReference] mixin
- - ti:mediaPicker (string, choicelist) indexed=no
-
-[timix:igVdPickerWd] > jmix:dynamicFieldset mixin
- extends = timix:igVdReference
-- ti:imageNode (weakreference) internationalized < wdenmix:widenAsset
-- ti:videoNode (weakreference) internationalized < wdenmix:widenAsset
-
-[timix:igVdPickerJc] > jmix:dynamicFieldset mixin
- extends = timix:igVdReference
- - ti:imageNode (weakreference,picker[type='image']) internationalized < jmix:image
- - ti:videoNode (weakreference,picker[type='file']) internationalized < jnt:file
-
-[timix:igVdReference] mixin
- - ti:mediaPicker (string, choicelist) indexed=no
-
-
-
 //*** CONTENT LINKER //
 [timix:linkTo] mixin
  - linkType (string, choicelist) indexed=no
@@ -47,7 +20,7 @@
 [timix:externalLink] > jmix:dynamicFieldset mixin
  extends = timix:linkTo
  - externalLink (string) = 'https://'
-// CONTENT LINKER ***//
+
 
 //*** CSS //
 [tint:css] > jnt:content, timix:industrial
@@ -56,18 +29,12 @@
 //*** TEXT //
 [tint:text]> jnt:content, timix:industrial
  - text (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
-// TEXT ***//
 
 
 //*** GALLERY IMAGE //
 [tint:galleryImage] > jnt:content, timix:industrial, bootstrap4mix:image, timix:linkTo, mix:title
  - heading (string) internationalized
  - iconClass (string)
-
-[tint:galleryDamImage] > jnt:content, timix:industrial, timix:mediaReference, timix:linkTo, mix:title
- - heading (string) internationalized
-- iconClass (string)
-// GALLERY IMAGE ***//
 
 //*** CAROUSEL //
 [tint:owlcarouselItemS] > jnt:content, mix:title
@@ -79,14 +46,6 @@
  - avatar (weakreference, picker[type='image']) mandatory < 'jmix:image'
  - heading (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
  - testimonial (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
-
-[tint:owlcarouselItemSW] > jnt:content, timix:igVdReference, mix:title
- - caption (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
-
-[tint:owlcarouselItemTW] > jnt:content, timix:mediaReference, mix:title
- - heading (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
- - testimonial (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
-
 
 [timix:owlcarouselAdvancedSettings] mixin
  extends = tint:owlcarousel
@@ -105,53 +64,23 @@
  extends = tint:owlcarousel
  + * (tint:owlcarouselItemS)
 
-[timix:owlCarouselSW] > jmix:dynamicFieldset mixin
- extends = tint:owlcarousel
- + * (tint:owlcarouselItemSW)
-
-[timix:owlCarouselTW] > jmix:dynamicFieldset mixin
- extends = tint:owlcarousel
- + * (tint:owlcarouselItemTW)
-//CAROUSEL ***//
-
 
 //*** CONTENT //
 //Note could use jnt:imageReferenceLink but prefere mine
 [tint:image] > jnt:content, timix:industrial
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
-//timix:industrial
-[tint:damImage] > jnt:content, timix:mediaReference
 
 [timix:content] mixin
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
  - body (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
 
-[timix:damContent] > timix:mediaReference mixin
- - body (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
-
-
 [tint:heading] > jnt:content, timix:content, timix:industrial
-[tint:damHeading] > jnt:content, timix:damContent, timix:industrial
-
-//[tint:halfBlock] > jnt:content, timix:content, timix:industrial
-// - imagePosition (string, choicelist[resourceBundle]) = 'left' autocreated indexed=no < 'left', 'right'
 
 [tint:halfBlock] > jnt:content, timix:industrial
  - imagePosition (string, choicelist[resourceBundle]) = 'left' autocreated indexed=no < 'left', 'right'
  + image (tint:image)
  + body (tint:text)
 
-//[tint:damHalfBlock] > tint:halfBlock
-// + image (tint:damImage)
-
-[tint:damHalfBlock] > jnt:content, timix:industrial
- - imagePosition (string, choicelist[resourceBundle]) = 'left' autocreated indexed=no < 'left', 'right'
- + image (tint:damImage)
- + body (tint:text)
-
 [tint:card] > jnt:content, timix:content, timix:industrial, timix:linkTo
-[tint:damCard] > jnt:content, timix:damContent, timix:industrial, timix:linkTo
-// CONTENT ***//
-
 
 //TODO create module css & js managment add css et js element -> external -> url || internal -> file or inline
