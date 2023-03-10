@@ -1,9 +1,0 @@
-{
-  "name": "timix:mediaPickerWd",
-  "fields": [
-    {
-      "name": "ti:mediaNode",
-      "selectorType": "WidenPicker"
-    }
-  ]
-}
