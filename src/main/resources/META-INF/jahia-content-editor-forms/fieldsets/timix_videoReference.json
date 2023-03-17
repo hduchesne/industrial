@@ -1,0 +1,41 @@
+{
+  "name": "timix:videoReference",
+  "displayName": "Video Content",
+  "description": "",
+  "dynamic": false,
+  "fields": [
+    {
+      "name": "ti:mediaSource",
+      "displayName": "Video Selection",
+      "valueConstraints": [
+        {
+          "value": {
+            "type": "String",
+            "value": "reference"
+          },
+          "displayValue": "Pick a video",
+          "propertyList": [
+            {
+              "name": "addMixin",
+              "value": "timix:weakVideoContent"
+            }
+          ]
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "url"
+          },
+          "displayValue": "Fill the video URL",
+          "propertyList": [
+            {
+              "name": "addMixin",
+              "value": "timix:videoURL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

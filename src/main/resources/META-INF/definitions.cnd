@@ -8,6 +8,18 @@
 
 [timix:industrial] > jmix:droppableContent, jmix:editorialContent mixin
 
+[timix:weakVideoContent] > jmix:dynamicFieldset mixin
+ extends = timix:videoReference
+ - ti:video (weakreference,picker[type='file']) internationalized < jnt:file
+
+[timix:videoURL] > jmix:dynamicFieldset mixin
+ extends = timix:videoReference
+ - ti:video (string) internationalized
+
+[timix:videoReference] mixin
+ - ti:mediaSource (string, choicelist) indexed=no
+
+
 //*** CONTENT LINKER //
 [timix:linkTo] mixin
  - linkType (string, choicelist) indexed=no
@@ -36,9 +48,9 @@
  - iconClass (string)
 
 //*** CAROUSEL //
-[tint:owlcarouselItemS] > jnt:content, mix:title
+[tint:owlcarouselItemS] > jnt:content, timix:videoReference, mix:title
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
- - videoURL (string) internationalized
+ - videoURL (string) internationalized //remove when migration done
  - caption (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
 
 [tint:owlcarouselItemT] > jnt:content, mix:title
@@ -66,7 +78,7 @@
 
 //*** CONTENT //
 //Note could use jnt:imageReferenceLink but prefere mine
-[tint:image] > jnt:content, timix:industrial
+[tint:image] > jnt:content //, timix:industrial
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
 
 [timix:content] mixin

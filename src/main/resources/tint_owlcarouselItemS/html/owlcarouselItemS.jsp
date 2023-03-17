@@ -18,13 +18,15 @@
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
 
+<utility:logger level="INFO" value=" ***** owcarouseItemS Industrial :  WIN"/>
+
 <%--<c:set var="title" value="${currentNode.properties['jcr:title'].string}"/>--%>
 <c:set var="caption" value="${currentNode.properties.caption.string}"/>
 <%--<c:set var="imageNode" value="${currentNode.properties.image.node}"/>--%>
 
 <c:url var="videoURL" value="${currentNode.properties.videoURL.string}"/>
 <c:url var="imageURL" value="${currentNode.properties.image.node.url}"/>
-
+<%-- TODO review video URL based on new mixin --%>
 <c:choose>
     <c:when test="${renderContext.editMode}">
         <div class="card j-owl-carousel-card-edit">

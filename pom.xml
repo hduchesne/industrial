@@ -46,6 +46,7 @@
           <instructions>
             <Jahia-Module-Type>templatesSet</Jahia-Module-Type>
             <Jahia-Static-Resources>/css,/fonts,/javascript,/images,/icons,/img</Jahia-Static-Resources>
+<!--            <Jahia-Module-Priority>10</Jahia-Module-Priority>-->
           </instructions>
         </configuration>
       </plugin>
