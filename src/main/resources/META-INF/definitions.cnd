@@ -50,7 +50,6 @@
 //*** CAROUSEL //
 [tint:owlcarouselItemS] > jnt:content, timix:videoReference, mix:title
  - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
- - videoURL (string) internationalized //remove when migration done
  - caption (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
 
 [tint:owlcarouselItemT] > jnt:content, mix:title

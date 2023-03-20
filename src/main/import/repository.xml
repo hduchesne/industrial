@@ -1606,55 +1606,57 @@
                                        jcr:primaryType="tint:owlcarousel"
                                        options="{&#xA;    loop:true,&#xA;    autoplay: true,&#xA;    margin:0,&#xA;    animateOut: 'fadeOut',&#xA;    animateIn: 'fadeIn',&#xA;    nav:true,&#xA;    autoplayHoverPause: true,&#xA;    items: 1,&#xA;    dragTouch: false,&#xA;    navText: ['&lt;span class=&#34;ion-ios-arrow-back&#34;&gt;', '&lt;span class=&#34;ion-ios-arrow-forward&#34;&gt;'],&#xA;    responsive:{&#xA;      0:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      600:{&#xA;        items:1,&#xA;        nav:false&#xA;      },&#xA;      1000:{&#xA;        items:1,&#xA;        nav:true&#xA;      }&#xA;    }&#xA; }">
                         <we-are-industrial-company image="#/modules/industrial/files/images/industry/hero_1.jpg"
-                                                   jcr:primaryType="tint:owlcarouselItemS">
+                                                   jcr:mixinTypes="timix:videoURL"
+                                                   jcr:primaryType="tint:owlcarouselItemS"
+                                                   ti:mediaSource="url">
                            <j:translation_en caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="en"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
                                              jcr:title="We Are Industrial Company"
-                                             videoURL="https://vimeo.com/59256790"/>
+                                             ti:video="https://vimeo.com/59256790"/>
                            <j:translation_de caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="de"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
                                              jcr:title="We Are Industrial Company"
-                                             videoURL="https://vimeo.com/59256790"/>
+                                             ti:video="https://vimeo.com/59256790"/>
                            <j:translation_pt caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="pt"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
                                              jcr:title="We Are Industrial Company"
-                                             videoURL="https://vimeo.com/59256790"/>
+                                             ti:video="https://vimeo.com/59256790"/>
                            <j:translation_it caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="it"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
                                              jcr:title="We Are Industrial Company"
-                                             videoURL="https://vimeo.com/59256790"/>
+                                             ti:video="https://vimeo.com/59256790"/>
                            <j:translation_fr caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="fr"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
                                              jcr:title="We Are Industrial Company"
-                                             videoURL="https://vimeo.com/59256790"/>
+                                             ti:video="https://vimeo.com/59256790"/>
                            <j:translation_da caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="da"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
                                              jcr:title="We Are Industrial Company"
-                                             videoURL="https://vimeo.com/59256790"/>
+                                             ti:video="https://vimeo.com/59256790"/>
                            <j:translation_es caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="es"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
                                              jcr:title="We Are Industrial Company"
-                                             videoURL="https://vimeo.com/59256790"/>
+                                             ti:video="https://vimeo.com/59256790"/>
                            <j:translation_de_DE caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                                 jcr:language="de_DE"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
                                                 jcr:title="We Are Industrial Company"
-                                                videoURL="https://vimeo.com/59256790"/>
+                                                ti:video="https://vimeo.com/59256790"/>
                         </we-are-industrial-company>
                         <the-best-level-of-excellence-in image="#/modules/industrial/files/images/industry/hero_2.jpg"
                                                          jcr:primaryType="tint:owlcarouselItemS">
@@ -1667,44 +1669,37 @@
                                              jcr:language="de"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
-                                             jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                             videoURL="https://vimeo.com/59256790"/>
+                                             jcr:title="The Best Level of Excellence in Steel Fabrication"/>
                            <j:translation_pt caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="pt"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
-                                             jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                             videoURL="https://vimeo.com/59256790"/>
+                                             jcr:title="The Best Level of Excellence in Steel Fabrication"/>
                            <j:translation_it caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="it"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
-                                             jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                             videoURL="https://vimeo.com/59256790"/>
+                                             jcr:title="The Best Level of Excellence in Steel Fabrication"/>
                            <j:translation_fr caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="fr"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
-                                             jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                             videoURL="https://vimeo.com/59256790"/>
+                                             jcr:title="The Best Level of Excellence in Steel Fabrication"/>
                            <j:translation_da caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="da"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
-                                             jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                             videoURL="https://vimeo.com/59256790"/>
+                                             jcr:title="The Best Level of Excellence in Steel Fabrication"/>
                            <j:translation_es caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="es"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
-                                             jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                             videoURL="https://vimeo.com/59256790"/>
+                                             jcr:title="The Best Level of Excellence in Steel Fabrication"/>
                            <j:translation_de_DE caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                                 jcr:language="de_DE"
                                                 jcr:mixinTypes="mix:title"
                                                 jcr:primaryType="jnt:translation"
-                                                jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                                videoURL="https://vimeo.com/59256790"/>
+                                                jcr:title="The Best Level of Excellence in Steel Fabrication"/>
                         </the-best-level-of-excellence-in>
                      </heading-carousel>
                      <features-section gridLayout="fixed-width"
@@ -3909,44 +3904,37 @@
                                           jcr:language="de"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
-                                          jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                          videoURL="https://vimeo.com/59256790"/>
+                                          jcr:title="The Best Level of Excellence in Steel Fabrication"/>
                         <j:translation_pt caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                           jcr:language="pt"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
-                                          jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                          videoURL="https://vimeo.com/59256790"/>
+                                          jcr:title="The Best Level of Excellence in Steel Fabrication"/>
                         <j:translation_it caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                           jcr:language="it"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
-                                          jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                          videoURL="https://vimeo.com/59256790"/>
+                                          jcr:title="The Best Level of Excellence in Steel Fabrication"/>
                         <j:translation_fr caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                           jcr:language="fr"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
-                                          jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                          videoURL="https://vimeo.com/59256790"/>
+                                          jcr:title="The Best Level of Excellence in Steel Fabrication"/>
                         <j:translation_da caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                           jcr:language="da"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
-                                          jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                          videoURL="https://vimeo.com/59256790"/>
+                                          jcr:title="The Best Level of Excellence in Steel Fabrication"/>
                         <j:translation_es caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                           jcr:language="es"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
-                                          jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                          videoURL="https://vimeo.com/59256790"/>
+                                          jcr:title="The Best Level of Excellence in Steel Fabrication"/>
                         <j:translation_de_DE caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;The Best Level of Excellence in Steel Fabrication&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="de_DE"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
-                                             jcr:title="The Best Level of Excellence in Steel Fabrication"
-                                             videoURL="https://vimeo.com/59256790"/>
+                                             jcr:title="The Best Level of Excellence in Steel Fabrication"/>
                      </the-best-level-of-excellence-in>
                      <we-are-industrial-company image="#/modules/industrial/files/images/industry/hero_1.jpg"
                                                 jcr:mixinTypes="timix:videoURL"
@@ -3957,50 +3945,49 @@
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="We Are Industrial Company"
-                                          ti:video="https://vimeo.com/59256790"
-                                          videoURL="https://vimeo.com/59256790"/>
+                                          ti:video="https://vimeo.com/59256790"/>
                         <j:translation_de caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                           jcr:language="de"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="We Are Industrial Company"
-                                          videoURL="https://vimeo.com/59256790"/>
+                                          ti:video="https://vimeo.com/59256790"/>
                         <j:translation_pt caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                           jcr:language="pt"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="We Are Industrial Company"
-                                          videoURL="https://vimeo.com/59256790"/>
+                                          ti:video="https://vimeo.com/59256790"/>
                         <j:translation_it caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                           jcr:language="it"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="We Are Industrial Company"
-                                          videoURL="https://vimeo.com/59256790"/>
+                                          ti:video="https://vimeo.com/59256790"/>
                         <j:translation_fr caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                           jcr:language="fr"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="We Are Industrial Company"
-                                          videoURL="https://vimeo.com/59256790"/>
+                                          ti:video="https://vimeo.com/59256790"/>
                         <j:translation_da caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                           jcr:language="da"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="We Are Industrial Company"
-                                          videoURL="https://vimeo.com/59256790"/>
+                                          ti:video="https://vimeo.com/59256790"/>
                         <j:translation_es caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                           jcr:language="es"
                                           jcr:mixinTypes="mix:title"
                                           jcr:primaryType="jnt:translation"
                                           jcr:title="We Are Industrial Company"
-                                          videoURL="https://vimeo.com/59256790"/>
+                                          ti:video="https://vimeo.com/59256790"/>
                         <j:translation_de_DE caption="&lt;h1 class=&#34;mb-4&#34;&gt;&lt;span&gt;We Are Industrial Company&lt;/span&gt;&lt;/h1&gt;&#xA;&#xA;&lt;p class=&#34;mb-5 w-75&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias iste ipsa excepturi nostrum sequi molestias?&lt;/p&gt;&#xA;"
                                              jcr:language="de_DE"
                                              jcr:mixinTypes="mix:title"
                                              jcr:primaryType="jnt:translation"
                                              jcr:title="We Are Industrial Company"
-                                             videoURL="https://vimeo.com/59256790"/>
+                                             ti:video="https://vimeo.com/59256790"/>
                      </we-are-industrial-company>
                   </heading-carousel>
                   <features-section gridLayout="fixed-width"

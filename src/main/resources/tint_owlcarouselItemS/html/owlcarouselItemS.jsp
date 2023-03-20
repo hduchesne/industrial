@@ -18,14 +18,25 @@
 <%--@elvariable id="currentResource" type="org.jahia.services.render.Resource"--%>
 <%--@elvariable id="url" type="org.jahia.services.render.URLGenerator"--%>
 
-<utility:logger level="INFO" value=" ***** owcarouseItemS Industrial :  WIN"/>
+<utility:logger level="DEBUG" value=" ***** owcarouseItemS Industrial :  WIN"/>
 
-<%--<c:set var="title" value="${currentNode.properties['jcr:title'].string}"/>--%>
+
 <c:set var="caption" value="${currentNode.properties.caption.string}"/>
-<%--<c:set var="imageNode" value="${currentNode.properties.image.node}"/>--%>
-
-<c:url var="videoURL" value="${currentNode.properties.videoURL.string}"/>
 <c:url var="imageURL" value="${currentNode.properties.image.node.url}"/>
+
+<c:set var="mediaSource" value="${currentNode.properties['ti:mediaSource'].string}" />
+<c:choose>
+    <c:when test="${mediaSource eq 'reference'}">
+        <c:url var="videoURL" value="${currentNode.properties['ti:video'].node.url}"/>
+    </c:when>
+    <c:when test="${mediaSource eq 'url'}">
+        <c:url var="videoURL" value="${currentNode.properties['ti:video'].string}"/>
+    </c:when>
+</c:choose>
+
+<utility:logger level="DEBUG" value=" ***** owcarouseItemS Industrial mediaSource :  ${mediaSource}"/>
+<utility:logger level="DEBUG" value=" ***** owcarouseItemS Industrial videoURL :  ${videoURL}"/>
+
 <%-- TODO review video URL based on new mixin --%>
 <c:choose>
     <c:when test="${renderContext.editMode}">

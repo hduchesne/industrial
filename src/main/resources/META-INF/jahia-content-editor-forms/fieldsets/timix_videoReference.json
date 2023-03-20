@@ -6,7 +6,6 @@
   "fields": [
     {
       "name": "ti:mediaSource",
-      "displayName": "Video Selection",
       "valueConstraints": [
         {
           "value": {
