@@ -1,0 +1,9 @@
+{
+  "name": "tint:owlcarouselItemT",
+  "fields": [
+    {
+      "name": "avatar",
+      "selectorType": "DamSelector"
+    }
+  ]
+}

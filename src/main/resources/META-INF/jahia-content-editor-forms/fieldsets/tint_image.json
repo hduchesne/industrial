@@ -1,0 +1,9 @@
+{
+  "name": "tint:image",
+  "fields": [
+    {
+      "name": "image",
+      "selectorType": "DamSelector"
+    }
+  ]
+}

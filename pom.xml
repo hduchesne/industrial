@@ -20,7 +20,7 @@
     <url>https://github.com/hduchesne/industrial</url>
   </scm>
   <properties>
-    <jahia-depends>animate,bootstrap4-components,bootstrap4-core,codemirror-editor,default,font-awesome,jquery,popperjs</jahia-depends>
+    <jahia-depends>animate,bootstrap4-components,bootstrap4-core,codemirror-editor,default,font-awesome,jquery,popperjs,dam-selector</jahia-depends>
   </properties>
   <repositories>
     <repository>
@@ -46,7 +46,7 @@
           <instructions>
             <Jahia-Module-Type>templatesSet</Jahia-Module-Type>
             <Jahia-Static-Resources>/css,/fonts,/javascript,/images,/icons,/img</Jahia-Static-Resources>
-<!--            <Jahia-Module-Priority>10</Jahia-Module-Priority>-->
+            <Jahia-Module-Priority>10</Jahia-Module-Priority>
           </instructions>
         </configuration>
       </plugin>

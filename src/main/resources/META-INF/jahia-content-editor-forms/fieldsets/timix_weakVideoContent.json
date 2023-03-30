@@ -1,0 +1,9 @@
+{
+  "name": "timix:weakVideoContent",
+  "fields": [
+    {
+      "name": "ti:video",
+      "selectorType": "DamSelector"
+    }
+  ]
+}

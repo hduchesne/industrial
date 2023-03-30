@@ -22,7 +22,12 @@
 <c:set var="heading" value="${currentNode.properties.heading.string}"/>
 <c:set var="testimonial" value="${currentNode.properties.testimonial.string}"/>
 
-<c:url var="avatarURL" value="${currentNode.properties.avatar.node.url}"/>
+<%--<c:url var="avatarURL" value="${currentNode.properties.avatar.node.url}"/>--%>
+<c:set var="mediaNode" value="${currentNode.properties['avatar'].node}"/>
+<c:set var="mediaWidth" value="256"/>
+<%@ include file="../../getMediaURL.jspf"%>
+<c:set var="avatarURL" value="${mediaURL}"/>
+<template:addCacheDependency node="${mediaNode}"/>
 
 <c:choose>
     <c:when test="${renderContext.editMode}">

@@ -1,0 +1,9 @@
+{
+  "name": "tint:owlcarouselItemS",
+  "fields": [
+    {
+      "name": "image",
+      "selectorType": "DamSelector"
+    }
+  ]
+}

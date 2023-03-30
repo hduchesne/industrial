@@ -8,10 +8,14 @@
 <%--<template:addResources type="javascript" resources="jquery.min.js,popper.min.js,bootstrap.min.js"/>--%>
 
 <c:set var="body" value="${currentNode.properties.body.string}"/>
-<c:set var="imageNode" value="${currentNode.properties.image.node}"/>
+<%--<c:set var="imageNode" value="${currentNode.properties.image.node}"/>--%>
+<c:set var="mediaNode" value="${currentNode.properties['image'].node}"/>
+<c:set var="mediaWidth" value="1280"/>
+<%@ include file="../../getMediaURL.jspf"%>
+<c:set var="imageURL" value="${mediaURL}"/>
 
-<template:addCacheDependency node="${imageNode}"/>
-<c:url var="imageURL" value="${imageNode.url}"/>
+<template:addCacheDependency node="${mediaNode}"/>
+<%--<c:url var="imageURL" value="${imageNode.url}"/>--%>
 
 <div class="inner-page">
     <div class="slider-item" style="background-image: url('${imageURL}');">

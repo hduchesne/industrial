@@ -1,14 +1,7 @@
 <%@ page language="java" contentType="text/html;charset=UTF-8" %>
 <%@ taglib prefix="template" uri="http://www.jahia.org/tags/templateLib" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<%@ taglib prefix="jcr" uri="http://www.jahia.org/tags/jcr" %>
-<%@ taglib prefix="ui" uri="http://www.jahia.org/tags/uiComponentsLib" %>
-<%@ taglib prefix="functions" uri="http://www.jahia.org/tags/functions" %>
-<%@ taglib prefix="query" uri="http://www.jahia.org/tags/queryLib" %>
 <%@ taglib prefix="utility" uri="http://www.jahia.org/tags/utilityLib" %>
-<%@ taglib prefix="s" uri="http://www.jahia.org/tags/search" %>
 <%--@elvariable id="currentNode" type="org.jahia.services.content.JCRNodeWrapper"--%>
 <%--@elvariable id="out" type="java.io.PrintWriter"--%>
 <%--@elvariable id="script" type="org.jahia.services.render.scripting.Script"--%>
@@ -20,14 +13,20 @@
 
 <utility:logger level="DEBUG" value=" ***** owcarouseItemS Industrial :  WIN"/>
 
-
 <c:set var="caption" value="${currentNode.properties.caption.string}"/>
-<c:url var="imageURL" value="${currentNode.properties.image.node.url}"/>
+<%--<c:url var="imageURL" value="${currentNode.properties.image.node.url}"/>--%>
+<c:set var="mediaNode" value="${currentNode.properties['image'].node}"/>
+<c:set var="mediaWidth" value="2000"/>
+<%@ include file="../../getMediaURL.jspf"%>
+<c:set var="imageURL" value="${mediaURL}"/>
+<template:addCacheDependency node="${mediaNode}"/>
 
 <c:set var="mediaSource" value="${currentNode.properties['ti:mediaSource'].string}" />
 <c:choose>
     <c:when test="${mediaSource eq 'reference'}">
-        <c:url var="videoURL" value="${currentNode.properties['ti:video'].node.url}"/>
+        <c:set var="mediaNode" value="${currentNode.properties['ti:video'].node}"/>
+        <%@ include file="../../getMediaURL.jspf"%>
+        <c:set var="videoURL" value="${mediaURL}"/>
     </c:when>
     <c:when test="${mediaSource eq 'url'}">
         <c:url var="videoURL" value="${currentNode.properties['ti:video'].string}"/>

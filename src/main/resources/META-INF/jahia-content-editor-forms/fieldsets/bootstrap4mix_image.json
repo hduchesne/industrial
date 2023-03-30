@@ -1,0 +1,9 @@
+{
+  "name": "bootstrap4mix:image",
+  "fields": [
+    {
+      "name": "image",
+      "selectorType": "DamSelector"
+    }
+  ]
+}

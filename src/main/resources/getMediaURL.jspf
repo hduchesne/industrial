@@ -1,0 +1,21 @@
+<%@ taglib prefix="template" uri="http://www.jahia.org/tags/templateLib" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="jcr" uri="http://www.jahia.org/tags/jcr" %>
+
+<c:choose>
+    <c:when test="${!empty mediaNode && jcr:isNodeType(mediaNode, 'cloudymix:cloudyAsset')}">
+        <template:module node="${mediaNode}" view="hidden.getURL" var="mediaURL" editable="false" templateType="txt">
+            <template:param name="width" value="${not empty mediaWidth ? mediaWidth : '768'}"/>
+        </template:module>
+    </c:when>
+    <c:when test="${!empty mediaNode && jcr:isNodeType(mediaNode, 'wdenmix:widenAsset')}">
+        <template:module node="${mediaNode}" view="hidden.getURL" var="mediaURL" editable="false" templateType="txt">
+            <template:param name="scale" value="${not empty mediaScale ? mediaScale : 1}"/>
+            <template:param name="quality" value="${not empty mediaQuality ? mediaQuality : 72}"/>
+            <template:param name="size" value="${not empty mediaWidth ? mediaWidth : '768'}"/>
+        </template:module>
+    </c:when>
+    <c:otherwise>
+        <c:url var="mediaURL" value="${mediaNode.url}"/>
+    </c:otherwise>
+</c:choose>

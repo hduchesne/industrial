@@ -1,0 +1,9 @@
+{
+  "name": "timix:content",
+  "fields": [
+    {
+      "name": "image",
+      "selectorType": "DamSelector"
+    }
+  ]
+}
