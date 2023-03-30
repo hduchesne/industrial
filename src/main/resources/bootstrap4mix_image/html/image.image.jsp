@@ -6,7 +6,7 @@
 <%@ taglib prefix="utility" uri="http://www.jahia.org/tags/utilityLib" %>
 <%--@elvariable id="currentNode" type="org.jahia.services.content.JCRNodeWrapper"--%>
 
-<utility:logger level="INFO" value=" ***** bootstrap4mix_image.image "/>
+<%--<utility:logger level="INFO" value=" ***** bootstrap4mix_image.image "/>--%>
 <template:addResources type="css" resources="bootstrap.min.css"/>
 <c:set var="imageNode" value="${currentNode.properties['image'].node}"/>
 <c:if test="${! empty imageNode}">

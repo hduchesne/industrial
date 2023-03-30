@@ -10,11 +10,12 @@
 <c:set var="caption" value="${currentNode.properties['jcr:title'].string}"/>
 
 <%--<c:url var="imageURL" value="${currentNode.properties.image.node.url}"/>--%>
-<utility:logger level="INFO" value=" ***** bootstrap4nt_figure.industrial.features "/>
+
+<%--<utility:logger level="INFO" value=" ***** bootstrap4nt_figure.industrial.features "/>--%>
 
 <c:choose>
     <c:when test="${renderContext.editMode}">
-        <utility:logger level="INFO" value=" ***** bootstrap4nt_figure.industrial.features isEdit mode call image"/>
+<%--        <utility:logger level="INFO" value=" ***** bootstrap4nt_figure.industrial.features isEdit mode call image"/>--%>
         <template:include view="image">
             <template:param name="class" value="img-fluid"/>
         </template:include>
