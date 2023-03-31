@@ -49,11 +49,11 @@
 
 //*** CAROUSEL //
 [tint:owlcarouselItemS] > jnt:content, timix:videoReference, mix:title
- - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
+ - image (weakreference, picker[type='image']) mandatory // < 'jmix:image'
  - caption (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
 
 [tint:owlcarouselItemT] > jnt:content, mix:title
- - avatar (weakreference, picker[type='image']) mandatory < 'jmix:image'
+ - avatar (weakreference, picker[type='image']) mandatory // < 'jmix:image'
  - heading (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
  - testimonial (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/default.js']) internationalized
 
@@ -77,11 +77,11 @@
 
 //*** CONTENT //
 //Note could use jnt:imageReferenceLink but prefere mine
-[tint:image] > jnt:content //, timix:industrial
- - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
+[tint:image] > jnt:content, timix:industrial
+ - image (weakreference, picker[type='image']) mandatory // < 'jmix:image'
 
 [timix:content] mixin
- - image (weakreference, picker[type='image']) mandatory < 'jmix:image'
+ - image (weakreference, picker[type='image']) mandatory // < 'jmix:image'
  - body (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
 
 [tint:heading] > jnt:content, timix:content, timix:industrial
