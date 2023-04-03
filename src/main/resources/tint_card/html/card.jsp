@@ -9,7 +9,7 @@
 <c:set var="body" value="${currentNode.properties.body.string}"/>
 <%--<c:set var="imageNode" value="${currentNode.properties.image.node}"/>--%>
 <c:set var="mediaNode" value="${currentNode.properties['image'].node}"/>
-<c:set var="mediaWidth" value="1280"/>
+<%--<c:set var="mediaWidth" value="512"/>--%>
 <%@ include file="../../getMediaURL.jspf"%>
 <c:set var="imageURL" value="${mediaURL}"/>
 

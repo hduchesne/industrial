@@ -43,7 +43,7 @@
 
 
 //*** GALLERY IMAGE //
-[tint:galleryImage] > jnt:content, timix:industrial, bootstrap4mix:image, timix:linkTo, mix:title
+[tint:galleryImage] > jnt:content, timix:industrial, tint:image, timix:linkTo, mix:title
  - heading (string) internationalized
  - iconClass (string)
 

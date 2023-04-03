@@ -32,7 +32,7 @@
 <a href="${moduleMap.linkUrl}" class="link-thumbnail">
     <h3>${heading}</h3>
     <span class="${iconClass}"></span>
-    <template:include view="image">
+    <template:include view="hidden.image">
         <template:param name="class" value="img-fluid"/>
     </template:include>
 </a>

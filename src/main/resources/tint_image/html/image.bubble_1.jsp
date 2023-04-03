@@ -4,9 +4,6 @@
 <%@ taglib prefix="utility" uri="http://www.jahia.org/tags/utilityLib" %>
 <%@ taglib prefix="template" uri="http://www.jahia.org/tags/templateLib" %>
 
-<%--<c:set var="alt" value="${currentNode.properties.name.string}"/>--%>
-<c:url var="imageURL" value="${currentNode.properties.image.node.url}"/>
-
 <style>
     .Blob__img--blob-1 {
         clip-path: url(#Blob__path--blob-1);
@@ -16,7 +13,6 @@
         width: 0;
     }
 </style>
-
 <figure class="">
     <svg class="Blob__svg" width="482" height="430" viewBox="0 0 482 430" aria-hidden="true">
 
@@ -25,7 +21,7 @@
         </clipPath>
     </svg>
 
-    <template:include view="image">
+    <template:include view="default">
         <template:param name="class" value="img-fluid Blob__img--blob-1"/>
     </template:include>
 </figure>
