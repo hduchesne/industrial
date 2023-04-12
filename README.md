@@ -11,21 +11,23 @@ Following the concept of bootstrap 4, the template can be modified or used as hi
 
 From a technical point of view, this module is a `template set`. But, it can be also used to demonstrate
 the integration of an external Digital Asset Manager (DAM) with Jahia jContent. Indeed, with this modules
-you can see the [Widen Picker Accelerator][wpa:gitUrl] in action within complex content like carousel.
-> Note: The DAM integration required a [Widen][widen:url] account, and content samples are linked to
->the Jahia Widen account
+you can see the [Widen Picker Accelerator][wpa:gitUrl] or [Cloudinary Picker Accelerator][cpa:gitUrl] in
+action within complex content like carousel.
+
+> Note: The DAM integration required a [Widen][widen:url] or [Cloudinary][cloudinary:url] account.
  
-> Note: even if you do not have a Widen account you can use this template set. But the external DAM
->capabilities will not be functional, and the media contents will not be there by default. If you need
->some media contents for a demo, you can install the relative module [Industrial Media Component][imc:gitUrl].
+> Note: even if you do not have a Widen or Cloudinary account you can use this template set.
+> But the external DAM capabilities will not be functional, and the media contents will be the one
+> provided by default. If you need more media contents for a demo, you can install
+> the relative module [Industrial Media Component][imc:gitUrl].
  
 - [Module content](#module-content)
 - [Quick Start](#quick-start)
     - [Install dependencies](#install-dependencies)
         - [Install the module `Bootstrap 4 Package`](#install-the-module-bootstrap-4-package)
         - [Install the module `animate`](#install-the-module-animate)
-        - [Install the module `widen-picker`](#install-the-module-widen-picker)
-        - [Install the module `codeMirror-editor`](#install-the-module-codeMirror)
+        - [Install the module `dam-selector`](#install-the-module-dam-selector)
+        - [Install the module `codeMirror-editor`](#install-the-module-codemirror-editor)
     - [Install the Industrial module](#install-the-industrial-module)
 - [Create a new website using `industrial` template set](#create-a-new-website-using-industrial-template-set)
 - [Contribute with prepackage components](#contribute-with-prepackage-components)
@@ -96,17 +98,17 @@ Thus, before to install and to run the Industrial module we need to ensure depen
     
 1. Click the icon ![201] in the right of the package to download and install the module
 
-#### Install the module `Widen Picker`: 
+#### Install the module `Dam Selector`: 
 
 1. In jContent, go to `Administration` panel.
 2. In the `Server` section expand the `Modules and Extensions` entry and click `Modules`.
-3. From the right panel, click `Available modules` and search for **widen**.
+3. From the right panel, click `Available modules` and search for **dam**.
 
     ![205]
     
 4. Click the icon ![201] in the right of the package to download and install the module
-5. To request the Widen server, you have to configure the module with your Widen API access information.
-Have a look at the [post-install][wpa:postInstall] process. 
+<!-- 5. To request the Widen server, you have to configure the module with your Widen API access information.
+Have a look at the [post-install][wpa:postInstall] process. -->
 
 #### Install the module `CodeMirror Editor`:
 
@@ -122,7 +124,7 @@ Have a look at the [post-install][wpa:postInstall] process.
 
 Now the dependencies are installed, industrial module is ready to be deployed.
 
-#### From the source
+#### Snapshot From the source
 1. Download the zip archive of the latest release.
 2. Go to the root of the repository.
 1. Run the command `mvn clean install`. This create a jar file in the *target* repository.
@@ -157,13 +159,11 @@ To create a new website using `industrial` follow the next steps:
     ![Create a new web project][001]
 
 4. Select the template set `industrial` and choose modules to be deployed:
-    1. (optional) `Bootstrap 4 Components`: to enable all default bootstrap 4 elements as
-    the useful **Layout and Grid**.
-    2. (optional) `Widen Picker`: to enable external DAM capabilities. Require a Widen account .
-    3. (optional) `animate`: to enable javascript animation set on content like images.
-    4. (optional) `Jahia Google Analytics`: to enable the `Google Analytics site settings`
-    entry used to include your google analytics tag.
-
+   1. (optional) `Cloudinary`: to enable external DAM capabilities. Require a Cloudinary account.
+   2. (optional) `Jahia Google Analytics`: to enable the `Google Analytics site settings`
+         entry used to include your google analytics tag.
+   3. (optional) `Widen Picker`: to enable external DAM capabilities. Require a Widen account .
+   
     ![Create a new web project][002]
     
 5. Review the information and click SAVE
@@ -177,17 +177,9 @@ To create a new website using `industrial` follow the next steps:
 ## Contribute with prepackage components
 By default, the module deploys 4 pages of which 3 are examples, and they can be deleted. But, keep in mind
 you can copy/past/update component from the industrial page. In the example below, we copy the carousel
-component before to copy it later in the Home page.
+component before to past it later in the Home page.
 
 ![801]
-
-Components can also be copy from the `jContent/Content Folders` tree as presented below.
-
-![800]
-
-> Note: keep in mind that media contents inside the default components are linked to a Widen instance.
->So without a Widen account these media content will not be displayed, but you can update them with a local
->media content.
 
 <!--
 ## Use Jahia `Forms` and `jExperience` with an Industrial website
@@ -212,9 +204,8 @@ Components can also be copy from the `jContent/Content Folders` tree as presente
 [201]: doc/images/201_modules_download_icon.png
 [202A]: doc/images/202_modules_animate.png
 [202I]: doc/images/202_modules_industrial.png
-[205]: doc/images/205_module_widen.png
+[205]: doc/images/205_module_damSelector.png
 [206]: doc/images/206_module_codeMirror.png
-[800]: doc/images/800_template_sections.png
 [801]: doc/images/801_site_sample.png
 
 [forms-jx]: doc/en/formsAndJexperience.md
@@ -225,6 +216,8 @@ Components can also be copy from the `jContent/Content Folders` tree as presente
 [widen-website]: https://www.widen.com/
 [wpa:postInstall]: https://github.com/Jahia/widen-asset-picker#post-install-optional
 [wpa:gitUrl]: https://github.com/Jahia/widen-asset-picker
+[cpa:gitUrl]:https://github.com/Jahia/cloudinary-picker
 [imc:gitUrl]: https://github.com/hduchesne/industrial-media-component
 [widen:url]: https://www.widen.com/
+[cloudinary:url]: https://cloudinary.com/
 [doc-fr]: doc/fr/README.md
