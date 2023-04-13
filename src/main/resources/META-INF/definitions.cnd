@@ -14,7 +14,7 @@
 
 [timix:videoURL] > jmix:dynamicFieldset mixin
  extends = timix:videoReference
- - ti:video (string) internationalized
+ - ti:video (string) = 'https://' internationalized
 
 [timix:videoReference] mixin
  - ti:mediaSource (string, choicelist) indexed=no
