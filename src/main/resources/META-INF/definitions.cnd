@@ -32,6 +32,8 @@
  extends = timix:linkTo
  - externalLink (string) = 'https://'
 
+[timix:image] mixin
+ - image (weakreference, picker[type='image']) mandatory
 
 //*** CSS //
 [tint:css] > jnt:content, timix:industrial
@@ -43,7 +45,7 @@
 
 
 //*** GALLERY IMAGE //
-[tint:galleryImage] > jnt:content, timix:industrial, tint:image, timix:linkTo, mix:title
+[tint:galleryImage] > jnt:content, timix:industrial, timix:image, timix:linkTo, mix:title
  - heading (string) internationalized
  - iconClass (string)
 
@@ -77,8 +79,7 @@
 
 //*** CONTENT //
 //Note could use jnt:imageReferenceLink but prefere mine
-[tint:image] > jnt:content, timix:industrial
- - image (weakreference, picker[type='image']) mandatory
+[tint:image] > jnt:content, timix:industrial, timix:image
 
 [timix:content] mixin
  - image (weakreference, picker[type='image']) mandatory

@@ -18,6 +18,9 @@
     overflow: hidden;
 }
 
+.btn-faq{
+    white-space:normal;
+}
 /*.half .image img {*/
 /*    object-fit: cover;*/
 /*    width: 100%;*/
