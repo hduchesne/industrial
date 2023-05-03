@@ -78,7 +78,7 @@
 
 
 //*** CONTENT //
-//Note could use jnt:imageReferenceLink but prefere mine
+//Note : could use jnt:imageReferenceLink but prefer mine
 [tint:image] > jnt:content, timix:industrial, timix:image
 
 [timix:content] mixin
