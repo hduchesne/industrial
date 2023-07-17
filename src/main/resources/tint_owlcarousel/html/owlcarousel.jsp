@@ -9,6 +9,7 @@
 <%@ taglib prefix="query" uri="http://www.jahia.org/tags/queryLib" %>
 <%@ taglib prefix="utility" uri="http://www.jahia.org/tags/utilityLib" %>
 <%@ taglib prefix="s" uri="http://www.jahia.org/tags/search" %>
+<%@ taglib prefix="tempalte" uri="http://www.jahia.org/tags/templateLib" %>
 <%--@elvariable id="currentNode" type="org.jahia.services.content.JCRNodeWrapper"--%>
 <%--@elvariable id="out" type="java.io.PrintWriter"--%>
 <%--@elvariable id="script" type="org.jahia.services.render.scripting.Script"--%>
@@ -62,7 +63,6 @@
     $('#${sliderId}').owlCarousel(${not empty options?options:''});
     </c:if>
 </script>
-
 
 <c:if test="${renderContext.editMode}">
     <%--
