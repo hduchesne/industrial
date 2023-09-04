@@ -6,7 +6,7 @@
 <tint = 'http://www.jahia.org/template/b4/industrial/nt/1.0'>
 <ti = 'http://www.jahia.org/template/b4/industrial/1.0'>
 
-[timix:industrial] > jmix:droppableContent, jmix:editorialContent mixin
+[timix:industrial] > jmix:droppableContent, jmix:editorialContent, jmix:accessControllableContent mixin
 
 [timix:weakVideoContent] > jmix:dynamicFieldset mixin
  extends = timix:videoReference
