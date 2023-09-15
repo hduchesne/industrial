@@ -35,6 +35,7 @@
     <c:set var="divClass" value="${currentNode.properties.divClass.string}"/>
     <c:set var="addContainerWithinTheNavbar" value="${currentNode.properties.addContainerWithinTheNavbar.boolean}"/>
     <c:set var="addLoginButton" value="${currentNode.properties.addLoginButton.boolean}"/>
+    <c:set var="addLanguageButton" value="${currentNode.properties.addLanguageButton.boolean}"/>
 </c:if>
 <c:if test="${empty navClass}">
     <c:set var="navClass" value="navbar navbar-expand-lg navbar-light bg-light"/>
@@ -48,6 +49,10 @@
 <c:if test="${empty addLoginButton}">
     <c:set var="addLoginButton" value="false"/>
 </c:if>
+<c:if test="${empty addLanguageButton}">
+    <c:set var="addLanguageButton" value="false"/>
+</c:if>
+
 
 <c:set var="root" value="${currentNode.properties.root.string}"/>
 <c:set var="curentPageNode" value="${renderContext.mainResource.node}"/>
@@ -98,6 +103,10 @@
 
         <c:if test="${addLoginButton}">
             <template:include view="hidden.login"/>
+        </c:if>
+
+        <c:if test="${addLanguageButton}">
+            <template:include view="hidden.languages"/>
         </c:if>
     </div>
     <c:if test="${addContainerWithinTheNavbar}">

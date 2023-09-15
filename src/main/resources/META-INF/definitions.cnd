@@ -2,11 +2,12 @@
 <jmix = 'http://www.jahia.org/jahia/mix/1.0'>
 <jnt = 'http://www.jahia.org/jahia/nt/1.0'>
 <mix = 'http://www.jcp.org/jcr/mix/1.0'>
+<seumix = 'http://modules.se.jahia.org/se-utils/mix/1.0'>
 <timix = 'http://www.jahia.org/template/b4/industrial/mix/1.0'>
 <tint = 'http://www.jahia.org/template/b4/industrial/nt/1.0'>
 <ti = 'http://www.jahia.org/template/b4/industrial/1.0'>
 
-[timix:industrial] > jmix:droppableContent, jmix:editorialContent mixin
+[timix:industrial] > jmix:droppableContent, jmix:editorialContent, jmix:accessControllableContent mixin
 
 [timix:weakVideoContent] > jmix:dynamicFieldset mixin
  extends = timix:videoReference
@@ -18,19 +19,6 @@
 
 [timix:videoReference] mixin
  - ti:mediaSource (string, choicelist) indexed=no
-
-
-//*** CONTENT LINKER //
-[timix:linkTo] mixin
- - linkType (string, choicelist) indexed=no
- - linkTarget (string, choicelist[resourceBundle]) = _blank autocreated indexed=no < '_blank', '_self', '_parent', '_top'
-[timix:internalLink] > jmix:dynamicFieldset mixin
- extends = timix:linkTo
- - internalLink (weakreference, picker[type='editoriallink']) < 'jmix:droppableContent', 'jnt:page', 'jnt:file'
-
-[timix:externalLink] > jmix:dynamicFieldset mixin
- extends = timix:linkTo
- - externalLink (string) = 'https://'
 
 [timix:image] mixin
  - image (weakreference, picker[type='image']) mandatory
@@ -45,7 +33,7 @@
 
 
 //*** GALLERY IMAGE //
-[tint:galleryImage] > jnt:content, timix:industrial, timix:image, timix:linkTo, mix:title
+[tint:galleryImage] > jnt:content, timix:industrial, timix:image, seumix:linkTo, mix:title
  - heading (string) internationalized
  - iconClass (string)
 
@@ -92,6 +80,6 @@
  + image (tint:image)
  + body (tint:text)
 
-[tint:card] > jnt:content, timix:content, timix:industrial, timix:linkTo
+[tint:card] > jnt:content, timix:content, timix:industrial, seumix:linkTo
 
 //TODO create module css & js managment add css et js element -> external -> url || internal -> file or inline

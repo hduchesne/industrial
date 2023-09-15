@@ -14,19 +14,23 @@
 <utility:logger level="DEBUG" value=" ***** owcarouseItemS Industrial :  WIN"/>
 
 <c:set var="caption" value="${currentNode.properties.caption.string}"/>
-<%--<c:url var="imageURL" value="${currentNode.properties.image.node.url}"/>--%>
-<c:set var="mediaNode" value="${currentNode.properties['image'].node}"/>
-<c:set var="mediaWidth" value="2000"/>
-<%@ include file="../../getMediaURL.jspf"%>
-<c:set var="imageURL" value="${mediaURL}"/>
-<template:addCacheDependency node="${mediaNode}"/>
+
+<c:set var="imageNode" value="${currentNode.properties['image'].node}"/>
+<template:addCacheDependency node="${imageNode}"/>
+<template:module node="${imageNode}" view="hidden.getURL" var="imageURL" editable="false" templateType="txt">
+    <template:param name="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '2000'}"/>
+    <template:param name="height" value="${currentResource.moduleParams.mediaHeight}"/>
+    <template:param name="scale" value="${currentResource.moduleParams.mediaScale}"/>
+    <template:param name="quality" value="${currentResource.moduleParams.mediaQuality}"/>
+</template:module>
+
 
 <c:set var="mediaSource" value="${currentNode.properties['ti:mediaSource'].string}" />
 <c:choose>
     <c:when test="${mediaSource eq 'reference'}">
-        <c:set var="mediaNode" value="${currentNode.properties['ti:video'].node}"/>
-        <%@ include file="../../getMediaURL.jspf"%>
-        <c:set var="videoURL" value="${mediaURL}"/>
+        <c:set var="videoNode" value="${currentNode.properties['ti:video'].node}"/>
+        <template:addCacheDependency node="${videoNode}"/>
+        <template:module node="${videoNode}" view="hidden.getURL" var="videoURL" editable="false" templateType="txt"/>
     </c:when>
     <c:when test="${mediaSource eq 'url'}">
         <c:url var="videoURL" value="${currentNode.properties['ti:video'].string}"/>

@@ -20,7 +20,7 @@
     <tag>HEAD</tag>
   </scm>
   <properties>
-    <jahia-depends>animate,bootstrap4-components,bootstrap4-core,codemirror-editor,dam-selector,default,jquery,popperjs</jahia-depends>
+    <jahia-depends>animate,bootstrap4-components,bootstrap4-core,codemirror-editor,dam-selector,default,jquery,popperjs,se-utils</jahia-depends>
   </properties>
   <repositories>
     <repository>
