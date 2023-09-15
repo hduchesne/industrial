@@ -11,10 +11,12 @@
         </template:include>
     </c:when>
     <c:otherwise>
-        <c:set var="mediaNode" value="${currentNode.properties['image'].node}"/>
-        <%--<c:set var="mediaWidth" value="1280"/>--%>
-        <%@ include file="../../getMediaURL.jspf"%>
-        <c:set var="imageURL" value="${mediaURL}"/>
+        <template:module node="${currentNode.properties['image'].node}" view="hidden.getURL" var="imageURL" editable="false" templateType="txt">
+            <template:param name="width" value="${currentResource.moduleParams.width}"/>
+            <template:param name="height" value="${currentResource.moduleParams.mediaHeight}"/>
+            <template:param name="scale" value="${currentResource.moduleParams.mediaScale}"/>
+            <template:param name="quality" value="${currentResource.moduleParams.mediaQuality}"/>
+        </template:module>
 
         <div class="scaling-image h-100">
             <div class="frame h-100">

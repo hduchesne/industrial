@@ -5,18 +5,18 @@
 <%--@elvariable id="currentNode" type="org.jahia.services.content.JCRNodeWrapper"--%>
 
 
-<%--<c:set var="linkUrl" value="${currentResource.moduleParams.linkUrl}"/>--%>
 <c:set var="body" value="${currentNode.properties.body.string}"/>
-<%--<c:set var="imageNode" value="${currentNode.properties.image.node}"/>--%>
-<c:set var="mediaNode" value="${currentNode.properties['image'].node}"/>
-<%--<c:set var="mediaWidth" value="512"/>--%>
-<%@ include file="../../getMediaURL.jspf"%>
-<c:set var="imageURL" value="${mediaURL}"/>
 
-<template:addCacheDependency node="${mediaNode}"/>
-<%--<c:url var="imageURL" value="${imageNode.url}"/>--%>
+<c:set var="imageNode" value="${currentNode.properties['image'].node}"/>
+<template:addCacheDependency node="${imageNode}"/>
+<template:module node="${imageNode}" view="hidden.getURL" var="imageURL" editable="false" templateType="txt">
+    <template:param name="width" value="${currentResource.moduleParams.width}"/>
+    <template:param name="height" value="${currentResource.moduleParams.mediaHeight}"/>
+    <template:param name="scale" value="${currentResource.moduleParams.mediaScale}"/>
+    <template:param name="quality" value="${currentResource.moduleParams.mediaQuality}"/>
+</template:module>
 
-<%--lintTo--%>
+<%--linkTo--%>
 <template:include view="hidden.generateLink"/>
 
 <div class="media d-block media-custom text-center">
