@@ -1,6 +1,7 @@
 const serverContext = (typeof contextJsParameters != 'undefined') ? contextJsParameters.contextPath : '';
-const moduleContext = `${serverContext}/modules/industrial`
-const ckeditorContext = `${moduleContext}/javascript/ckeditor`
+const pickerEnginesContext = `${serverContext}/engines/contentpicker.jsp`;
+const moduleContext = `${serverContext}/modules/industrial`;
+const ckeditorContext = `${moduleContext}/javascript/ckeditor`;
 
 CKEDITOR.plugins.addExternal('wordcount', `${ckeditorContext}/plugins/wordcount/plugin.js`);
 CKEDITOR.plugins.addExternal('notification', `${ckeditorContext}/plugins/notification/plugin.js`);
@@ -15,10 +16,9 @@ CKEDITOR.editorConfig = function (config) {
 
     config.filebrowserWindowFeatures = 'location=no,menubar=no,toolbar=no,dependent=yes,minimizable=no,modal=yes,alwaysRaised=yes,resizable=yes,scrollbars=yes';
     config.filebrowserWindowName = 'JahiaFileBrowser';
-    config.filebrowserBrowseUrl = config.contextPath + '/engines/contentpicker.jsp?site=' + config.siteUuid + '&lang=' + config.contentlanguage + '&uilang=' + config.language;
-    config.filebrowserImageBrowseUrl = config.contextPath + '/engines/contentpicker.jsp?type=imagepicker&site=' + config.siteUuid + '&lang=' + config.contentlanguage + '&uilang=' + config.language;
-    config.filebrowserFlashBrowseUrl = config.contextPath + '/engines/contentpicker.jsp?mime=application%2Fx-shockwave-flash%2Cvideo%2Fx-flv&site=' + config.siteUuid + '&lang=' + config.contentlanguage + '&uilang=' + config.language;
-    config.filebrowserLinkBrowseUrl = config.contextPath + '/engines/contentpicker.jsp?type=editoriallinkpicker&site=' + config.siteUuid + '&lang=' + config.contentlanguage + '&uilang=' + config.language;
+    config.filebrowserBrowseUrl = `${pickerEnginesContext}?site=${config.siteUuid}&lang=${config.contentlanguage}&uilang=${config.language}`;
+    config.filebrowserImageBrowseUrl =`${config.filebrowserBrowseUrl}&type=imagepicker`;
+    config.filebrowserLinkBrowseUrl = `${config.filebrowserBrowseUrl}&type=editoriallinkpicker`;
     config.image_previewText = '';
 
     config.wordcount = {
@@ -51,7 +51,6 @@ CKEDITOR.editorConfig = function (config) {
     config.contentsCss = [
         `${serverContext}/modules/bootstrap4-core/css/bootstrap.min.css`,
         `${moduleContext}/css/style.css`
-        // `${moduleContext}/css/editor.css`
     ];
     config.templates_files = [
         `${serverContext}/modules/bootstrap4-components/javascript/cktemplates.js`,

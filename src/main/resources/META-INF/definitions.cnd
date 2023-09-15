@@ -20,7 +20,6 @@
 [timix:videoReference] mixin
  - ti:mediaSource (string, choicelist) indexed=no
 
-
 [timix:image] mixin
  - image (weakreference, picker[type='image']) mandatory
 

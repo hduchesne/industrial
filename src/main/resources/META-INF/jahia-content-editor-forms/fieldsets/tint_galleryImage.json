@@ -1,0 +1,394 @@
+{
+  "name": "tint:galleryImage",
+  "fields": [
+    {
+      "name": "iconClass",
+      "selectorType": "Choicelist",
+      "valueConstraints": [
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-add icon"
+          },
+          "displayValue": "Add"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-add-circle icon"
+          },
+          "displayValue": "Add Circle"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-alarm icon"
+          },
+          "displayValue": "Alarm"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-albums icon"
+          },
+          "displayValue": "Albums"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-alert icon"
+          },
+          "displayValue": "Alert"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-analytics icon"
+          },
+          "displayValue": "Analytics"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-aperture icon"
+          },
+          "displayValue": "Aperture"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-apps icon"
+          },
+          "displayValue": "Apps"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-archive icon"
+          },
+          "displayValue": "Archive"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-arrow-dropright-circle icon"
+          },
+          "displayValue": "Arrow dropright circle"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-cloud-download icon"
+          },
+          "displayValue": "Cloud download"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-cloud-upload icon"
+          },
+          "displayValue": "Cloud upload"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-contact icon"
+          },
+          "displayValue": "Contact"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-cube icon"
+          },
+          "displayValue": "Cube"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-easel icon"
+          },
+          "displayValue": "Easel"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-eye icon"
+          },
+          "displayValue": "Eye"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-eye-off icon"
+          },
+          "displayValue": "Eye off"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-flame icon"
+          },
+          "displayValue": "Flame"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-flash icon"
+          },
+          "displayValue": "Flash"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-folder icon"
+          },
+          "displayValue": "Folder"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-folder-open icon"
+          },
+          "displayValue": "Folder open"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-grid icon"
+          },
+          "displayValue": "Grid"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-hammer icon"
+          },
+          "displayValue": "Hammer"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-hand icon"
+          },
+          "displayValue": "Hand"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-heart icon"
+          },
+          "displayValue": "Heart"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-heart-outline icon"
+          },
+          "displayValue": "Heart outline"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-help icon"
+          },
+          "displayValue": "Help"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-home icon"
+          },
+          "displayValue": "Home"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-help-circle icon"
+          },
+          "displayValue": "Help circle"
+        }
+      ,
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-image icon"
+          },
+          "displayValue": "Image"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-images icon"
+          },
+          "displayValue": "Images"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-infinite icon"
+          },
+          "displayValue": "Infinite"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-information-circle icon"
+          },
+          "displayValue": "Information circle"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-laptop icon"
+          },
+          "displayValue": "Laptop"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-ios-leaf icon"
+          },
+          "displayValue": "Leaf"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-link icon"
+          },
+          "displayValue": "Link"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-mail icon"
+          },
+          "displayValue": "Mail"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-mic icon"
+          },
+          "displayValue": "Mic"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-notifications icon"
+          },
+          "displayValue": "Notifications"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-paw icon"
+          },
+          "displayValue": "Paw"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-people icon"
+          },
+          "displayValue": "People"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-person icon"
+          },
+          "displayValue": "Person"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-photos icon"
+          },
+          "displayValue": "Photos"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-play icon"
+          },
+          "displayValue": "Play"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-pricetag icon"
+          },
+          "displayValue": "Pricetag"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-send icon"
+          },
+          "displayValue": "Send"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-settings icon"
+          },
+          "displayValue": "Settings"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-trash icon"
+          },
+          "displayValue": "Trash"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-thumbs-down icon"
+          },
+          "displayValue": "Thumbs down"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-md-thumbs-up icon"
+          },
+          "displayValue": "Thumbs up"
+        },
+        {
+          "value": {
+            "type": "String",
+            "value": "ion-ios-water icon"
+          },
+          "displayValue": "Water"
+        }
+
+      ]
+    }
+  ]
+}
