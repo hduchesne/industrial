@@ -27,9 +27,9 @@
 <%--    </c:when>--%>
 <%--</c:choose>--%>
 
-<template:include view="hidden.generateLink"/>
+<template:include view="hidden.getLinkToURL"/>
 
-<a href="${moduleMap.linkUrl}" class="link-thumbnail">
+<a href="${moduleMap.linkUrl}" class="link-thumbnail" target="${moduleMap.linkTarget}">
     <h3>${heading}</h3>
     <span class="${iconClass}"></span>
     <template:include view="hidden.image">

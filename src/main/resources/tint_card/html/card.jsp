@@ -17,7 +17,7 @@
 </template:module>
 
 <%--linkTo--%>
-<template:include view="hidden.generateLink"/>
+<template:include view="hidden.getLinkToURL"/>
 
 <div class="media d-block media-custom text-center">
     <c:choose>
