@@ -12,7 +12,7 @@
     - 'mvn:org.jahia.modules/kibana-dashboards-provider'
     - 'mvn:org.jahia.modules/jexperience/2.7.2'
     - 'mvn:org.jahia.modules/jexperience-forms-bridge/2.1.0'
-    - 'mvn:org.jahia.modules/jexperience-dashboards'
+    - 'mvn:org.jahia.modules/jexperience-dashboards/0.3.0'
   autoStart: true
   uninstallPreviousVersion: true
 
