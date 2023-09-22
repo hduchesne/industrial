@@ -1,5 +1,3 @@
-#- addMavenRepository: "https://store.jahia.com/nexus/content/repositories/jahia-public-app-store@id=JahiaStore"
-
 # industrial modules
 - installBundle:
     - "mvn:org.jahia.modules/animate"
