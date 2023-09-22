@@ -8,6 +8,7 @@
     - "mvn:org.jahia.se.modules/codemirror-editor"
     - "mvn:org.jahia.se.modules/dam-selector"
     - "mvn:org.jahia.se.modules/se-utils"
+    - "mvn:org.jahia.se.modules/industrial"
     - "mvn:org.jahia.se.modules/industrial-website"
   autoStart: true
   uninstallPreviousVersion: true
