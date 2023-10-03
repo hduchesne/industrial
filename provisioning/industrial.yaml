@@ -1,0 +1,18 @@
+# jexperience dependencies are only available from Jahia store
+# So we're adding a new repository to be able to resolve these dependencies
+- addMavenRepository: "https://store.jahia.com/nexus/content/repositories/jahia-public-app-store@id=JahiaStore"
+
+# industrial modules
+- installBundle:
+    - "mvn:org.jahia.modules/content-editor"
+    - "mvn:org.jahia.modules/animate"
+    - "mvn:org.jahia.modules/popperjs"
+    - "mvn:org.jahia.modules/bootstrap4-core"
+    - "mvn:org.jahia.modules/bootstrap4-components"
+    - "mvn:org.jahia.se.modules/codemirror-editor"
+    - "mvn:org.jahia.se.modules/dam-selector"
+    - "mvn:org.jahia.se.modules/se-utils"
+    - "mvn:org.jahia.se.modules/industrial"
+    - "mvn:org.jahia.se.modules/industrial-website"
+  autoStart: true
+  uninstallPreviousVersion: true
