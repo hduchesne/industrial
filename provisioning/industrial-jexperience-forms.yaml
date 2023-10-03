@@ -1,5 +1,5 @@
 # Start with the industrial provisioning script
-- include: https://raw.githubusercontent.com/hduchesne/industrial/provisioning/provisioning/industrial.yaml
+- include: https://raw.githubusercontent.com/hduchesne/industrial/main/provisioning/industrial.yaml
 
 # Install and start bundles for Forms and jExperience
 - installBundle:
