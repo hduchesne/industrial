@@ -1,0 +1,13 @@
+{
+  "name": "tint:content",
+  "fields": [
+    {
+      "name": "imageLandscape",
+      "selectorType": "DamSelector"
+    },
+    {
+      "name": "imagePortrait",
+      "selectorType": "DamSelector"
+    }
+  ]
+}
