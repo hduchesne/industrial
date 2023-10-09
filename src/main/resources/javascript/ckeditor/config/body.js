@@ -18,7 +18,6 @@ CKEDITOR.editorConfig = function (config) {
     config.image_previewText = '';
 
     // config.toolbar = 'Tinny'; //moved to ckeditor config in cnd
-
     config.templates = 'industrial,default';
     config.stylesSet = `B4:${config.ckeditorContext}/stylesSet.js`;
     config.contentsCss = [
@@ -26,11 +25,11 @@ CKEDITOR.editorConfig = function (config) {
         `${config.moduleContext}/css/style.css`
     ];
     config.templates_files = [
-        `${config.ckeditorContext}/templates.js`,
-        `${config.serverContext}/modules/bootstrap4-components/javascript/cktemplates.js`
+        `${config.serverContext}/modules/bootstrap4-components/javascript/cktemplates.js`,
+        `${config.ckeditorContext}/templates.js`
     ];
 
-//'wsc','Scayt', 'ACheck', 'SpellChecker',
+
     config.toolbar_Tinny = [
         ['Source', '-', 'Templates', 'PasteText','Styles'],
         ['Bold','Italic'],
@@ -40,7 +39,7 @@ CKEDITOR.editorConfig = function (config) {
         ['RemoveFormat','HorizontalRule','ShowBlocks']
     ];
 
-//acheck,wsc,scayt,
+    // config.extraPlugins = 'acheck,wsc,scayt,macrosdropdown';
     config.extraPlugins = 'macrosdropdown';
     config.templates_replaceContent = false;
 
@@ -51,7 +50,6 @@ CKEDITOR.editorConfig = function (config) {
 CKEDITOR.addCss(
     '.cke_combopanel { width:300px !important;}'
 )
-
 CKEDITOR.dtd.$removeEmpty['i'] = 0;
 CKEDITOR.dtd.$removeEmpty['span'] = 0;
 CKEDITOR.dtd.$removeEmpty['div'] = 0;

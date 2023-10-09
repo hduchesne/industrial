@@ -83,4 +83,19 @@
 
 [tint:card] > jnt:content, timix:content, timix:industrial, seumix:linkTo
 
+[tint:content] > jnt:content, jmix:mainResource, timix:industrial, mix:title
+ - jcr:title (string) internationalized mandatory
+ - teaser (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
+ - body (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/body.js']) internationalized
+ - imageLandscape (weakreference) mandatory
+ - imagePortrait (weakreference) mandatory
+ - date (date) = now()
+
+[tint:lastContent] > jnt:content, jmix:list, mix:title, jmix:queryContent, jmix:cache
+  - teaser (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
+  - maxItems (long) = 5 indexed=no
+  - folder (weakreference, picker[type='contentfolder'])
+  - filter (weakreference, category[autoSelectParent=false])
+  - j:subNodesView (string, choicelist[templates=tint:content,resourceBundle,image]) nofulltext itemtype = layout
+
 //TODO create module css & js managment add css et js element -> external -> url || internal -> file or inline

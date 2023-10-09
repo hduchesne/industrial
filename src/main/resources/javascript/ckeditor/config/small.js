@@ -1,22 +1,21 @@
-const serverContext = (typeof contextJsParameters != 'undefined') ? contextJsParameters.contextPath : '';
-const pickerEnginesContext = `${serverContext}/engines/contentpicker.jsp`;
-const moduleContext = `${serverContext}/modules/industrial`;
-const ckeditorContext = `${moduleContext}/javascript/ckeditor`;
-
-CKEDITOR.plugins.addExternal('wordcount', `${ckeditorContext}/plugins/wordcount/plugin.js`);
-CKEDITOR.plugins.addExternal('notification', `${ckeditorContext}/plugins/notification/plugin.js`);
-
 CKEDITOR.editorConfig = function (config) {
+    config.serverContext = (typeof contextJsParameters != 'undefined') ? contextJsParameters.contextPath : '';
+    config.pickerEnginesContext = `${config.serverContext}/engines/contentpicker.jsp`;
+    config.moduleContext = `${config.serverContext}/modules/industrial`;
+    config.ckeditorContext = `${config.moduleContext}/javascript/ckeditor`;
+
+    CKEDITOR.plugins.addExternal('wordcount', `${config.ckeditorContext}/plugins/wordcount/plugin.js`);
+    CKEDITOR.plugins.addExternal('notification', `${config.ckeditorContext}/plugins/notification/plugin.js`);
+
     config.allowedContent = true;
 
-    config.contextPath = serverContext;
     config.language = (typeof contextJsParameters != 'undefined') ? contextJsParameters.uilang : 'en';
     config.contentlanguage = (typeof contextJsParameters != 'undefined') ? contextJsParameters.lang : 'en';
     config.siteUuid = (typeof contextJsParameters != 'undefined') ? contextJsParameters.siteUuid : '';
 
     config.filebrowserWindowFeatures = 'location=no,menubar=no,toolbar=no,dependent=yes,minimizable=no,modal=yes,alwaysRaised=yes,resizable=yes,scrollbars=yes';
     config.filebrowserWindowName = 'JahiaFileBrowser';
-    config.filebrowserBrowseUrl = `${pickerEnginesContext}?site=${config.siteUuid}&lang=${config.contentlanguage}&uilang=${config.language}`;
+    config.filebrowserBrowseUrl = `${config.pickerEnginesContext}?site=${config.siteUuid}&lang=${config.contentlanguage}&uilang=${config.language}`;
     config.filebrowserImageBrowseUrl =`${config.filebrowserBrowseUrl}&type=imagepicker`;
     config.filebrowserLinkBrowseUrl = `${config.filebrowserBrowseUrl}&type=editoriallinkpicker`;
     config.image_previewText = '';
@@ -47,14 +46,14 @@ CKEDITOR.editorConfig = function (config) {
     }
     // config.toolbar = 'Tinny'; //moved to ckeditor config in cnd
     config.templates = 'industrial,default';
-    config.stylesSet = `B4:${ckeditorContext}/stylesSet.js`;
+    config.stylesSet = `B4:${config.ckeditorContext}/stylesSet.js`;
     config.contentsCss = [
-        `${serverContext}/modules/bootstrap4-core/css/bootstrap.min.css`,
-        `${moduleContext}/css/style.css`
+        `${config.serverContext}/modules/bootstrap4-core/css/bootstrap.min.css`,
+        `${config.moduleContext}/css/style.css`
     ];
     config.templates_files = [
-        `${serverContext}/modules/bootstrap4-components/javascript/cktemplates.js`,
-        `${ckeditorContext}/templates.js`
+        `${config.serverContext}/modules/bootstrap4-components/javascript/cktemplates.js`,
+        `${config.ckeditorContext}/templates.js`
     ];
 
 

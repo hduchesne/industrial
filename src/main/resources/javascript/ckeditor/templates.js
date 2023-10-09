@@ -1,7 +1,9 @@
+CKEDITOR.config.serverContext = (typeof contextJsParameters != 'undefined') ? contextJsParameters.contextPath : '';
+CKEDITOR.config.moduleContext = `${CKEDITOR.config.serverContext}/modules/industrial`;
 CKEDITOR.addTemplates('industrial',
     {
         // The name of the subfolder that contains the preview images of the templates.
-        imagesPath:`${moduleContext}/images/ckeditor/`,
+        imagesPath:`${CKEDITOR.config.moduleContext}/images/ckeditor/`,
         // Template definitions.
         templates:[
             {
@@ -91,10 +93,25 @@ CKEDITOR.addTemplates('industrial',
                 html:'<h2 class="text-white mb-0">Get Started With Industrial Free Template</h2>\n' +
                     ' <p class="text-white lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>'
             },{
-                title:'Call to action btn',
+                title:'Call to action btn for primary colored banner',
                 image:'call-2-action-btn.png',
-                description:'-> Call to action prepared Button text',
+                description:'-> Call to action prepared Button text for primary colored banner',
                 html:'<a href="https://free-template.co/" class="btn btn-outline-white px-4 py-3">Download This Template</a>'
+            },
+            {
+                title:'Call to action btn',
+                image:'btn.png',
+                description:'-> Call to action prepared Button text',
+                html:'<a href="#" class="btn btn-primary btn-sm px-3 py-2">Learn More</a>'
+            },
+            {
+                title:'Entity block content',
+                image:'entity-block.png',
+                description:'-> Entity-block prepared text.',
+                html:'<div class="entity-block">\n' +
+                    '<h3>Our Mission</h3>\n' +
+                    '<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>\n' +
+                    '</div>'
             }
             // {
             //     title:'Blog post 1',
