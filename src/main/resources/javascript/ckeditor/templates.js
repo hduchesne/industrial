@@ -106,7 +106,7 @@ CKEDITOR.addTemplates('industrial',
             },
             {
                 title:'Entity block content',
-                // image:'entity-block-content.png',
+                image:'entity-block.png',
                 description:'-> Entity-block prepared text.',
                 html:'<div class="entity-block">\n' +
                     '<h3>Our Mission</h3>\n' +
