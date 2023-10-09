@@ -3,11 +3,17 @@
   "fields": [
     {
       "name": "imageLandscape",
-      "selectorType": "DamSelector"
+      "selectorType": "DamSelector",
+      "selectorOptionsMap": {
+        "type":"image"
+      }
     },
     {
       "name": "imagePortrait",
-      "selectorType": "DamSelector"
+      "selectorType": "DamSelector",
+      "selectorOptionsMap": {
+        "type":"image"
+      }
     }
   ]
 }

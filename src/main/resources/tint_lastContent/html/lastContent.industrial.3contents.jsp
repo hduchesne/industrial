@@ -10,11 +10,6 @@
 
 <c:set var="teaser" value="${currentNode.properties['teaser'].string}"/>
 
-<c:set var="subNodeView" value="${currentNode.properties['j:subNodesView'].string}"/>
-<c:if test="${empty subNodeView}">
-    <c:set var="subNodeView" value="blog.headline"/>
-</c:if>
-
 <template:include view="hidden.load"/>
 <c:set var="listQuery" value="${moduleMap.listQuery}"/>
 <jcr:jqom var="result" qomBeanName="listQuery" />
@@ -33,11 +28,16 @@
                     </div>
                 </div>
                 <div class="row">
-                    <c:forEach items="${result.nodes}" var="node">
-                        <div class="col-md-6">
-                        <template:module view="${subNodeView}" node="${node}"/>
-                        </div>
-                    </c:forEach>
+                    <div class="col-md-6">
+                        <c:forEach items="${result.nodes}" var="node" begin="0" end="0">
+                            <template:module view="blog.headline" node="${node}"/>
+                        </c:forEach>
+                    </div>
+                    <div class="col-md-6">
+                        <c:forEach items="${result.nodes}" var="node" begin="1" end="2">
+                            <template:module view="blog.default" node="${node}"/>
+                        </c:forEach>
+                    </div>
                 </div>
             </div>
         </section>
