@@ -25,8 +25,8 @@
 </template:module>
 
 <div class="half d-lg-flex d-block">
-    <div class="image ${currentResource.moduleParams.order} element-animate" data-animate-effect="fadeIn" style="background-image: url('${imageURL}')"></div>
-    <div class="text text-center element-animate">
+    <div class="image ${currentResource.moduleParams.order}" style="background-image: url('${imageURL}')"></div>
+    <div class="text text-center">
         <h3 class="mb-4">${titleEscaped}</h3>
         ${functions:abbreviate(functions:removeHtmlTags(teaser),300,350,'...')}
         <p class="mt-5"><a href="${contentURL}" class="btn btn-primary btn-sm px-3 py-2"><fmt:message key="label.content.readMore"/></a></p>

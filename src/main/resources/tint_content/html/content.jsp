@@ -32,29 +32,11 @@
 
 <div class="inner-page">
     <div class="slider-item" style="background-image: url('${imageURL}');">
-<%--        <div class="container">--%>
-<%--            <div class="row slider-text align-items-center justify-content-center">--%>
-<%--                <div class="col-md-8 text-center col-sm-12 element-animate pt-5">--%>
-<%--                    <h1 class="pt-5"><span>About Us</span></h1>--%>
-<%--                    <p class="mb-5 w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero sit, saepe? Rem, libero repellendus eum.</p>--%>
-<%--                </div>--%>
-<%--            </div>--%>
-<%--        </div>--%>
     </div>
 </div>
 
 <section class="pb-5">
     <div class="container container-content bg-white">
-<%--        <div class="row">--%>
-<%--            <div class="col-12" style="margin-top: -150px;">--%>
-<%--                <p><img src="images/industrial_hero_2.jpg" alt="Image" class="img-fluid"></p>--%>
-<%--            </div>--%>
-<%--        </div>--%>
-<%--        <div class="row justify-content-center" >--%>
-<%--            <div class="col-md-8 mb-5">--%>
-<%--                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nulla delectus sit vel magnam, ad voluptatem hic. Maxime ipsam quibusdam eius exercitationem iusto, totam possimus dolore magnam voluptatum illum consequuntur.</p>--%>
-<%--            </div>--%>
-<%--        </div>--%>
         <div class="row justify-content-center">
             <div class="col-md-10 mb-5">
                 <h1>${titleEscaped}</h1>

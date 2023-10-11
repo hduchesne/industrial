@@ -112,7 +112,16 @@ CKEDITOR.addTemplates('industrial',
                     '<h3>Our Mission</h3>\n' +
                     '<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>\n' +
                     '</div>'
-            }
+            },
+            {
+                title:'blockquote right content',
+                image:'blockquote-right-content.png',
+                description:'-> blockquote prepared text.',
+                html:'<blockquote class="blockquote text-right">\n' +
+                    '<p class="mb-0">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>\n' +
+                    '<footer class="blockquote-footer">John Doe,  <cite title="">director of the Lab</cite></footer>\n' +
+                    '</blockquote>'
+            },
             // {
             //     title:'Blog post 1',
             //     image:'blockquote-testimonial.png',
