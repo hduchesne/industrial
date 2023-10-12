@@ -328,6 +328,16 @@
                   </pagecontent>
                </industriall-content-template>
             </base>
+            <rss j:applyOn="tint:lastContent"
+                 j:defaultTemplate="true"
+                 j:hiddenTemplate="false"
+                 jcr:primaryType="jnt:contentTemplate">
+               <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" jcr:title="rss"/>
+               <pagecontent jcr:mixinTypes="jmix:systemNameReadonly"
+                            jcr:primaryType="jnt:contentList">
+                  <main-resource-display j:mainResourceView="default" jcr:primaryType="jnt:mainResourceDisplay"/>
+               </pagecontent>
+            </rss>
          </templates>
          <home j:isHomePage="true"
                j:templateName="free"
