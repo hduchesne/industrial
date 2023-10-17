@@ -20,13 +20,25 @@
     <c:set var="formatedDate" value="${formatedDate} ${at} ${formatedTime}"/>
 </c:if>
 
+<c:choose>
+    <c:when test="${currentResource.moduleParams.order eq 'order-2'}">
+        <c:set var="classImg" value="order-md-1"/>
+        <c:set var="classTxt" value="pl-md-5 order-md-2"/>
+    </c:when>
+    <c:otherwise>
+        <c:set var="classImg" value="order-md-2"/>
+        <c:set var="classTxt" value="pr-md-5"/>
+    </c:otherwise>
+</c:choose>
+
+
 <%--<c:url value="${url.server}${url.context}${url.base}${currentNode.path}.html" var="itemUrl"/>--%>
 <c:url value="${currentNode.url}" var="contentURL"/>
 
 <section class="section element-animate">
     <div class="container">
         <div class="row align-items-center mb-5">
-            <div class="col-lg-7 order-md-2">
+            <div class="col-lg-7 ${classImg}">
                 <div class="scaling-image">
                     <div class="frame">
                         <template:include view="hidden.image" >
@@ -36,7 +48,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 pr-md-5 mb-5">
+            <div class="col-md-5 mb-5">
                 <div class="block-41">
                     <h2 class="block-41-heading mb-5">${titleEscaped}</h2>
                     <p>

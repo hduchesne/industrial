@@ -7993,7 +7993,8 @@ header .search-form .form-control {
 
 .element-animate {
   opacity: 0;
-  visibility: hidden; }
+  /*visibility: hidden;*/
+}
 
 .block-41 .block-41-subheading {
   margin-bottom: 30px; }

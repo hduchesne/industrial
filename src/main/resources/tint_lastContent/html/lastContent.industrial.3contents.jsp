@@ -21,7 +21,7 @@
     <c:otherwise>
         <section class="section blog">
             <div class="container">
-                <div class="row justify-content-center mb-5 element-animate">
+                <div class="row justify-content-center mb-5">
                     <div class="col-md-8 text-center">
                         <h2 class=" heading mb-4">${titleEscaped}</h2>
                         ${teaser}

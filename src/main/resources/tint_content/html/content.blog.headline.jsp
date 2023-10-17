@@ -24,7 +24,7 @@
 <c:url value="${currentNode.url}" var="contentURL"/>
 
 
-<div class="media mb-4 d-md-flex d-block element-animate">
+<div class="media mb-4 d-md-flex d-block">
     <a href="${contentURL}" class="mr-5">
         <template:include view="hidden.image" >
             <template:param name="width" value="256"/>
