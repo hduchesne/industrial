@@ -29,6 +29,7 @@
  itemtype = content
  - defaultImageWidth (long)
  - imageWidths (long) multiple
+ - imageMedia (string) multiple
 
 //*** CSS //
 [tint:css] > jnt:content, timix:industrial
