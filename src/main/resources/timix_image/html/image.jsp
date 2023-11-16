@@ -5,15 +5,30 @@
 <%@ taglib prefix="utility" uri="http://www.jahia.org/tags/utilityLib" %>
 
 <c:set var="alt" value="${fn:escapeXml(currentNode.displayableName)}"/>
+<c:set var="widths" value="400,750"/>
+<c:set var="sizes" value="(max-width: 768px) 400px, 750px"/>
+
+<%--<template:module node="${currentNode.properties['image'].node}" view="hidden.getURL" var="mediaURL" editable="false" templateType="txt">--%>
+<%--    <template:param name="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '750'}"/>--%>
+<%--    <template:param name="height" value="${currentResource.moduleParams.mediaHeight}"/>--%>
+<%--    <template:param name="scale" value="${currentResource.moduleParams.mediaScale}"/>--%>
+<%--    <template:param name="quality" value="${currentResource.moduleParams.mediaQuality}"/>--%>
+<%--</template:module>--%>
 
 <template:module node="${currentNode.properties['image'].node}" view="hidden.getURL" var="mediaURL" editable="false" templateType="txt">
-    <template:param name="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '1280'}"/>
-    <template:param name="height" value="${currentResource.moduleParams.mediaHeight}"/>
-    <template:param name="scale" value="${currentResource.moduleParams.mediaScale}"/>
-    <template:param name="quality" value="${currentResource.moduleParams.mediaQuality}"/>
+    <template:param name="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '750'}"/>
 </template:module>
 
-<img src="${mediaURL}" width="100%"
+<img width="100%"
+     src="${mediaURL}"
+     srcset="<c:forEach items="${fn:split(widths, ',')}" var="width" varStatus="status">
+                <c:if test="${!status.first}">,</c:if>
+                <template:module node="${currentNode.properties['image'].node}" view="hidden.getURL" var="mediaURL" editable="false" templateType="txt">
+                    <template:param name="width" value="${width}"/>
+                </template:module>
+                 <c:out value="${mediaURL} ${width}w" />
+            </c:forEach>"
+     sizes="${sizes}"
      class="${currentResource.moduleParams.class}"
      alt="${alt}"
 />

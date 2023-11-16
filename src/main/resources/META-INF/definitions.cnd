@@ -24,6 +24,12 @@
 [timix:image] mixin
  - image (weakreference, picker[type='image']) mandatory
 
+[timix:imageSettings] mixin
+ extends = tint:image
+ itemtype = content
+ - defaultImageWidth (long)
+ - imageWidths (long) multiple
+
 //*** CSS //
 [tint:css] > jnt:content, timix:industrial
 - text (string)
