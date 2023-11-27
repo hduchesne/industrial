@@ -5,11 +5,16 @@
 <%@ taglib prefix="utility" uri="http://www.jahia.org/tags/utilityLib" %>
 
 <c:set var="alt" value="${fn:escapeXml(currentNode.displayableName)}"/>
-<c:set var="widths" value="${fn:split('400,750', ',')}"/>
-<c:set var="media" value="${fn:split('(max-width: 768px),(min-width: 769px)', ',')}"/>
+<c:set var="widths" value="${not empty currentNode.properties['imageWidths'] ? currentNode.properties['imageWidths'] : fn:split('400,750', ',')}"/>
+<c:set var="media" value="${not empty currentNode.properties['imageMedia'] ? currentNode.properties['imageMedia'] : fn:split('(max-width: 768px),(min-width: 769px)', ',')}"/>
+<c:set var="width" value="${currentNode.properties['defaultImageWidth'].long}"/>
+
+<c:if test="${empty width}">
+    <c:set var="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '750'}"/>
+</c:if>
 
 <template:module node="${currentNode.properties['image'].node}" view="hidden.getURL" var="mediaURL" editable="false" templateType="txt">
-    <template:param name="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '750'}"/>
+    <template:param name="width" value="${width}"/>
 </template:module>
 
 <picture>
