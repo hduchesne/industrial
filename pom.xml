@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.jahia.modules</groupId>
@@ -17,10 +18,9 @@
     <connection>scm:git:git@github.com:hduchesne/industrial.git</connection>
     <developerConnection>scm:git:git@github.com:hduchesne/industrial.git</developerConnection>
     <url>https://github.com/hduchesne/industrial</url>
-    <tag>HEAD</tag>
   </scm>
   <properties>
-    <jahia-depends>animate,bootstrap4-components,bootstrap4-core,codemirror-editor,dam-selector,default,jquery,popperjs,se-utils</jahia-depends>
+    <jahia-depends>animate,bootstrap4-components,bootstrap4-core,codemirror-editor,default,jquery,popperjs,se-utils,dam-selector</jahia-depends>
   </properties>
   <repositories>
     <repository>
