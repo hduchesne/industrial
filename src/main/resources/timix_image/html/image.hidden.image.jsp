@@ -5,13 +5,14 @@
 <%@ taglib prefix="utility" uri="http://www.jahia.org/tags/utilityLib" %>
 
 <c:set var="alt" value="${fn:escapeXml(currentNode.displayableName)}"/>
+<c:set var="mediaURL" value="${currentNode.properties['image'].node.getUrl()}"/>
 
-<template:module node="${currentNode.properties['image'].node}" view="hidden.getURL" var="mediaURL" editable="false" templateType="txt">
-    <template:param name="width" value="${not empty currentResource.moduleParams.mediaWidth ? currentResource.moduleParams.mediaWidth : '1028'}"/>
-    <template:param name="height" value="${currentResource.moduleParams.mediaHeight}"/>
-    <template:param name="scale" value="${not empty currentResource.moduleParams.mediaScale ? currentResource.moduleParams.mediaScale : 1}"/>
-    <template:param name="quality" value="${not empty currentResource.moduleParams.mediaQuality ? currentResource.moduleParams.mediaQuality : 72}"/>
-</template:module>
+<%--<template:module node="${currentNode.properties['image'].node}" view="hidden.getURL" var="mediaURL" editable="false" templateType="txt">--%>
+<%--    <template:param name="width" value="${not empty currentResource.moduleParams.mediaWidth ? currentResource.moduleParams.mediaWidth : '1028'}"/>--%>
+<%--    <template:param name="height" value="${currentResource.moduleParams.mediaHeight}"/>--%>
+<%--    <template:param name="scale" value="${not empty currentResource.moduleParams.mediaScale ? currentResource.moduleParams.mediaScale : 1}"/>--%>
+<%--    <template:param name="quality" value="${not empty currentResource.moduleParams.mediaQuality ? currentResource.moduleParams.mediaQuality : 72}"/>--%>
+<%--</template:module>--%>
 
 <img src="${mediaURL}" width="100%"
      class="${currentResource.moduleParams.class}"

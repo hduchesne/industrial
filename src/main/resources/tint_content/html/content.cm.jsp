@@ -37,12 +37,19 @@
 
 <c:set var="imageNode" value="${currentNode.properties['imageLandscape'].node}"/>
 <template:addCacheDependency node="${imageNode}"/>
-<template:module node="${imageNode}" view="hidden.getURL" var="imageURL" editable="false" templateType="txt">
-    <template:param name="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '2000'}"/>
-    <template:param name="height" value="${currentResource.moduleParams.mediaHeight}"/>
-    <template:param name="scale" value="${currentResource.moduleParams.mediaScale}"/>
-    <template:param name="quality" value="${currentResource.moduleParams.mediaQuality}"/>
-</template:module>
+
+<c:set var="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '2000'}"/>
+<c:set var="height" value="${currentResource.moduleParams.mediaHeight}"/>
+
+<c:set var="imageURL" value="${imageNode.getUrl(['width:'.concat(width),'height:'.concat(height)])}"/>
+<%--<c:set var="imageURL" value="${imageNode.getUrl()}"/>--%>
+
+<%--<template:module node="${imageNode}" view="hidden.getURL" var="imageURL" editable="false" templateType="txt">--%>
+<%--    <template:param name="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '2000'}"/>--%>
+<%--    <template:param name="height" value="${currentResource.moduleParams.mediaHeight}"/>--%>
+<%--    <template:param name="scale" value="${currentResource.moduleParams.mediaScale}"/>--%>
+<%--    <template:param name="quality" value="${currentResource.moduleParams.mediaQuality}"/>--%>
+<%--</template:module>--%>
 
 <div class="inner-page">
     <div class="slider-item" style="background-image: url('${imageURL}');">

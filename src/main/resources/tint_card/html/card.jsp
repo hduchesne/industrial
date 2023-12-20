@@ -9,12 +9,14 @@
 
 <c:set var="imageNode" value="${currentNode.properties['image'].node}"/>
 <template:addCacheDependency node="${imageNode}"/>
-<template:module node="${imageNode}" view="hidden.getURL" var="imageURL" editable="false" templateType="txt">
-    <template:param name="width" value="${currentResource.moduleParams.width}"/>
-    <template:param name="height" value="${currentResource.moduleParams.mediaHeight}"/>
-    <template:param name="scale" value="${currentResource.moduleParams.mediaScale}"/>
-    <template:param name="quality" value="${currentResource.moduleParams.mediaQuality}"/>
-</template:module>
+<c:set var="imageURL" value="${imageNode.getUrl()}"/>
+
+<%--<template:module node="${imageNode}" view="hidden.getURL" var="imageURL" editable="false" templateType="txt">--%>
+<%--    <template:param name="width" value="${currentResource.moduleParams.width}"/>--%>
+<%--    <template:param name="height" value="${currentResource.moduleParams.mediaHeight}"/>--%>
+<%--    <template:param name="scale" value="${currentResource.moduleParams.mediaScale}"/>--%>
+<%--    <template:param name="quality" value="${currentResource.moduleParams.mediaQuality}"/>--%>
+<%--</template:module>--%>
 
 <%--linkTo--%>
 <template:include view="hidden.getLinkToURL"/>

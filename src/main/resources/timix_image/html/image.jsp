@@ -13,15 +13,17 @@
     <c:set var="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '750'}"/>
 </c:if>
 
-<template:module node="${currentNode.properties['image'].node}" view="hidden.getURL" var="mediaURL" editable="false" templateType="txt">
-    <template:param name="width" value="${width}"/>
-</template:module>
+<c:set var="mediaURL" value="${currentNode.properties['image'].node.getUrl()}"/>
+<%--<template:module node="${currentNode.properties['image'].node}" view="hidden.getURL" var="mediaURL" editable="false" templateType="txt">--%>
+<%--    <template:param name="width" value="${width}"/>--%>
+<%--</template:module>--%>
 
 <picture>
     <c:forEach items="${widths}" var="width" varStatus="status">
-        <template:module node="${currentNode.properties['image'].node}" view="hidden.getURL" var="mediaURL" editable="false" templateType="txt">
-            <template:param name="width" value="${width}"/>
-        </template:module>
+        <c:set var="mediaURL" value="${currentNode.properties['image'].node.getUrl()}"/>
+<%--        <template:module node="${currentNode.properties['image'].node}" view="hidden.getURL" var="mediaURL" editable="false" templateType="txt">--%>
+<%--            <template:param name="width" value="${width}"/>--%>
+<%--        </template:module>--%>
         <source media="${media[status.index]}" srcset="${mediaURL}">
     </c:forEach>
     <img width="100%"
