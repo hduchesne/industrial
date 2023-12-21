@@ -5,15 +5,22 @@
 <%@ taglib prefix="utility" uri="http://www.jahia.org/tags/utilityLib" %>
 
 <c:set var="alt" value="${fn:escapeXml(currentNode.displayableName)}"/>
-<c:set var="mediaURL" value="${currentNode.properties[currentResource.moduleParams.propsName].node.getUrl()}"/>
-<%--<template:module node="${currentNode.properties[currentResource.moduleParams.propsName].node}" view="hidden.getURL" var="mediaURL" editable="false" templateType="txt">--%>
-<%--    <template:param name="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '1280'}"/>--%>
-<%--    <template:param name="height" value="${currentResource.moduleParams.mediaHeight}"/>--%>
-<%--    <template:param name="scale" value="${currentResource.moduleParams.mediaScale}"/>--%>
-<%--    <template:param name="quality" value="${currentResource.moduleParams.mediaQuality}"/>--%>
-<%--</template:module>--%>
+<c:set var="imageNode" value="${currentNode.properties[currentResource.moduleParams.propsName].node}"/>
+<template:addCacheDependency node="${imageNode}"/>
 
-<img src="${mediaURL}" width="100%"
+<c:set var="width" value="${not empty currentResource.moduleParams.mediaWidth ? currentResource.moduleParams.mediaWidth : '1280'}"/>
+<c:set var="height" value="${currentResource.moduleParams.mediaHeight}"/>
+<c:set var="scale" value="${currentResource.moduleParams.mediaScale}"/>
+<c:set var="quality" value="${currentResource.moduleParams.mediaQuality}"/>
+
+<c:catch var ="getUrlException">
+    <c:set var="imageURL" value="${imageNode.getUrl(['width:'.concat(width),'height:'.concat(height),'scale:'.concat(scale),'quality:'.concat(quality)])}"/>
+</c:catch>
+<c:if test = "${getUrlException != null}">
+    <c:set var="imageURL" value="${imageNode.getUrl()}"/>
+</c:if>
+
+<img src="${imageURL}" width="100%"
      class="${currentResource.moduleParams.class}"
      alt="${alt}"
 />

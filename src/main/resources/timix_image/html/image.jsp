@@ -10,24 +10,30 @@
 <c:set var="width" value="${currentNode.properties['defaultImageWidth'].long}"/>
 
 <c:if test="${empty width}">
-    <c:set var="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '750'}"/>
+    <c:set var="width" value="${not empty currentResource.moduleParams.mediaWidth ? currentResource.moduleParams.mediaWidth : '750'}"/>
 </c:if>
 
-<c:set var="mediaURL" value="${currentNode.properties['image'].node.getUrl()}"/>
-<%--<template:module node="${currentNode.properties['image'].node}" view="hidden.getURL" var="mediaURL" editable="false" templateType="txt">--%>
-<%--    <template:param name="width" value="${width}"/>--%>
-<%--</template:module>--%>
+<c:set var="imageNode" value="${currentNode.properties['image'].node}"/>
+<c:catch var ="getUrlException">
+    <c:set var="imageURL" value="${imageNode.getUrl(['width:'.concat(width)])}"/>
+</c:catch>
+<c:if test = "${getUrlException != null}">
+    <c:set var="imageURL" value="${imageNode.getUrl()}"/>
+</c:if>
 
 <picture>
     <c:forEach items="${widths}" var="width" varStatus="status">
-        <c:set var="mediaURL" value="${currentNode.properties['image'].node.getUrl()}"/>
-<%--        <template:module node="${currentNode.properties['image'].node}" view="hidden.getURL" var="mediaURL" editable="false" templateType="txt">--%>
-<%--            <template:param name="width" value="${width}"/>--%>
-<%--        </template:module>--%>
-        <source media="${media[status.index]}" srcset="${mediaURL}">
+        <c:catch var ="getUrlException">
+            <c:set var="currentImageURL" value="${imageNode.getUrl(['width:'.concat(width)])}"/>
+        </c:catch>
+        <c:if test = "${getUrlException != null}">
+            <c:set var="currentImageURL" value="${imageNode.getUrl()}"/>
+        </c:if>
+
+        <source media="${media[status.index]}" srcset="${currentImageURL}">
     </c:forEach>
     <img width="100%"
-         src="${mediaURL}"
+         src="${imageURL}"
          class="${currentResource.moduleParams.class}"
          alt="${alt}"
     />

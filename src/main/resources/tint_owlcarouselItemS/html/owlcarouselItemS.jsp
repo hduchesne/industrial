@@ -16,33 +16,31 @@
 <c:set var="caption" value="${currentNode.properties.caption.string}"/>
 
 <c:set var="imageNode" value="${currentNode.properties['image'].node}"/>
-<%--<template:addCacheDependency node="${imageNode}"/>--%>
+<template:addCacheDependency node="${imageNode}"/>
+<c:set var="width" value="${not empty currentResource.moduleParams.mediaWidth ? currentResource.moduleParams.mediaWidth : '1920'}"/>
+<c:set var="height" value="${currentResource.moduleParams.mediaHeight}"/>
+<c:set var="scale" value="${currentResource.moduleParams.mediaScale}"/>
+<c:set var="quality" value="${currentResource.moduleParams.mediaQuality}"/>
 
-<c:set var="imageURL" value="${imageNode.getUrl()}"/>
-
-<%--Image url with params--%>
-<%--<c:set var="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '2000'}"/>--%>
-<%--<c:set var="height" value="${currentResource.moduleParams.mediaHeight}"/>--%>
-<%--<c:set var="imageURL" value="${imageNode.getUrl(['width:'.concat(width),'height:'.concat(height)])}"/>--%>
-
-<%--Old way--%>
-<%--<template:module node="${imageNode}" view="hidden.getURL" var="imageURL" editable="false" templateType="txt">--%>
-<%--    <template:param name="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '2000'}"/>--%>
-<%--    <template:param name="height" value="${currentResource.moduleParams.mediaHeight}"/>--%>
-<%--    <template:param name="scale" value="${currentResource.moduleParams.mediaScale}"/>--%>
-<%--    <template:param name="quality" value="${currentResource.moduleParams.mediaQuality}"/>--%>
-<%--</template:module>--%>
+<c:catch var ="getUrlException">
+    <c:set var="imageURL" value="${imageNode.getUrl(['width:'.concat(width),'height:'.concat(height),'scale:'.concat(scale),'quality:'.concat(quality)])}"/>
+</c:catch>
+<c:if test = "${getUrlException != null}">
+    <c:set var="imageURL" value="${imageNode.getUrl()}"/>
+</c:if>
 
 
 <c:set var="mediaSource" value="${currentNode.properties['ti:mediaSource'].string}" />
 <c:choose>
     <c:when test="${mediaSource eq 'reference'}">
         <c:set var="videoNode" value="${currentNode.properties['ti:video'].node}"/>
-        <c:set var="videoURL" value="${videoNode.getUrl()}"/>
-<%--        <template:addCacheDependency node="${videoNode}"/>--%>
-<%--        <template:module node="${videoNode}" view="hidden.getURL" var="videoURL" editable="false" templateType="txt">--%>
-<%--            <template:param name="quality" value="1080p"/>--%>
-<%--        </template:module>--%>
+        <c:catch var ="getVideoUrlException">
+            <c:set var="videoURL" value="${videoNode.getUrl(['quality:1080p'])}"/>
+        </c:catch>
+        <c:if test = "${getVideoUrlException != null}">
+            <c:set var="videoURL" value="${videoNode.getUrl()}"/>
+        </c:if>
+
     </c:when>
     <c:when test="${mediaSource eq 'url'}">
         <c:url var="videoURL" value="${currentNode.properties['ti:video'].string}"/>

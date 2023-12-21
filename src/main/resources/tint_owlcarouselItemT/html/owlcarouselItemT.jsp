@@ -24,14 +24,17 @@
 
 <c:set var="avatarNode" value="${currentNode.properties['avatar'].node}"/>
 <template:addCacheDependency node="${avatarNode}"/>
-<c:set var="avatarURL" value="${avatarNode.getUrl()}"/>
-<%--<template:module node="${avatarNode}" view="hidden.getURL" var="avatarURL" editable="false" templateType="txt">--%>
-<%--    <template:param name="width" value="${not empty currentResource.moduleParams.width ? currentResource.moduleParams.width : '256'}"/>--%>
-<%--    <template:param name="height" value="${currentResource.moduleParams.mediaHeight}"/>--%>
-<%--    <template:param name="scale" value="${currentResource.moduleParams.mediaScale}"/>--%>
-<%--    <template:param name="quality" value="${currentResource.moduleParams.mediaQuality}"/>--%>
-<%--</template:module>--%>
+<c:set var="width" value="${not empty currentResource.moduleParams.mediaWidth ? currentResource.moduleParams.mediaWidth : '256'}"/>
+<c:set var="height" value="${currentResource.moduleParams.mediaHeight}"/>
+<c:set var="scale" value="${currentResource.moduleParams.mediaScale}"/>
+<c:set var="quality" value="${currentResource.moduleParams.mediaQuality}"/>
 
+<c:catch var ="getUrlException">
+    <c:set var="avatarURL" value="${avatarNode.getUrl(['width:'.concat(width),'height:'.concat(height),'scale:'.concat(scale),'quality:'.concat(quality)])}"/>
+</c:catch>
+<c:if test = "${getUrlException != null}">
+    <c:set var="avatarURL" value="${avatarNode.getUrl()}"/>
+</c:if>
 
 <c:choose>
     <c:when test="${renderContext.editMode}">
