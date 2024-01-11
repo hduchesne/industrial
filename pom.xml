@@ -20,7 +20,7 @@
     <url>https://github.com/hduchesne/industrial</url>
   </scm>
   <properties>
-    <jahia-depends>animate,bootstrap4-components,bootstrap4-core,codemirror-editor,default,jquery,popperjs,se-utils,dam-selector</jahia-depends>
+    <jahia-depends>animate,bootstrap4-components,bootstrap4-core,codemirror-editor,default,jquery,popperjs,se-utils</jahia-depends>
   </properties>
   <repositories>
     <repository>
