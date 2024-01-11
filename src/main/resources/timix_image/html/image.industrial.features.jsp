@@ -11,12 +11,19 @@
         </template:include>
     </c:when>
     <c:otherwise>
-        <template:module node="${currentNode.properties['image'].node}" view="hidden.getURL" var="imageURL" editable="false" templateType="txt">
-            <template:param name="width" value="${currentResource.moduleParams.width}"/>
-            <template:param name="height" value="${not empty currentResource.moduleParams.mediaHeight ? currentResource.moduleParams.mediaHeight : '600'}"/>
-            <template:param name="scale" value="${currentResource.moduleParams.mediaScale}"/>
-            <template:param name="quality" value="${currentResource.moduleParams.mediaQuality}"/>
-        </template:module>
+        <c:set var="imageNode" value="${currentNode.properties['image'].node}"/>
+
+        <c:set var="width" value="${currentResource.moduleParams.mediaWidth}"/>
+        <c:set var="height" value="${not empty currentResource.moduleParams.mediaHeight ? currentResource.moduleParams.mediaHeight : '600'}"/>
+        <c:set var="scale" value="${currentResource.moduleParams.mediaScale}"/>
+        <c:set var="quality" value="${currentResource.moduleParams.mediaQuality}"/>
+
+        <c:catch var ="getUrlException">
+            <c:set var="imageURL" value="${imageNode.getUrl(['width:'.concat(width),'height:'.concat(height),'scale:'.concat(scale),'quality:'.concat(quality)])}"/>
+        </c:catch>
+        <c:if test = "${getUrlException != null}">
+            <c:set var="imageURL" value="${imageNode.getUrl()}"/>
+        </c:if>
 
         <div class="scaling-image h-100">
             <div class="frame h-100">

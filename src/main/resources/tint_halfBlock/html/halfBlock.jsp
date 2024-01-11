@@ -9,7 +9,7 @@
 <div class="half d-lg-flex d-block">
     <div class="image ${imagePosition} ${renderContext.editMode == true?' position-relative':''}">
         <template:module path="image" nodeTypes="tint:image" view="hidden.halfBlock">
-            <template:param name="width" value="1280"/>
+            <template:param name="mediaWidth" value="1280"/>
         </template:module>
     </div>
     <div class="text text-center">

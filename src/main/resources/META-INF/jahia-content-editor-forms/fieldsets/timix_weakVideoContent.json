@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "ti:video",
-      "selectorType": "DamSelector"
+      "selectorType": "Picker"
     }
   ]
 }
