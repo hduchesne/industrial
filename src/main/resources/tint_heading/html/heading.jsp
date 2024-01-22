@@ -12,8 +12,8 @@
 <c:set var="imageNode" value="${currentNode.properties['image'].node}"/>
 <template:addCacheDependency node="${imageNode}"/>
 
-<c:set var="width" value="${not empty currentResource.moduleParams.mediaWidth ? currentResource.moduleParams.mediaWidth : '1920'}"/>
-<c:set var="height" value="${currentResource.moduleParams.mediaHeight}"/>
+<c:set var="width" value="${not empty currentResource.moduleParams.mediaWidth ? currentResource.moduleParams.mediaWidth : '1900'}"/>
+<c:set var="height" value="${not empty currentResource.moduleParams.mediaHeight ? currentResource.moduleParams.mediaHeight : '900'}"/>
 <c:set var="scale" value="${currentResource.moduleParams.mediaScale}"/>
 <c:set var="quality" value="${currentResource.moduleParams.mediaQuality}"/>
 
