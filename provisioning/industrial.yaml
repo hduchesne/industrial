@@ -10,7 +10,6 @@
     - "mvn:org.jahia.modules/bootstrap4-core"
     - "mvn:org.jahia.modules/bootstrap4-components"
     - "mvn:org.jahia.se.modules/codemirror-editor"
-    - "mvn:org.jahia.se.modules/dam-selector"
     - "mvn:org.jahia.se.modules/se-utils"
     - "mvn:org.jahia.se.modules/industrial"
     - "mvn:org.jahia.se.modules/industrial-website"
