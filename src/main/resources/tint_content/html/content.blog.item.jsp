@@ -35,7 +35,7 @@
     <c:set var="imageURL" value="${imageNode.getUrl()}"/>
 </c:if>
 
-<div class="item">
+<div class="item item-article pb-4">
     <div class="blog-entry">
         <a href="${contentURL}" class="block-20 d-flex align-items-start" style="background-image: url('${imageURL}');">
             <div class="meta-date text-center p-2">
@@ -47,7 +47,7 @@
         <div class="text border border-top-0 p-4">
             <h3 class="heading"><a href="${contentURL}">${titleEscaped}</a></h3>
             ${functions:abbreviate(functions:removeHtmlTags(teaser),200,250,'...')}
-            <div class="d-flex align-items-center mt-4">
+            <div class="d-flex align-items-end mt-4 flex-grow-3">
                 <p class="mb-0">
                     <a href="${contentURL}" class="btn btn-primary">
                         <fmt:message key="label.content.readMore"/>
