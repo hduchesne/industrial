@@ -24,6 +24,7 @@
 <c:set var="lastContentsStatement" value="select * from [tint:content] as contents where ISDESCENDANTNODE(contents,'${folderPath}') ${queryConstraint} order by contents.[date] desc"/>
 <utility:logger level="INFO" value="lastContentsStatement : ${lastContentsStatement}"/>
 <utility:logger level="INFO" value="maxItems : ${maxItems}"/>
+<template:addCacheDependency flushOnPathMatchingRegexp="${folderPath}/.*"/>
 
 <query:definition var="listQuery" statement="${lastContentsStatement}" limit="${maxItems}"  />
 
