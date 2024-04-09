@@ -12,7 +12,7 @@
 
 [timix:weakVideoContent] > jmix:dynamicFieldset mixin
  extends = timix:videoReference
- - ti:video (weakreference,picker[type='file']) internationalized < jnt:file
+ - ti:video (weakreference,picker[type='video']) internationalized < jnt:file
 
 [timix:videoURL] > jmix:dynamicFieldset mixin
  extends = timix:videoReference
