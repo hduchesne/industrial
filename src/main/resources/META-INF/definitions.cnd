@@ -31,6 +31,9 @@
  - imageWidths (long) multiple
  - imageMedia (string) multiple
 
+//use to mutualise content template
+[timix:mainResource] mixin
+
 //*** CSS //
 [tint:css] > jnt:content, timix:industrial
 - text (string)
@@ -90,7 +93,7 @@
 
 [tint:card] > jnt:content, timix:content, timix:industrial, seumix:linkTo
 
-[tint:content] > jnt:content, jmix:mainResource, timix:industrial, mix:title
+[tint:content] > jnt:content, jmix:mainResource, timix:industrial, timix:mainResource, mix:title
  - jcr:title (string) internationalized mandatory
  - teaser (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
  - body (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/body.js']) internationalized

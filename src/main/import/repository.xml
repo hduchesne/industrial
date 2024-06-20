@@ -290,7 +290,7 @@
                                        jcr:primaryType="jnt:translation"
                                        jcr:title="Structured Template"/>
                </structured-template>
-               <industriall-content-template j:applyOn="tint:content"
+               <industriall-content-template j:applyOn="timix:mainResource"
                                              j:defaultTemplate="true"
                                              j:hiddenTemplate="false"
                                              jcr:primaryType="jnt:contentTemplate">
