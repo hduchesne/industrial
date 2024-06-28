@@ -42,7 +42,7 @@
                 <div class="scaling-image">
                     <div class="frame">
                         <template:include view="hidden.image" >
-                            <template:param name="propsName" value="imagePortrait"/>
+                            <template:param name="propsName" value="image"/>
                             <template:param name="class" value="img-fluid"/>
                         </template:include>
                     </div>

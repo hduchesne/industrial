@@ -15,7 +15,7 @@
 <%--<c:url value="${url.server}${url.context}${url.base}${currentNode.path}.html" var="itemUrl"/>--%>
 <c:url value="${currentNode.url}" var="contentURL"/>
 
-<c:set var="imageNode" value="${currentNode.properties['imageLandscape'].node}"/>
+<c:set var="imageNode" value="${currentNode.properties['images'][0].node}"/>
 <template:addCacheDependency node="${imageNode}"/>
 <c:set var="width" value="${currentResource.moduleParams.mediaWidth}"/>
 <c:set var="height" value="${currentResource.moduleParams.mediaHeight}"/>

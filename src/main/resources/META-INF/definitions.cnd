@@ -97,8 +97,10 @@
  - jcr:title (string) internationalized mandatory
  - teaser (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
  - body (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/body.js']) internationalized
- - imageLandscape (weakreference) mandatory
- - imagePortrait (weakreference) mandatory
+// - imageLandscape (weakreference)
+// - imagePortrait (weakreference)
+ - image (weakreference) mandatory < 'jmix:image'
+ - images (weakreference) multiple mandatory < 'jmix:image'
  - date (date) = now()
 
 //jmix:queryContent,

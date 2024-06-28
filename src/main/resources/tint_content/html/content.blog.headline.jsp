@@ -28,7 +28,7 @@
     <a href="${contentURL}" class="mr-5">
         <template:include view="hidden.image" >
             <template:param name="mediaWidth" value="350"/>
-            <template:param name="propsName" value="imagePortrait"/>
+            <template:param name="propsName" value="image"/>
             <template:param name="class" value="img-fluid"/>
         </template:include>
     </a>
