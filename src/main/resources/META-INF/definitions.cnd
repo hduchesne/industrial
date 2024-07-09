@@ -31,9 +31,6 @@
  - imageWidths (long) multiple
  - imageMedia (string) multiple
 
-//use to mutualise content template
-[timix:mainResource] mixin
-
 //*** CSS //
 [tint:css] > jnt:content, timix:industrial
 - text (string)
@@ -93,7 +90,7 @@
 
 [tint:card] > jnt:content, timix:content, timix:industrial, seumix:linkTo
 
-[tint:content] > jnt:content, jmix:mainResource, timix:industrial, timix:mainResource, mix:title
+[tint:content] > jnt:content, jmix:mainResource, timix:industrial, mix:title
  - jcr:title (string) internationalized mandatory
  - teaser (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
  - body (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/body.js']) internationalized
@@ -103,12 +100,21 @@
  - images (weakreference) multiple mandatory < 'jmix:image'
  - date (date) = now()
 
-//jmix:queryContent,
 [tint:lastContent] > jnt:content, jmix:list, mix:title, timix:industrial, jmix:cache
   - teaser (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
   - maxItems (long) = 5 indexed=no
   - folder (weakreference, picker[type='contentfolder'])
   - filter (weakreference, category[autoSelectParent=false])
-  - j:subNodesView (string, choicelist[templates=tint:content,resourceBundle,image]) nofulltext itemtype = layout
+  - j:subNodesView (string, choicelist[templates=tint:content,resourceBundle,image]) nofulltext
+
+[tint:jcrQuery] > jnt:content,  timix:industrial, jmix:list, jmix:renderableList, mix:title, jmix:cache
+ - teaser (string, richtext[ckeditor.toolbar='Tinny',ckeditor.customConfig='$context/modules/industrial/javascript/ckeditor/config/small.js']) internationalized
+ - type (string, choicelist[subnodetypes = 'jnt:page,jmix:mainResource',resourceBundle]) indexed=no mandatory
+ - criteria (string,choicelist[resourceBundle]) = 'jcr:created' autocreated indexed=no < 'jcr:created','jcr:lastModified','j:lastPublished'
+ - sortDirection (string, choicelist[resourceBundle]) = 'asc' autocreated indexed=no < 'asc','desc'
+ - maxItems (long) indexed=no
+ - startNode (weakreference)
+ - filter (weakreference, category[autoSelectParent=false]) multiple
+ - j:subNodesView (string, choicelist[templates=subnodes,resourceBundle,image,dependentProperties='type']) nofulltext
 
 //TODO create module css & js managment add css et js element -> external -> url || internal -> file or inline
