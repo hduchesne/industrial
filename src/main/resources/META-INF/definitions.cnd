@@ -58,7 +58,7 @@
 [timix:owlcarouselAdvancedSettings] mixin
  extends = tint:owlcarousel
  itemtype = content
- - options (string, textarea[height='360']) indexed=no
+ - options (string) = resourceBundle('config.owlcarousel') indexed=no
  - class (string) indexed=no
 
 [tint:owlcarousel] > jnt:content, timix:industrial, jmix:list, jmix:siteContent orderable
