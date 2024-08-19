@@ -12,7 +12,7 @@
 
 <c:set var="subNodeView" value="${currentNode.properties['j:subNodesView'].string}"/>
 <c:if test="${empty subNodeView}">
-    <c:set var="subNodeView" value="blog.headline"/>
+    <c:set var="subNodeView" value="halfblock"/>
 </c:if>
 
 <template:include view="hidden.load"/>
@@ -29,7 +29,7 @@
                 <div class="row justify-content-center mb-5">
                     <div class="col-md-8 text-center">
                         <h2 class=" heading mb-4">${titleEscaped}</h2>
-                        ${teaser}
+                            ${teaser}
                     </div>
                 </div>
                 <div class="row">

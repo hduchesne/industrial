@@ -2,14 +2,14 @@
   "name": "tint:content",
   "fields": [
     {
-      "name": "imageLandscape",
+      "name": "image",
       "selectorType": "Picker",
       "selectorOptionsMap": {
         "type":"image"
       }
     },
     {
-      "name": "imagePortrait",
+      "name": "images",
       "selectorType": "Picker",
       "selectorOptionsMap": {
         "type":"image"

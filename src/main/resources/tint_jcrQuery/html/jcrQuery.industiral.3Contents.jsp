@@ -10,11 +10,6 @@
 
 <c:set var="teaser" value="${currentNode.properties['teaser'].string}"/>
 
-<c:set var="subNodeView" value="${currentNode.properties['j:subNodesView'].string}"/>
-<c:if test="${empty subNodeView}">
-    <c:set var="subNodeView" value="blog.headline"/>
-</c:if>
-
 <template:include view="hidden.load"/>
 <c:set var="listQuery" value="${moduleMap.listQuery}"/>
 <jcr:jqom var="result" qomBeanName="listQuery" />
@@ -29,21 +24,20 @@
                 <div class="row justify-content-center mb-5">
                     <div class="col-md-8 text-center">
                         <h2 class=" heading mb-4">${titleEscaped}</h2>
-                        ${teaser}
+                            ${teaser}
                     </div>
                 </div>
                 <div class="row">
-                    <c:forEach items="${result.nodes}" var="node" varStatus="status">
-                        <c:set var="order" value=""/>
-                        <c:if test="${status.index % 2 != 0}">
-                            <c:set var="order" value="order-2"/>
-                        </c:if>
-                        <div class="col-md-12">
-                            <template:module view="${subNodeView}" node="${node}">
-                                <template:param name="order" value="${order}"/>
-                            </template:module>
-                        </div>
-                    </c:forEach>
+                    <div class="col-md-6">
+                        <c:forEach items="${result.nodes}" var="node" begin="0" end="0">
+                            <template:module view="blog.headline" node="${node}"/>
+                        </c:forEach>
+                    </div>
+                    <div class="col-md-6">
+                        <c:forEach items="${result.nodes}" var="node" begin="1" end="2">
+                            <template:module view="blog.default" node="${node}"/>
+                        </c:forEach>
+                    </div>
                 </div>
             </div>
         </section>

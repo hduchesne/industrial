@@ -1,0 +1,19 @@
+{
+  "nodeType": "tint:jcrQuery",
+  "priority": 1.2,
+  "sections": [
+    {
+      "name": "layout",
+      "fieldSets": [
+        {
+          "name": "jmix:renderable",
+          "rank": 0.0,
+          "fields": [
+            {
+              "name": "j:subNodesView"
+            }
+          ]
+        }]
+    }
+  ]
+}

@@ -290,7 +290,7 @@
                                        jcr:primaryType="jnt:translation"
                                        jcr:title="Structured Template"/>
                </structured-template>
-               <industriall-content-template j:applyOn="tint:content"
+               <industriall-content-template j:applyOn="jmix:mainResource"
                                              j:defaultTemplate="true"
                                              j:hiddenTemplate="false"
                                              jcr:primaryType="jnt:contentTemplate">
@@ -324,7 +324,7 @@
                                        jcr:title="industriall content template"/>
                   <pagecontent jcr:mixinTypes="jmix:systemNameReadonly"
                                jcr:primaryType="jnt:contentList">
-                     <main-resource-display j:mainResourceView="default" jcr:primaryType="jnt:mainResourceDisplay"/>
+                     <main-resource-display j:mainResourceView="hidden.mainResource" jcr:primaryType="jnt:mainResourceDisplay"/>
                   </pagecontent>
                </industriall-content-template>
             </base>

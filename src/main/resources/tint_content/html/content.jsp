@@ -21,7 +21,7 @@
     <c:set var="formatedDate" value="${formatedDate} ${at} ${formatedTime}"/>
 </c:if>
 
-<c:set var="imageNode" value="${currentNode.properties['imageLandscape'].node}"/>
+<c:set var="imageNode" value="${currentNode.properties['images'][0].node}"/>
 <template:addCacheDependency node="${imageNode}"/>
 <c:set var="width" value="${not empty currentResource.moduleParams.mediaWidth ? currentResource.moduleParams.mediaWidth : '1920'}"/>
 <c:set var="height" value="${currentResource.moduleParams.mediaHeight}"/>

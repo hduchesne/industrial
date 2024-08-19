@@ -12,7 +12,7 @@
 
 <c:set var="subNodeView" value="${currentNode.properties['j:subNodesView'].string}"/>
 <c:if test="${empty subNodeView}">
-    <c:set var="subNodeView" value="blog.headline"/>
+    <c:set var="subNodeView" value="card"/>
 </c:if>
 
 <template:include view="hidden.load"/>
@@ -38,12 +38,17 @@
                         <c:if test="${status.index % 2 != 0}">
                             <c:set var="order" value="order-2"/>
                         </c:if>
-                        <div class="col-md-12">
+                        <div class="col-md-4 mt-4">
                             <template:module view="${subNodeView}" node="${node}">
                                 <template:param name="order" value="${order}"/>
                             </template:module>
                         </div>
                     </c:forEach>
+<%--                    <c:forEach items="${result.nodes}" var="node">--%>
+<%--                        <div class="col-md-4 mt-4">--%>
+<%--                        <template:module view="${subNodeView}" node="${node}"/>--%>
+<%--                        </div>--%>
+<%--                    </c:forEach>--%>
                 </div>
             </div>
         </section>

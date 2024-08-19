@@ -33,9 +33,15 @@
                     </div>
                 </div>
                 <div class="row">
-                    <c:forEach items="${result.nodes}" var="node">
+                    <c:forEach items="${result.nodes}" var="node" varStatus="status">
+                        <c:set var="order" value=""/>
+                        <c:if test="${status.index % 2 != 0}">
+                            <c:set var="order" value="order-2"/>
+                        </c:if>
                         <div class="col-md-6">
-                        <template:module view="${subNodeView}" node="${node}"/>
+                            <template:module view="${subNodeView}" node="${node}">
+                                <template:param name="order" value="${order}"/>
+                            </template:module>
                         </div>
                     </c:forEach>
                 </div>

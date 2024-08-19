@@ -29,7 +29,7 @@
                 <div class="row justify-content-center mb-5">
                     <div class="col-md-8 text-center">
                         <h2 class=" heading mb-4">${titleEscaped}</h2>
-                        ${teaser}
+                            ${teaser}
                     </div>
                 </div>
                 <div class="row">
@@ -38,7 +38,7 @@
                         <c:if test="${status.index % 2 != 0}">
                             <c:set var="order" value="order-2"/>
                         </c:if>
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <template:module view="${subNodeView}" node="${node}">
                                 <template:param name="order" value="${order}"/>
                             </template:module>
