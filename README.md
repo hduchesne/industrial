@@ -9,25 +9,14 @@ This module is a Jahia *ready to use* implementation of the template [industrial
 based on the open source toolkit [Bootstrap 4][bs-website].
 Following the concept of bootstrap 4, the template can be modified or used as his.
 
-From a technical point of view, this module is a `template set`. But, it can be also used to demonstrate
-the integration of an external Digital Asset Manager (DAM) with Jahia jContent. Indeed, with this modules
-you can see the [Widen Picker Accelerator][wpa:gitUrl] or [Cloudinary Picker Accelerator][cpa:gitUrl] in
-action within complex content like carousel.
-
-> Note: The DAM integration required a [Widen][widen:url] or [Cloudinary][cloudinary:url] account.
- 
-> Note: even if you do not have a Widen or Cloudinary account you can use this template set.
-> But the external DAM capabilities will not be functional, and the media contents will be the one
-> provided by default. If you need more media contents for a demo, you can install
+> If you need more media contents for a demo, you can install
 > the relative module [Industrial Media Component][imc:gitUrl].
  
 - [Module content](#module-content)
 - [Quick Start](#quick-start)
-    - [Install dependencies](#install-dependencies)
-        - [Install the module `Bootstrap 4 Package`](#install-the-module-bootstrap-4-package)
-        - [Install the module `animate`](#install-the-module-animate)
-        - [Install the module `dam-selector`](#install-the-module-dam-selector)
-        - [Install the module `codeMirror-editor`](#install-the-module-codemirror-editor)
+    - [Provisioning script](#provisioning-script)
+        - [Industrial only](#industrial-only)
+        - [Industrial with jExperience and forms](#industrial-with-jexperience-and-forms)
     - [Install the Industrial module](#install-the-industrial-module)
 - [Create a new website using `industrial` template set](#create-a-new-website-using-industrial-template-set)
 - [Contribute with prepackage components](#contribute-with-prepackage-components)
@@ -71,54 +60,34 @@ This module contains:
 
 
 ## Quick Start
-Industrial Template Set module depends on:
-1. bootstrap 4
-2. animate
-3. widen picker
+Industrial Template Set module depends on several modules to speed up the process a provisioning
+script is available.
 
-Thus, before to install and to run the Industrial module we need to ensure dependencies are satisfied.
+### Provisioning script
 
-### Install dependencies
+To install all the required module including industrial template set run on one the following 
+command :
+#### Industrial only
+With default params : host:`http://localhost:8080` and user: `root:root`
 
-#### Install the module `Bootstrap 4 Package`: 
-1. In jContent, go to `Administration` panel.
-2. In the `Server` section expand the `Modules and Extensions` entry and click `Modules`.
-3. From the right panel, click `Available modules` and search for **Bootstrap 4 Package**.
+```shell
+curl -sSL https://raw.githubusercontent.com/hduchesne/industrial/refs/heads/main/provisioning/industrial.sh | bash -s
+```
+Define your own host with `-h` and user with `-u`.
+```shell
+curl -sSL https://raw.githubusercontent.com/hduchesne/industrial/refs/heads/main/provisioning/industrial.sh | bash -s -- -h <YOUR HOST> -u <USER:PASSWORD>
+```
 
-    ![200]
-    
-1. Click the icon ![201] in the right of the package to download and install the module
+#### Industrial with jExperience and forms
+With default params :
 
-#### Install the module `animate`: 
-1. In jContent, go to `Administration` panel.
-2. In the `Server` section expand the `Modules and Extensions` entry and click `Modules`.
-3. From the right panel, click `Available modules` and search for **animate**.
-
-    ![202A]
-    
-1. Click the icon ![201] in the right of the package to download and install the module
-
-#### Install the module `Dam Selector`: 
-
-1. In jContent, go to `Administration` panel.
-2. In the `Server` section expand the `Modules and Extensions` entry and click `Modules`.
-3. From the right panel, click `Available modules` and search for **dam**.
-
-    ![205]
-    
-4. Click the icon ![201] in the right of the package to download and install the module
-<!-- 5. To request the Widen server, you have to configure the module with your Widen API access information.
-Have a look at the [post-install][wpa:postInstall] process. -->
-
-#### Install the module `CodeMirror Editor`:
-
-1. In jContent, go to `Administration` panel.
-2. In the `Server` section expand the `Modules and Extensions` entry and click `Modules`.
-3. From the right panel, click `Available modules` and search for **codeMirror**.
-
-   ![206]
-
-4. Click the icon ![201] in the right of the package to download and install the module
+```shell
+curl -sSL https://raw.githubusercontent.com/hduchesne/industrial/refs/heads/main/provisioning/industrial.sh | bash -s -- -j
+```
+Define your own host with `-h` and user with `-u`.
+```shell
+curl -sSL https://raw.githubusercontent.com/hduchesne/industrial/refs/heads/main/provisioning/industrial.sh | bash -s -- -h <YOUR HOST> -u <USER:PASSWORD> -j
+```
 
 ### Install the Industrial module
 
