@@ -290,43 +290,43 @@
                                        jcr:primaryType="jnt:translation"
                                        jcr:title="Structured Template"/>
                </structured-template>
-               <industriall-content-template j:applyOn="jmix:mainResource"
+               <industrial-content-template j:applyOn="jmix:mainResource"
                                              j:defaultTemplate="true"
                                              j:hiddenTemplate="false"
                                              jcr:primaryType="jnt:contentTemplate">
                   <j:translation_en jcr:language="en"
                                     jcr:mixinTypes="mix:title"
                                     jcr:primaryType="jnt:translation"
-                                    jcr:title="industriall content template"/>
+                                    jcr:title="industrial content template"/>
                   <j:translation_de jcr:language="de"
                                     jcr:mixinTypes="mix:title"
                                     jcr:primaryType="jnt:translation"
-                                    jcr:title="industriall content template"/>
+                                    jcr:title="industrial content template"/>
                   <j:translation_pt jcr:language="pt"
                                     jcr:mixinTypes="mix:title"
                                     jcr:primaryType="jnt:translation"
-                                    jcr:title="industriall content template"/>
+                                    jcr:title="industrial content template"/>
                   <j:translation_it jcr:language="it"
                                     jcr:mixinTypes="mix:title"
                                     jcr:primaryType="jnt:translation"
-                                    jcr:title="industriall content template"/>
+                                    jcr:title="industrial content template"/>
                   <j:translation_fr jcr:language="fr"
                                     jcr:mixinTypes="mix:title"
                                     jcr:primaryType="jnt:translation"
-                                    jcr:title="industriall content template"/>
+                                    jcr:title="industrial content template"/>
                   <j:translation_es jcr:language="es"
                                     jcr:mixinTypes="mix:title"
                                     jcr:primaryType="jnt:translation"
-                                    jcr:title="industriall content template"/>
+                                    jcr:title="industrial content template"/>
                   <j:translation_de_DE jcr:language="de_DE"
                                        jcr:mixinTypes="mix:title"
                                        jcr:primaryType="jnt:translation"
-                                       jcr:title="industriall content template"/>
+                                       jcr:title="industrial content template"/>
                   <pagecontent jcr:mixinTypes="jmix:systemNameReadonly"
                                jcr:primaryType="jnt:contentList">
                      <main-resource-display j:mainResourceView="hidden.mainResource" jcr:primaryType="jnt:mainResourceDisplay"/>
                   </pagecontent>
-               </industriall-content-template>
+               </industrial-content-template>
             </base>
             <rss j:applyOn="tint:lastContent"
                  j:defaultTemplate="true"
