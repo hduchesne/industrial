@@ -57,9 +57,6 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-# Display starting message
-echo -e "\n***\n* Starting deployment of Industrial Suite on ${host} with credentials ${auth}\n***\n"
-
 # Function to show a spinner while a command is running
 show_spinner() {
     local pid="$1"
@@ -139,30 +136,32 @@ provision() {
     echo "$http_status"
 }
 
-# Provision Industrial Suite
-industrial_response=$(provision "- include: https://raw.githubusercontent.com/hduchesne/industrial/main/provisioning/industrial.yaml")
-
-# Compare industrial_response as a string
-if [ "$industrial_response" = "200" ]; then
-    echo "Industrial Suite deployment initiated successfully."
-else
-    echo "Error: Failed to initiate Industrial Suite deployment. HTTP Status: '$industrial_response'" >&2
-    exit 1
-fi
-
 # Install jExperience and Forms if -j flag is set
 if [ "$jExp" = true ]; then
-    echo -e "\n***\n* Installing jExperience and Forms\n***\n"
+		# Display starting message
+		echo -e "\n***\n* Starting deployment of Industrial Suite on ${host} with credentials ${auth}\n***\n* option : Installing jExperience and Forms\n***\n"
 
     jexp_response=$(provision "- include: https://raw.githubusercontent.com/hduchesne/industrial/main/provisioning/industrial-jexperience-forms.yaml")
 
     # Compare jexp_response as a string
     if [ "$jexp_response" = "200" ]; then
-        echo "jExperience and Forms installation initiated successfully."
+        echo "Industrial Suite deployment with jExperience and Forms installation initiated successfully."
     else
-        echo "Error: Failed to initiate jExperience and Forms installation. HTTP Status: '$jexp_response'" >&2
+        echo "Error: Failed to initiate Industrial Suite deployment with jExperience and Forms installation. HTTP Status: '$jexp_response'" >&2
         exit 1
     fi
 else
-    echo -e "\n***\n* Skipping installation of jExperience and Forms\n***\n"
+		# Display starting message
+		echo -e "\n***\n* Starting deployment of Industrial Suite on ${host} with credentials ${auth}\n***\n* option : Skipping installation of jExperience and Forms\n***\n"
+
+    # Provision Industrial Suite
+		industrial_response=$(provision "- include: https://raw.githubusercontent.com/hduchesne/industrial/main/provisioning/industrial.yaml")
+
+		# Compare industrial_response as a string
+		if [ "$industrial_response" = "200" ]; then
+				echo "Industrial Suite deployment initiated successfully."
+		else
+				echo "Error: Failed to initiate Industrial Suite deployment. HTTP Status: '$industrial_response'" >&2
+				exit 1
+		fi
 fi

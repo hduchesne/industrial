@@ -9,10 +9,10 @@
     - 'mvn:org.jahia.modules/forms-prefill'
     - 'mvn:org.jahia.modules/forms-snippets-extension'
     - 'mvn:org.jahia.se.modules/industrial-form-theme'
-    - 'mvn:org.jahia.modules/kibana-dashboards-provider/1.3.0'
-    - 'mvn:org.jahia.modules/jexperience/3.4.0'
+    - 'mvn:org.jahia.modules/kibana-dashboards-provider'
+    - 'mvn:org.jahia.modules/jexperience'
     - 'mvn:org.jahia.modules/jexperience-forms-bridge'
-    - 'mvn:org.jahia.modules/jexperience-dashboards/1.0.0'
+    - 'mvn:org.jahia.modules/jexperience-dashboards'
   autoStart: true
   uninstallPreviousVersion: true
 
