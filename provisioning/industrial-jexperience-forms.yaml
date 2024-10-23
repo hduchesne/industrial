@@ -13,6 +13,7 @@
     - 'mvn:org.jahia.modules/jexperience'
     - 'mvn:org.jahia.modules/jexperience-forms-bridge'
     - 'mvn:org.jahia.modules/jexperience-dashboards'
+    - 'mvn:org.jahia.se.modules/se-jExp-utils'
   autoStart: true
   uninstallPreviousVersion: true
 
