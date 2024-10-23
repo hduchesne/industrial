@@ -38,7 +38,7 @@
                         <c:if test="${status.index % 2 != 0}">
                             <c:set var="order" value="order-2"/>
                         </c:if>
-                        <div class="col-md-4 mt-4">
+                        <div class="col-md-6 col-lg-4 mt-4">
                             <template:module view="${subNodeView}" node="${node}">
                                 <template:param name="order" value="${order}"/>
                             </template:module>
