@@ -31,7 +31,9 @@
         </template:include>
     </a>
     <div class="media-body">
+        <c:if test = "${not empty formatedDate}">
         <span class="post-meta">${formatedDate}</span>
+        </c:if>
         <h3 class="mt-2 text-black">
             <a href="${contentURL}">${titleEscaped}</a>
         </h3>

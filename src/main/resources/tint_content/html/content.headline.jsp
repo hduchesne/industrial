@@ -51,9 +51,11 @@
             <div class="col-md-5 mb-5">
                 <div class="block-41">
                     <h2 class="block-41-heading mb-5">${titleEscaped}</h2>
+                    <c:if test = "${not empty formatedDate}">
                     <p>
                         <fmt:message key="label.date.createdAt"/>: <b>${formatedDate}</b>
                     </p>
+                    </c:if>
                     <div class="block-41-text">
                         ${functions:abbreviate(functions:removeHtmlTags(teaser),300,350,'...')}
                         <p>

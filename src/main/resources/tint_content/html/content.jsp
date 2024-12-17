@@ -45,10 +45,12 @@
         <div class="row justify-content-center">
             <div class="col-md-10 mb-5">
                 <h1>${titleEscaped}</h1>
+                <c:if test = "${not empty formatedDate}">
                 <div class="border-top border-bottom border-secondary pt-4 pb-4">
                     <span class="ion-md-calendar mr-2"></span>
                     <fmt:message key="label.date.createdAt"/> : ${formatedDate}
                 </div>
+                </c:if>
             </div>
         </div>
 

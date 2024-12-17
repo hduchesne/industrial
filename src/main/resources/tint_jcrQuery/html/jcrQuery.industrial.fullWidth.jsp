@@ -5,8 +5,8 @@
 <%@ taglib prefix="functions" uri="http://www.jahia.org/tags/functions" %>
 <%@ taglib prefix="template" uri="http://www.jahia.org/tags/templateLib" %>
 
-<c:set var="title" value="${currentNode.properties['jcr:title'].string}"/>
-<c:set var="titleEscaped" value="${not empty title ? fn:escapeXml(title) : fn:escapeXml(currentNode.name)}"/>
+<c:set var="title" value="${fn:escapeXml(currentNode.properties['jcr:title'].string)}"/>
+<%--<c:set var="titleEscaped" value="${not empty title ? fn:escapeXml(title) : fn:escapeXml(currentNode.name)}"/>--%>
 
 <c:set var="teaser" value="${currentNode.properties['teaser'].string}"/>
 
@@ -28,7 +28,7 @@
             <div class="container">
                 <div class="row justify-content-center mb-5">
                     <div class="col-md-8 text-center">
-                        <h2 class=" heading mb-4">${titleEscaped}</h2>
+                        <h2 class=" heading mb-4">${title}</h2>
                             ${teaser}
                     </div>
                 </div>
