@@ -14,12 +14,15 @@
 </c:if>
 
 <c:set var="imageNode" value="${currentNode.properties['image'].node}"/>
-<c:catch var ="getUrlException">
-    <c:set var="imageURL" value="${imageNode.getUrl(['width:'.concat(width)])}"/>
-</c:catch>
-<c:if test = "${getUrlException != null}">
-    <c:set var="imageURL" value="${imageNode.getUrl()}"/>
-</c:if>
+<%--<c:catch var ="getUrlException">--%>
+    <utility:logger level="info" value="getUrl(['width:${width}']) for node ${imageNode.identifier}"/>
+<%--    <c:set var="imageURL" value="${imageNode.getUrl(['width:'.concat(width)])}"/>--%>
+<c:set var="imageURL" value="${imageNode.getUrl(['width:800'])}"/>
+<%--</c:catch>--%>
+<%--<c:if test = "${getUrlException != null}">--%>
+<%--    <utility:logger level="info" value="getUrl() for node ${imageNode.identifier}"/>--%>
+<%--    <c:set var="imageURL" value="${imageNode.getUrl()}"/>--%>
+<%--</c:if>--%>
 
 <picture>
     <c:forEach items="${widths}" var="width" varStatus="status">
