@@ -1,5 +1,5 @@
 # Start with the industrial provisioning script
-- include: https://raw.githubusercontent.com/hduchesne/industrial/main/provisioning/industrial_8.1.yaml
+- include: https://raw.githubusercontent.com/hduchesne/industrial/main/provisioning/industrial_8.2.yaml
 
 # Then jExp and forms
 - include: https://raw.githubusercontent.com/hduchesne/industrial/main/provisioning/industrial-jexperience-forms_common.yaml
