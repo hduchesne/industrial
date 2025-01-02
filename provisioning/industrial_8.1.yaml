@@ -1,6 +1,7 @@
 # Start with specific industrial modules
 - installBundle:
-    - "mvn:org.jahia.modules/skins"
+#    - "mvn:org.jahia.modules/graphql-dxm-provider"
+    - "mvn:org.jahia.modules/content-editor"
   autoStart: true
   uninstallPreviousVersion: true
 

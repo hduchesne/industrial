@@ -5,12 +5,14 @@
 # Default variables
 host="http://localhost:8080"
 auth="root:root"
+jahia="8.2"
 jExp=false
 
 # Function to display usage information
 usage() {
     cat <<EOF
-Usage: $0 [-j] [-h <host>] [-u <username:password>] [--help|-?]
+Usage: $0 [-v <jahia>] [-j] [-h <host>] [-u <username:password>] [--help|-?]
+  -v <jahia>            Jahia version number [8.1, 8.2] (default: $jahia)
   -j                    Install jExperience and Forms
   -h <host>             Specify the host URL (default: $host)
   -u <username:password> Specify the authentication credentials (default: $auth)
@@ -22,6 +24,15 @@ EOF
 # Parse options using getopts
 while [[ $# -gt 0 ]]; do
     case $1 in
+        -v)
+            if [[ -n $2 ]]; then
+                jahia=$2
+                shift 2
+            else
+                echo "Error: Option -v requires an argument." >&2
+                usage
+            fi
+            ;;
         -j)
             jExp=true
             shift
@@ -141,7 +152,7 @@ if [ "$jExp" = true ]; then
 		# Display starting message
 		echo -e "\n***\n* Starting deployment of Industrial Suite on ${host} with credentials ${auth}\n***\n* option : Installing jExperience and Forms\n***\n"
 
-    jexp_response=$(provision "- include: https://raw.githubusercontent.com/hduchesne/industrial/main/provisioning/industrial-jexperience-forms.yaml")
+    jexp_response=$(provision "- include: https://raw.githubusercontent.com/hduchesne/industrial/main/provisioning/industrial-jexperience-forms_$jahia.yaml")
 
     # Compare jexp_response as a string
     if [ "$jexp_response" = "200" ]; then
@@ -155,7 +166,7 @@ else
 		echo -e "\n***\n* Starting deployment of Industrial Suite on ${host} with credentials ${auth}\n***\n* option : Skipping installation of jExperience and Forms\n***\n"
 
     # Provision Industrial Suite
-		industrial_response=$(provision "- include: https://raw.githubusercontent.com/hduchesne/industrial/main/provisioning/industrial.yaml")
+		industrial_response=$(provision "- include: https://raw.githubusercontent.com/hduchesne/industrial/main/provisioning/industrial_$jahia.yaml")
 
 		# Compare industrial_response as a string
 		if [ "$industrial_response" = "200" ]; then
