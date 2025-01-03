@@ -9,7 +9,6 @@
     - 'mvn:org.jahia.modules/kibana-dashboards-provider'
     - 'mvn:org.jahia.modules/jexperience'
     - 'mvn:org.jahia.modules/jexperience-forms-bridge'
-    - 'mvn:org.jahia.modules/jexperience-dashboards'
     - 'mvn:org.jahia.se.modules/se-jExp-utils'
   autoStart: true
   uninstallPreviousVersion: true
@@ -34,3 +33,9 @@
 #  configIdentifier: "global"
   properties:
     kibana_dashboards_provider.kibanaURL: "http://kibana:5601"
+
+# Finally Install and start bundles for Forms and jExperience
+- installBundle:
+    - 'mvn:org.jahia.modules/jexperience-dashboards'
+  autoStart: true
+  uninstallPreviousVersion: true
