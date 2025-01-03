@@ -31,6 +31,6 @@
 
 # Configure kibana-dashboard provider
 - editConfiguration: "org.jahia.modules.kibana_dashboards_provider"
-  configIdentifier: "global"
+#  configIdentifier: "global"
   properties:
     kibana_dashboards_provider.kibanaURL: "http://kibana:5601"
