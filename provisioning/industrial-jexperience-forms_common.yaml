@@ -28,3 +28,9 @@
     jexperience.jCustomerTrustAllCertificates: "true"
     jexperience.jCustomerUsePublicAddressesForAdmin: "false"
     jexperience.jCustomerKey: "670c26d1cc413346c3b2fd9ce65dab41"
+
+# Configure kibana-dashboard provider
+- editConfiguration: "org.jahia.modules.kibana_dashboards_provider"
+  configIdentifier: "global"
+  properties:
+    kibana_dashboards_provider.kibanaURL: "http://kibana:5601"
