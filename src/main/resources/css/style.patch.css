@@ -45,3 +45,13 @@
 .flex-grow-3 {
     flex-grow:3;
 }
+
+/* Handle Header without banners*/
+
+body header[role="nobanner"]{
+    position: static;
+}
+
+body header[role="nobanner"] .navbar {
+    background: rgba(0, 0, 0, .9) !important;
+}

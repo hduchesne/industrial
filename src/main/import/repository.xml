@@ -291,9 +291,9 @@
                                        jcr:title="Structured Template"/>
                </structured-template>
                <industrial-content-template j:applyOn="jmix:mainResource"
-                                             j:defaultTemplate="true"
-                                             j:hiddenTemplate="false"
-                                             jcr:primaryType="jnt:contentTemplate">
+                                            j:defaultTemplate="true"
+                                            j:hiddenTemplate="false"
+                                            jcr:primaryType="jnt:contentTemplate">
                   <j:translation_en jcr:language="en"
                                     jcr:mixinTypes="mix:title"
                                     jcr:primaryType="jnt:translation"
@@ -324,7 +324,8 @@
                                        jcr:title="industrial content template"/>
                   <pagecontent jcr:mixinTypes="jmix:systemNameReadonly"
                                jcr:primaryType="jnt:contentList">
-                     <main-resource-display j:mainResourceView="hidden.mainResource" jcr:primaryType="jnt:mainResourceDisplay"/>
+                     <main-resource-display j:mainResourceView="hidden.mainResource"
+                                            jcr:primaryType="jnt:mainResourceDisplay"/>
                   </pagecontent>
                </industrial-content-template>
             </base>
@@ -332,12 +333,39 @@
                  j:defaultTemplate="true"
                  j:hiddenTemplate="false"
                  jcr:primaryType="jnt:contentTemplate">
-               <j:translation_en jcr:language="en" jcr:primaryType="jnt:translation" jcr:title="rss"/>
+               <j:translation_en jcr:language="en"
+                                 jcr:mixinTypes="mix:title"
+                                 jcr:primaryType="jnt:translation"
+                                 jcr:title="rss"/>
                <pagecontent jcr:mixinTypes="jmix:systemNameReadonly"
                             jcr:primaryType="jnt:contentList">
                   <main-resource-display j:mainResourceView="default" jcr:primaryType="jnt:mainResourceDisplay"/>
                </pagecontent>
             </rss>
+            <base2 j:view="industrial"
+                   jcr:mixinTypes="jmix:theme"
+                   jcr:primaryType="jnt:template">
+               <footercontent jcr:primaryType="jnt:contentList">
+                  <footer-static-area j:limitedAbsoluteAreaEdit="false" jcr:primaryType="jnt:absoluteArea"/>
+               </footercontent>
+               <headercontent jcr:primaryType="jnt:contentList">
+                  <main-navigation jcr:mixinTypes="bootstrap4mix:createSection"
+                                   jcr:primaryType="bootstrap4nt:grid"
+                                   sectionElement="header"
+                                   sectionRole="nobanner">
+                     <main-navigation jcr:primaryType="jnt:contentList">
+                        <header-static-area j:limitedAbsoluteAreaEdit="false" jcr:primaryType="jnt:absoluteArea"/>
+                     </main-navigation>
+                  </main-navigation>
+               </headercontent>
+               <free-no-banner jcr:primaryType="jnt:pageTemplate">
+                  <j:translation_en jcr:language="en"
+                                    jcr:mixinTypes="mix:title"
+                                    jcr:primaryType="jnt:translation"
+                                    jcr:title="Free No Banner"/>
+                  <headercontent jcr:primaryType="jnt:contentList"/>
+               </free-no-banner>
+            </base2>
          </templates>
          <home j:isHomePage="true"
                j:templateName="free"
